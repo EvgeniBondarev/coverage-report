@@ -2,11 +2,37 @@
 
 Этот репозиторий автоматически публикует статический HTML-отчёт о покрытии тестами проекта [Studio2Prod](https://github.com/EvgeniBondarev/Studio2Prod).
 
-## Открыть отчёт
+## Актуальная сводка
 
-[Перейти к актуальному отчёту покрытия](https://evgenibondarev.github.io/coverage-report/)
+<!-- COVERAGE_DASHBOARD:START -->
+## Текущая метрика
 
-Отчёт обновляется после успешного CI-прогона ветки [`local-deploy`](https://github.com/EvgeniBondarev/Studio2Prod/tree/local-deploy) в исходном репозитории.
+| Метрика | Значение |
+| --- | ---: |
+| Line coverage | **10.9%** (31235 из 285064) |
+| Branch coverage | **14.6%** (13415 из 91837) |
+| Сборки / классы / файлы | 5 / 2688 / 1960 |
+| Период измерения | 24.09.2026 - 10:42:14 - 24.09.2026 - 10:47:21 |
+
+## Динамика покрытия
+
+```mermaid
+xychart-beta
+    title "Покрытие тестами, %"
+    x-axis ["24.09"]
+    y-axis "Покрытие" 0 --> 100
+    line [10.9]
+    line [14.6]
+```
+
+_Первая линия — строки, вторая — ветви. Хранится до 90 последних измерений._
+<!-- COVERAGE_DASHBOARD:END -->
+
+## Открыть подробный HTML-отчёт
+
+[Перейти к актуальному отчёту покрытия](https://evgenibondarev.github.io/coverage-report/report/)
+
+Сводка и график обновляются ежедневно после ночного CI-прогона ветки [`local-deploy`](https://github.com/EvgeniBondarev/Studio2Prod/tree/local-deploy). Полный HTML-отчёт доступен по ссылке выше.
 
 ## Что внутри
 

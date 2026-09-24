@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "generatedAt": "2026-09-24T10:47:21+03:00",
+    "coverageDate": "24.09.2026 - 10:42:14 - 24.09.2026 - 10:47:21",
+    "parser": "MultiReport (3x Cobertura)",
+    "assemblies": 5,
+    "classes": 2688,
+    "files": 1960,
+    "lineCoverage": 10.9,
+    "coveredLines": 31235,
+    "coverableLines": 285064,
+    "branchCoverage": 14.6,
+    "coveredBranches": 13415,
+    "totalBranches": 91837
+  }
+]
