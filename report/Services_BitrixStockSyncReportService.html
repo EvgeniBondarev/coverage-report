@@ -25,7 +25,7 @@
 </tr>
 <tr>
 <th>File(s):</th>
-<td class="overflow-wrap"><a href="#UsersevgenRiderProjectsStudio2ProdAppRepositoryBitrixStockServicesBitrixStockSyncReportServicecs" class="navigatetohash">/Users/evgen/RiderProjects/Studio2Prod/AppRepository/BitrixStockServices/BitrixStockSyncReportService.cs</a></td>
+<td class="overflow-wrap"><a href="#homerunnerworkStudio2ProdStudio2ProdAppRepositoryBitrixStockServicesBitrixStockSyncReportServicecs" class="navigatetohash">/home/runner/work/Studio2Prod/Studio2Prod/AppRepository/BitrixStockServices/BitrixStockSyncReportService.cs</a></td>
 </tr>
 </table>
 </div>
@@ -187,7 +187,7 @@
 </table>
 </div>
 <h1>File(s)</h1>
-<h2 id="UsersevgenRiderProjectsStudio2ProdAppRepositoryBitrixStockServicesBitrixStockSyncReportServicecs">/Users/evgen/RiderProjects/Studio2Prod/AppRepository/BitrixStockServices/BitrixStockSyncReportService.cs</h2>
+<h2 id="homerunnerworkStudio2ProdStudio2ProdAppRepositoryBitrixStockServicesBitrixStockSyncReportServicecs">/home/runner/work/Studio2Prod/Studio2Prod/AppRepository/BitrixStockServices/BitrixStockSyncReportService.cs</h2>
 <div class="table-responsive">
 <table class="lineAnalysis">
 <thead><tr><th></th><th>#</th><th>Line</th><th></th><th>Line coverage</th></tr></thead>
@@ -1044,7 +1044,7 @@
 <tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line850"></a><code>850</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;await&nbsp;using&nbsp;var&nbsp;db&nbsp;=&nbsp;await&nbsp;_dbFactory.CreateDbContextAsync(cancellationToken);</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line851"></a><code>851</code></td><td></td><td class="lightgray"><code></code></td></tr>
 <tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line852"></a><code>852</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;page&nbsp;=&nbsp;Math.Max(1,&nbsp;query.Page);</code></td></tr>
-<tr class="coverableline" title="Not covered (0 visits, 0 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line853"></a><code>853</code></td><td class="percentagebar percentagebar0"><i class="icon-fork"></i></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;pageSize&nbsp;=&nbsp;Math.Clamp(query.PageSize&nbsp;&lt;=&nbsp;0&nbsp;?&nbsp;20&nbsp;:&nbsp;query.PageSize,&nbsp;5,&nbsp;100);</code></td></tr>
+<tr class="coverableline" title="Not covered (0 visits, 0 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line853"></a><code>853</code></td><td class="percentagebar percentagebar0"><i class="icon-fork"></i></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;pageSize&nbsp;=&nbsp;Math.Clamp(query.PageSize&nbsp;&lt;=&nbsp;0&nbsp;?&nbsp;20&nbsp;:&nbsp;query.PageSize,&nbsp;5,&nbsp;query.MaxPageSize);</code></td></tr>
 <tr class="coverableline" title="Not covered (0 visits, 0 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line854"></a><code>854</code></td><td class="percentagebar percentagebar0"><i class="icon-fork"></i></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;statusFilter&nbsp;=&nbsp;string.IsNullOrWhiteSpace(query.Status)&nbsp;?&nbsp;null&nbsp;:&nbsp;query.Status.Trim();</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line855"></a><code>855</code></td><td></td><td class="lightgray"><code></code></td></tr>
 <tr class="coverableline" title="Not covered (0 visits, 0 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line856"></a><code>856</code></td><td class="percentagebar percentagebar0"><i class="icon-fork"></i></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;await&nbsp;WithOpenConnectionAsync(db,&nbsp;async&nbsp;(connection,&nbsp;ct)&nbsp;=&gt;</code></td></tr>
@@ -2823,7 +2823,7 @@
 </tbody>
 </table>
 </div>
-<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />24.09.2026 - 10:48:09<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
+<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />09/25/2026 - 07:31:24<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
 <div class="containerright">
 <div class="containerrightfixed">
 <h1>Methods/Properties</h1>
