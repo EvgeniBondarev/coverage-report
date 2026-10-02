@@ -944,9 +944,9 @@ var assemblies = [
       { "name": "OzonOrdersWeb.Areas.Studio2.Controllers.Admin.DataScopeSetsController", "rp": "OzonOrdersWeb_DataScopeSetsController.html", "cl": 0, "ucl": 75, "cal": 75, "tl": 164, "cb": 0, "tb": 32, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Areas.Studio2.Controllers.AiAssistantController", "rp": "OzonOrdersWeb_AiAssistantController.html", "cl": 0, "ucl": 462, "cal": 462, "tl": 712, "cb": 0, "tb": 186, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Areas.Studio2.Controllers.ApiSupplierRequestAuditController", "rp": "OzonOrdersWeb_ApiSupplierRequestAuditController.html", "cl": 0, "ucl": 36, "cal": 36, "tl": 80, "cb": 0, "tb": 14, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "OzonOrdersWeb.Areas.Studio2.Controllers.ArmtekByPriceController", "rp": "OzonOrdersWeb_ArmtekByPriceController.html", "cl": 0, "ucl": 5, "cal": 5, "tl": 29, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "OzonOrdersWeb.Areas.Studio2.Controllers.ArmtekByPriceController", "rp": "OzonOrdersWeb_ArmtekByPriceController.html", "cl": 0, "ucl": 5, "cal": 5, "tl": 30, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Areas.Studio2.Controllers.ArmtekCartController", "rp": "OzonOrdersWeb_ArmtekCartController.html", "cl": 0, "ucl": 21, "cal": 21, "tl": 47, "cb": 0, "tb": 30, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "OzonOrdersWeb.Areas.Studio2.Controllers.ArmtekPriceController", "rp": "OzonOrdersWeb_ArmtekPriceController.html", "cl": 62, "ucl": 242, "cal": 304, "tl": 526, "cb": 14, "tb": 211, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "OzonOrdersWeb.Areas.Studio2.Controllers.ArmtekPriceController", "rp": "OzonOrdersWeb_ArmtekPriceController.html", "cl": 51, "ucl": 233, "cal": 284, "tl": 479, "cb": 11, "tb": 205, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Areas.Studio2.Controllers.AssemblyListAccessKeysController", "rp": "OzonOrdersWeb_AssemblyListAccessKeysController.html", "cl": 0, "ucl": 62, "cal": 62, "tl": 127, "cb": 0, "tb": 34, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Areas.Studio2.Controllers.AssemblyListController", "rp": "OzonOrdersWeb_AssemblyListController.2.html", "cl": 0, "ucl": 373, "cal": 373, "tl": 518, "cb": 0, "tb": 124, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Areas.Studio2.Controllers.AvdBasketController", "rp": "OzonOrdersWeb_AvdBasketController.html", "cl": 0, "ucl": 34, "cal": 34, "tl": 89, "cb": 0, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -1087,7 +1087,7 @@ var assemblies = [
       { "name": "OzonOrdersWeb.Areas.Studio2.Controllers.TransactionsGridController", "rp": "OzonOrdersWeb_TransactionsGridController.html", "cl": 10, "ucl": 103, "cal": 113, "tl": 266, "cb": 12, "tb": 64, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Areas.Studio2.Controllers.TransactionTimeTrackingReportController", "rp": "OzonOrdersWeb_TransactionTimeTrackingReportController.html", "cl": 0, "ucl": 11, "cal": 11, "tl": 30, "cb": 0, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Areas.Studio2.Controllers.WarehouseStockController", "rp": "OzonOrdersWeb_WarehouseStockController.html", "cl": 36, "ucl": 291, "cal": 327, "tl": 585, "cb": 10, "tb": 164, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "OzonOrdersWeb.Areas.Studio2.Controllers.ZZapMoscowPriceController", "rp": "OzonOrdersWeb_ZZapMoscowPriceController.html", "cl": 0, "ucl": 22, "cal": 22, "tl": 61, "cb": 0, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "OzonOrdersWeb.Areas.Studio2.Controllers.ZZapMoscowPriceController", "rp": "OzonOrdersWeb_ZZapMoscowPriceController.html", "cl": 0, "ucl": 40, "cal": 40, "tl": 101, "cb": 0, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Areas.Studio2.DTOs.ClientDetailDto", "rp": "OzonOrdersWeb_ClientDetailDto.html", "cl": 0, "ucl": 6, "cal": 6, "tl": 232, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Areas.Studio2.DTOs.ForecastTrendAnalysisDto", "rp": "OzonOrdersWeb_ForecastTrendAnalysisDto.html", "cl": 0, "ucl": 5, "cal": 5, "tl": 232, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Areas.Studio2.DTOs.OrderSummaryDto", "rp": "OzonOrdersWeb_OrderSummaryDto.html", "cl": 0, "ucl": 8, "cal": 8, "tl": 232, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -1291,7 +1291,7 @@ var assemblies = [
       { "name": "OzonOrdersWeb.Controllers.SidebarSettingsController", "rp": "OzonOrdersWeb_SidebarSettingsController.html", "cl": 0, "ucl": 20, "cal": 20, "tl": 81, "cb": 0, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Controllers.TransactionController", "rp": "OzonOrdersWeb_TransactionController.html", "cl": 0, "ucl": 362, "cal": 362, "tl": 681, "cb": 0, "tb": 239, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Controllers.UserController", "rp": "OzonOrdersWeb_UserController.html", "cl": 0, "ucl": 192, "cal": 192, "tl": 431, "cb": 0, "tb": 102, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "OzonOrdersWeb.Extensions.ApiClientsExtensions", "rp": "OzonOrdersWeb_ApiClientsExtensions.html", "cl": 0, "ucl": 502, "cal": 502, "tl": 624, "cb": 0, "tb": 166, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "OzonOrdersWeb.Extensions.ApiClientsExtensions", "rp": "OzonOrdersWeb_ApiClientsExtensions.html", "cl": 0, "ucl": 504, "cal": 504, "tl": 626, "cb": 0, "tb": 166, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Extensions.ApplicationServicesExtensions", "rp": "OzonOrdersWeb_ApplicationServicesExtensions.html", "cl": 0, "ucl": 200, "cal": 200, "tl": 277, "cb": 0, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Extensions.AuthorizationExtensions", "rp": "OzonOrdersWeb_AuthorizationExtensions.html", "cl": 34, "ucl": 40, "cal": 74, "tl": 125, "cb": 0, "tb": 16, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Extensions.CacheExtensions", "rp": "OzonOrdersWeb_CacheExtensions.html", "cl": 0, "ucl": 16, "cal": 16, "tl": 37, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -1986,9 +1986,11 @@ var assemblies = [
       { "name": "Services.ApiServices.ArmtekApi.ArmtekConfig", "rp": "Services_ArmtekConfig.html", "cl": 4, "ucl": 0, "cal": 4, "tl": 11, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.ArmtekApi.ArmtekDailyQuotaGuard", "rp": "Services_ArmtekDailyQuotaGuard.html", "cl": 14, "ucl": 5, "cal": 19, "tl": 53, "cb": 11, "tb": 12, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.ArmtekApi.ArmtekDataManager", "rp": "Services_ArmtekDataManager.html", "cl": 126, "ucl": 1, "cal": 127, "tl": 353, "cb": 58, "tb": 82, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.ApiServices.ArmtekApi.ArmtekHttpClient", "rp": "Services_ArmtekHttpClient.html", "cl": 116, "ucl": 19, "cal": 135, "tl": 258, "cb": 54, "tb": 86, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.ApiServices.ArmtekApi.ArmtekHttpClient", "rp": "Services_ArmtekHttpClient.html", "cl": 101, "ucl": 34, "cal": 135, "tl": 258, "cb": 45, "tb": 86, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.ArmtekApi.ArmtekOrderRequestItem", "rp": "Services_ArmtekOrderRequestItem.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 4, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.ArmtekApi.ArmtekPriceCurrencyConverter", "rp": "Services_ArmtekPriceCurrencyConverter.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 8, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.ApiServices.ArmtekApi.ArmtekStoreDirectory", "rp": "Services_ArmtekStoreDirectory.html", "cl": 31, "ucl": 18, "cal": 49, "tl": 107, "cb": 7, "tb": 26, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.ApiServices.ArmtekApi.ArmtekStoreDirectoryHostedService", "rp": "Services_ArmtekStoreDirectoryHostedService.html", "cl": 0, "ucl": 23, "cal": 23, "tl": 53, "cb": 0, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.ArmtekApi.ArmtekSupplierConnector", "rp": "Services_ArmtekSupplierConnector.html", "cl": 0, "ucl": 10, "cal": 10, "tl": 22, "cb": 0, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.ArmtekApi.Converters.ArmtekEmptyStringAsListConverter\u003CT\u003E", "rp": "Services_ArmtekEmptyStringAsListConverter_1.html", "cl": 4, "ucl": 4, "cal": 8, "tl": 30, "cb": 4, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.ArmtekApi.Converters.ArmtekFlexibleStringConverter", "rp": "Services_ArmtekFlexibleStringConverter.html", "cl": 5, "ucl": 5, "cal": 10, "tl": 34, "cb": 9, "tb": 12, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -2434,7 +2436,7 @@ var assemblies = [
       { "name": "Services.ApiServices.ZZapApi.ZZapBuyerContact", "rp": "Services_ZZapBuyerContact.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 181, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.ZZapApi.ZZapConfig", "rp": "Services_ZZapConfig.html", "cl": 4, "ucl": 0, "cal": 4, "tl": 17, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.ZZapApi.ZZapDataManager", "rp": "Services_ZZapDataManager.html", "cl": 91, "ucl": 0, "cal": 91, "tl": 181, "cb": 41, "tb": 48, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.ApiServices.ZZapApi.ZZapHttpClient", "rp": "Services_ZZapHttpClient.html", "cl": 68, "ucl": 1, "cal": 69, "tl": 151, "cb": 34, "tb": 38, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.ApiServices.ZZapApi.ZZapHttpClient", "rp": "Services_ZZapHttpClient.html", "cl": 69, "ucl": 0, "cal": 69, "tl": 153, "cb": 35, "tb": 38, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.ZZapApi.ZZapMoscowSupplierConnector", "rp": "Services_ZZapMoscowSupplierConnector.html", "cl": 11, "ucl": 0, "cal": 11, "tl": 27, "cb": 4, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.ZZapApi.ZZapPriceMapper", "rp": "Services_ZZapPriceMapper.html", "cl": 99, "ucl": 0, "cal": 99, "tl": 171, "cb": 83, "tb": 84, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiSupplierSettingsServices.ApiSupplierDeliveryWarehouseResolution", "rp": "Services_ApiSupplierDeliveryWarehouseResolution.html", "cl": 5, "ucl": 1, "cal": 6, "tl": 59, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -2928,7 +2930,7 @@ var assemblies = [
       { "name": "Services.SearchServices.OrderSearch.OrderSearchSyncService", "rp": "Services_OrderSearchSyncService.html", "cl": 155, "ucl": 20, "cal": 175, "tl": 288, "cb": 27, "tb": 34, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.SignalRServices.JobProgressHub", "rp": "Services_JobProgressHub.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 21, "cb": 0, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.SignalRServices.NotificationHub", "rp": "Services_NotificationHub.html", "cl": 0, "ucl": 105, "cal": 105, "tl": 228, "cb": 0, "tb": 54, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.SignalRServices.NotificationService", "rp": "Services_NotificationService.html", "cl": 9, "ucl": 14, "cal": 23, "tl": 55, "cb": 0, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.SignalRServices.NotificationService", "rp": "Services_NotificationService.html", "cl": 12, "ucl": 11, "cal": 23, "tl": 55, "cb": 1, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.SignalRServices.OrderHistoryHub", "rp": "Services_OrderHistoryHub.html", "cl": 0, "ucl": 23, "cal": 23, "tl": 53, "cb": 0, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.SignalRServices.UserSessionInfo", "rp": "Services_UserSessionInfo.html", "cl": 0, "ucl": 3, "cal": 3, "tl": 228, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.StockSyncServices.GoogleServiceAccountOptions", "rp": "Services_GoogleServiceAccountOptions.html", "cl": 11, "ucl": 0, "cal": 11, "tl": 26, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -5627,16 +5629,16 @@ var riskHotspots = [
       { "value": 58, "exceeded": true },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Studio2.Controllers.ArmtekPriceController", "reportPath": "OzonOrdersWeb_ArmtekPriceController.html", "methodName": "Search()", "methodShortName": "Search()", "fileIndex": 0, "line": 97,
-    "metrics": [
-      { "value": 1014, "exceeded": true },
-      { "value": 42, "exceeded": true },
-    ]},
-  {
     "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Studio2.Controllers.Base.BaseTransactionController", "reportPath": "OzonOrdersWeb_BaseTransactionController.html", "methodName": "GetFieldDisplayName()", "methodShortName": "GetFieldDisplayName()", "fileIndex": 0, "line": 1545,
     "metrics": [
       { "value": 992, "exceeded": true },
       { "value": 31, "exceeded": true },
+    ]},
+  {
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Studio2.Controllers.ArmtekPriceController", "reportPath": "OzonOrdersWeb_ArmtekPriceController.html", "methodName": "Search()", "methodShortName": "Search()", "fileIndex": 0, "line": 99,
+    "metrics": [
+      { "value": 945, "exceeded": true },
+      { "value": 42, "exceeded": true },
     ]},
   {
     "assembly": "OzonOrdersWeb", "class": "AspNetCoreGeneratedDocument.Areas_Admin_Views_DataScopes_Edit", "reportPath": "OzonOrdersWeb_Areas_Admin_Views_DataScopes_Edit.html", "methodName": "\u003CExecuteAsync()", "methodShortName": "\u003CExecuteAsync()", "fileIndex": 0, "line": 20,
@@ -5933,7 +5935,7 @@ var riskHotspots = [
       { "value": 28, "exceeded": true },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Studio2.Controllers.ArmtekPriceController", "reportPath": "OzonOrdersWeb_ArmtekPriceController.html", "methodName": "MapToPreOrderItem(Services.ApiServices.ArmtekApi.Models.Response.ArmtekSearchItem,System.Collections.Generic.IReadOnlyDictionary\u00602\u003CSystem.String,System.String\u003E,System.Decimal,OzonDomains.CurrencyCode,System.Nullable\u00601\u003CSystem.Int32\u003E,System.Nullable\u00601\u003COzonDomains.CurrencyCode\u003E,System.String)", "methodShortName": "MapToPreOrderItem(...)", "fileIndex": 0, "line": 383,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Studio2.Controllers.ArmtekPriceController", "reportPath": "OzonOrdersWeb_ArmtekPriceController.html", "methodName": "MapToPreOrderItem(Services.ApiServices.ArmtekApi.Models.Response.ArmtekSearchItem,System.Collections.Generic.IReadOnlyDictionary\u00602\u003CSystem.String,System.String\u003E,System.Decimal,OzonDomains.CurrencyCode,System.Nullable\u00601\u003CSystem.Int32\u003E,System.Nullable\u00601\u003COzonDomains.CurrencyCode\u003E,System.String)", "methodShortName": "MapToPreOrderItem(...)", "fileIndex": 0, "line": 336,
     "metrics": [
       { "value": 812, "exceeded": true },
       { "value": 28, "exceeded": true },
@@ -6923,7 +6925,7 @@ var riskHotspots = [
       { "value": 22, "exceeded": true },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Studio2.Controllers.ArmtekPriceController", "reportPath": "OzonOrdersWeb_ArmtekPriceController.html", "methodName": "AddDeliveryMappingMetadata(Services.ApiServices.TradesoftApi.Models.Response.PreOrderItem,Services.ApiSupplierSettingsServices.ArmtekDeliveryAddressSelection,Services.ApiServices.ArmtekApi.Models.Response.ArmtekUserInfoResponse,System.String)", "methodShortName": "AddDeliveryMappingMetadata(...)", "fileIndex": 0, "line": 202,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Studio2.Controllers.ArmtekPriceController", "reportPath": "OzonOrdersWeb_ArmtekPriceController.html", "methodName": "AddDeliveryMappingMetadata(Services.ApiServices.TradesoftApi.Models.Response.PreOrderItem,Services.ApiSupplierSettingsServices.ArmtekDeliveryAddressSelection,Services.ApiServices.ArmtekApi.Models.Response.ArmtekUserInfoResponse,System.String)", "methodShortName": "AddDeliveryMappingMetadata(...)", "fileIndex": 0, "line": 189,
     "metrics": [
       { "value": 506, "exceeded": true },
       { "value": 22, "exceeded": true },
@@ -7997,6 +7999,12 @@ var riskHotspots = [
       { "value": 18, "exceeded": true },
     ]},
   {
+    "assembly": "Services", "class": "Services.ApiServices.ArmtekApi.ArmtekHttpClient", "reportPath": "Services_ArmtekHttpClient.html", "methodName": "ParseMessages(Newtonsoft.Json.Linq.JToken)", "methodShortName": "ParseMessages(...)", "fileIndex": 0, "line": 239,
+    "metrics": [
+      { "value": 342, "exceeded": true },
+      { "value": 18, "exceeded": true },
+    ]},
+  {
     "assembly": "Services", "class": "Services.ApiServices.DropBoxApi.DropboxApiClient", "reportPath": "Services_DropboxApiClient.html", "methodName": "GetFolderContentsAsync()", "methodShortName": "GetFolderContentsAsync()", "fileIndex": 0, "line": 112,
     "metrics": [
       { "value": 342, "exceeded": true },
@@ -8357,7 +8365,7 @@ var riskHotspots = [
       { "value": 16, "exceeded": true },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Studio2.Controllers.ArmtekPriceController", "reportPath": "OzonOrdersWeb_ArmtekPriceController.html", "methodName": "GetSearchResponseAsync()", "methodShortName": "GetSearchResponseAsync()", "fileIndex": 0, "line": 345,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Studio2.Controllers.ArmtekPriceController", "reportPath": "OzonOrdersWeb_ArmtekPriceController.html", "methodName": "GetSearchResponseAsync()", "methodShortName": "GetSearchResponseAsync()", "fileIndex": 0, "line": 298,
     "metrics": [
       { "value": 272, "exceeded": true },
       { "value": 16, "exceeded": true },
@@ -9053,13 +9061,13 @@ var riskHotspots = [
       { "value": 14, "exceeded": false },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Studio2.Controllers.ArmtekPriceController", "reportPath": "OzonOrdersWeb_ArmtekPriceController.html", "methodName": "ResolveKunnrRg(Services.ApiServices.ArmtekApi.Models.Response.ArmtekUserInfoResponse)", "methodShortName": "ResolveKunnrRg(...)", "fileIndex": 0, "line": 191,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Studio2.Controllers.ArmtekPriceController", "reportPath": "OzonOrdersWeb_ArmtekPriceController.html", "methodName": "ResolveKunnrRg(Services.ApiServices.ArmtekApi.Models.Response.ArmtekUserInfoResponse)", "methodShortName": "ResolveKunnrRg(...)", "fileIndex": 0, "line": 178,
     "metrics": [
       { "value": 210, "exceeded": true },
       { "value": 14, "exceeded": false },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Studio2.Controllers.ArmtekPriceController", "reportPath": "OzonOrdersWeb_ArmtekPriceController.html", "methodName": "BuildDescription(Services.ApiServices.ArmtekApi.Models.Response.ArmtekSearchItem,System.Nullable\u00601\u003CSystem.Int32\u003E,System.Decimal)", "methodShortName": "BuildDescription(...)", "fileIndex": 0, "line": 488,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Studio2.Controllers.ArmtekPriceController", "reportPath": "OzonOrdersWeb_ArmtekPriceController.html", "methodName": "BuildDescription(Services.ApiServices.ArmtekApi.Models.Response.ArmtekSearchItem,System.Nullable\u00601\u003CSystem.Int32\u003E,System.Decimal)", "methodShortName": "BuildDescription(...)", "fileIndex": 0, "line": 441,
     "metrics": [
       { "value": 210, "exceeded": true },
       { "value": 14, "exceeded": false },
@@ -10721,6 +10729,12 @@ var riskHotspots = [
       { "value": 58, "exceeded": true },
     ]},
   {
+    "assembly": "Services", "class": "Services.ApiServices.ArmtekApi.ArmtekHttpClient", "reportPath": "Services_ArmtekHttpClient.html", "methodName": "TryParseEnvelopeFallback(System.String)", "methodShortName": "TryParseEnvelopeFallback(...)", "fileIndex": 0, "line": 195,
+    "metrics": [
+      { "value": 133, "exceeded": true },
+      { "value": 22, "exceeded": true },
+    ]},
+  {
     "assembly": "Services", "class": "Services.ApiServices.BaseApiClient", "reportPath": "Services_BaseApiClient.html", "methodName": "MakeRequestGetAsync()", "methodShortName": "MakeRequestGetAsync()", "fileIndex": 0, "line": 158,
     "metrics": [
       { "value": 132, "exceeded": true },
@@ -10791,12 +10805,6 @@ var riskHotspots = [
     "metrics": [
       { "value": 116, "exceeded": true },
       { "value": 20, "exceeded": true },
-    ]},
-  {
-    "assembly": "Services", "class": "Services.ApiServices.ArmtekApi.ArmtekHttpClient", "reportPath": "Services_ArmtekHttpClient.html", "methodName": "ParseMessages(Newtonsoft.Json.Linq.JToken)", "methodShortName": "ParseMessages(...)", "fileIndex": 0, "line": 239,
-    "metrics": [
-      { "value": 114, "exceeded": true },
-      { "value": 18, "exceeded": true },
     ]},
   {
     "assembly": "Services", "class": "Services.BackgroundJobsServices.BackgroundJobScheduleService", "reportPath": "Services_BackgroundJobScheduleService.html", "methodName": "FormatCronExpression(System.String)", "methodShortName": "FormatCronExpression(...)", "fileIndex": 0, "line": 265,
@@ -12131,7 +12139,7 @@ var riskHotspots = [
       { "value": 26, "exceeded": true },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Studio2.Controllers.ArmtekPriceController", "reportPath": "OzonOrdersWeb_ArmtekPriceController.html", "methodName": "ResolveAssortmentSearchInputAsync()", "methodShortName": "ResolveAssortmentSearchInputAsync()", "fileIndex": 0, "line": 303,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Studio2.Controllers.ArmtekPriceController", "reportPath": "OzonOrdersWeb_ArmtekPriceController.html", "methodName": "ResolveAssortmentSearchInputAsync()", "methodShortName": "ResolveAssortmentSearchInputAsync()", "fileIndex": 0, "line": 256,
     "metrics": [
       { "value": 95, "exceeded": true },
       { "value": 12, "exceeded": false },
@@ -12803,7 +12811,7 @@ var riskHotspots = [
       { "value": 8, "exceeded": false },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Studio2.Controllers.ArmtekPriceController", "reportPath": "OzonOrdersWeb_ArmtekPriceController.html", "methodName": "BuildArmtekErrorMessage(System.Collections.Generic.IEnumerable\u00601\u003CServices.ApiServices.ArmtekApi.Models.Envelope.ArmtekMessage\u003E)", "methodShortName": "BuildArmtekErrorMessage(...)", "fileIndex": 0, "line": 231,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Studio2.Controllers.ArmtekPriceController", "reportPath": "OzonOrdersWeb_ArmtekPriceController.html", "methodName": "BuildArmtekErrorMessage(System.Collections.Generic.IEnumerable\u00601\u003CServices.ApiServices.ArmtekApi.Models.Envelope.ArmtekMessage\u003E)", "methodShortName": "BuildArmtekErrorMessage(...)", "fileIndex": 0, "line": 218,
     "metrics": [
       { "value": 72, "exceeded": true },
       { "value": 8, "exceeded": false },
@@ -13265,7 +13273,7 @@ var riskHotspots = [
       { "value": 8, "exceeded": false },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Studio2.Controllers.ZZapMoscowPriceController", "reportPath": "OzonOrdersWeb_ZZapMoscowPriceController.html", "methodName": "Search()", "methodShortName": "Search()", "fileIndex": 0, "line": 32,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Studio2.Controllers.ZZapMoscowPriceController", "reportPath": "OzonOrdersWeb_ZZapMoscowPriceController.html", "methodName": "Search()", "methodShortName": "Search()", "fileIndex": 0, "line": 40,
     "metrics": [
       { "value": 72, "exceeded": true },
       { "value": 8, "exceeded": false },
@@ -15299,13 +15307,13 @@ var riskHotspots = [
       { "value": 6, "exceeded": false },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Studio2.Controllers.ArmtekPriceController", "reportPath": "OzonOrdersWeb_ArmtekPriceController.html", "methodName": "BuildDirectionLabel(System.String,System.String,System.String,System.String)", "methodShortName": "BuildDirectionLabel(...)", "fileIndex": 0, "line": 507,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Studio2.Controllers.ArmtekPriceController", "reportPath": "OzonOrdersWeb_ArmtekPriceController.html", "methodName": "BuildDirectionLabel(System.String,System.String,System.String,System.String)", "methodShortName": "BuildDirectionLabel(...)", "fileIndex": 0, "line": 460,
     "metrics": [
       { "value": 42, "exceeded": true },
       { "value": 6, "exceeded": false },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Studio2.Controllers.ArmtekPriceController", "reportPath": "OzonOrdersWeb_ArmtekPriceController.html", "methodName": "BuildSupplierLabel(System.String,System.String,System.String,System.String)", "methodShortName": "BuildSupplierLabel(...)", "fileIndex": 0, "line": 518,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Studio2.Controllers.ArmtekPriceController", "reportPath": "OzonOrdersWeb_ArmtekPriceController.html", "methodName": "BuildSupplierLabel(System.String,System.String,System.String,System.String)", "methodShortName": "BuildSupplierLabel(...)", "fileIndex": 0, "line": 471,
     "metrics": [
       { "value": 42, "exceeded": true },
       { "value": 6, "exceeded": false },
@@ -16589,6 +16597,12 @@ var riskHotspots = [
       { "value": 6, "exceeded": false },
     ]},
   {
+    "assembly": "Services", "class": "Services.ApiServices.ArmtekApi.ArmtekStoreDirectoryHostedService", "reportPath": "Services_ArmtekStoreDirectoryHostedService.html", "methodName": "ExecuteAsync()", "methodShortName": "ExecuteAsync()", "fileIndex": 0, "line": 27,
+    "metrics": [
+      { "value": 42, "exceeded": true },
+      { "value": 6, "exceeded": false },
+    ]},
+  {
     "assembly": "Services", "class": "Services.ApiServices.InterpartsPriceApi.InterpartsPriceApiDataManager", "reportPath": "Services_InterpartsPriceApiDataManager.html", "methodName": "ParseNullableInt(System.String)", "methodShortName": "ParseNullableInt(...)", "fileIndex": 0, "line": 246,
     "metrics": [
       { "value": 42, "exceeded": true },
@@ -17385,12 +17399,6 @@ var riskHotspots = [
     "metrics": [
       { "value": 34, "exceeded": true },
       { "value": 18, "exceeded": true },
-    ]},
-  {
-    "assembly": "Services", "class": "Services.ApiServices.ArmtekApi.ArmtekHttpClient", "reportPath": "Services_ArmtekHttpClient.html", "methodName": "TryParseEnvelopeFallback(System.String)", "methodShortName": "TryParseEnvelopeFallback(...)", "fileIndex": 0, "line": 195,
-    "metrics": [
-      { "value": 34, "exceeded": true },
-      { "value": 22, "exceeded": true },
     ]},
   {
     "assembly": "Services", "class": "Services.ApiServices.ProfitLigaApi.ProfitLigaPriceMapper", "reportPath": "Services_ProfitLigaPriceMapper.html", "methodName": "MapOffer(Newtonsoft.Json.Linq.JObject,System.String,System.String,System.String,System.String,System.Nullable\u00601\u003CSystem.Int32\u003E,System.String,Services.ApiServices.ProfitLigaApi.ProfitLigaQuotationDestination)", "methodShortName": "MapOffer(...)", "fileIndex": 0, "line": 58,

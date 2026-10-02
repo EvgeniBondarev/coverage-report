@@ -3,20 +3,20 @@
 
 |||
 |:---|:---|
-| Generated on: | 10/01/2026 - 08:44:07 |
-| Coverage date: | 10/01/2026 - 08:41:07 - 10/01/2026 - 08:43:51 |
+| Generated on: | 10/02/2026 - 08:20:59 |
+| Coverage date: | 10/02/2026 - 08:17:58 - 10/02/2026 - 08:20:42 |
 | Parser: | MultiReport (2x Cobertura) |
 | Assemblies: | 5 |
-| Classes: | 2769 |
-| Files: | 1983 |
-| **Line coverage:** | 14.4% (43440 of 301355) |
-| Covered lines: | 43440 |
-| Uncovered lines: | 257915 |
-| Coverable lines: | 301355 |
-| Total lines: | 489995 |
-| **Branch coverage:** | 22.6% (20091 of 88510) |
-| Covered branches: | 20091 |
-| Total branches: | 88510 |
+| Classes: | 2771 |
+| Files: | 1985 |
+| **Line coverage:** | 14.4% (43449 of 301427) |
+| Covered lines: | 43449 |
+| Uncovered lines: | 257978 |
+| Coverable lines: | 301427 |
+| Total lines: | 490153 |
+| **Branch coverage:** | 22.6% (20088 of 88540) |
+| Covered branches: | 20088 |
+| Total branches: | 88540 |
 | **Method coverage:** | [Feature is only available for sponsors](https://reportgenerator.io/pro) |
 
 </details>
@@ -686,7 +686,7 @@
 |OzonOrdersWeb.Areas.Studio2.Controllers.ApiSupplierRequestAuditController|0%|0%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.ArmtekByPriceController|0%||
 |OzonOrdersWeb.Areas.Studio2.Controllers.ArmtekCartController|0%|0%|
-|OzonOrdersWeb.Areas.Studio2.Controllers.ArmtekPriceController|20.3%|6.6%|
+|OzonOrdersWeb.Areas.Studio2.Controllers.ArmtekPriceController|17.9%|5.3%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.AssemblyListAccessKeysController|0%|0%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.AssemblyListController|0%|0%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.AvdBasketController|0%|0%|
@@ -1525,7 +1525,7 @@
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**Services**|**39.1%**|**34.4%**|
+|**Services**|**39.1%**|**34.3%**|
 |AppRepository.ApiServices.OzonApi.Filters.Chat|0%||
 |AppRepository.ApiServices.OzonApi.Filters.ChatFilter|0%||
 |AppRepository.ApiServices.OzonApi.Filters.ChatHistoryRequest|0%||
@@ -1732,9 +1732,11 @@
 |Services.ApiServices.ArmtekApi.ArmtekConfig|100%||
 |Services.ApiServices.ArmtekApi.ArmtekDailyQuotaGuard|73.6%|91.6%|
 |Services.ApiServices.ArmtekApi.ArmtekDataManager|99.2%|70.7%|
-|Services.ApiServices.ArmtekApi.ArmtekHttpClient|85.9%|62.7%|
+|Services.ApiServices.ArmtekApi.ArmtekHttpClient|74.8%|52.3%|
 |Services.ApiServices.ArmtekApi.ArmtekOrderRequestItem|100%||
 |Services.ApiServices.ArmtekApi.ArmtekPriceCurrencyConverter|100%||
+|Services.ApiServices.ArmtekApi.ArmtekStoreDirectory|63.2%|26.9%|
+|Services.ApiServices.ArmtekApi.ArmtekStoreDirectoryHostedService|0%|0%|
 |Services.ApiServices.ArmtekApi.ArmtekSupplierConnector|0%|0%|
 |Services.ApiServices.ArmtekApi.Converters.ArmtekEmptyStringAsListConverter`<br/>1|50%|66.6%|
 |Services.ApiServices.ArmtekApi.Converters.ArmtekFlexibleStringConverter|50%|75%|
@@ -2180,7 +2182,7 @@
 |Services.ApiServices.ZZapApi.ZZapBuyerContact|100%||
 |Services.ApiServices.ZZapApi.ZZapConfig|100%||
 |Services.ApiServices.ZZapApi.ZZapDataManager|100%|85.4%|
-|Services.ApiServices.ZZapApi.ZZapHttpClient|98.5%|89.4%|
+|Services.ApiServices.ZZapApi.ZZapHttpClient|100%|92.1%|
 |Services.ApiServices.ZZapApi.ZZapMoscowSupplierConnector|100%|100%|
 |Services.ApiServices.ZZapApi.ZZapPriceMapper|100%|98.8%|
 |Services.ApiSupplierSettingsServices.ApiSupplierDeliveryWarehouseResolution|83.3%||
@@ -2674,7 +2676,7 @@
 |Services.SearchServices.OrderSearch.OrderSearchSyncService|88.5%|79.4%|
 |Services.SignalRServices.JobProgressHub|0%|0%|
 |Services.SignalRServices.NotificationHub|0%|0%|
-|Services.SignalRServices.NotificationService|39.1%|0%|
+|Services.SignalRServices.NotificationService|52.1%|50%|
 |Services.SignalRServices.OrderHistoryHub|0%|0%|
 |Services.SignalRServices.UserSessionInfo|0%||
 |Services.StockSyncServices.GoogleServiceAccountOptions|100%||
