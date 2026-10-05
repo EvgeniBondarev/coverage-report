@@ -3,30 +3,30 @@
 
 |||
 |:---|:---|
-| Generated on: | 10/04/2026 - 08:09:28 |
-| Coverage date: | 10/04/2026 - 08:06:34 - 10/04/2026 - 08:09:10 |
+| Generated on: | 10/05/2026 - 08:49:15 |
+| Coverage date: | 10/05/2026 - 08:46:16 - 10/05/2026 - 08:48:59 |
 | Parser: | MultiReport (2x Cobertura) |
 | Assemblies: | 5 |
 | Classes: | 2774 |
 | Files: | 1978 |
-| **Line coverage:** | 14.3% (43245 of 301239) |
-| Covered lines: | 43245 |
-| Uncovered lines: | 257994 |
-| Coverable lines: | 301239 |
-| Total lines: | 489233 |
-| **Branch coverage:** | 22.6% (20053 of 88498) |
-| Covered branches: | 20053 |
-| Total branches: | 88498 |
+| **Line coverage:** | 14.3% (43369 of 301414) |
+| Covered lines: | 43369 |
+| Uncovered lines: | 258045 |
+| Coverable lines: | 301414 |
+| Total lines: | 489606 |
+| **Branch coverage:** | 22.7% (20157 of 88660) |
+| Covered branches: | 20157 |
+| Total branches: | 88660 |
 | **Method coverage:** | [Feature is only available for sponsors](https://reportgenerator.io/pro) |
 
 </details>
 
 ## Coverage
-<details><summary>OzonDomains - 60.6%</summary>
+<details><summary>OzonDomains - 60.7%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**OzonDomains**|**60.6%**|**56%**|
+|**OzonDomains**|**60.7%**|**56%**|
 |BIblockElementProperty|0%||
 |OzonDomains.DateTimeAbbreviationService|92.8%|100%|
 |OzonDomains.Delivery|100%||
@@ -225,7 +225,7 @@
 |OzonDomains.Models.WarehouseMapping|100%||
 |OzonDomains.Models.WarehouseNameNormalizer|91.6%|90%|
 |OzonDomains.Models.WarehouseStockSnapshot|96.5%||
-|OzonDomains.Models.WarehouseStockSyncRun|50%||
+|OzonDomains.Models.WarehouseStockSyncRun|58.3%||
 |OzonDomains.Models.ZZapCartItem|100%||
 |OzonDomains.Models.ZZapCartItemStatus|100%||
 |OzonDomains.OrderDateDisplay|100%|100%|
@@ -249,11 +249,11 @@
 |Services.ApiServices.TecDocApi.Models.SuppliersSchema|0%||
 
 </details>
-<details><summary>OzonOrdersWeb - 17.3%</summary>
+<details><summary>OzonOrdersWeb - 17.4%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**OzonOrdersWeb**|**17.3%**|**12.5%**|
+|**OzonOrdersWeb**|**17.4%**|**12.5%**|
 |AspNetCoreGeneratedDocument.Areas_Admin_Views__ViewStart|0%||
 |AspNetCoreGeneratedDocument.Areas_Admin_Views_AuditLog_Details|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Admin_Views_AuditLog_Index|0%|0%|
@@ -1063,11 +1063,11 @@
 |OzonOrdersWeb.Observability.ClientTelemetryController|97.6%|75%|
 |OzonOrdersWeb.Observability.ClientTelemetryEvent|100%||
 |OzonOrdersWeb.Observability.FirstWithoutOrderByDiagnostics|100%|75%|
-|OzonOrdersWeb.Observability.FrontendOutageNoiseClassifier|94.3%|88.3%|
+|OzonOrdersWeb.Observability.FrontendOutageNoiseClassifier|94.7%|89.7%|
 |OzonOrdersWeb.Observability.HangfireDistributedLockContentionFilter|90%|69%|
 |OzonOrdersWeb.Observability.HangfireObservabilityFilter|62.5%|58.3%|
 |OzonOrdersWeb.Observability.HangfireSafeDistributedLockFilter|92.8%|100%|
-|OzonOrdersWeb.Observability.InfrastructureNoiseLogFilter|95.4%|89.5%|
+|OzonOrdersWeb.Observability.InfrastructureNoiseLogFilter|96.3%|90.9%|
 |OzonOrdersWeb.Observability.InvalidModelStateLoggingFilter|88.3%|75.7%|
 |OzonOrdersWeb.Observability.InvalidModelStatePageFilter|0%|0%|
 |OzonOrdersWeb.Observability.ObservabilityOptions|100%||
@@ -1535,7 +1535,7 @@
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**Services**|**38.8%**|**34.2%**|
+|**Services**|**38.8%**|**34.3%**|
 |AppRepository.ApiServices.OzonApi.Filters.Chat|0%||
 |AppRepository.ApiServices.OzonApi.Filters.ChatFilter|0%||
 |AppRepository.ApiServices.OzonApi.Filters.ChatHistoryRequest|0%||
@@ -2365,8 +2365,8 @@
 |Services.BitrixStockServices.OzonReportFileDto|0%||
 |Services.BitrixStockServices.PresetStageSettings|100%||
 |Services.BitrixStockServices.PriceOptimizationInput|100%||
-|Services.BitrixStockServices.PriceOptimizationManager|89.4%|50%|
-|Services.BitrixStockServices.PriceOptimizationResult|94.1%||
+|Services.BitrixStockServices.PriceOptimizationManager|100%|87%|
+|Services.BitrixStockServices.PriceOptimizationResult|100%||
 |Services.BitrixStockServices.ReportPriceSettingsDto|0%||
 |Services.BitrixStockServices.ReportPromoStatusDto|0%||
 |Services.BitrixStockServices.ReserveStatusOptionDto|0%||
@@ -2657,7 +2657,7 @@
 |Services.ProducerAliases.ProducerBrandAliasService|92.8%|77.7%|
 |Services.ReleasServices.ReleaseManager.ReleaseManager|0%|0%|
 |Services.SearchServices.OrderSearch.OrderChangeNotifier|0%|0%|
-|Services.SearchServices.OrderSearch.OrderElasticsearchService|25%|19.1%|
+|Services.SearchServices.OrderSearch.OrderElasticsearchService|23.8%|15.5%|
 |Services.SearchServices.OrderSearch.OrderSearchDiagnosticsService|100%|97.6%|
 |Services.SearchServices.OrderSearch.OrderSearchDiagnosticsSnapshot|100%||
 |Services.SearchServices.OrderSearch.OrderSearchDiagnosticsStore|97.7%|66.6%|
@@ -2679,7 +2679,7 @@
 |Services.SearchServices.OrderSearch.OrderSearchSyncService|88.5%|79.4%|
 |Services.SignalRServices.JobProgressHub|0%|0%|
 |Services.SignalRServices.NotificationHub|0%|0%|
-|Services.SignalRServices.NotificationService|34.7%|0%|
+|Services.SignalRServices.NotificationService|39.1%|0%|
 |Services.SignalRServices.OrderHistoryHub|0%|0%|
 |Services.SignalRServices.UserSessionInfo|0%||
 |Services.StockSyncServices.GoogleServiceAccountOptions|100%||
@@ -2690,8 +2690,8 @@
 |Services.StockSyncServices.WarehouseStockLookupResult|100%||
 |Services.StockSyncServices.WarehouseStockLookupService|100%|91.1%|
 |Services.StockSyncServices.WarehouseStockSnapshotCandidate|100%||
-|Services.StockSyncServices.WarehouseStockSyncJob|0%|0%|
-|Services.StockSyncServices.WarehouseStockSyncService|45.4%|40.2%|
+|Services.StockSyncServices.WarehouseStockSyncJob|91.6%|60%|
+|Services.StockSyncServices.WarehouseStockSyncService|47.6%|46.8%|
 |Services.SupplierStatusServices.OrderSupplierStateRef|100%||
 |Services.SupplierStatusServices.OrderSupplierStateService|85.8%|51.3%|
 |Services.SupplierStatusServices.OrderSupplierStatusSyncService|100%|100%|
