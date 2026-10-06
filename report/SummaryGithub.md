@@ -3,20 +3,20 @@
 
 |||
 |:---|:---|
-| Generated on: | 10/05/2026 - 08:49:15 |
-| Coverage date: | 10/05/2026 - 08:46:16 - 10/05/2026 - 08:48:59 |
+| Generated on: | 10/06/2026 - 08:58:50 |
+| Coverage date: | 10/06/2026 - 08:55:49 - 10/06/2026 - 08:58:34 |
 | Parser: | MultiReport (2x Cobertura) |
 | Assemblies: | 5 |
-| Classes: | 2774 |
-| Files: | 1978 |
-| **Line coverage:** | 14.3% (43369 of 301414) |
-| Covered lines: | 43369 |
-| Uncovered lines: | 258045 |
-| Coverable lines: | 301414 |
-| Total lines: | 489606 |
-| **Branch coverage:** | 22.7% (20157 of 88660) |
-| Covered branches: | 20157 |
-| Total branches: | 88660 |
+| Classes: | 2818 |
+| Files: | 1988 |
+| **Line coverage:** | 14.6% (43997 of 300697) |
+| Covered lines: | 43997 |
+| Uncovered lines: | 256700 |
+| Coverable lines: | 300697 |
+| Total lines: | 482000 |
+| **Branch coverage:** | 22.9% (20301 of 88441) |
+| Covered branches: | 20301 |
+| Total branches: | 88441 |
 | **Method coverage:** | [Feature is only available for sponsors](https://reportgenerator.io/pro) |
 
 </details>
@@ -249,11 +249,11 @@
 |Services.ApiServices.TecDocApi.Models.SuppliersSchema|0%||
 
 </details>
-<details><summary>OzonOrdersWeb - 17.4%</summary>
+<details><summary>OzonOrdersWeb - 18.5%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**OzonOrdersWeb**|**17.4%**|**12.5%**|
+|**OzonOrdersWeb**|**18.5%**|**12.9%**|
 |AspNetCoreGeneratedDocument.Areas_Admin_Views__ViewStart|0%||
 |AspNetCoreGeneratedDocument.Areas_Admin_Views_AuditLog_Details|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Admin_Views_AuditLog_Index|0%|0%|
@@ -502,6 +502,8 @@
 |AspNetCoreGeneratedDocument.Areas_Studio2_Views_PriceHistory_Edit|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Studio2_Views_PriceHistory_Index|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Studio2_Views_Producers_Index|0%|0%|
+|AspNetCoreGeneratedDocument.Areas_Studio2_Views_ProductAnalysis__OzonErrors|0%|0%|
+|AspNetCoreGeneratedDocument.Areas_Studio2_Views_ProductAnalysis__Products|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Studio2_Views_ProductAnalysis_Index|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Studio2_Views_Products_Create|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Studio2_Views_Products_Delete|0%|0%|
@@ -675,9 +677,51 @@
 |OzonOrdersWeb.Areas.Public.Controllers.AssemblyListController|0%|0%|
 |OzonOrdersWeb.Areas.Public.Controllers.PublicGenerateRequest|0%||
 |OzonOrdersWeb.Areas.Public.OgHtml|0%|0%|
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.AdditionalMetrics|100%||
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.AnalyticsOrderRow|100%||
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.AnalyticsRowProjection|30.2%|50%|
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.ComparativeResult|100%||
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.DayPoint|100%||
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.DeliveryTimeRow|100%||
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.ForecastDtoMapper|0%|0%|
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.LabelValue|100%||
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.MetricsSummary|100%||
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.OrderStatusesResult|100%||
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.OverallStats|100%||
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.OzonErrorLink|0%||
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.OzonErrorLinksService|0%|0%|
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.PeriodChanges|100%||
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.PeriodTotals|100%||
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.PlaceMonth|100%||
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.PlaceStat|100%||
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.PopularProductRow|100%||
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.ProductAnalysisCache|100%|100%|
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.ProductAnalysisFilter|0%|0%|
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.ProductAnalysisGridService|42.1%|2.6%|
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.ProductAnalysisReportCalculato<br/>r|99.5%|68.8%|
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.ProductAnalysisReportService|0%|0%|
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.ProductDetailBuilder|98.9%|65%|
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.ProductGridPage|100%||
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.ProductGridStats|100%||
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.ProductGroupCalculator|96.6%|87.5%|
 |OzonOrdersWeb.Areas.Studio2.AnalysisServices.PurchaseRecommendationService|81.6%|38.2%|
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.ReturnRateRow|100%||
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.ReturnStatusRow|100%||
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.RoiRow|100%||
 |OzonOrdersWeb.Areas.Studio2.AnalysisServices.SalesForecastService|100%|81.2%|
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.SeasonalityResult|100%||
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.SeasonDay|100%||
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.SeasonHour|100%||
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.SeasonMonth|100%||
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.StatusMonth|100%||
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.StatusMonthCount|100%||
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.StatusStat|100%||
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.SummaryClient|100%||
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.SummaryKpis|100%||
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.SummaryProduct|100%||
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.SummaryResult|100%||
 |OzonOrdersWeb.Areas.Studio2.AnalysisServices.TrendAnalysisService|93.8%|61.2%|
+|OzonOrdersWeb.Areas.Studio2.AnalysisServices.WarehouseRegionResult|100%||
 |OzonOrdersWeb.Areas.Studio2.Controllers.Admin.AccessProfilesController|18.4%|12.5%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.Admin.DataScopeSetsController|0%|0%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.AiAssistantController|0%|0%|
@@ -826,18 +870,18 @@
 |OzonOrdersWeb.Areas.Studio2.Controllers.TransactionTimeTrackingReportContro<br/>ller|0%|0%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.WarehouseStockController|11%|6%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.ZZapMoscowPriceController|0%|0%|
-|OzonOrdersWeb.Areas.Studio2.DTOs.ClientDetailDto|0%||
+|OzonOrdersWeb.Areas.Studio2.DTOs.ClientDetailDto|100%||
 |OzonOrdersWeb.Areas.Studio2.DTOs.ForecastTrendAnalysisDto|0%||
 |OzonOrdersWeb.Areas.Studio2.DTOs.OrderSummaryDto|0%||
 |OzonOrdersWeb.Areas.Studio2.DTOs.PagedResultDto`1|0%||
-|OzonOrdersWeb.Areas.Studio2.DTOs.PriceChartPointDto|0%||
+|OzonOrdersWeb.Areas.Studio2.DTOs.PriceChartPointDto|100%||
 |OzonOrdersWeb.Areas.Studio2.DTOs.ProductAnalysisFilterDto|0%||
-|OzonOrdersWeb.Areas.Studio2.DTOs.ProductDetailAnalysisDto|0%||
-|OzonOrdersWeb.Areas.Studio2.DTOs.ProductGroupDto|0%||
+|OzonOrdersWeb.Areas.Studio2.DTOs.ProductDetailAnalysisDto|100%||
+|OzonOrdersWeb.Areas.Studio2.DTOs.ProductGroupDto|95.4%||
 |OzonOrdersWeb.Areas.Studio2.DTOs.PurchaseRecommendationDto|0%||
 |OzonOrdersWeb.Areas.Studio2.DTOs.RegionAnalysisDto|0%||
 |OzonOrdersWeb.Areas.Studio2.DTOs.SalesForecastDto|0%||
-|OzonOrdersWeb.Areas.Studio2.DTOs.TimeAnalysisDto|0%||
+|OzonOrdersWeb.Areas.Studio2.DTOs.TimeAnalysisDto|100%||
 |OzonOrdersWeb.Areas.Studio2.DTOs.TrendAnalysisDto|0%||
 |OzonOrdersWeb.Areas.Studio2.DTOs.WarehouseAnalysisDto|0%||
 |OzonOrdersWeb.Areas.Studio2.DTOs.WarehouseRegionAnalysisDto|0%||
@@ -2679,7 +2723,7 @@
 |Services.SearchServices.OrderSearch.OrderSearchSyncService|88.5%|79.4%|
 |Services.SignalRServices.JobProgressHub|0%|0%|
 |Services.SignalRServices.NotificationHub|0%|0%|
-|Services.SignalRServices.NotificationService|39.1%|0%|
+|Services.SignalRServices.NotificationService|52.1%|50%|
 |Services.SignalRServices.OrderHistoryHub|0%|0%|
 |Services.SignalRServices.UserSessionInfo|0%||
 |Services.StockSyncServices.GoogleServiceAccountOptions|100%||
