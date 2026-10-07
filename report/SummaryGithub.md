@@ -3,20 +3,20 @@
 
 |||
 |:---|:---|
-| Generated on: | 10/06/2026 - 08:58:50 |
-| Coverage date: | 10/06/2026 - 08:55:49 - 10/06/2026 - 08:58:34 |
+| Generated on: | 10/07/2026 - 08:34:09 |
+| Coverage date: | 10/07/2026 - 08:30:39 - 10/07/2026 - 08:33:53 |
 | Parser: | MultiReport (2x Cobertura) |
 | Assemblies: | 5 |
-| Classes: | 2818 |
-| Files: | 1988 |
-| **Line coverage:** | 14.6% (43997 of 300697) |
-| Covered lines: | 43997 |
-| Uncovered lines: | 256700 |
-| Coverable lines: | 300697 |
-| Total lines: | 482000 |
-| **Branch coverage:** | 22.9% (20301 of 88441) |
-| Covered branches: | 20301 |
-| Total branches: | 88441 |
+| Classes: | 2831 |
+| Files: | 1997 |
+| **Line coverage:** | 14.1% (44334 of 312238) |
+| Covered lines: | 44334 |
+| Uncovered lines: | 267904 |
+| Coverable lines: | 312238 |
+| Total lines: | 494555 |
+| **Branch coverage:** | 23% (20457 of 88717) |
+| Covered branches: | 20457 |
+| Total branches: | 88717 |
 | **Method coverage:** | [Feature is only available for sponsors](https://reportgenerator.io/pro) |
 
 </details>
@@ -156,7 +156,7 @@
 |OzonDomains.Models.NikeiCartItemStatus|100%||
 |OzonDomains.Models.OneCNomenclatureMap|0%||
 |OzonDomains.Models.OneCProducerAlias|0%||
-|OzonDomains.Models.Order|71.3%|68.8%|
+|OzonDomains.Models.Order|71.4%|68.8%|
 |OzonDomains.Models.OrderArchive|62.5%||
 |OzonDomains.Models.OrderCalculationSnapshot|71.4%||
 |OzonDomains.Models.OrderCarts.Cart.StockItem|0%||
@@ -249,11 +249,11 @@
 |Services.ApiServices.TecDocApi.Models.SuppliersSchema|0%||
 
 </details>
-<details><summary>OzonOrdersWeb - 18.5%</summary>
+<details><summary>OzonOrdersWeb - 18.7%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**OzonOrdersWeb**|**18.5%**|**12.9%**|
+|**OzonOrdersWeb**|**18.7%**|**13%**|
 |AspNetCoreGeneratedDocument.Areas_Admin_Views__ViewStart|0%||
 |AspNetCoreGeneratedDocument.Areas_Admin_Views_AuditLog_Details|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Admin_Views_AuditLog_Index|0%|0%|
@@ -427,7 +427,7 @@
 |AspNetCoreGeneratedDocument.Areas_Studio2_Views_JobLogs__TransactionOneCPos<br/>tingsSection|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Studio2_Views_JobLogs__TransactionTimeTra<br/>ckingTab|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Studio2_Views_JobLogs__WarehouseStockSync<br/>Tab|0%||
-|AspNetCoreGeneratedDocument.Areas_Studio2_Views_JobLogs__WebhookLogTab|0%||
+|AspNetCoreGeneratedDocument.Areas_Studio2_Views_JobLogs__WebhookLogTab|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Studio2_Views_JobLogs_Index|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Studio2_Views_Labels_Index|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Studio2_Views_LostByCommissionerTransacti<br/>on_CreateLostByCommissionerTransaction|0%|0%|
@@ -868,7 +868,7 @@
 |OzonOrdersWeb.Areas.Studio2.Controllers.Transactions.WarehouseTransferTrans<br/>actionController|0%|0%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.TransactionsGridController|8.4%|17.6%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.TransactionTimeTrackingReportContro<br/>ller|0%|0%|
-|OzonOrdersWeb.Areas.Studio2.Controllers.WarehouseStockController|11%|6%|
+|OzonOrdersWeb.Areas.Studio2.Controllers.WarehouseStockController|10.4%|5.6%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.ZZapMoscowPriceController|0%|0%|
 |OzonOrdersWeb.Areas.Studio2.DTOs.ClientDetailDto|100%||
 |OzonOrdersWeb.Areas.Studio2.DTOs.ForecastTrendAnalysisDto|0%||
@@ -1093,10 +1093,10 @@
 |OzonOrdersWeb.Filters.SupplierQuotationResultReader|57.1%|35.7%|
 |OzonOrdersWeb.Filters.SupplierWarehouseRestrictionFilter|86.3%|64%|
 |OzonOrdersWeb.HostedServices.HangfireSchedulerWatchdogHostedService|0%|0%|
-|OzonOrdersWeb.HostedServices.HangfireStartupHostedService|4.8%|3.2%|
+|OzonOrdersWeb.HostedServices.HangfireStartupHostedService|4.5%|3.2%|
 |OzonOrdersWeb.HostedServices.OrderSearchStartupHostedService|0%|0%|
 |OzonOrdersWeb.Middleware.ImpersonationMiddleware|0%|0%|
-|OzonOrdersWeb.Middleware.OzonIpWhitelistFilter|0%|0%|
+|OzonOrdersWeb.Middleware.OzonIpWhitelistFilter|88.1%|76.1%|
 |OzonOrdersWeb.Middleware.SecurityHeadersMiddleware|0%||
 |OzonOrdersWeb.Middleware.UserHistoryMiddleware|0%|0%|
 |OzonOrdersWeb.Middleware.UserScopeInitializerMiddleware|0%|0%|
@@ -1286,6 +1286,7 @@
 |OzonOrdersWeb.WebServices.JobLogs.JobLogsChannelBadgeDto|0%||
 |OzonOrdersWeb.WebServices.JobLogs.JobLogsGridDefinitions|0%||
 |OzonOrdersWeb.WebServices.JobLogs.JobLogsOrderSearchBadgeDto|0%||
+|OzonOrdersWeb.WebServices.JobLogs.JobLogsSystemAlertDto|0%||
 |OzonOrdersWeb.WebServices.JobLogs.ServerDiagnosticsService|0%|0%|
 |OzonOrdersWeb.WebServices.JobLogs.ServerDiagnosticsSnapshot|0%||
 |OzonOrdersWeb.WebServices.Journals.JournalGridDefinitions|0%||
@@ -1306,7 +1307,7 @@
 |OzonOrdersWeb.WebServices.Orders.Grid.AgGridSortModelItem|100%||
 |OzonOrdersWeb.WebServices.Orders.Grid.OrderGridExtraExpenseDto|0%||
 |OzonOrdersWeb.WebServices.Orders.Grid.OrderGridRowDto|96.6%||
-|OzonOrdersWeb.WebServices.Orders.Grid.OrderGridRowMapper|85.4%|67.8%|
+|OzonOrdersWeb.WebServices.Orders.Grid.OrderGridRowMapper|85.5%|67.8%|
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridChangesRequest|0%||
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridChangesResult|0%||
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridChangesService|18.3%|30%|
@@ -1333,13 +1334,16 @@
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridOrderCardDto|0%||
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridOrderCardService|0%|0%|
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridQueryService|0%|0%|
+|OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridRefreshStatusesRequest|0%||
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridRowHydrator|0%|0%|
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridScopedQuery|0%|0%|
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridSidebarPresetDto|66.6%||
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridSidebarPresetsService|41.3%|67.1%|
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridSorting|95.7%|71.4%|
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridStatusHistoryItemDto|0%||
-|OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridUserContext|0%||
+|OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridStatusRefreshResult|100%||
+|OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridStatusRefreshService|95%|75%|
+|OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridUserContext|100%||
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridUserSettingsService|91.8%|84.6%|
 |OzonOrdersWeb.WebServices.Orders.OrderControlCandidateStatusSynchronizer|0%|0%|
 |OzonOrdersWeb.WebServices.Orders.OrderCreateFormService|0%|0%|
@@ -1352,8 +1356,9 @@
 |OzonOrdersWeb.WebServices.Orders.OrderFilterListsViewDataApplicator|0%|0%|
 |OzonOrdersWeb.WebServices.Orders.OrderListFieldReadAccessBuilder|0%|0%|
 |OzonOrdersWeb.WebServices.Orders.OrderReturnInfoService|0%|0%|
+|OzonOrdersWeb.WebServices.Orders.OrdersClientStatusReconcileJob|0%|0%|
 |OzonOrdersWeb.WebServices.Orders.OrdersClientStatusRefreshJob|0%|0%|
-|OzonOrdersWeb.WebServices.Orders.OrdersClientStatusSyncResult|0%||
+|OzonOrdersWeb.WebServices.Orders.OrdersClientStatusSyncResult|100%||
 |OzonOrdersWeb.WebServices.Orders.OrdersClientStatusSyncService|0%|0%|
 |OzonOrdersWeb.WebServices.Orders.OrdersIndexClientStatusRefreshService|0%|0%|
 |OzonOrdersWeb.WebServices.Orders.OrdersIndexPageDetailsService|0%|0%|
@@ -1367,6 +1372,7 @@
 |OzonOrdersWeb.WebServices.Orders.OrdersIndexViewModelEnricher|0%|0%|
 |OzonOrdersWeb.WebServices.Orders.OrdersIndexViewModelEnrichRequest|0%||
 |OzonOrdersWeb.WebServices.Orders.OrdersIndexViewModelEnrichResult|0%||
+|OzonOrdersWeb.WebServices.Orders.OrdersStatusSyncHealthStore|94.1%|91.6%|
 |OzonOrdersWeb.WebServices.Orders.OrderSupplierStateInfoService|88.5%|36.9%|
 |OzonOrdersWeb.WebServices.OrderSearch.OrderSearchDriftPrometheusReporter|0%||
 |OzonOrdersWeb.WebServices.Sidebar.NavigationPageRow|58.3%||
@@ -1473,11 +1479,11 @@
 |TreeGrouping.Web.Models.TranslationRequest|0%||
 
 </details>
-<details><summary>OzonRepositories - 1.4%</summary>
+<details><summary>OzonRepositories - 1.3%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**OzonRepositories**|**1.4%**|**17.4%**|
+|**OzonRepositories**|**1.3%**|**17.4%**|
 |ColumnMappingExcel|0%||
 |ExcelMappingRepository|0%|0%|
 |OzonOrdersWeb.Areas.OzonCards.ViewModels.ExcelMappingRequest|0%||
@@ -1550,6 +1556,7 @@
 |OzonRepositories.Migrations.AddApiSupplierDisplayName|0%||
 |OzonRepositories.Migrations.AddBitrixStockReportTables|0%||
 |OzonRepositories.Migrations.AddNikeiCart|0%||
+|OzonRepositories.Migrations.AddOrderScanit|0%||
 |OzonRepositories.Migrations.AddOrderSearchSyncCursor|0%||
 |OzonRepositories.Migrations.AddOrdersGridUserSettings|0%||
 |OzonRepositories.Migrations.AddOrdersGridUserSettingsVersion|0%||
@@ -1575,11 +1582,11 @@
 |Services.DataServices.ExcelMapping.ExcludedBitrixWarehouseRepository|0%||
 
 </details>
-<details><summary>Services - 38.8%</summary>
+<details><summary>Services - 38.9%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**Services**|**38.8%**|**34.3%**|
+|**Services**|**38.9%**|**34.4%**|
 |AppRepository.ApiServices.OzonApi.Filters.Chat|0%||
 |AppRepository.ApiServices.OzonApi.Filters.ChatFilter|0%||
 |AppRepository.ApiServices.OzonApi.Filters.ChatHistoryRequest|0%||
@@ -1998,7 +2005,7 @@
 |Services.ApiServices.OzonApi.AssemblyListProgress|0%||
 |Services.ApiServices.OzonApi.AssemblyListResult|0%||
 |Services.ApiServices.OzonApi.AssemblyListRunRepository|19.2%|29.4%|
-|Services.ApiServices.OzonApi.AssemblyListService|6.7%|10%|
+|Services.ApiServices.OzonApi.AssemblyListService|6.7%|10.5%|
 |Services.ApiServices.OzonApi.Filters.AwaitingDeliveryRequest|0%||
 |Services.ApiServices.OzonApi.Filters.AwaitingDeliveryResponse|0%||
 |Services.ApiServices.OzonApi.Filters.Company|0%||
@@ -2051,7 +2058,6 @@
 |Services.ApiServices.OzonApi.Filters.FirstMileType|0%||
 |Services.ApiServices.OzonApi.Filters.OrderCancelCheckRequest|0%||
 |Services.ApiServices.OzonApi.Filters.OrderCancelCheckResponse|0%||
-|Services.ApiServices.OzonApi.Filters.OrdersLableRequest|0%||
 |Services.ApiServices.OzonApi.Filters.OzonActionsProductsRequest|0%||
 |Services.ApiServices.OzonApi.Filters.OzonActionsProductsResponse|0%||
 |Services.ApiServices.OzonApi.Filters.OzonActionsProductsResult|0%||
@@ -2063,12 +2069,12 @@
 |Services.ApiServices.OzonApi.Filters.OzonPromoStatusDto|0%||
 |Services.ApiServices.OzonApi.Filters.OzonReturn|0%||
 |Services.ApiServices.OzonApi.Filters.PackageLabelCreateRequest|0%||
-|Services.ApiServices.OzonApi.Filters.PackageLabelCreateResponse|0%||
-|Services.ApiServices.OzonApi.Filters.PackageLabelCreateResult|0%||
+|Services.ApiServices.OzonApi.Filters.PackageLabelCreateResponse|100%|100%|
+|Services.ApiServices.OzonApi.Filters.PackageLabelError|0%||
 |Services.ApiServices.OzonApi.Filters.PackageLabelGetRequest|0%||
-|Services.ApiServices.OzonApi.Filters.PackageLabelGetResponse|50%||
-|Services.ApiServices.OzonApi.Filters.PackageLabelGetResult|83.3%||
-|Services.ApiServices.OzonApi.Filters.PackageLabelTask|0%||
+|Services.ApiServices.OzonApi.Filters.PackageLabelGetResponse|100%||
+|Services.ApiServices.OzonApi.Filters.PackageLabelStatus|75%||
+|Services.ApiServices.OzonApi.Filters.PackageLabelTask|100%||
 |Services.ApiServices.OzonApi.Filters.PostingCancelInfo|0%||
 |Services.ApiServices.OzonApi.Filters.PostingGroup|0%||
 |Services.ApiServices.OzonApi.Filters.PostingsReportRequest|0%||
@@ -2147,12 +2153,12 @@
 |Services.ApiServices.OzonApi.Filters.WarehouseStockReportRequest|0%||
 |Services.ApiServices.OzonApi.GenerationRequest|0%||
 |Services.ApiServices.OzonApi.OzonApiClient|49.3%|51.3%|
-|Services.ApiServices.OzonApi.OzonApiDataManager|30.8%|20.7%|
+|Services.ApiServices.OzonApi.OzonApiDataManager|31%|20.7%|
 |Services.ApiServices.OzonApi.OzonCancelExecutionResult|0%||
 |Services.ApiServices.OzonApi.OzonCancelFormRequest|100%||
 |Services.ApiServices.OzonApi.OzonCancelReasonOption|66.6%||
 |Services.ApiServices.OzonApi.OzonCancelSuccessEntry|100%||
-|Services.ApiServices.OzonApi.OzonJsonDataBuilder|21.5%|9.4%|
+|Services.ApiServices.OzonApi.OzonJsonDataBuilder|21%|9.1%|
 |Services.ApiServices.OzonApi.OzonOrderCancellationService|13.7%|15.4%|
 |Services.ApiServices.OzonApi.OzonOrderCancelReasonsInfo|75%|100%|
 |Services.ApiServices.OzonApi.OzonReportCodeParsing|100%|100%|
@@ -2160,7 +2166,7 @@
 |Services.ApiServices.OzonApi.OzonReportDownloadHelper|80.8%|84.3%|
 |Services.ApiServices.OzonApi.OzonReportInfoParsing|100%|100%|
 |Services.ApiServices.OzonApi.OzonSplitPostingMapper|82.3%|60.5%|
-|Services.ApiServices.OzonApi.PackageLabelPollingHelper|69%|48.6%|
+|Services.ApiServices.OzonApi.PackageLabelPollingHelper|70.1%|48.6%|
 |Services.ApiServices.OzonApi.PackageLabelPollResult|100%||
 |Services.ApiServices.ProfitLigaApi.ProfitLigaApiException|100%||
 |Services.ApiServices.ProfitLigaApi.ProfitLigaCartLine|61.5%||
@@ -2475,7 +2481,7 @@
 |Services.DataServices.OrderRollback.OrderRollbackPreview|100%||
 |Services.DataServices.OrderRollback.OrderRollbackResult|100%||
 |Services.DataServices.OrderRollback.RollbackFieldDef|100%||
-|Services.DataServices.OrdersDataServices|18.9%|18%|
+|Services.DataServices.OrdersDataServices|18.7%|17.8%|
 |Services.DataServices.OrdersFileMetadataDataService|0%||
 |Services.DataServices.OrderShipmentTotalsDataServices|0%||
 |Services.DataServices.OzonChatOrderDataServices|0%|0%|
@@ -2552,7 +2558,7 @@
 |Services.FiltersServices.DataFilterManagers.EtProducerFilterManager|0%|0%|
 |Services.FiltersServices.DataFilterManagers.ExpenseTypeDataFilterManager|0%|0%|
 |Services.FiltersServices.DataFilterManagers.ManufacturerFilterManager|0%||
-|Services.FiltersServices.DataFilterManagers.OrderDataFilterManager|37%|39.8%|
+|Services.FiltersServices.DataFilterManagers.OrderDataFilterManager|37.6%|39.9%|
 |Services.FiltersServices.DataFilterManagers.OzonClientDataFilterManager|0%||
 |Services.FiltersServices.DataFilterManagers.ProductDataFilterManager|0%||
 |Services.FiltersServices.DataFilterManagers.SupplierDataFilterManager|0%|0%|
@@ -2601,6 +2607,7 @@
 |Services.LabelServices.LabelRequest|87.5%|25%|
 |Services.LabelServices.LabelsFolderIndexRefreshJob|100%||
 |Services.LabelServices.LabelStorageOptions|100%||
+|Services.LabelServices.OrderScanitStore|100%|83.3%|
 |Services.LabelServices.OrdersOzonShipService|18%|24.3%|
 |Services.LabelServices.OzonDeliveryMethodHelper|100%|100%|
 |Services.LabelServices.OzonExemplarHelper|97.7%|74%|
@@ -2612,7 +2619,7 @@
 |Services.LabelServices.OzonFbsShipPackageBuilder|100%|100%|
 |Services.LabelServices.OzonLabelOrderEligibility|100%|100%|
 |Services.LabelServices.OzonLabelPrintErrorHelper|72.7%|45%|
-|Services.LabelServices.OzonLabelPrintService|13.7%|10%|
+|Services.LabelServices.OzonLabelPrintService|13.5%|12.2%|
 |Services.LabelServices.OzonLabelSessionStore|100%|93.3%|
 |Services.LabelServices.OzonLabelStatusHelper|100%|100%|
 |Services.LabelServices.OzonOrderSplitConfig|100%|100%|
@@ -2649,7 +2656,7 @@
 |Services.OzonReturnsServices.SignalRReturnsLoadProgress|0%|0%|
 |Services.OzonWebhookServices.Handlers.NewPostingNotificationHandler|72.4%|61.1%|
 |Services.OzonWebhookServices.Handlers.PostingCancelledNotificationHandler|92.5%|81.8%|
-|Services.OzonWebhookServices.Handlers.StateChangedNotificationHandler|96.3%|83.3%|
+|Services.OzonWebhookServices.Handlers.StateChangedNotificationHandler|97.2%|88.2%|
 |Services.OzonWebhookServices.Handlers.WebhookHandlingResult|66.6%||
 |Services.OzonWebhookServices.Models.OzonCancelReason|100%||
 |Services.OzonWebhookServices.Models.OzonChatClosedNotification|100%||
@@ -2674,6 +2681,12 @@
 |Services.OzonWebhookServices.Models.OzonUnknownNotification|100%||
 |Services.OzonWebhookServices.Models.OzonUpdateMessageNotification|100%||
 |Services.OzonWebhookServices.Models.OzonWarehouseStock|100%||
+|Services.OzonWebhookServices.Monitoring.OzonWebhookAvailabilityJob|0%|0%|
+|Services.OzonWebhookServices.Monitoring.OzonWebhookAvailabilityService|33%|47.6%|
+|Services.OzonWebhookServices.Monitoring.OzonWebhookAvailabilitySnapshot|100%|75%|
+|Services.OzonWebhookServices.Monitoring.OzonWebhookAvailabilityStore|75%|100%|
+|Services.OzonWebhookServices.Monitoring.OzonWebhookCabinetState|100%|50%|
+|Services.OzonWebhookServices.Monitoring.OzonWebhookEndpointState|100%|83.3%|
 |Services.OzonWebhookServices.OzonPostingCancellationService|47.7%|27.7%|
 |Services.OzonWebhookServices.OzonWebhookNotificationFactory|98.8%|96.5%|
 |Services.OzonWebhookServices.OzonWebhookService|17.1%|4.6%|
@@ -2701,11 +2714,11 @@
 |Services.ProducerAliases.ProducerBrandAliasService|92.8%|77.7%|
 |Services.ReleasServices.ReleaseManager.ReleaseManager|0%|0%|
 |Services.SearchServices.OrderSearch.OrderChangeNotifier|0%|0%|
-|Services.SearchServices.OrderSearch.OrderElasticsearchService|23.8%|15.5%|
+|Services.SearchServices.OrderSearch.OrderElasticsearchService|24.3%|15.5%|
 |Services.SearchServices.OrderSearch.OrderSearchDiagnosticsService|100%|97.6%|
 |Services.SearchServices.OrderSearch.OrderSearchDiagnosticsSnapshot|100%||
 |Services.SearchServices.OrderSearch.OrderSearchDiagnosticsStore|97.7%|66.6%|
-|Services.SearchServices.OrderSearch.OrderSearchDocument|92.3%||
+|Services.SearchServices.OrderSearch.OrderSearchDocument|92.8%||
 |Services.SearchServices.OrderSearch.OrderSearchDriftChecker|100%|75%|
 |Services.SearchServices.OrderSearch.OrderSearchDriftCheckJob|76.4%|83.3%|
 |Services.SearchServices.OrderSearch.OrderSearchDriftCheckResult|100%||
@@ -2720,7 +2733,7 @@
 |Services.SearchServices.OrderSearch.OrderSearchLookupResult|100%||
 |Services.SearchServices.OrderSearch.OrderSearchQueryEvent|100%||
 |Services.SearchServices.OrderSearch.OrderSearchSyncCheckpoint|100%||
-|Services.SearchServices.OrderSearch.OrderSearchSyncService|88.5%|79.4%|
+|Services.SearchServices.OrderSearch.OrderSearchSyncService|88.6%|79.4%|
 |Services.SignalRServices.JobProgressHub|0%|0%|
 |Services.SignalRServices.NotificationHub|0%|0%|
 |Services.SignalRServices.NotificationService|52.1%|50%|
@@ -2735,7 +2748,7 @@
 |Services.StockSyncServices.WarehouseStockLookupService|100%|91.1%|
 |Services.StockSyncServices.WarehouseStockSnapshotCandidate|100%||
 |Services.StockSyncServices.WarehouseStockSyncJob|91.6%|60%|
-|Services.StockSyncServices.WarehouseStockSyncService|47.6%|46.8%|
+|Services.StockSyncServices.WarehouseStockSyncService|52.3%|49%|
 |Services.SupplierStatusServices.OrderSupplierStateRef|100%||
 |Services.SupplierStatusServices.OrderSupplierStateService|85.8%|51.3%|
 |Services.SupplierStatusServices.OrderSupplierStatusSyncService|100%|100%|
