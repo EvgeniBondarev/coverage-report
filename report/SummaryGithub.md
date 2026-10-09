@@ -3,30 +3,30 @@
 
 |||
 |:---|:---|
-| Generated on: | 10/08/2026 - 08:50:20 |
-| Coverage date: | 10/08/2026 - 08:47:00 - 10/08/2026 - 08:50:04 |
+| Generated on: | 10/09/2026 - 08:54:59 |
+| Coverage date: | 10/09/2026 - 08:51:44 - 10/09/2026 - 08:54:41 |
 | Parser: | MultiReport (2x Cobertura) |
 | Assemblies: | 5 |
-| Classes: | 2888 |
-| Files: | 2023 |
-| **Line coverage:** | 13.4% (48227 of 359624) |
-| Covered lines: | 48227 |
-| Uncovered lines: | 311397 |
-| Coverable lines: | 359624 |
-| Total lines: | 543582 |
-| **Branch coverage:** | 24.5% (22280 of 90608) |
-| Covered branches: | 22280 |
-| Total branches: | 90608 |
+| Classes: | 2937 |
+| Files: | 2041 |
+| **Line coverage:** | 13.4% (49885 of 371794) |
+| Covered lines: | 49885 |
+| Uncovered lines: | 321909 |
+| Coverable lines: | 371794 |
+| Total lines: | 556409 |
+| **Branch coverage:** | 25.2% (23006 of 91293) |
+| Covered branches: | 23006 |
+| Total branches: | 91293 |
 | **Method coverage:** | [Feature is only available for sponsors](https://reportgenerator.io/pro) |
 
 </details>
 
 ## Coverage
-<details><summary>OzonDomains - 62.9%</summary>
+<details><summary>OzonDomains - 65.1%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**OzonDomains**|**62.9%**|**58.1%**|
+|**OzonDomains**|**65.1%**|**62%**|
 |BIblockElementProperty|0%||
 |OzonDomains.DateTimeAbbreviationService|92.8%|100%|
 |OzonDomains.Delivery|100%||
@@ -41,14 +41,14 @@
 |OzonDomains.Models.AppStatus|100%||
 |OzonDomains.Models.ArmtekCartItem|96.1%||
 |OzonDomains.Models.ArmtekCartItemStatus|100%||
-|OzonDomains.Models.ArmtekDeliveryAddressMapping|66.6%||
+|OzonDomains.Models.ArmtekDeliveryAddressMapping|83.3%||
 |OzonDomains.Models.ArmtekOrder|100%||
 |OzonDomains.Models.ArmtekOrderItem|80%||
 |OzonDomains.Models.AssemblyListAccessKey|0%|0%|
 |OzonDomains.Models.AssemblyListRun|0%||
 |OzonDomains.Models.AssemblyListRunItem|0%||
 |OzonDomains.Models.Authorization.AppField|76.9%||
-|OzonDomains.Models.Authorization.AppPage|65%||
+|OzonDomains.Models.Authorization.AppPage|85%||
 |OzonDomains.Models.Authorization.AppRole|83.3%||
 |OzonDomains.Models.Authorization.AuditLogEntry|54.5%||
 |OzonDomains.Models.Authorization.DataScope|90.9%||
@@ -59,13 +59,13 @@
 |OzonDomains.Models.Authorization.UserDataScope|50%||
 |OzonDomains.Models.Authorization.UserFieldOverride|71.4%||
 |OzonDomains.Models.Authorization.UserPageOverride|80%||
-|OzonDomains.Models.BackgroundJobExecution|45.4%||
+|OzonDomains.Models.BackgroundJobExecution|77.2%||
 |OzonDomains.Models.BackgroundJobSchedule|84.6%||
-|OzonDomains.Models.BackgroundJobStep|0%||
+|OzonDomains.Models.BackgroundJobStep|83.3%||
 |OzonDomains.Models.BackgroundOrderMatch|0%||
 |OzonDomains.Models.BackgroundReportLoad|0%||
-|OzonDomains.Models.BackgroundTransactionResult|30%||
-|OzonDomains.Models.BaseStatus|75%|0%|
+|OzonDomains.Models.BackgroundTransactionResult|65%||
+|OzonDomains.Models.BaseStatus|100%|100%|
 |OzonDomains.Models.BergCartItem|95.2%||
 |OzonDomains.Models.BergCartItemStatus|100%||
 |OzonDomains.Models.BergDeliveryAddressMapping|83.3%||
@@ -99,8 +99,8 @@
 |OzonDomains.Models.BitrixStockSavedFilter|0%||
 |OzonDomains.Models.BitrixStockUnarchiveExecution|0%||
 |OzonDomains.Models.BitrixStockUnarchiveItem|0%||
-|OzonDomains.Models.ClientStatus|40%|0%|
-|OzonDomains.Models.ColumnMapping|12.5%|0%|
+|OzonDomains.Models.ClientStatus|100%|100%|
+|OzonDomains.Models.ColumnMapping|100%|100%|
 |OzonDomains.Models.Currency|100%||
 |OzonDomains.Models.DeliveryProvider|100%||
 |OzonDomains.Models.EmailAttachmentInbox|90%||
@@ -108,10 +108,10 @@
 |OzonDomains.Models.EmailMessageInbox|100%||
 |OzonDomains.Models.EmailRoutingJobExecution|20%||
 |OzonDomains.Models.EmailRoutingRule|93.7%||
-|OzonDomains.Models.EtProducer|83.3%||
+|OzonDomains.Models.EtProducer|100%||
 |OzonDomains.Models.ExcludedArticle|0%||
 |OzonDomains.Models.ExcludedBitrixWarehouse|0%||
-|OzonDomains.Models.ExpenseType|0%||
+|OzonDomains.Models.ExpenseType|100%||
 |OzonDomains.Models.Extensions.OrderExtensions|100%|100%|
 |OzonDomains.Models.FavoritPartsCartItem|59%||
 |OzonDomains.Models.FavoritPartsCartItemStatus|0%||
@@ -128,7 +128,7 @@
 |OzonDomains.Models.ForumAutoOrderItem|78.5%||
 |OzonDomains.Models.InterpartsSutCurrency|0%||
 |OzonDomains.Models.InterpartsWarehouseLogin|0%||
-|OzonDomains.Models.Manufacturer|50%||
+|OzonDomains.Models.Manufacturer|100%||
 |OzonDomains.Models.MatchedRowSys.MatchedResult|0%||
 |OzonDomains.Models.MatchedRowSys.MatchedRow|0%|0%|
 |OzonDomains.Models.MatchedRowSys.MatchingColumn|0%||
@@ -137,7 +137,7 @@
 |OzonDomains.Models.MikadoCartItemStatus|100%||
 |OzonDomains.Models.MlAutoCartItem|45.4%||
 |OzonDomains.Models.MlAutoCartItemStatus|0%||
-|OzonDomains.Models.MlAutoDeliveryAddressMapping|0%||
+|OzonDomains.Models.MlAutoDeliveryAddressMapping|75%||
 |OzonDomains.Models.MlAutoOrder|72.7%||
 |OzonDomains.Models.MlAutoOrderItem|63.6%||
 |OzonDomains.Models.MlAutoRuCartItem|100%||
@@ -157,7 +157,7 @@
 |OzonDomains.Models.OneCNomenclatureMap|0%||
 |OzonDomains.Models.OneCProducerAlias|100%||
 |OzonDomains.Models.Order|71.5%|68.8%|
-|OzonDomains.Models.OrderArchive|62.5%||
+|OzonDomains.Models.OrderArchive|100%||
 |OzonDomains.Models.OrderCalculationSnapshot|71.4%||
 |OzonDomains.Models.OrderCarts.Cart.StockItem|0%||
 |OzonDomains.Models.OrderCarts.CartStatus|0%||
@@ -214,11 +214,11 @@
 |OzonDomains.Models.Supplier|81.2%|0%|
 |OzonDomains.Models.SupplierQuotationOffer|88.4%||
 |OzonDomains.Models.SupplierQuotationRequest|77.7%||
-|OzonDomains.Models.SupplierStatuses.OrderSupplierState|93.1%||
+|OzonDomains.Models.SupplierStatuses.OrderSupplierState|86.2%||
 |OzonDomains.Models.SupplierStatuses.OrderSupplierStateHistory|85.7%||
 |OzonDomains.Models.SupplierStatuses.SupplierStatus|100%||
 |OzonDomains.Models.SystemAlertIncident|100%||
-|OzonDomains.Models.SystemMonitoringSignal|66.6%||
+|OzonDomains.Models.SystemMonitoringSignal|100%||
 |OzonDomains.Models.Transaction|88.8%|25%|
 |OzonDomains.Models.TransactionTimeTrackingResult|93.3%||
 |OzonDomains.Models.TransactionTimeTrackingSession|100%||
@@ -252,11 +252,11 @@
 |Services.ApiServices.TecDocApi.Models.SuppliersSchema|0%||
 
 </details>
-<details><summary>OzonOrdersWeb - 21.2%</summary>
+<details><summary>OzonOrdersWeb - 21.4%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**OzonOrdersWeb**|**21.2%**|**14.7%**|
+|**OzonOrdersWeb**|**21.4%**|**15%**|
 |AspNetCoreGeneratedDocument.Areas_Admin_Views__ViewStart|0%||
 |AspNetCoreGeneratedDocument.Areas_Admin_Views_AuditLog_Details|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Admin_Views_AuditLog_Index|0%|0%|
@@ -1097,7 +1097,7 @@
 |OzonOrdersWeb.Filters.SupplierQuotationResultReader|57.1%|35.7%|
 |OzonOrdersWeb.Filters.SupplierWarehouseRestrictionFilter|86.3%|64%|
 |OzonOrdersWeb.HostedServices.HangfireSchedulerWatchdogHostedService|0%|0%|
-|OzonOrdersWeb.HostedServices.HangfireStartupHostedService|4.3%|3.2%|
+|OzonOrdersWeb.HostedServices.HangfireStartupHostedService|4.2%|3.2%|
 |OzonOrdersWeb.HostedServices.OrderSearchStartupHostedService|0%|0%|
 |OzonOrdersWeb.Middleware.ImpersonationMiddleware|0%|0%|
 |OzonOrdersWeb.Middleware.OzonIpWhitelistFilter|88.1%|76.1%|
@@ -1113,13 +1113,14 @@
 |OzonOrdersWeb.Observability.FirstWithoutOrderByDiagnostics|100%|75%|
 |OzonOrdersWeb.Observability.FrontendOutageNoiseClassifier|94.7%|89.7%|
 |OzonOrdersWeb.Observability.HangfireDistributedLockContentionFilter|90%|69%|
+|OzonOrdersWeb.Observability.HangfireFailureTelegramFilter|0%|0%|
 |OzonOrdersWeb.Observability.HangfireObservabilityFilter|62.5%|58.3%|
 |OzonOrdersWeb.Observability.HangfireSafeDistributedLockFilter|92.8%|100%|
-|OzonOrdersWeb.Observability.InfrastructureNoiseLogFilter|96.3%|90.9%|
+|OzonOrdersWeb.Observability.InfrastructureNoiseLogFilter|96.6%|92.8%|
 |OzonOrdersWeb.Observability.InvalidModelStateLoggingFilter|88.3%|75.7%|
 |OzonOrdersWeb.Observability.InvalidModelStatePageFilter|0%|0%|
 |OzonOrdersWeb.Observability.ObservabilityOptions|100%||
-|OzonOrdersWeb.Observability.OutboundRequestLoggingHandler|96.7%|91.6%|
+|OzonOrdersWeb.Observability.OutboundRequestLoggingHandler|96.7%|91.7%|
 |OzonOrdersWeb.Observability.OutboundTransportFailureClassifier|63.3%|57.4%|
 |OzonOrdersWeb.Observability.RequestObservabilityMiddleware|97.2%|91.6%|
 |OzonOrdersWeb.Observability.SafeDistributedLockWrapper|100%|83.3%|
@@ -1266,6 +1267,7 @@
 |OzonOrdersWeb.WebServices.Currency.CurrencyRatesSnapshot|0%||
 |OzonOrdersWeb.WebServices.Currency.CurrencyRatesViewBagService|0%||
 |OzonOrdersWeb.WebServices.Currency.CurrencyRatesViewModelExtensions|0%||
+|OzonOrdersWeb.WebServices.DailySummary.DailyWorkSummaryJob|0%|0%|
 |OzonOrdersWeb.WebServices.Directories.ApiProviderBadge|100%||
 |OzonOrdersWeb.WebServices.Directories.ApiSupplierCatalog|0%|0%|
 |OzonOrdersWeb.WebServices.Directories.ApiSupplierCatalogRow|0%||
@@ -1307,7 +1309,7 @@
 |OzonOrdersWeb.WebServices.Orders.Grid.AgGridExtraFlags|100%||
 |OzonOrdersWeb.WebServices.Orders.Grid.AgGridFilterModelItem|100%||
 |OzonOrdersWeb.WebServices.Orders.Grid.AgGridRequestLimits|100%|81.5%|
-|OzonOrdersWeb.WebServices.Orders.Grid.AgGridRequestMapper|87.2%|60.6%|
+|OzonOrdersWeb.WebServices.Orders.Grid.AgGridRequestMapper|87.3%|60.8%|
 |OzonOrdersWeb.WebServices.Orders.Grid.AgGridSortModelItem|100%||
 |OzonOrdersWeb.WebServices.Orders.Grid.OrderGridExtraExpenseDto|0%||
 |OzonOrdersWeb.WebServices.Orders.Grid.OrderGridProblemDto|100%||
@@ -1321,7 +1323,7 @@
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridComputedFilters|71%|35%|
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridComputedResolver|0%|0%|
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridDataResult|0%||
-|OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridExtraFilters|40.1%|20.7%|
+|OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridExtraFilters|40.7%|20.7%|
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridFacetsRequest|0%||
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridFacetsResult|0%||
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridFacetsService|3.3%|29.4%|
@@ -1331,7 +1333,7 @@
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridFormula|91.1%|80%|
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridFormulaField|100%||
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridFormulaFields|100%|100%|
-|OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridFormulaTranslator|66.2%|48.1%|
+|OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridFormulaTranslator|66.3%|48.1%|
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridGrouping|14.2%|1.3%|
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridHistoryItemDto|0%||
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridMultiValueFilters|17.6%|0%|
@@ -1344,7 +1346,7 @@
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridScopedQuery|0%|0%|
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridSidebarPresetDto|66.6%||
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridSidebarPresetsService|41.3%|67.1%|
-|OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridSorting|95.7%|71.4%|
+|OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridSorting|95.8%|71.4%|
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridStatusHistoryItemDto|0%||
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridStatusRefreshResult|100%||
 |OzonOrdersWeb.WebServices.Orders.Grid.OrdersGridStatusRefreshService|95%|75%|
@@ -1417,14 +1419,23 @@
 |OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertFactory|72.2%|40%|
 |OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertFinding|100%||
 |OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertIds|0%||
-|OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertIncidentStore|91.7%|83.6%|
+|OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertIncidentStore|91.9%|84.2%|
 |OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertLinks|94.7%|100%|
 |OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertOrderIndex|80%|75%|
 |OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertOrderRef|100%|62.5%|
+|OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertPinnedMessageService|87.8%|90.6%|
 |OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertsOptions|98.8%|100%|
+|OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertTelegramNotifier|0%|0%|
 |OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertTransition|100%||
 |OzonOrdersWeb.WebServices.SystemAlerts.SystemMonitoringSignalCleanupJob|0%||
 |OzonOrdersWeb.WebServices.SystemAlerts.SystemMonitoringSignalService|0%|0%|
+|OzonOrdersWeb.WebServices.TransactionJobs.ExecutionDetailsGridData|66.6%||
+|OzonOrdersWeb.WebServices.TransactionJobs.ExecutionDetailsGridRows|66.3%|52.2%|
+|OzonOrdersWeb.WebServices.TransactionJobs.ExecutionDetailsLabel|100%||
+|OzonOrdersWeb.WebServices.TransactionJobs.ExecutionDetailsSummary|75%||
+|OzonOrdersWeb.WebServices.TransactionJobs.ExecutionReportLoadRow|0%||
+|OzonOrdersWeb.WebServices.TransactionJobs.ExecutionResultRow|75%||
+|OzonOrdersWeb.WebServices.TransactionJobs.ExecutionStepRow|100%||
 |OzonOrdersWeb.WebServices.Transactions.Grid.Authorization.TransactionGridAu<br/>thorizeAttribute|13.3%|0%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.AiCommentStep|0%|0%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.ApplyEditsStep|52%|51.8%|
@@ -1446,7 +1457,7 @@
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.ZasylExpensesSnaps<br/>hotStep|0%|0%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.ZeroQuantityPolicy<br/>Step|0%|0%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.TransactionCommitContext|81.8%|50%|
-|OzonOrdersWeb.WebServices.Transactions.Grid.Commit.TransactionCommitService|89.1%|65.6%|
+|OzonOrdersWeb.WebServices.Transactions.Grid.Commit.TransactionCommitService|91.1%|65.6%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.TransactionCommitStepKey<br/>s|100%||
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.TransactionCommitUser|100%||
 |OzonOrdersWeb.WebServices.Transactions.Grid.Contracts.IdName|0%||
@@ -1531,18 +1542,18 @@
 |TreeGrouping.Web.Models.TranslationRequest|0%||
 
 </details>
-<details><summary>OzonRepositories - 1.1%</summary>
+<details><summary>OzonRepositories - 1%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**OzonRepositories**|**1.1%**|**17.4%**|
+|**OzonRepositories**|**1%**|**17.4%**|
 |ColumnMappingExcel|0%||
 |ExcelMappingRepository|0%|0%|
 |OzonOrdersWeb.Areas.OzonCards.ViewModels.ExcelMappingRequest|0%||
 |OzonRepositories.Context.ApplicationDbContext|99.7%|75%|
 |OzonRepositories.Context.ApplicationDbContextFactory|0%|0%|
 |OzonRepositories.Context.BitrixContext|100%||
-|OzonRepositories.Context.Identity.CustomIdentityUser|28.5%||
+|OzonRepositories.Context.Identity.CustomIdentityUser|100%||
 |OzonRepositories.Context.Identity.OzonIdentityOrderContext|100%|100%|
 |OzonRepositories.Context.Identity.OzonIdentityOrderContextFactory|0%|0%|
 |OzonRepositories.Context.JcEtalonContext|100%||
@@ -1567,7 +1578,7 @@
 |OzonRepositories.Data.EmailMessageInboxRepository|46.5%||
 |OzonRepositories.Data.EmailRoutingRuleRepository|30%|50%|
 |OzonRepositories.Data.EtProducerMarketPrefixResolver|22.9%|12.5%|
-|OzonRepositories.Data.EtProducerRepository|2%|0%|
+|OzonRepositories.Data.EtProducerRepository|2.6%|0%|
 |OzonRepositories.Data.ExcludedArticleRepository|0%|0%|
 |OzonRepositories.Data.ExpenseTypeRepository|0%||
 |OzonRepositories.Data.FidStatRepository|0%|0%|
@@ -1576,7 +1587,7 @@
 |OzonRepositories.Data.ManufacturerRepository|0%|0%|
 |OzonRepositories.Data.MatchedResultRepository|0%|0%|
 |OzonRepositories.Data.MatchedRowRepository|0%||
-|OzonRepositories.Data.OrderArchiveRepository|0%||
+|OzonRepositories.Data.OrderArchiveRepository|100%||
 |OzonRepositories.Data.OrderCartRepository|0%|0%|
 |OzonRepositories.Data.OrderExtraExpenseRepository|0%||
 |OzonRepositories.Data.OrderHandoverMatchInfo|100%||
@@ -1599,8 +1610,8 @@
 |OzonRepositories.Data.ShipmentRepository|58.3%|65.3%|
 |OzonRepositories.Data.StatusTransitionHistoryRepository|100%||
 |OzonRepositories.Data.StatusTransitionRepository|17.3%||
-|OzonRepositories.Data.SupplierRepository|28%||
-|OzonRepositories.Data.TransactionRepository|24.8%|40.9%|
+|OzonRepositories.Data.SupplierRepository|100%||
+|OzonRepositories.Data.TransactionRepository|40.1%|40.9%|
 |OzonRepositories.Data.TransactionTimeTrackingResultRepository|21.8%|0%|
 |OzonRepositories.Data.TransactionTimeTrackingSessionRepository|59%||
 |OzonRepositories.Data.WarehouseMappingRepository|35.8%||
@@ -1608,6 +1619,7 @@
 |OzonRepositories.Migrations.AddApiSupplierDisplayName|0%||
 |OzonRepositories.Migrations.AddBitrixStockReportTables|0%||
 |OzonRepositories.Migrations.AddNikeiCart|0%||
+|OzonRepositories.Migrations.AddOrdersArticleIndex|0%||
 |OzonRepositories.Migrations.AddOrderScanit|0%||
 |OzonRepositories.Migrations.AddOrderSearchSyncCursor|0%||
 |OzonRepositories.Migrations.AddOrdersGridUserSettings|0%||
@@ -1638,11 +1650,11 @@
 |Services.DataServices.ExcelMapping.ExcludedBitrixWarehouseRepository|0%||
 
 </details>
-<details><summary>Services - 41%</summary>
+<details><summary>Services - 42.3%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**Services**|**41%**|**36.1%**|
+|**Services**|**42.3%**|**36.9%**|
 |AppRepository.ApiServices.OzonApi.Filters.Chat|0%||
 |AppRepository.ApiServices.OzonApi.Filters.ChatFilter|0%||
 |AppRepository.ApiServices.OzonApi.Filters.ChatHistoryRequest|0%||
@@ -1665,8 +1677,8 @@
 |InterpartsApiConfig|0%||
 |OrderSummaryCache|0%|0%|
 |OServices.FiltersServices.FilterModels.CategoryCommissionFilterModel|0%||
-|OServices.FiltersServices.FilterModels.OrderFilterModel|98.8%|90%|
-|OServices.FiltersServices.FilterModels.ProductFilterModel|0%||
+|OServices.FiltersServices.FilterModels.OrderFilterModel|100%|100%|
+|OServices.FiltersServices.FilterModels.ProductFilterModel|100%||
 |OzonOrdersWeb.ViewModels.OzonClientViewModels.YandexClient|0%||
 |PdfBuilderFactory|0%|0%|
 |PdfService|0%|0%|
@@ -2264,20 +2276,45 @@
 |Services.ApiServices.TecDocApi.TecDocApiClient|13.1%|0%|
 |Services.ApiServices.TecDocApi.TecDocApiUrl|100%|100%|
 |Services.ApiServices.TecDocApi.TecDocDataManager|78.2%||
-|Services.ApiServices.TelegramForwarderApi.Models.BotInfoResponse|0%||
-|Services.ApiServices.TelegramForwarderApi.Models.ForwardRequest|0%||
-|Services.ApiServices.TelegramForwarderApi.Models.ForwardResponse|0%||
-|Services.ApiServices.TelegramForwarderApi.Models.HealthResponse|0%||
-|Services.ApiServices.TelegramForwarderApi.Models.StatusResponse|0%||
-|Services.ApiServices.TelegramForwarderApi.Models.UpdateResponse|0%||
-|Services.ApiServices.TelegramForwarderApi.TelegramForwarderApiClient|12.5%|0%|
-|Services.ApiServices.TelegramForwarderApi.TelegramForwarderApiConfig|0%||
-|Services.ApiServices.TelegramForwarderApi.TelegramForwarderManager|19.3%|0%|
+|Services.ApiServices.TelegramBotApi.DeployChange|100%||
+|Services.ApiServices.TelegramBotApi.DeployChangeParser|100%|85%|
+|Services.ApiServices.TelegramBotApi.DeployCommit|100%||
+|Services.ApiServices.TelegramBotApi.DeployEvent|100%||
+|Services.ApiServices.TelegramBotApi.Models.EditMessageTextRequest|100%||
+|Services.ApiServices.TelegramBotApi.Models.PinChatMessageRequest|0%||
+|Services.ApiServices.TelegramBotApi.Models.SendMessageRequest|100%||
+|Services.ApiServices.TelegramBotApi.Models.SendPhotoRequest|100%||
+|Services.ApiServices.TelegramBotApi.Models.TelegramBotInfo|0%||
+|Services.ApiServices.TelegramBotApi.Models.TelegramChat|0%||
+|Services.ApiServices.TelegramBotApi.Models.TelegramChatInfo|0%||
+|Services.ApiServices.TelegramBotApi.Models.TelegramEnvelope`1|100%||
+|Services.ApiServices.TelegramBotApi.Models.TelegramIncomingMessage|0%||
+|Services.ApiServices.TelegramBotApi.Models.TelegramSentMessage|100%||
+|Services.ApiServices.TelegramBotApi.Models.TelegramUpdate|0%||
+|Services.ApiServices.TelegramBotApi.Models.TelegramUser|0%||
+|Services.ApiServices.TelegramBotApi.Models.UnpinChatMessageRequest|0%||
+|Services.ApiServices.TelegramBotApi.NewOrdersTelegramNotifier|0%|0%|
+|Services.ApiServices.TelegramBotApi.OrdersGridLinks|100%||
+|Services.ApiServices.TelegramBotApi.TelegramAlertItem|100%||
+|Services.ApiServices.TelegramBotApi.TelegramApiResult`1|100%||
+|Services.ApiServices.TelegramBotApi.TelegramBotApiClient|69.2%|57.6%|
+|Services.ApiServices.TelegramBotApi.TelegramBotConfig|100%|83.3%|
+|Services.ApiServices.TelegramBotApi.TelegramMessage|100%||
+|Services.ApiServices.TelegramBotApi.TelegramMessageBuilder|100%|92.1%|
+|Services.ApiServices.TelegramBotApi.TelegramMessageFactory|91.6%|81%|
+|Services.ApiServices.TelegramBotApi.TelegramNewOrderItem|100%||
+|Services.ApiServices.TelegramBotApi.TelegramNotifier|73.4%|45.6%|
+|Services.ApiServices.TelegramBotApi.TelegramOzonStockRow|100%||
+|Services.ApiServices.TelegramBotApi.TelegramPinnedMessage|100%||
+|Services.ApiServices.TelegramBotApi.TelegramRolloutStoreRow|100%||
+|Services.ApiServices.TelegramBotApi.TelegramRolloutSummary|100%||
+|Services.ApiServices.TelegramBotApi.TelegramRoute|100%||
+|Services.ApiServices.TelegramBotApi.TelegramStoreStockRow|100%||
 |Services.ApiServices.TradesoftApi.Models.Response.PreOrderItem|96.5%||
 |Services.ApiServices.YandexApi.Filters.CampaignsRequest|0%||
 |Services.ApiServices.YandexApi.Filters.OrdersRequest|0%||
 |Services.ApiServices.YandexApi.Filters.YandexFilter|0%||
-|Services.ApiServices.YandexApi.YandexApiClient|48.2%|55.8%|
+|Services.ApiServices.YandexApi.YandexApiClient|58.8%|62.5%|
 |Services.ApiServices.YandexApi.YandexDataManager|0%|0%|
 |Services.ApiServices.ZZapApi.ZZapApiException|83.3%||
 |Services.ApiServices.ZZapApi.ZZapBuyerContact|100%||
@@ -2290,13 +2327,13 @@
 |Services.ApiSupplierSettingsServices.ApiSupplierDeliveryWarehouseResolver|100%|88.8%|
 |Services.ApiSupplierSettingsServices.ApiSupplierSettingsService|67.2%|71%|
 |Services.ApiSupplierSettingsServices.ApiSupplierWarehouseService|64.2%|100%|
-|Services.ApiSupplierSettingsServices.ArmtekDeliveryAddressMappingInput|0%||
-|Services.ApiSupplierSettingsServices.ArmtekDeliveryAddressMappingService|33.3%|50%|
+|Services.ApiSupplierSettingsServices.ArmtekDeliveryAddressMappingInput|100%||
+|Services.ApiSupplierSettingsServices.ArmtekDeliveryAddressMappingService|100%|100%|
 |Services.ApiSupplierSettingsServices.ArmtekDeliveryAddressSelection|100%||
 |Services.ApiSupplierSettingsServices.BergDeliveryAddressMappingService|100%|100%|
 |Services.ApiSupplierSettingsServices.BergDeliveryAddressSelection|100%||
-|Services.ApiSupplierSettingsServices.MlAutoDeliveryAddressMappingInput|0%||
-|Services.ApiSupplierSettingsServices.MlAutoDeliveryAddressMappingService|0%|0%|
+|Services.ApiSupplierSettingsServices.MlAutoDeliveryAddressMappingInput|100%||
+|Services.ApiSupplierSettingsServices.MlAutoDeliveryAddressMappingService|100%|100%|
 |Services.ApiSupplierSettingsServices.MlAutoDeliveryAddressSelection|100%||
 |Services.ApiSupplierSettingsServices.MlAutoRuDeliveryAddressMappingInput|0%||
 |Services.ApiSupplierSettingsServices.MlAutoRuDeliveryAddressMappingService|50%|50%|
@@ -2309,13 +2346,13 @@
 |Services.Authorization.AppAuthorizationOptions|100%||
 |Services.Authorization.Dtos.DataScopeRef|100%||
 |Services.Authorization.Dtos.FieldPermissionDto|100%||
-|Services.Authorization.Dtos.MenuItemDto|0%||
+|Services.Authorization.Dtos.MenuItemDto|100%||
 |Services.Authorization.Dtos.PagePermissionDto|100%||
 |Services.Authorization.Dtos.UserPermissionsBundle|100%||
 |Services.Authorization.Services.AuditService|0%|0%|
 |Services.Authorization.Services.CurrentUserScopeProvider|100%|91.1%|
 |Services.Authorization.Services.DataScopeService|100%|100%|
-|Services.Authorization.Services.MenuService|0%|0%|
+|Services.Authorization.Services.MenuService|100%|100%|
 |Services.Authorization.Services.PermissionService|99.6%|94%|
 |Services.Authorization.Services.ScopeFilterValuesService|100%|100%|
 |Services.BackgroundJobsServices.AutomatedTransactionProcessingService|5.9%|8.2%|
@@ -2380,6 +2417,7 @@
 |Services.BitrixStockServices.BitrixStockPushItemDto|0%||
 |Services.BitrixStockServices.BitrixStockPushJobService|0%|0%|
 |Services.BitrixStockServices.BitrixStockPushStartRequest|0%||
+|Services.BitrixStockServices.BitrixStockRolloutTelegramReporter|11.8%|4%|
 |Services.BitrixStockServices.BitrixStockRunContext|100%||
 |Services.BitrixStockServices.BitrixStockRunFileLogger|95.8%|74.3%|
 |Services.BitrixStockServices.BitrixStockRunHttpLoggingHandler|0%|0%|
@@ -2411,7 +2449,7 @@
 |Services.BitrixStockServices.BitrixStockSyncCleanupZeroRequest|0%||
 |Services.BitrixStockServices.BitrixStockSyncCleanupZeroResult|0%||
 |Services.BitrixStockServices.BitrixStockSyncFbsWarehouseBatchLoader|92.7%|84.3%|
-|Services.BitrixStockServices.BitrixStockSyncPipelineOrchestrator|72.6%|40.2%|
+|Services.BitrixStockServices.BitrixStockSyncPipelineOrchestrator|85.7%|57.8%|
 |Services.BitrixStockServices.BitrixStockSyncPreset|40.5%|16.6%|
 |Services.BitrixStockServices.BitrixStockSyncPresetCreateRequest|0%|0%|
 |Services.BitrixStockServices.BitrixStockSyncPresetService|0%|0%|
@@ -2429,7 +2467,7 @@
 |Services.BitrixStockServices.BitrixStockSyncReportPricePushStartRequest|83.3%||
 |Services.BitrixStockServices.BitrixStockSyncReportQuery|64.2%||
 |Services.BitrixStockServices.BitrixStockSyncReportRowPresenter|87.6%|73.2%|
-|Services.BitrixStockServices.BitrixStockSyncReportRunDto|0%||
+|Services.BitrixStockServices.BitrixStockSyncReportRunDto|36.6%||
 |Services.BitrixStockServices.BitrixStockSyncReportRunsPageDto|0%||
 |Services.BitrixStockServices.BitrixStockSyncReportRunsQuery|60%||
 |Services.BitrixStockServices.BitrixStockSyncReportService|1%|0.7%|
@@ -2469,6 +2507,7 @@
 |Services.BitrixStockServices.OzonProductsCatalogMeta|0%||
 |Services.BitrixStockServices.OzonProductsCatalogService|0%|0%|
 |Services.BitrixStockServices.OzonReportFileDto|0%||
+|Services.BitrixStockServices.OzonWarehouseStockQuery|0%|0%|
 |Services.BitrixStockServices.PresetStageSettings|100%||
 |Services.BitrixStockServices.PriceOptimizationInput|100%||
 |Services.BitrixStockServices.PriceOptimizationManager|100%|87%|
@@ -2500,6 +2539,13 @@
 |Services.ChannelTaskServices.ChannelTaskState|100%||
 |Services.ChannelTaskServices.ChannelTaskWorkItem|100%||
 |Services.ChannelTaskServices.TransactionExcelTaskPayload|100%||
+|Services.DailyWorkSummaryServices.DailyDisk|100%||
+|Services.DailyWorkSummaryServices.DailyEmployeeRow|100%||
+|Services.DailyWorkSummaryServices.DailyStockRolloutStats|100%||
+|Services.DailyWorkSummaryServices.DailyTransactionRow|100%||
+|Services.DailyWorkSummaryServices.DailyWorkCount|100%||
+|Services.DailyWorkSummaryServices.DailyWorkSummary|100%||
+|Services.DailyWorkSummaryServices.DailyWorkSummaryService|66%|23.3%|
 |Services.DataServices.AccessProfileDataServices|0%||
 |Services.DataServices.AppStatusDataServices|15.7%||
 |Services.DataServices.BitrixStockSavedFilterDataServices|0%||
@@ -2512,7 +2558,7 @@
 |Services.DataServices.EmailAttachmentProcessingResultDataServices|28.5%||
 |Services.DataServices.EmailMessageInboxDataServices|65%||
 |Services.DataServices.EmailRoutingRuleDataServices|28.5%||
-|Services.DataServices.EtProducerDataServices|0%|0%|
+|Services.DataServices.EtProducerDataServices|6.8%|0%|
 |Services.DataServices.ExcelMapping.ExcelMappingService|0%|0%|
 |Services.DataServices.ExcludedArticleDataServices|0%||
 |Services.DataServices.ExcludedBitrixWarehouseDataServices|0%||
@@ -2522,7 +2568,7 @@
 |Services.DataServices.ManufacturerDataService|0%|0%|
 |Services.DataServices.MatchedResultDataServices|0%||
 |Services.DataServices.MatchedRowDataServices|0%||
-|Services.DataServices.OrderArchiveDataService|0%|0%|
+|Services.DataServices.OrderArchiveDataService|100%|100%|
 |Services.DataServices.OrderCalculationSnapshotService|100%|55.7%|
 |Services.DataServices.OrderCartServices|0%|0%|
 |Services.DataServices.OrderExtraExpenseDataServices|0%|0%|
@@ -2537,7 +2583,7 @@
 |Services.DataServices.OrderRollback.OrderRollbackPreview|100%||
 |Services.DataServices.OrderRollback.OrderRollbackResult|100%||
 |Services.DataServices.OrderRollback.RollbackFieldDef|100%||
-|Services.DataServices.OrdersDataServices|18.7%|17.8%|
+|Services.DataServices.OrdersDataServices|18.9%|17.8%|
 |Services.DataServices.OrdersFileMetadataDataService|0%||
 |Services.DataServices.OrderShipmentTotalsDataServices|0%||
 |Services.DataServices.OzonChatOrderDataServices|0%|0%|
@@ -2552,10 +2598,10 @@
 |Services.DataServices.StatusTransitionDataServices|23.8%||
 |Services.DataServices.StatusTransitionHistoryService|100%|94.4%|
 |Services.DataServices.StockDataService|0%|0%|
-|Services.DataServices.SupplierDataServices|0%|0%|
-|Services.DataServices.TransactionDataServices|21.7%||
+|Services.DataServices.SupplierDataServices|100%|94.4%|
+|Services.DataServices.TransactionDataServices|26%||
 |Services.DataServices.TransactionTimeTrackingDataServices|75%||
-|Services.DataServices.TransactionTypeSettingDataServices|72.7%|66.6%|
+|Services.DataServices.TransactionTypeSettingDataServices|100%|100%|
 |Services.DataServices.TriggerSelfHealing.MySqlTriggerReloader|0%|0%|
 |Services.DataServices.TriggerSelfHealing.TriggerBodyErrorHealer|100%|95%|
 |Services.DataServices.TriggerSelfHealing.TriggerHealResult|100%||
@@ -2608,33 +2654,33 @@
 |Services.FileStorageServices.ServerFileStorageOptions|100%||
 |Services.FileStorageServices.ServerFileUpload|100%||
 |Services.FiltersServices.DataFilter`1|100%|93.3%|
-|Services.FiltersServices.DataFilterManagers.AppStatusDataFilterManager|0%||
-|Services.FiltersServices.DataFilterManagers.ClientStatusDataFilterManager|0%|0%|
-|Services.FiltersServices.DataFilterManagers.ColumnMappingDataFilterManager|0%||
-|Services.FiltersServices.DataFilterManagers.EtProducerFilterManager|0%|0%|
-|Services.FiltersServices.DataFilterManagers.ExpenseTypeDataFilterManager|0%|0%|
-|Services.FiltersServices.DataFilterManagers.ManufacturerFilterManager|0%||
-|Services.FiltersServices.DataFilterManagers.OrderDataFilterManager|37.6%|39.9%|
-|Services.FiltersServices.DataFilterManagers.OzonClientDataFilterManager|0%||
-|Services.FiltersServices.DataFilterManagers.ProductDataFilterManager|0%||
+|Services.FiltersServices.DataFilterManagers.AppStatusDataFilterManager|100%||
+|Services.FiltersServices.DataFilterManagers.ClientStatusDataFilterManager|100%|100%|
+|Services.FiltersServices.DataFilterManagers.ColumnMappingDataFilterManager|100%||
+|Services.FiltersServices.DataFilterManagers.EtProducerFilterManager|100%|100%|
+|Services.FiltersServices.DataFilterManagers.ExpenseTypeDataFilterManager|100%|100%|
+|Services.FiltersServices.DataFilterManagers.ManufacturerFilterManager|100%||
+|Services.FiltersServices.DataFilterManagers.OrderDataFilterManager|37.5%|39.9%|
+|Services.FiltersServices.DataFilterManagers.OzonClientDataFilterManager|100%||
+|Services.FiltersServices.DataFilterManagers.ProductDataFilterManager|100%||
 |Services.FiltersServices.DataFilterManagers.SupplierDataFilterManager|100%|100%|
-|Services.FiltersServices.DataFilterManagers.TransactionDataFilterManager|0%|0%|
-|Services.FiltersServices.DataFilterManagers.UserFilterManager|0%|0%|
-|Services.FiltersServices.DataFilterManagers.WarehouseDataFilterManager|0%|0%|
-|Services.FiltersServices.FilterModels.AppStatusFilterModel|0%||
-|Services.FiltersServices.FilterModels.ClientStatusFilterModel|0%||
-|Services.FiltersServices.FilterModels.ColumnMappingFilterModel|0%||
-|Services.FiltersServices.FilterModels.EtProducerFilterModel|0%||
-|Services.FiltersServices.FilterModels.ExpenseTypeFilterModel|0%||
-|Services.FiltersServices.FilterModels.ManufacturerFilterModel|0%||
-|Services.FiltersServices.FilterModels.OzonClientFilterModel|0%|0%|
+|Services.FiltersServices.DataFilterManagers.TransactionDataFilterManager|94.5%|92.8%|
+|Services.FiltersServices.DataFilterManagers.UserFilterManager|100%|100%|
+|Services.FiltersServices.DataFilterManagers.WarehouseDataFilterManager|100%|100%|
+|Services.FiltersServices.FilterModels.AppStatusFilterModel|100%||
+|Services.FiltersServices.FilterModels.ClientStatusFilterModel|100%||
+|Services.FiltersServices.FilterModels.ColumnMappingFilterModel|100%||
+|Services.FiltersServices.FilterModels.EtProducerFilterModel|100%||
+|Services.FiltersServices.FilterModels.ExpenseTypeFilterModel|100%||
+|Services.FiltersServices.FilterModels.ManufacturerFilterModel|100%||
+|Services.FiltersServices.FilterModels.OzonClientFilterModel|100%|100%|
 |Services.FiltersServices.FilterModels.SupplierFilterModel|95.2%|100%|
-|Services.FiltersServices.FilterModels.TransactionFilterModel|0%|0%|
-|Services.FiltersServices.FilterModels.UserFilterModel|0%|0%|
-|Services.FiltersServices.FilterModels.WarehouseFilterModel|0%||
+|Services.FiltersServices.FilterModels.TransactionFilterModel|100%|100%|
+|Services.FiltersServices.FilterModels.UserFilterModel|100%|100%|
+|Services.FiltersServices.FilterModels.WarehouseFilterModel|100%||
 |Services.FiltersServices.FilterModels.WarehouseMappingFilterModel|0%||
 |Services.FiltersServices.QueryableDataFilter`1|100%|95.8%|
-|Services.FiltersServices.SortManagers.OrderSortManager|100%|100%|
+|Services.FiltersServices.SortManagers.OrderSortManager|98.8%|98.4%|
 |Services.HangfireService.EmailAttachmentRoutingJob|0%|0%|
 |Services.HangfireService.HangfireDistributedLockHelper|95.8%|91.6%|
 |Services.HangfireService.HangfireJobClientExtensions|0%|0%|
@@ -2655,7 +2701,7 @@
 |Services.ImportProductPricesServices.PriceDumpingCandidate|100%||
 |Services.ImportProductPricesServices.PriceDumpingCandidatePreview|100%||
 |Services.ImportProductPricesServices.PriceDumpingPreview|100%||
-|Services.LabelServices.ArticleLabelService|89.6%|69.4%|
+|Services.LabelServices.ArticleLabelService|91.3%|72%|
 |Services.LabelServices.BarcodeLabelService|100%|75%|
 |Services.LabelServices.DropboxToServerFileStorageMigrationJob|0%|0%|
 |Services.LabelServices.LabelExistenceService|87.1%|91.6%|
@@ -2684,7 +2730,7 @@
 |Services.OneCServices.OneCPostingSummary|100%||
 |Services.OneCServices.OneCPostingSummaryBuilder|99.2%|89.3%|
 |Services.OrderControlServices.OrderControlEvaluationJob|0%|0%|
-|Services.OrderControlServices.OrderControlService|76.6%|65%|
+|Services.OrderControlServices.OrderControlService|78.7%|65.9%|
 |Services.OrderControlServices.OrderDeliveryStatusSynchronizer|96%|63.6%|
 |Services.OrderDailySummaryServices.MissingSystemStatusOrder|0%||
 |Services.OrderDailySummaryServices.OrderDailySummary|100%||
@@ -2705,7 +2751,7 @@
 |Services.OzonReturnsServices.LoadOzonReturnsJob|0%|0%|
 |Services.OzonReturnsServices.NullReturnsLoadProgress|0%||
 |Services.OzonReturnsServices.OrderReturnSyncRunStore|90.5%|93.7%|
-|Services.OzonReturnsServices.OzonReturnsSyncService|7.1%|8.1%|
+|Services.OzonReturnsServices.OzonReturnsSyncService|7.6%|8.3%|
 |Services.OzonReturnsServices.ReturnsIncrementalWindow|100%|100%|
 |Services.OzonReturnsServices.ReturnsLoadOutcome|0%||
 |Services.OzonReturnsServices.ReturnsRunSummary|96.8%|100%|
@@ -2738,14 +2784,14 @@
 |Services.OzonWebhookServices.Models.OzonUpdateMessageNotification|100%||
 |Services.OzonWebhookServices.Models.OzonWarehouseStock|100%||
 |Services.OzonWebhookServices.Monitoring.OzonWebhookAvailabilityJob|0%|0%|
-|Services.OzonWebhookServices.Monitoring.OzonWebhookAvailabilityService|30%|43.4%|
+|Services.OzonWebhookServices.Monitoring.OzonWebhookAvailabilityService|34.1%|48%|
 |Services.OzonWebhookServices.Monitoring.OzonWebhookAvailabilitySnapshot|97.1%|88.2%|
 |Services.OzonWebhookServices.Monitoring.OzonWebhookAvailabilityStore|52.9%|50%|
 |Services.OzonWebhookServices.Monitoring.OzonWebhookCabinetState|100%|50%|
 |Services.OzonWebhookServices.Monitoring.OzonWebhookEndpointState|100%|80%|
 |Services.OzonWebhookServices.OzonPostingCancellationService|47.7%|27.7%|
 |Services.OzonWebhookServices.OzonWebhookNotificationFactory|98.8%|96.5%|
-|Services.OzonWebhookServices.OzonWebhookService|17.1%|4.6%|
+|Services.OzonWebhookServices.OzonWebhookService|13.8%|5.4%|
 |Services.ParserServices.CsvUrlParser|5%|0%|
 |Services.ParserServices.DropboxOrderFolderNaming|58.6%|60%|
 |Services.ParserServices.FielParsers.ExcelExporter|63.2%|34.8%|
@@ -2806,7 +2852,7 @@
 |Services.StockSyncServices.WarehouseStockSyncJob|91.6%|60%|
 |Services.StockSyncServices.WarehouseStockSyncService|51.7%|46.6%|
 |Services.SupplierStatusServices.OrderSupplierStateRef|100%||
-|Services.SupplierStatusServices.OrderSupplierStateService|85.8%|51.3%|
+|Services.SupplierStatusServices.OrderSupplierStateService|85.8%|49.3%|
 |Services.SupplierStatusServices.OrderSupplierStatusSyncService|100%|90%|
 |Services.SupplierStatusServices.Providers.ArmtekBySupplierStatusProvider|0%||
 |Services.SupplierStatusServices.Providers.ArmtekSupplierStatusProvider|100%||
@@ -2844,7 +2890,7 @@
 |Services.SupplierStatusServices.SupplierVerificationRow|86.6%||
 |Services.SupplierStatusServices.SupplierVerificationStatus|10%|37.5%|
 |Services.SupplierStatusServices.SupplierVerificationSummary|91.6%|66.6%|
-|Services.SystemMonitoringServices.SystemMonitoringSignalWriter|0%|0%|
+|Services.SystemMonitoringServices.SystemMonitoringSignalWriter|100%|100%|
 |Services.TransactionCommentAi.TransactionCommentAiBatchSummary|100%||
 |Services.TransactionCommentAi.TransactionCommentAiConstants|100%|50%|
 |Services.TransactionCommentAi.TransactionCommentAiContext|100%||
@@ -2865,7 +2911,7 @@
 |Services.TransactionUtilsServices.TransactionCommentMetaItem|100%||
 |Services.TransactionUtilsServices.TransactionCommentNormalizer|100%|100%|
 |Services.TransactionUtilsServices.TransactionManager|100%|100%|
-|Services.TransactionUtilsServices.TransactionTimeTrackingService|100%|100%|
+|Services.TransactionUtilsServices.TransactionTimeTrackingService|100%|95.4%|
 |Services.TransactionUtilsServices.WarehouseMappingSupplierResolver|100%|80.7%|
 |Services.YandexServices.YandexOrderStatusSyncResult|100%||
 |Services.YandexServices.YandexOrderStatusSyncService|97.9%|80.9%|
@@ -2876,7 +2922,7 @@
 |SlqStudio.Application.Services.EmailService.Models.SmtpSettings|0%||
 |StockItemForUpdate|0%||
 |SupplierResponse|75%||
-|System.Text.RegularExpressions.Generated|42.2%|37.3%|
+|System.Text.RegularExpressions.Generated|43%|37.7%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__AppStatusRegex_16|74.6%|67.7%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__ArticleRegex_18|20.8%|15.9%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__BareArticleTokenRegex_3|79.3%|67.3%|
@@ -2896,11 +2942,12 @@
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__LastOneMonthRegex_34|70.5%|54.2%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__LastWeeksRegex_36|20.3%|14.4%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__ManufacturerRegex_20|19.2%|13.2%|
+|System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__MergePullRequest_47|86.7%|83.3%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__MinQuantityPiecesRegex_1<br/>0|38.4%|27.6%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__MinQuantityRegex_9|16.3%|13.2%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__NaKlienteRegex_22|71.1%|63.7%|
-|System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__NonAlphanumeric_48|100%|100%|
-|System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__OfferKeyPattern_47|86.9%|71.4%|
+|System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__NonAlphanumeric_51|100%|100%|
+|System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__OfferKeyPattern_50|86.9%|71.4%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__OrderIdHashRegex_6|0%|0%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__OrderIdWordRegex_7|0%|0%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__OzonClientRegex_12|42.7%|36.8%|
@@ -2915,10 +2962,12 @@
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__PurchasePriceMaxRegex_32|23.5%|18.3%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__QuantityRegex_46|84.4%|72.3%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__ShipmentNumberRegex_4|0%|0%|
+|System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__SquashSuffix_48|75.5%|60.8%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__StatusNameRegex_41|87%|80.7%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__SupplierNameRegex_40|86.2%|80.1%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__SupplierOrderNumberRegex<br/>_5|0%|0%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__SupplierRegex_13|53.6%|52.5%|
+|System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__TechnicalMerge_49|59.7%|38%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__TemporalSuffixRegex_39|33.5%|33.7%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__TransactionUserRegex_11|9.9%|6.5%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__WarehouseNameRegex_42|80.8%|73.1%|
