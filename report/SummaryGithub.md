@@ -3,20 +3,20 @@
 
 |||
 |:---|:---|
-| Generated on: | 10/09/2026 - 08:54:59 |
-| Coverage date: | 10/09/2026 - 08:51:44 - 10/09/2026 - 08:54:41 |
+| Generated on: | 10/10/2026 - 08:29:49 |
+| Coverage date: | 10/10/2026 - 08:26:02 - 10/10/2026 - 08:29:30 |
 | Parser: | MultiReport (2x Cobertura) |
 | Assemblies: | 5 |
-| Classes: | 2937 |
-| Files: | 2041 |
-| **Line coverage:** | 13.4% (49885 of 371794) |
-| Covered lines: | 49885 |
-| Uncovered lines: | 321909 |
-| Coverable lines: | 371794 |
-| Total lines: | 556409 |
-| **Branch coverage:** | 25.2% (23006 of 91293) |
-| Covered branches: | 23006 |
-| Total branches: | 91293 |
+| Classes: | 2939 |
+| Files: | 2043 |
+| **Line coverage:** | 13.4% (49985 of 371978) |
+| Covered lines: | 49985 |
+| Uncovered lines: | 321993 |
+| Coverable lines: | 371978 |
+| Total lines: | 556737 |
+| **Branch coverage:** | 25.2% (23068 of 91419) |
+| Covered branches: | 23068 |
+| Total branches: | 91419 |
 | **Method coverage:** | [Feature is only available for sponsors](https://reportgenerator.io/pro) |
 
 </details>
@@ -1408,7 +1408,7 @@
 |OzonOrdersWeb.WebServices.SystemAlerts.OzonOrderRelevance|100%|100%|
 |OzonOrdersWeb.WebServices.SystemAlerts.OzonStockApplyAlertSource|64.1%|83.3%|
 |OzonOrdersWeb.WebServices.SystemAlerts.OzonSystemAlertSource|0%|0%|
-|OzonOrdersWeb.WebServices.SystemAlerts.PassiveSystemAlertSource|82.6%|55.7%|
+|OzonOrdersWeb.WebServices.SystemAlerts.PassiveSystemAlertSource|83.8%|70.1%|
 |OzonOrdersWeb.WebServices.SystemAlerts.StockAndOneCSystemAlertSource|84.1%|65.7%|
 |OzonOrdersWeb.WebServices.SystemAlerts.StoredOrderRef|100%||
 |OzonOrdersWeb.WebServices.SystemAlerts.SupplierOrdersSystemAlertSource|100%|78.1%|
@@ -1578,7 +1578,7 @@
 |OzonRepositories.Data.EmailMessageInboxRepository|46.5%||
 |OzonRepositories.Data.EmailRoutingRuleRepository|30%|50%|
 |OzonRepositories.Data.EtProducerMarketPrefixResolver|22.9%|12.5%|
-|OzonRepositories.Data.EtProducerRepository|2.6%|0%|
+|OzonRepositories.Data.EtProducerRepository|2.5%|0%|
 |OzonRepositories.Data.ExcludedArticleRepository|0%|0%|
 |OzonRepositories.Data.ExpenseTypeRepository|0%||
 |OzonRepositories.Data.FidStatRepository|0%|0%|
@@ -1760,7 +1760,7 @@
 |Services.ApiServices._1CApi.Models.OneCStockLine|75%|0%|
 |Services.ApiServices._1CApi.Models.TreatyResponse|0%||
 |Services.ApiServices._1CApi.Models.WarehouseResponse|0%||
-|Services.ApiServices._1CApi.OData|42.1%|47.2%|
+|Services.ApiServices._1CApi.OData|42.6%|47.4%|
 |Services.ApiServices._1CApi.OData.Models.ODataContract|0%||
 |Services.ApiServices._1CApi.OData.Models.ODataContractFull|0%||
 |Services.ApiServices._1CApi.OData.Models.ODataCounterparty|100%||
@@ -1820,7 +1820,7 @@
 |Services.ApiServices._1CApi.OData.OneCNomenclatureMapSyncJob|0%|0%|
 |Services.ApiServices._1CApi.OData.OneCNomenclatureOrigin|100%||
 |Services.ApiServices._1CApi.OData.OneCNomenclatureResult|100%||
-|Services.ApiServices._1CApi.OData.OneCNomenclatureService|92.2%|80.2%|
+|Services.ApiServices._1CApi.OData.OneCNomenclatureService|91.8%|79.5%|
 |Services.ApiServices._1CApi.OData.OneCODataConfig|100%||
 |Services.ApiServices._1CApi.OData.OneCODataErrorFormatter|63.6%|63.6%|
 |Services.ApiServices._1CApi.OData.OneCODataHttpClient|88%|72.4%|
@@ -1828,10 +1828,10 @@
 |Services.ApiServices._1CApi.OData.OneCProducerAliasEntry|100%||
 |Services.ApiServices._1CApi.OData.OneCRegisterEndpoint|100%|100%|
 |Services.ApiServices._1CApi.OneCExpenseManager|0%|0%|
-|Services.ApiServices._1CApi.OneCReceiptManager|2.8%|4.2%|
+|Services.ApiServices._1CApi.OneCReceiptManager|2.8%|4%|
 |Services.ApiServices._1CApi.OneCReceiptWarehouseHistoryResolver|24.4%|50%|
 |Services.ApiServices._1CApi.OneCReceiptWarehouseSuggestion|80%||
-|Services.ApiServices._1CApi.OneCTransferManager|8.1%|10.6%|
+|Services.ApiServices._1CApi.OneCTransferManager|8%|10.5%|
 |Services.ApiServices._1CApi.Stock.LastReceiptInfo|83.3%||
 |Services.ApiServices._1CApi.Stock.OneCStockAvailabilityService|100%|85%|
 |Services.ApiServices._1CApi.Stock.OneCWarehouseStockExcelExporter|97%|65%|
@@ -1861,10 +1861,10 @@
 |Services.ApiServices.ArmtekApi.ArmtekConfig|100%||
 |Services.ApiServices.ArmtekApi.ArmtekDailyQuotaGuard|73.6%|91.6%|
 |Services.ApiServices.ArmtekApi.ArmtekDataManager|99.2%|70.7%|
-|Services.ApiServices.ArmtekApi.ArmtekHttpClient|74.8%|52.3%|
+|Services.ApiServices.ArmtekApi.ArmtekHttpClient|75.3%|55.4%|
 |Services.ApiServices.ArmtekApi.ArmtekOrderRequestItem|100%||
 |Services.ApiServices.ArmtekApi.ArmtekPriceCurrencyConverter|100%||
-|Services.ApiServices.ArmtekApi.ArmtekStoreDirectory|63.2%|26.9%|
+|Services.ApiServices.ArmtekApi.ArmtekStoreDirectory|63.6%|25%|
 |Services.ApiServices.ArmtekApi.ArmtekStoreDirectoryHostedService|0%|0%|
 |Services.ApiServices.ArmtekApi.ArmtekSupplierConnector|0%|0%|
 |Services.ApiServices.ArmtekApi.Converters.ArmtekEmptyStringAsListConverter`<br/>1|50%|66.6%|
@@ -2010,9 +2010,10 @@
 |Services.ApiServices.MlAutoApi.MlAutoApiResponse|100%||
 |Services.ApiServices.MlAutoApi.MlAutoConfig|100%||
 |Services.ApiServices.MlAutoApi.MlAutoDataManager|59.1%|59%|
-|Services.ApiServices.MlAutoApi.MlAutoHttpClient|96.5%|73.6%|
+|Services.ApiServices.MlAutoApi.MlAutoHttpClient|96.9%|75%|
 |Services.ApiServices.MlAutoApi.MlAutoOrderItemInfo|85.7%||
 |Services.ApiServices.MlAutoApi.MlAutoOrderSummary|100%||
+|Services.ApiServices.MlAutoApi.MlAutoRateLimiter|89.6%|92.8%|
 |Services.ApiServices.MlAutoApi.MlAutoRuConfig|100%||
 |Services.ApiServices.MlAutoApi.MlAutoRuDataManager|62%|65%|
 |Services.ApiServices.MlAutoApi.MlAutoRuHttpClient|100%||
@@ -2301,7 +2302,7 @@
 |Services.ApiServices.TelegramBotApi.TelegramBotConfig|100%|83.3%|
 |Services.ApiServices.TelegramBotApi.TelegramMessage|100%||
 |Services.ApiServices.TelegramBotApi.TelegramMessageBuilder|100%|92.1%|
-|Services.ApiServices.TelegramBotApi.TelegramMessageFactory|91.6%|81%|
+|Services.ApiServices.TelegramBotApi.TelegramMessageFactory|91.8%|80.8%|
 |Services.ApiServices.TelegramBotApi.TelegramNewOrderItem|100%||
 |Services.ApiServices.TelegramBotApi.TelegramNotifier|73.4%|45.6%|
 |Services.ApiServices.TelegramBotApi.TelegramOzonStockRow|100%||
@@ -2558,7 +2559,7 @@
 |Services.DataServices.EmailAttachmentProcessingResultDataServices|28.5%||
 |Services.DataServices.EmailMessageInboxDataServices|65%||
 |Services.DataServices.EmailRoutingRuleDataServices|28.5%||
-|Services.DataServices.EtProducerDataServices|6.8%|0%|
+|Services.DataServices.EtProducerDataServices|6.2%|0%|
 |Services.DataServices.ExcelMapping.ExcelMappingService|0%|0%|
 |Services.DataServices.ExcludedArticleDataServices|0%||
 |Services.DataServices.ExcludedBitrixWarehouseDataServices|0%||
@@ -2838,7 +2839,7 @@
 |Services.SearchServices.OrderSearch.OrderSearchSyncService|88.6%|79.4%|
 |Services.SignalRServices.JobProgressHub|0%|0%|
 |Services.SignalRServices.NotificationHub|0%|0%|
-|Services.SignalRServices.NotificationService|52.1%|50%|
+|Services.SignalRServices.NotificationService|34.7%|0%|
 |Services.SignalRServices.OrderHistoryHub|0%|0%|
 |Services.SignalRServices.UserSessionInfo|0%||
 |Services.StockSyncServices.GoogleServiceAccountOptions|100%||
@@ -2873,7 +2874,7 @@
 |Services.SupplierStatusServices.Providers.MikadoSupplierStatusProvider|85.5%|66%|
 |Services.SupplierStatusServices.Providers.MlAutoRuSupplierStatusProvider|100%||
 |Services.SupplierStatusServices.Providers.MlAutoSupplierStatusProvider|100%||
-|Services.SupplierStatusServices.Providers.MlAutoSupplierStatusProviderBase|100%|100%|
+|Services.SupplierStatusServices.Providers.MlAutoSupplierStatusProviderBase|92.4%|96.8%|
 |Services.SupplierStatusServices.Providers.MoskvorechieIstraSupplierStatusPr<br/>ovider|100%|95.2%|
 |Services.SupplierStatusServices.Providers.MotexSupplierStatusProvider|80.6%|50%|
 |Services.SupplierStatusServices.Providers.ProfitLigaSupplierStatusProvider|100%|96.6%|
@@ -2890,6 +2891,7 @@
 |Services.SupplierStatusServices.SupplierVerificationRow|86.6%||
 |Services.SupplierStatusServices.SupplierVerificationStatus|10%|37.5%|
 |Services.SupplierStatusServices.SupplierVerificationSummary|91.6%|66.6%|
+|Services.SystemMonitoringServices.IsolatedSystemMonitoringSignalWriter|0%|0%|
 |Services.SystemMonitoringServices.SystemMonitoringSignalWriter|100%|100%|
 |Services.TransactionCommentAi.TransactionCommentAiBatchSummary|100%||
 |Services.TransactionCommentAi.TransactionCommentAiConstants|100%|50%|
