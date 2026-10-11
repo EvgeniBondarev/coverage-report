@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.1343762265510326" branch-rate="0.2523326660759798" lines-covered="49985" lines-valid="371978" branches-covered="23068" branches-valid="91419" complexity="105283" version="0" timestamp="1791620987">
+<coverage line-rate="0.1343789148820629" branch-rate="0.2523326660759798" lines-covered="49986" lines-valid="371978" branches-covered="23068" branches-valid="91419" complexity="105283" version="0" timestamp="1791708259">
   <sources>
     <source>/home/runner/work/Studio2Prod/Studio2Prod/</source>
   </sources>
@@ -136311,10 +136311,10 @@
             <method name="OwnCallSite" signature="(System.Diagnostics.StackTrace)" line-rate="1" branch-rate="0.7" complexity="10">
               <lines>
                 <line number="36" hits="1" branch="false" />
-                <line number="37" hits="98" branch="false" />
-                <line number="38" hits="98" branch="true" condition-coverage="75% (6/8)" />
-                <line number="39" hits="291" branch="false" />
-                <line number="40" hits="98" branch="false" />
+                <line number="37" hits="80" branch="false" />
+                <line number="38" hits="80" branch="true" condition-coverage="75% (6/8)" />
+                <line number="39" hits="237" branch="false" />
+                <line number="40" hits="80" branch="false" />
                 <line number="41" hits="2" branch="false" />
                 <line number="42" hits="1" branch="false" />
                 <line number="43" hits="1" branch="false" />
@@ -136352,10 +136352,10 @@
             <line number="31" hits="1" branch="false" />
             <line number="32" hits="1" branch="false" />
             <line number="36" hits="1" branch="false" />
-            <line number="37" hits="98" branch="false" />
-            <line number="38" hits="98" branch="true" condition-coverage="75% (6/8)" />
-            <line number="39" hits="291" branch="false" />
-            <line number="40" hits="98" branch="false" />
+            <line number="37" hits="80" branch="false" />
+            <line number="38" hits="80" branch="true" condition-coverage="75% (6/8)" />
+            <line number="39" hits="237" branch="false" />
+            <line number="40" hits="80" branch="false" />
             <line number="41" hits="2" branch="false" />
             <line number="42" hits="1" branch="false" />
             <line number="43" hits="1" branch="false" />
@@ -657431,7 +657431,7 @@
         </class>
       </classes>
     </package>
-    <package name="Services" line-rate="0.42356341614479387" branch-rate="0.36942628903413216" complexity="47850">
+    <package name="Services" line-rate="0.4235771798224486" branch-rate="0.36942628903413216" complexity="47850">
       <classes>
         <class name="AppRepository.ApiServices.OzonApi.Filters.Chat" filename="/home/runner/work/Studio2Prod/Studio2Prod/AppRepository/ApiServices/OzonApi/Filters/Chat.cs" line-rate="0" branch-rate="1" complexity="4">
           <methods>
@@ -710811,9 +710811,9 @@
                 <line number="199" hits="9" branch="true" condition-coverage="100% (2/2)" />
                 <line number="200" hits="9" branch="false" />
                 <line number="202" hits="9" branch="false" />
-                <line number="204" hits="14" branch="true" condition-coverage="100% (4/4)" />
-                <line number="205" hits="14" branch="false" />
-                <line number="207" hits="5" branch="false" />
+                <line number="204" hits="15" branch="true" condition-coverage="100% (4/4)" />
+                <line number="205" hits="15" branch="false" />
+                <line number="207" hits="6" branch="false" />
                 <line number="210" hits="9" branch="true" condition-coverage="50% (1/2)" />
                 <line number="212" hits="0" branch="false" />
                 <line number="215" hits="9" branch="false" />
@@ -711032,9 +711032,9 @@
             <line number="199" hits="9" branch="true" condition-coverage="100% (2/2)" />
             <line number="200" hits="9" branch="false" />
             <line number="202" hits="9" branch="false" />
-            <line number="204" hits="14" branch="true" condition-coverage="100% (4/4)" />
-            <line number="205" hits="14" branch="false" />
-            <line number="207" hits="5" branch="false" />
+            <line number="204" hits="15" branch="true" condition-coverage="100% (4/4)" />
+            <line number="205" hits="15" branch="false" />
+            <line number="207" hits="6" branch="false" />
             <line number="210" hits="9" branch="true" condition-coverage="50% (1/2)" />
             <line number="212" hits="0" branch="false" />
             <line number="215" hits="9" branch="false" />
@@ -766745,7 +766745,7 @@
             </method>
             <method name="get_Status" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="34" hits="530" branch="false" />
+                <line number="34" hits="556" branch="false" />
               </lines>
             </method>
             <method name="get_Stage" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -766812,7 +766812,7 @@
           <lines>
             <line number="32" hits="494" branch="false" />
             <line number="33" hits="225" branch="false" />
-            <line number="34" hits="530" branch="false" />
+            <line number="34" hits="556" branch="false" />
             <line number="35" hits="540" branch="false" />
             <line number="36" hits="498" branch="false" />
             <line number="37" hits="34" branch="false" />
@@ -809182,7 +809182,7 @@
             <line number="224" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="Services.SignalRServices.NotificationService" filename="/home/runner/work/Studio2Prod/Studio2Prod/AppRepository/SignalRServices/NotificationService.cs" line-rate="0.34782608695652173" branch-rate="0" complexity="6">
+        <class name="Services.SignalRServices.NotificationService" filename="/home/runner/work/Studio2Prod/Studio2Prod/AppRepository/SignalRServices/NotificationService.cs" line-rate="0.391304347826087" branch-rate="0" complexity="6">
           <methods>
             <method name="Initialize" signature="(Microsoft.AspNetCore.SignalR.IHubContext`1&lt;Services.SignalRServices.NotificationHub&gt;)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -809198,12 +809198,12 @@
                 <line number="21" hits="0" branch="false" />
               </lines>
             </method>
-            <method name="NotifyAsync" signature="()" line-rate="0.8" branch-rate="1" complexity="1">
+            <method name="NotifyAsync" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="25" hits="13" branch="false" />
-                <line number="26" hits="0" branch="false" />
-                <line number="28" hits="13" branch="false" />
-                <line number="29" hits="13" branch="false" />
+                <line number="26" hits="4" branch="false" />
+                <line number="28" hits="9" branch="false" />
+                <line number="29" hits="9" branch="false" />
                 <line number="30" hits="1" branch="false" />
               </lines>
             </method>
@@ -809236,9 +809236,9 @@
             <line number="20" hits="0" branch="false" />
             <line number="21" hits="0" branch="false" />
             <line number="25" hits="13" branch="false" />
-            <line number="26" hits="0" branch="false" />
-            <line number="28" hits="13" branch="false" />
-            <line number="29" hits="13" branch="false" />
+            <line number="26" hits="4" branch="false" />
+            <line number="28" hits="9" branch="false" />
+            <line number="29" hits="9" branch="false" />
             <line number="30" hits="1" branch="false" />
             <line number="34" hits="305" branch="false" />
             <line number="35" hits="305" branch="false" />

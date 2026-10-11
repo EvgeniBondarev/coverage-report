@@ -3,15 +3,15 @@
 
 |||
 |:---|:---|
-| Generated on: | 10/10/2026 - 08:29:49 |
-| Coverage date: | 10/10/2026 - 08:26:02 - 10/10/2026 - 08:29:30 |
+| Generated on: | 10/11/2026 - 08:44:20 |
+| Coverage date: | 10/11/2026 - 08:41:00 - 10/11/2026 - 08:44:02 |
 | Parser: | MultiReport (2x Cobertura) |
 | Assemblies: | 5 |
 | Classes: | 2939 |
 | Files: | 2043 |
-| **Line coverage:** | 13.4% (49985 of 371978) |
-| Covered lines: | 49985 |
-| Uncovered lines: | 321993 |
+| **Line coverage:** | 13.4% (49986 of 371978) |
+| Covered lines: | 49986 |
+| Uncovered lines: | 321992 |
 | Coverable lines: | 371978 |
 | Total lines: | 556737 |
 | **Branch coverage:** | 25.2% (23068 of 91419) |
@@ -2839,7 +2839,7 @@
 |Services.SearchServices.OrderSearch.OrderSearchSyncService|88.6%|79.4%|
 |Services.SignalRServices.JobProgressHub|0%|0%|
 |Services.SignalRServices.NotificationHub|0%|0%|
-|Services.SignalRServices.NotificationService|34.7%|0%|
+|Services.SignalRServices.NotificationService|39.1%|0%|
 |Services.SignalRServices.OrderHistoryHub|0%|0%|
 |Services.SignalRServices.UserSessionInfo|0%||
 |Services.StockSyncServices.GoogleServiceAccountOptions|100%||
