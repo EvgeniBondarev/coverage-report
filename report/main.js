@@ -910,7 +910,7 @@ var assemblies = [
       { "name": "OzonOrdersWeb.Areas.Identity.Pages.Account.AccessDeniedModel", "rp": "OzonOrdersWeb_AccessDeniedModel.html", "cl": 0, "ucl": 1, "cal": 1, "tl": 12, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Areas.Identity.Pages.Account.ConfirmEmailModel", "rp": "OzonOrdersWeb_ConfirmEmailModel.html", "cl": 0, "ucl": 18, "cal": 18, "tl": 52, "cb": 0, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Areas.Identity.Pages.Account.ExternalLoginModel", "rp": "OzonOrdersWeb_ExternalLoginModel.html", "cl": 0, "ucl": 115, "cal": 115, "tl": 210, "cb": 0, "tb": 44, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "OzonOrdersWeb.Areas.Identity.Pages.Account.LoginModel", "rp": "OzonOrdersWeb_LoginModel.html", "cl": 0, "ucl": 150, "cal": 150, "tl": 338, "cb": 0, "tb": 54, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "OzonOrdersWeb.Areas.Identity.Pages.Account.LoginModel", "rp": "OzonOrdersWeb_LoginModel.html", "cl": 0, "ucl": 156, "cal": 156, "tl": 345, "cb": 0, "tb": 54, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Areas.Identity.Pages.Account.LogoutModel", "rp": "OzonOrdersWeb_LogoutModel.html", "cl": 0, "ucl": 36, "cal": 36, "tl": 93, "cb": 0, "tb": 26, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel", "rp": "OzonOrdersWeb_EnableAuthenticatorModel.html", "cl": 0, "ucl": 65, "cal": 65, "tl": 188, "cb": 0, "tb": 16, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Areas.Identity.Pages.Account.Manage.ManageNavPages", "rp": "OzonOrdersWeb_ManageNavPages.html", "cl": 0, "ucl": 19, "cal": 19, "tl": 123, "cb": 0, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -1336,15 +1336,16 @@ var assemblies = [
       { "name": "OzonOrdersWeb.Controllers.SidebarSaveSettingRequest", "rp": "OzonOrdersWeb_SidebarSaveSettingRequest.html", "cl": 0, "ucl": 3, "cal": 3, "tl": 81, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Controllers.SidebarSettingsController", "rp": "OzonOrdersWeb_SidebarSettingsController.html", "cl": 0, "ucl": 20, "cal": 20, "tl": 81, "cb": 0, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Controllers.TransactionController", "rp": "OzonOrdersWeb_TransactionController.html", "cl": 0, "ucl": 362, "cal": 362, "tl": 681, "cb": 0, "tb": 241, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "OzonOrdersWeb.Controllers.UserController", "rp": "OzonOrdersWeb_UserController.html", "cl": 0, "ucl": 192, "cal": 192, "tl": 431, "cb": 0, "tb": 102, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "OzonOrdersWeb.Controllers.UserController", "rp": "OzonOrdersWeb_UserController.html", "cl": 12, "ucl": 180, "cal": 192, "tl": 432, "cb": 0, "tb": 102, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Extensions.ApiClientsExtensions", "rp": "OzonOrdersWeb_ApiClientsExtensions.html", "cl": 0, "ucl": 496, "cal": 496, "tl": 615, "cb": 0, "tb": 158, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "OzonOrdersWeb.Extensions.ApplicationServicesExtensions", "rp": "OzonOrdersWeb_ApplicationServicesExtensions.html", "cl": 0, "ucl": 246, "cal": 246, "tl": 328, "cb": 0, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "OzonOrdersWeb.Extensions.ApplicationServicesExtensions", "rp": "OzonOrdersWeb_ApplicationServicesExtensions.html", "cl": 0, "ucl": 250, "cal": 250, "tl": 332, "cb": 0, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Extensions.AuthorizationExtensions", "rp": "OzonOrdersWeb_AuthorizationExtensions.html", "cl": 34, "ucl": 40, "cal": 74, "tl": 125, "cb": 0, "tb": 16, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Extensions.CacheExtensions", "rp": "OzonOrdersWeb_CacheExtensions.html", "cl": 0, "ucl": 16, "cal": 16, "tl": 37, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Extensions.DatabaseExtensions", "rp": "OzonOrdersWeb_DatabaseExtensions.html", "cl": 0, "ucl": 122, "cal": 122, "tl": 171, "cb": 0, "tb": 20, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Extensions.DatabaseMigrationExtensions", "rp": "OzonOrdersWeb_DatabaseMigrationExtensions.html", "cl": 0, "ucl": 21, "cal": 21, "tl": 69, "cb": 0, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Extensions.HangfireExtensions", "rp": "OzonOrdersWeb_HangfireExtensions.html", "cl": 0, "ucl": 177, "cal": 177, "tl": 302, "cb": 0, "tb": 38, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Extensions.IdentityExtensions", "rp": "OzonOrdersWeb_IdentityExtensions.html", "cl": 40, "ucl": 6, "cal": 46, "tl": 80, "cb": 10, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "OzonOrdersWeb.Extensions.LocalRedirectUrlEncoder", "rp": "OzonOrdersWeb_LocalRedirectUrlEncoder.html", "cl": 6, "ucl": 0, "cal": 6, "tl": 19, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Extensions.MiddlewareExtensions", "rp": "OzonOrdersWeb_MiddlewareExtensions.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 12, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Extensions.RepositoryExtensions", "rp": "OzonOrdersWeb_RepositoryExtensions.html", "cl": 0, "ucl": 200, "cal": 200, "tl": 312, "cb": 0, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Extensions.RuntimeSettingsConfigurationExtensions", "rp": "OzonOrdersWeb_RuntimeSettingsConfigurationExtensions.html", "cl": 0, "ucl": 3, "cal": 3, "tl": 13, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -1376,7 +1377,7 @@ var assemblies = [
       { "name": "OzonOrdersWeb.Observability.HangfireFailureTelegramFilter", "rp": "OzonOrdersWeb_HangfireFailureTelegramFilter.html", "cl": 0, "ucl": 29, "cal": 29, "tl": 67, "cb": 0, "tb": 28, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Observability.HangfireObservabilityFilter", "rp": "OzonOrdersWeb_HangfireObservabilityFilter.html", "cl": 25, "ucl": 15, "cal": 40, "tl": 77, "cb": 14, "tb": 24, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Observability.HangfireSafeDistributedLockFilter", "rp": "OzonOrdersWeb_HangfireSafeDistributedLockFilter.html", "cl": 13, "ucl": 1, "cal": 14, "tl": 135, "cb": 6, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "OzonOrdersWeb.Observability.InfrastructureNoiseLogFilter", "rp": "OzonOrdersWeb_InfrastructureNoiseLogFilter.html", "cl": 203, "ucl": 7, "cal": 210, "tl": 454, "cb": 143, "tb": 154, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "OzonOrdersWeb.Observability.InfrastructureNoiseLogFilter", "rp": "OzonOrdersWeb_InfrastructureNoiseLogFilter.html", "cl": 218, "ucl": 7, "cal": 225, "tl": 490, "cb": 166, "tb": 180, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Observability.InvalidModelStateLoggingFilter", "rp": "OzonOrdersWeb_InvalidModelStateLoggingFilter.html", "cl": 106, "ucl": 14, "cal": 120, "tl": 272, "cb": 100, "tb": 132, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Observability.InvalidModelStatePageFilter", "rp": "OzonOrdersWeb_InvalidModelStatePageFilter.html", "cl": 0, "ucl": 28, "cal": 28, "tl": 46, "cb": 0, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Observability.ObservabilityOptions", "rp": "OzonOrdersWeb_ObservabilityOptions.html", "cl": 5, "ucl": 0, "cal": 5, "tl": 12, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -1661,14 +1662,14 @@ var assemblies = [
       { "name": "OzonOrdersWeb.WebServices.SystemAlerts.DiskSystemAlertSource", "rp": "OzonOrdersWeb_DiskSystemAlertSource.html", "cl": 4, "ucl": 19, "cal": 23, "tl": 245, "cb": 6, "tb": 16, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.WebServices.SystemAlerts.ElasticsearchSystemAlertSource", "rp": "OzonOrdersWeb_ElasticsearchSystemAlertSource.html", "cl": 14, "ucl": 41, "cal": 55, "tl": 245, "cb": 16, "tb": 38, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.WebServices.SystemAlerts.HangfireSystemAlertSource", "rp": "OzonOrdersWeb_HangfireSystemAlertSource.html", "cl": 0, "ucl": 28, "cal": 28, "tl": 245, "cb": 0, "tb": 12, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "OzonOrdersWeb.WebServices.SystemAlerts.JobLogsSystemAlertSource", "rp": "OzonOrdersWeb_JobLogsSystemAlertSource.html", "cl": 137, "ucl": 13, "cal": 150, "tl": 420, "cb": 47, "tb": 60, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "OzonOrdersWeb.WebServices.SystemAlerts.JobLogsSystemAlertSource", "rp": "OzonOrdersWeb_JobLogsSystemAlertSource.html", "cl": 137, "ucl": 13, "cal": 150, "tl": 442, "cb": 47, "tb": 60, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.WebServices.SystemAlerts.OrderAlertEntry", "rp": "OzonOrdersWeb_OrderAlertEntry.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 48, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.WebServices.SystemAlerts.OrderOperationsSystemAlertSource", "rp": "OzonOrdersWeb_OrderOperationsSystemAlertSource.html", "cl": 122, "ucl": 0, "cal": 122, "tl": 347, "cb": 29, "tb": 36, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.WebServices.SystemAlerts.OzonApplyFailureRow", "rp": "OzonOrdersWeb_OzonApplyFailureRow.html", "cl": 6, "ucl": 0, "cal": 6, "tl": 105, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.WebServices.SystemAlerts.OzonOrderRelevance", "rp": "OzonOrdersWeb_OzonOrderRelevance.html", "cl": 16, "ucl": 0, "cal": 16, "tl": 339, "cb": 4, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.WebServices.SystemAlerts.OzonStockApplyAlertSource", "rp": "OzonOrdersWeb_OzonStockApplyAlertSource.html", "cl": 34, "ucl": 19, "cal": 53, "tl": 105, "cb": 20, "tb": 24, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "OzonOrdersWeb.WebServices.SystemAlerts.OzonSystemAlertSource", "rp": "OzonOrdersWeb_OzonSystemAlertSource.html", "cl": 0, "ucl": 18, "cal": 18, "tl": 420, "cb": 0, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "OzonOrdersWeb.WebServices.SystemAlerts.PassiveSystemAlertSource", "rp": "OzonOrdersWeb_PassiveSystemAlertSource.html", "cl": 57, "ucl": 11, "cal": 68, "tl": 420, "cb": 61, "tb": 87, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "OzonOrdersWeb.WebServices.SystemAlerts.OzonSystemAlertSource", "rp": "OzonOrdersWeb_OzonSystemAlertSource.html", "cl": 0, "ucl": 18, "cal": 18, "tl": 442, "cb": 0, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "OzonOrdersWeb.WebServices.SystemAlerts.PassiveSystemAlertSource", "rp": "OzonOrdersWeb_PassiveSystemAlertSource.html", "cl": 72, "ucl": 8, "cal": 80, "tl": 442, "cb": 72, "tb": 91, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.WebServices.SystemAlerts.StockAndOneCSystemAlertSource", "rp": "OzonOrdersWeb_StockAndOneCSystemAlertSource.html", "cl": 85, "ucl": 16, "cal": 101, "tl": 347, "cb": 25, "tb": 38, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.WebServices.SystemAlerts.StoredOrderRef", "rp": "OzonOrdersWeb_StoredOrderRef.html", "cl": 4, "ucl": 0, "cal": 4, "tl": 48, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.WebServices.SystemAlerts.SupplierOrdersSystemAlertSource", "rp": "OzonOrdersWeb_SupplierOrdersSystemAlertSource.html", "cl": 183, "ucl": 0, "cal": 183, "tl": 339, "cb": 50, "tb": 64, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -1676,13 +1677,13 @@ var assemblies = [
       { "name": "OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertCounts", "rp": "OzonOrdersWeb_SystemAlertCounts.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 293, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertEvaluationJob", "rp": "OzonOrdersWeb_SystemAlertEvaluationJob.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 62, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertEvaluationService", "rp": "OzonOrdersWeb_SystemAlertEvaluationService.html", "cl": 0, "ucl": 22, "cal": 22, "tl": 62, "cb": 0, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertFactory", "rp": "OzonOrdersWeb_SystemAlertFactory.html", "cl": 26, "ucl": 10, "cal": 36, "tl": 420, "cb": 4, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertFinding", "rp": "OzonOrdersWeb_SystemAlertFinding.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 420, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertFactory", "rp": "OzonOrdersWeb_SystemAlertFactory.html", "cl": 26, "ucl": 10, "cal": 36, "tl": 442, "cb": 4, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertFinding", "rp": "OzonOrdersWeb_SystemAlertFinding.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 442, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertIds", "rp": "OzonOrdersWeb_SystemAlertIds.html", "cl": 0, "ucl": 1, "cal": 1, "tl": 293, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertIncidentStore", "rp": "OzonOrdersWeb_SystemAlertIncidentStore.html", "cl": 148, "ucl": 13, "cal": 161, "tl": 293, "cb": 96, "tb": 114, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertLinks", "rp": "OzonOrdersWeb_SystemAlertLinks.html", "cl": 18, "ucl": 1, "cal": 19, "tl": 62, "cb": 2, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertOrderIndex", "rp": "OzonOrdersWeb_SystemAlertOrderIndex.html", "cl": 8, "ucl": 2, "cal": 10, "tl": 48, "cb": 6, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertOrderRef", "rp": "OzonOrdersWeb_SystemAlertOrderRef.html", "cl": 9, "ucl": 0, "cal": 9, "tl": 420, "cb": 5, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertOrderRef", "rp": "OzonOrdersWeb_SystemAlertOrderRef.html", "cl": 9, "ucl": 0, "cal": 9, "tl": 442, "cb": 5, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertPinnedMessageService", "rp": "OzonOrdersWeb_SystemAlertPinnedMessageService.html", "cl": 36, "ucl": 5, "cal": 41, "tl": 85, "cb": 29, "tb": 32, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertsOptions", "rp": "OzonOrdersWeb_SystemAlertsOptions.html", "cl": 83, "ucl": 1, "cal": 84, "tl": 165, "cb": 4, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertTelegramNotifier", "rp": "OzonOrdersWeb_SystemAlertTelegramNotifier.html", "cl": 0, "ucl": 43, "cal": 43, "tl": 69, "cb": 0, "tb": 20, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -2468,7 +2469,7 @@ var assemblies = [
       { "name": "Services.ApiServices.OzonApi.Filters.UnfulfilledPosting", "rp": "Services_UnfulfilledPosting.html", "cl": 5, "ucl": 3, "cal": 8, "tl": 81, "cb": 1, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.OzonApi.Filters.UnfulfilledProduct", "rp": "Services_UnfulfilledProduct.html", "cl": 0, "ucl": 5, "cal": 5, "tl": 81, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.OzonApi.Filters.UnprintedPosting", "rp": "Services_UnprintedPosting.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 52, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.ApiServices.OzonApi.Filters.UpdateStockResult", "rp": "Services_UpdateStockResult.html", "cl": 0, "ucl": 5, "cal": 5, "tl": 21, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.ApiServices.OzonApi.Filters.UpdateStockResult", "rp": "Services_UpdateStockResult.html", "cl": 3, "ucl": 2, "cal": 5, "tl": 21, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.OzonApi.Filters.UpdateStocksRequest", "rp": "Services_UpdateStocksRequest.html", "cl": 0, "ucl": 1, "cal": 1, "tl": 9, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.OzonApi.Filters.WarehouseOzon", "rp": "Services_WarehouseOzon.html", "cl": 2, "ucl": 14, "cal": 16, "tl": 54, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.OzonApi.Filters.WarehouseResponse", "rp": "Services_WarehouseResponse.2.html", "cl": 0, "ucl": 1, "cal": 1, "tl": 10, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -2630,6 +2631,7 @@ var assemblies = [
       { "name": "Services.BitrixStockServices.BitrixOzonStockSyncDetailEntry", "rp": "Services_BitrixOzonStockSyncDetailEntry.html", "cl": 0, "ucl": 11, "cal": 11, "tl": 43, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.BitrixOzonStockSyncSummary", "rp": "Services_BitrixOzonStockSyncSummary.html", "cl": 0, "ucl": 7, "cal": 7, "tl": 43, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.BitrixStockActiveStageStore", "rp": "Services_BitrixStockActiveStageStore.html", "cl": 5, "ucl": 0, "cal": 5, "tl": 20, "cb": 6, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.BitrixStockServices.BitrixStockApplyBatchMatcher", "rp": "Services_BitrixStockApplyBatchMatcher.html", "cl": 11, "ucl": 0, "cal": 11, "tl": 35, "cb": 12, "tb": 12, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.BitrixStockApplyCalculator", "rp": "Services_BitrixStockApplyCalculator.html", "cl": 5, "ucl": 0, "cal": 5, "tl": 27, "cb": 8, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.BitrixStockApplyDisabledZeroResult", "rp": "Services_BitrixStockApplyDisabledZeroResult.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 410, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.BitrixStockApplyResult", "rp": "Services_BitrixStockApplyResult.html", "cl": 3, "ucl": 1, "cal": 4, "tl": 624, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -2662,6 +2664,11 @@ var assemblies = [
       { "name": "Services.BitrixStockServices.BitrixStockIndexFilterContext", "rp": "Services_BitrixStockIndexFilterContext.html", "cl": 5, "ucl": 2, "cal": 7, "tl": 140, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.BitrixStockIndexFilterRules", "rp": "Services_BitrixStockIndexFilterRules.html", "cl": 71, "ucl": 0, "cal": 71, "tl": 140, "cb": 111, "tb": 112, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.BitrixStockInventoryService", "rp": "Services_BitrixStockInventoryService.html", "cl": 0, "ucl": 237, "cal": 237, "tl": 501, "cb": 0, "tb": 140, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.BitrixStockServices.BitrixStockLiveStockClamp", "rp": "Services_BitrixStockLiveStockClamp.html", "cl": 5, "ucl": 0, "cal": 5, "tl": 97, "cb": 2, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.BitrixStockServices.BitrixStockLiveStockComparer", "rp": "Services_BitrixStockLiveStockComparer.html", "cl": 0, "ucl": 91, "cal": 91, "tl": 240, "cb": 0, "tb": 30, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.BitrixStockServices.BitrixStockLiveStockComparison", "rp": "Services_BitrixStockLiveStockComparison.html", "cl": 17, "ucl": 0, "cal": 17, "tl": 240, "cb": 12, "tb": 12, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.BitrixStockServices.BitrixStockLiveStockGuard", "rp": "Services_BitrixStockLiveStockGuard.html", "cl": 28, "ucl": 0, "cal": 28, "tl": 97, "cb": 20, "tb": 20, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.BitrixStockServices.BitrixStockLiveStockOptions", "rp": "Services_BitrixStockLiveStockOptions.html", "cl": 0, "ucl": 3, "cal": 3, "tl": 240, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.BitrixStockMskDateTime", "rp": "Services_BitrixStockMskDateTime.html", "cl": 9, "ucl": 0, "cal": 9, "tl": 29, "cb": 4, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.BitrixStockMultiClientParser", "rp": "Services_BitrixStockMultiClientParser.html", "cl": 30, "ucl": 4, "cal": 34, "tl": 87, "cb": 38, "tb": 42, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.BitrixStockOrphanOfferMatching", "rp": "Services_BitrixStockOrphanOfferMatching.html", "cl": 65, "ucl": 1, "cal": 66, "tl": 150, "cb": 51, "tb": 56, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -2669,7 +2676,7 @@ var assemblies = [
       { "name": "Services.BitrixStockServices.BitrixStockOzonOrphanCleanupService", "rp": "Services_BitrixStockOzonOrphanCleanupService.html", "cl": 1, "ucl": 1251, "cal": 1252, "tl": 2034, "cb": 0, "tb": 654, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.BitrixStockPipelineResult", "rp": "Services_BitrixStockPipelineResult.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 624, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.BitrixStockPushFilterTemplate", "rp": "Services_BitrixStockPushFilterTemplate.html", "cl": 0, "ucl": 20, "cal": 20, "tl": 39, "cb": 0, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.BitrixStockServices.BitrixStockPushItemDto", "rp": "Services_BitrixStockPushItemDto.html", "cl": 0, "ucl": 9, "cal": 9, "tl": 20, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.BitrixStockServices.BitrixStockPushItemDto", "rp": "Services_BitrixStockPushItemDto.html", "cl": 4, "ucl": 5, "cal": 9, "tl": 20, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.BitrixStockPushJobService", "rp": "Services_BitrixStockPushJobService.html", "cl": 0, "ucl": 210, "cal": 210, "tl": 420, "cb": 0, "tb": 116, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.BitrixStockPushStartRequest", "rp": "Services_BitrixStockPushStartRequest.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 20, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.BitrixStockRolloutTelegramReporter", "rp": "Services_BitrixStockRolloutTelegramReporter.html", "cl": 13, "ucl": 97, "cal": 110, "tl": 205, "cb": 3, "tb": 74, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -2711,7 +2718,7 @@ var assemblies = [
       { "name": "Services.BitrixStockServices.BitrixStockSyncPresetUpdateRequest", "rp": "Services_BitrixStockSyncPresetUpdateRequest.html", "cl": 0, "ucl": 11, "cal": 11, "tl": 158, "cb": 0, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.BitrixStockSyncReportActions", "rp": "Services_BitrixStockSyncReportActions.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 624, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.BitrixStockSyncReportAggregatesDto", "rp": "Services_BitrixStockSyncReportAggregatesDto.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 624, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "rp": "Services_BitrixStockSyncReportApplyService.html", "cl": 56, "ucl": 1116, "cal": 1172, "tl": 1803, "cb": 37, "tb": 640, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "rp": "Services_BitrixStockSyncReportApplyService.html", "cl": 56, "ucl": 1190, "cal": 1246, "tl": 1935, "cb": 37, "tb": 680, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.BitrixStockSyncReportApplyStartRequest", "rp": "Services_BitrixStockSyncReportApplyStartRequest.html", "cl": 10, "ucl": 1, "cal": 11, "tl": 624, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.BitrixStockSyncReportCleanupService", "rp": "Services_BitrixStockSyncReportCleanupService.html", "cl": 15, "ucl": 651, "cal": 666, "tl": 1090, "cb": 13, "tb": 360, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.BitrixStockSyncReportDto", "rp": "Services_BitrixStockSyncReportDto.html", "cl": 14, "ucl": 20, "cal": 34, "tl": 624, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -2725,7 +2732,7 @@ var assemblies = [
       { "name": "Services.BitrixStockServices.BitrixStockSyncReportRunDto", "rp": "Services_BitrixStockSyncReportRunDto.html", "cl": 11, "ucl": 19, "cal": 30, "tl": 624, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.BitrixStockSyncReportRunsPageDto", "rp": "Services_BitrixStockSyncReportRunsPageDto.html", "cl": 0, "ucl": 5, "cal": 5, "tl": 624, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.BitrixStockSyncReportRunsQuery", "rp": "Services_BitrixStockSyncReportRunsQuery.html", "cl": 3, "ucl": 2, "cal": 5, "tl": 624, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.BitrixStockServices.BitrixStockSyncReportService", "rp": "Services_BitrixStockSyncReportService.html", "cl": 19, "ucl": 1793, "cal": 1812, "tl": 2632, "cb": 8, "tb": 1008, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.BitrixStockServices.BitrixStockSyncReportService", "rp": "Services_BitrixStockSyncReportService.html", "cl": 19, "ucl": 1796, "cal": 1815, "tl": 2637, "cb": 8, "tb": 1008, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.BitrixStockSyncReportStartRequest", "rp": "Services_BitrixStockSyncReportStartRequest.html", "cl": 8, "ucl": 6, "cal": 14, "tl": 624, "cb": 0, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.BitrixStockSyncReportStore", "rp": "Services_BitrixStockSyncReportStore.html", "cl": 0, "ucl": 22, "cal": 22, "tl": 57, "cb": 0, "tb": 12, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.BitrixStockSyncReportSummaryDto", "rp": "Services_BitrixStockSyncReportSummaryDto.html", "cl": 0, "ucl": 9, "cal": 9, "tl": 624, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -2743,6 +2750,10 @@ var assemblies = [
       { "name": "Services.BitrixStockServices.BitrixWarehouseMappingEnsure", "rp": "Services_BitrixWarehouseMappingEnsure.html", "cl": 59, "ucl": 6, "cal": 65, "tl": 126, "cb": 30, "tb": 36, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.BitrixWarehouseMappingEnsureResult", "rp": "Services_BitrixWarehouseMappingEnsureResult.html", "cl": 4, "ucl": 0, "cal": 4, "tl": 126, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.EfSqlRawParameterGuard", "rp": "Services_EfSqlRawParameterGuard.html", "cl": 13, "ucl": 5, "cal": 18, "tl": 42, "cb": 8, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.BitrixStockServices.LiveCompareMismatch", "rp": "Services_LiveCompareMismatch.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 240, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.BitrixStockServices.LiveCompareResult", "rp": "Services_LiveCompareResult.html", "cl": 7, "ucl": 0, "cal": 7, "tl": 240, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.BitrixStockServices.LiveCompareRow", "rp": "Services_LiveCompareRow.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 240, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.BitrixStockServices.LiveStockLine", "rp": "Services_LiveStockLine.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 97, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.OrderReserveAggregation", "rp": "Services_OrderReserveAggregation.html", "cl": 57, "ucl": 0, "cal": 57, "tl": 112, "cb": 34, "tb": 36, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.OrderReserveLineDto", "rp": "Services_OrderReserveLineDto.html", "cl": 6, "ucl": 0, "cal": 6, "tl": 624, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.OrderReserveMapDto", "rp": "Services_OrderReserveMapDto.html", "cl": 0, "ucl": 3, "cal": 3, "tl": 624, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -2764,9 +2775,9 @@ var assemblies = [
       { "name": "Services.BitrixStockServices.OzonReportFileDto", "rp": "Services_OzonReportFileDto.html", "cl": 0, "ucl": 13, "cal": 13, "tl": 624, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.OzonWarehouseStockQuery", "rp": "Services_OzonWarehouseStockQuery.html", "cl": 0, "ucl": 24, "cal": 24, "tl": 43, "cb": 0, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.PresetStageSettings", "rp": "Services_PresetStageSettings.html", "cl": 15, "ucl": 0, "cal": 15, "tl": 158, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.BitrixStockServices.PriceOptimizationInput", "rp": "Services_PriceOptimizationInput.html", "cl": 6, "ucl": 0, "cal": 6, "tl": 181, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.BitrixStockServices.PriceOptimizationManager", "rp": "Services_PriceOptimizationManager.html", "cl": 57, "ucl": 0, "cal": 57, "tl": 181, "cb": 47, "tb": 54, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.BitrixStockServices.PriceOptimizationResult", "rp": "Services_PriceOptimizationResult.html", "cl": 17, "ucl": 0, "cal": 17, "tl": 181, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.BitrixStockServices.PriceOptimizationInput", "rp": "Services_PriceOptimizationInput.html", "cl": 6, "ucl": 0, "cal": 6, "tl": 187, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.BitrixStockServices.PriceOptimizationManager", "rp": "Services_PriceOptimizationManager.html", "cl": 59, "ucl": 0, "cal": 59, "tl": 187, "cb": 51, "tb": 58, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.BitrixStockServices.PriceOptimizationResult", "rp": "Services_PriceOptimizationResult.html", "cl": 17, "ucl": 0, "cal": 17, "tl": 187, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.ReportPriceSettingsDto", "rp": "Services_ReportPriceSettingsDto.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 624, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.ReportPromoStatusDto", "rp": "Services_ReportPromoStatusDto.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 624, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.BitrixStockServices.ReserveStatusOptionDto", "rp": "Services_ReserveStatusOptionDto.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 624, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -3077,15 +3088,16 @@ var assemblies = [
       { "name": "Services.SearchServices.OrderSearch.OrderSearchDiagnosticsStore", "rp": "Services_OrderSearchDiagnosticsStore.html", "cl": 44, "ucl": 1, "cal": 45, "tl": 92, "cb": 4, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.SearchServices.OrderSearch.OrderSearchDocument", "rp": "Services_OrderSearchDocument.html", "cl": 13, "ucl": 1, "cal": 14, "tl": 45, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.SearchServices.OrderSearch.OrderSearchDriftChecker", "rp": "Services_OrderSearchDriftChecker.html", "cl": 62, "ucl": 0, "cal": 62, "tl": 129, "cb": 9, "tb": 12, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.SearchServices.OrderSearch.OrderSearchDriftCheckJob", "rp": "Services_OrderSearchDriftCheckJob.html", "cl": 13, "ucl": 4, "cal": 17, "tl": 50, "cb": 5, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.SearchServices.OrderSearch.OrderSearchDriftCheckJob", "rp": "Services_OrderSearchDriftCheckJob.html", "cl": 19, "ucl": 4, "cal": 23, "tl": 62, "cb": 7, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.SearchServices.OrderSearch.OrderSearchDriftCheckResult", "rp": "Services_OrderSearchDriftCheckResult.html", "cl": 9, "ucl": 0, "cal": 9, "tl": 129, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.SearchServices.OrderSearch.OrderSearchDriftEvent", "rp": "Services_OrderSearchDriftEvent.html", "cl": 9, "ucl": 0, "cal": 9, "tl": 167, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.SearchServices.OrderSearch.OrderSearchDriftRepairJob", "rp": "Services_OrderSearchDriftRepairJob.html", "cl": 11, "ucl": 1, "cal": 12, "tl": 41, "cb": 4, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.SearchServices.OrderSearch.OrderSearchDriftRepairResult", "rp": "Services_OrderSearchDriftRepairResult.html", "cl": 12, "ucl": 0, "cal": 12, "tl": 167, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.SearchServices.OrderSearch.OrderSearchFullReindexJob", "rp": "Services_OrderSearchFullReindexJob.html", "cl": 0, "ucl": 35, "cal": 35, "tl": 76, "cb": 0, "tb": 12, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.SearchServices.OrderSearch.OrderSearchFullReindexJob", "rp": "Services_OrderSearchFullReindexJob.html", "cl": 16, "ucl": 25, "cal": 41, "tl": 88, "cb": 1, "tb": 14, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.SearchServices.OrderSearch.OrderSearchIdsResult", "rp": "Services_OrderSearchIdsResult.html", "cl": 4, "ucl": 0, "cal": 4, "tl": 15, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.SearchServices.OrderSearch.OrderSearchIncrementalSyncJob", "rp": "Services_OrderSearchIncrementalSyncJob.html", "cl": 0, "ucl": 42, "cal": 42, "tl": 100, "cb": 0, "tb": 18, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.SearchServices.OrderSearch.OrderSearchIndexEvent", "rp": "Services_OrderSearchIndexEvent.html", "cl": 8, "ucl": 0, "cal": 8, "tl": 167, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.SearchServices.OrderSearch.OrderSearchIndexOperationLock", "rp": "Services_OrderSearchIndexOperationLock.html", "cl": 0, "ucl": 23, "cal": 23, "tl": 70, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.SearchServices.OrderSearch.OrderSearchLookupResponse", "rp": "Services_OrderSearchLookupResponse.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 167, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.SearchServices.OrderSearch.OrderSearchLookupResult", "rp": "Services_OrderSearchLookupResult.html", "cl": 7, "ucl": 0, "cal": 7, "tl": 167, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.SearchServices.OrderSearch.OrderSearchQueryEvent", "rp": "Services_OrderSearchQueryEvent.html", "cl": 11, "ucl": 0, "cal": 11, "tl": 167, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -3093,7 +3105,7 @@ var assemblies = [
       { "name": "Services.SearchServices.OrderSearch.OrderSearchSyncService", "rp": "Services_OrderSearchSyncService.html", "cl": 156, "ucl": 20, "cal": 176, "tl": 289, "cb": 27, "tb": 34, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.SignalRServices.JobProgressHub", "rp": "Services_JobProgressHub.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 21, "cb": 0, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.SignalRServices.NotificationHub", "rp": "Services_NotificationHub.html", "cl": 0, "ucl": 105, "cal": 105, "tl": 228, "cb": 0, "tb": 54, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.SignalRServices.NotificationService", "rp": "Services_NotificationService.html", "cl": 9, "ucl": 14, "cal": 23, "tl": 55, "cb": 0, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.SignalRServices.NotificationService", "rp": "Services_NotificationService.html", "cl": 12, "ucl": 11, "cal": 23, "tl": 55, "cb": 1, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.SignalRServices.OrderHistoryHub", "rp": "Services_OrderHistoryHub.html", "cl": 0, "ucl": 23, "cal": 23, "tl": 53, "cb": 0, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.SignalRServices.UserSessionInfo", "rp": "Services_UserSessionInfo.html", "cl": 0, "ucl": 3, "cal": 3, "tl": 228, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.StockSyncServices.GoogleServiceAccountOptions", "rp": "Services_GoogleServiceAccountOptions.html", "cl": 11, "ucl": 0, "cal": 11, "tl": 26, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -3105,7 +3117,7 @@ var assemblies = [
       { "name": "Services.StockSyncServices.WarehouseStockLookupService", "rp": "Services_WarehouseStockLookupService.html", "cl": 86, "ucl": 0, "cal": 86, "tl": 145, "cb": 31, "tb": 34, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.StockSyncServices.WarehouseStockSnapshotCandidate", "rp": "Services_WarehouseStockSnapshotCandidate.html", "cl": 10, "ucl": 0, "cal": 10, "tl": 29, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.StockSyncServices.WarehouseStockSyncJob", "rp": "Services_WarehouseStockSyncJob.html", "cl": 22, "ucl": 2, "cal": 24, "tl": 56, "cb": 6, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.StockSyncServices.WarehouseStockSyncService", "rp": "Services_WarehouseStockSyncService.html", "cl": 256, "ucl": 239, "cal": 495, "tl": 827, "cb": 153, "tb": 328, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.StockSyncServices.WarehouseStockSyncService", "rp": "Services_WarehouseStockSyncService.html", "cl": 268, "ucl": 238, "cal": 506, "tl": 853, "cb": 162, "tb": 336, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.SupplierStatusServices.OrderSupplierStateRef", "rp": "Services_OrderSupplierStateRef.html", "cl": 11, "ucl": 0, "cal": 11, "tl": 73, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.SupplierStatusServices.OrderSupplierStateService", "rp": "Services_OrderSupplierStateService.html", "cl": 170, "ucl": 28, "cal": 198, "tl": 351, "cb": 79, "tb": 160, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.SupplierStatusServices.OrderSupplierStatusSyncService", "rp": "Services_OrderSupplierStatusSyncService.html", "cl": 62, "ucl": 0, "cal": 62, "tl": 132, "cb": 18, "tb": 20, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -3319,16 +3331,16 @@ var riskHotspots = [
       { "value": 264, "exceeded": true },
     ]},
   {
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "ApplyReportAsync()", "methodShortName": "ApplyReportAsync()", "fileIndex": 0, "line": 70,
+    "metrics": [
+      { "value": 59780, "exceeded": true },
+      { "value": 244, "exceeded": true },
+    ]},
+  {
     "assembly": "OzonOrdersWeb", "class": "AspNetCoreGeneratedDocument.Areas_Studio2_Views_Orders_Index", "reportPath": "OzonOrdersWeb_Areas_Studio2_Views_Orders_Index.html", "methodName": "ExecuteAsync()", "methodShortName": "ExecuteAsync()", "fileIndex": 0, "line": 14,
     "metrics": [
       { "value": 57840, "exceeded": true },
       { "value": 240, "exceeded": true },
-    ]},
-  {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "ApplyReportAsync()", "methodShortName": "ApplyReportAsync()", "fileIndex": 0, "line": 67,
-    "metrics": [
-      { "value": 55932, "exceeded": true },
-      { "value": 236, "exceeded": true },
     ]},
   {
     "assembly": "OzonOrdersWeb", "class": "AspNetCoreGeneratedDocument.Areas_Studio2_Views_Shared__StandartCartOrderRow", "reportPath": "OzonOrdersWeb_Areas_Studio2_Views_Shared__StandartCartOrderRow.html", "methodName": "ExecuteAsync()", "methodShortName": "ExecuteAsync()", "fileIndex": 0, "line": 172,
@@ -3493,7 +3505,7 @@ var riskHotspots = [
       { "value": 143, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "\u003CGetReportAsync()", "methodShortName": "\u003CGetReportAsync()", "fileIndex": 0, "line": 670,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "\u003CGetReportAsync()", "methodShortName": "\u003CGetReportAsync()", "fileIndex": 0, "line": 675,
     "metrics": [
       { "value": 20306, "exceeded": true },
       { "value": 142, "exceeded": true },
@@ -3565,7 +3577,7 @@ var riskHotspots = [
       { "value": 126, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "BuildReportAsync()", "methodShortName": "BuildReportAsync()", "fileIndex": 0, "line": 80,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "BuildReportAsync()", "methodShortName": "BuildReportAsync()", "fileIndex": 0, "line": 83,
     "metrics": [
       { "value": 16002, "exceeded": true },
       { "value": 126, "exceeded": true },
@@ -4219,7 +4231,7 @@ var riskHotspots = [
       { "value": 70, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "\u003CListReportsAsync()", "methodShortName": "\u003CListReportsAsync()", "fileIndex": 0, "line": 858,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "\u003CListReportsAsync()", "methodShortName": "\u003CListReportsAsync()", "fileIndex": 0, "line": 863,
     "metrics": [
       { "value": 4970, "exceeded": true },
       { "value": 70, "exceeded": true },
@@ -4393,7 +4405,7 @@ var riskHotspots = [
       { "value": 60, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "LoadOzonForBatchAsync()", "methodShortName": "LoadOzonForBatchAsync()", "fileIndex": 0, "line": 479,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "LoadOzonForBatchAsync()", "methodShortName": "LoadOzonForBatchAsync()", "fileIndex": 0, "line": 484,
     "metrics": [
       { "value": 3660, "exceeded": true },
       { "value": 60, "exceeded": true },
@@ -4663,6 +4675,12 @@ var riskHotspots = [
       { "value": 52, "exceeded": true },
     ]},
   {
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "\u003CLoadLinesToApplyAsync()", "methodShortName": "\u003CLoadLinesToApplyAsync()", "fileIndex": 0, "line": 1170,
+    "metrics": [
+      { "value": 2756, "exceeded": true },
+      { "value": 52, "exceeded": true },
+    ]},
+  {
     "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "ZeroDisabledWarehouseStocksAsync()", "methodShortName": "ZeroDisabledWarehouseStocksAsync()", "fileIndex": 1, "line": 37,
     "metrics": [
       { "value": 2756, "exceeded": true },
@@ -4712,12 +4730,6 @@ var riskHotspots = [
     ]},
   {
     "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.ZeroQuantityPolicyStep", "reportPath": "OzonOrdersWeb_ZeroQuantityPolicyStep.html", "methodName": "LostByCommissionerAsync()", "methodShortName": "LostByCommissionerAsync()", "fileIndex": 0, "line": 95,
-    "metrics": [
-      { "value": 2550, "exceeded": true },
-      { "value": 50, "exceeded": true },
-    ]},
-  {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "\u003CLoadLinesToApplyAsync()", "methodShortName": "\u003CLoadLinesToApplyAsync()", "fileIndex": 0, "line": 1045,
     "metrics": [
       { "value": 2550, "exceeded": true },
       { "value": 50, "exceeded": true },
@@ -4783,7 +4795,7 @@ var riskHotspots = [
       { "value": 48, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "BuildProductLines(OzonDomains.Models.BitrixModels.RemainingStockBitrix,OzonDomains.Models.OzonClient,System.Collections.Generic.List\u00601\u003COzonDomains.Models.WarehouseMapping\u003E,System.Collections.Generic.HashSet\u00601\u003CSystem.Int64\u003E,System.Collections.Generic.HashSet\u00601\u003CSystem.Int32\u003E,Services.BitrixStockServices.BitrixStockSyncReportSummaryDto,System.Collections.Generic.IReadOnlyDictionary\u00602\u003CSystem.String,System.Collections.Generic.Dictionary\u00602\u003CSystem.String,System.Int32\u003E\u003E)", "methodShortName": "BuildProductLines(...)", "fileIndex": 0, "line": 1276,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "BuildProductLines(OzonDomains.Models.BitrixModels.RemainingStockBitrix,OzonDomains.Models.OzonClient,System.Collections.Generic.List\u00601\u003COzonDomains.Models.WarehouseMapping\u003E,System.Collections.Generic.HashSet\u00601\u003CSystem.Int64\u003E,System.Collections.Generic.HashSet\u00601\u003CSystem.Int32\u003E,Services.BitrixStockServices.BitrixStockSyncReportSummaryDto,System.Collections.Generic.IReadOnlyDictionary\u00602\u003CSystem.String,System.Collections.Generic.Dictionary\u00602\u003CSystem.String,System.Int32\u003E\u003E)", "methodShortName": "BuildProductLines(...)", "fileIndex": 0, "line": 1281,
     "metrics": [
       { "value": 2352, "exceeded": true },
       { "value": 48, "exceeded": true },
@@ -5011,7 +5023,7 @@ var riskHotspots = [
       { "value": 42, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "\u003CGetArchivedPreviewAsync()", "methodShortName": "\u003CGetArchivedPreviewAsync()", "fileIndex": 0, "line": 1146,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "\u003CGetArchivedPreviewAsync()", "methodShortName": "\u003CGetArchivedPreviewAsync()", "fileIndex": 0, "line": 1151,
     "metrics": [
       { "value": 1806, "exceeded": true },
       { "value": 42, "exceeded": true },
@@ -5401,7 +5413,7 @@ var riskHotspots = [
       { "value": 36, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "IncrementSummary(Services.BitrixStockServices.BitrixStockSyncReportSummaryDto,System.String)", "methodShortName": "IncrementSummary(...)", "fileIndex": 0, "line": 1672,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "IncrementSummary(Services.BitrixStockServices.BitrixStockSyncReportSummaryDto,System.String)", "methodShortName": "IncrementSummary(...)", "fileIndex": 0, "line": 1677,
     "metrics": [
       { "value": 1332, "exceeded": true },
       { "value": 36, "exceeded": true },
@@ -5545,13 +5557,13 @@ var riskHotspots = [
       { "value": 34, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "\u003CLoadClientLinesWithPositiveStockAsync()", "methodShortName": "\u003CLoadClientLinesWithPositiveStockAsync()", "fileIndex": 0, "line": 967,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "\u003CLoadClientLinesWithPositiveStockAsync()", "methodShortName": "\u003CLoadClientLinesWithPositiveStockAsync()", "fileIndex": 0, "line": 1092,
     "metrics": [
       { "value": 1190, "exceeded": true },
       { "value": 34, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "BuildNotFoundLines(OzonDomains.Models.BitrixModels.RemainingStockBitrix,System.Collections.Generic.HashSet\u00601\u003CSystem.String\u003E,Services.BitrixStockServices.OzonApiFoundInfo)", "methodShortName": "BuildNotFoundLines(...)", "fileIndex": 0, "line": 1380,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "BuildNotFoundLines(OzonDomains.Models.BitrixModels.RemainingStockBitrix,System.Collections.Generic.HashSet\u00601\u003CSystem.String\u003E,Services.BitrixStockServices.OzonApiFoundInfo)", "methodShortName": "BuildNotFoundLines(...)", "fileIndex": 0, "line": 1385,
     "metrics": [
       { "value": 1190, "exceeded": true },
       { "value": 34, "exceeded": true },
@@ -6307,7 +6319,7 @@ var riskHotspots = [
       { "value": 26, "exceeded": true },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Identity.Pages.Account.LoginModel", "reportPath": "OzonOrdersWeb_LoginModel.html", "methodName": "OnPostAsync()", "methodShortName": "OnPostAsync()", "fileIndex": 0, "line": 134,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Identity.Pages.Account.LoginModel", "reportPath": "OzonOrdersWeb_LoginModel.html", "methodName": "OnPostAsync()", "methodShortName": "OnPostAsync()", "fileIndex": 0, "line": 135,
     "metrics": [
       { "value": 702, "exceeded": true },
       { "value": 26, "exceeded": true },
@@ -6445,13 +6457,13 @@ var riskHotspots = [
       { "value": 26, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "GetOzonPriceInfoAsync()", "methodShortName": "GetOzonPriceInfoAsync()", "fileIndex": 0, "line": 2258,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "GetOzonPriceInfoAsync()", "methodShortName": "GetOzonPriceInfoAsync()", "fileIndex": 0, "line": 2263,
     "metrics": [
       { "value": 702, "exceeded": true },
       { "value": 26, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "GetReportAsync()", "methodShortName": "GetReportAsync()", "fileIndex": 0, "line": 646,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "GetReportAsync()", "methodShortName": "GetReportAsync()", "fileIndex": 0, "line": 651,
     "metrics": [
       { "value": 702, "exceeded": true },
       { "value": 26, "exceeded": true },
@@ -6817,7 +6829,7 @@ var riskHotspots = [
       { "value": 24, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "\u003CLoadClientReferenceLinesAsync()", "methodShortName": "\u003CLoadClientReferenceLinesAsync()", "fileIndex": 0, "line": 901,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "\u003CLoadClientReferenceLinesAsync()", "methodShortName": "\u003CLoadClientReferenceLinesAsync()", "fileIndex": 0, "line": 1026,
     "metrics": [
       { "value": 600, "exceeded": true },
       { "value": 24, "exceeded": true },
@@ -7081,7 +7093,7 @@ var riskHotspots = [
       { "value": 22, "exceeded": true },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Controllers.UserController", "reportPath": "OzonOrdersWeb_UserController.html", "methodName": "LockUser()", "methodShortName": "LockUser()", "fileIndex": 0, "line": 354,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Controllers.UserController", "reportPath": "OzonOrdersWeb_UserController.html", "methodName": "LockUser()", "methodShortName": "LockUser()", "fileIndex": 0, "line": 355,
     "metrics": [
       { "value": 506, "exceeded": true },
       { "value": 22, "exceeded": true },
@@ -7189,13 +7201,13 @@ var riskHotspots = [
       { "value": 22, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "EnrichOzonPriceItem(Newtonsoft.Json.Linq.JToken)", "methodShortName": "EnrichOzonPriceItem(...)", "fileIndex": 0, "line": 2478,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "EnrichOzonPriceItem(Newtonsoft.Json.Linq.JToken)", "methodShortName": "EnrichOzonPriceItem(...)", "fileIndex": 0, "line": 2483,
     "metrics": [
       { "value": 506, "exceeded": true },
       { "value": 22, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "FillOrphanAndPricePushAggregatesAsync()", "methodShortName": "FillOrphanAndPricePushAggregatesAsync()", "fileIndex": 0, "line": 977,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "FillOrphanAndPricePushAggregatesAsync()", "methodShortName": "FillOrphanAndPricePushAggregatesAsync()", "fileIndex": 0, "line": 982,
     "metrics": [
       { "value": 506, "exceeded": true },
       { "value": 22, "exceeded": true },
@@ -7663,7 +7675,7 @@ var riskHotspots = [
       { "value": 20, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "LogLine()", "methodShortName": "LogLine()", "fileIndex": 0, "line": 435,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "LogLine()", "methodShortName": "LogLine()", "fileIndex": 0, "line": 440,
     "metrics": [
       { "value": 420, "exceeded": true },
       { "value": 20, "exceeded": true },
@@ -7681,13 +7693,13 @@ var riskHotspots = [
       { "value": 20, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "LoadOrderReservesAsync()", "methodShortName": "LoadOrderReservesAsync()", "fileIndex": 0, "line": 1508,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "LoadOrderReservesAsync()", "methodShortName": "LoadOrderReservesAsync()", "fileIndex": 0, "line": 1513,
     "metrics": [
       { "value": 420, "exceeded": true },
       { "value": 20, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "SaveOzonPriceSnapshotsAsync()", "methodShortName": "SaveOzonPriceSnapshotsAsync()", "fileIndex": 0, "line": 2444,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "SaveOzonPriceSnapshotsAsync()", "methodShortName": "SaveOzonPriceSnapshotsAsync()", "fileIndex": 0, "line": 2449,
     "metrics": [
       { "value": 420, "exceeded": true },
       { "value": 20, "exceeded": true },
@@ -8191,7 +8203,7 @@ var riskHotspots = [
       { "value": 18, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "TryUpdateBatchAsync()", "methodShortName": "TryUpdateBatchAsync()", "fileIndex": 0, "line": 1159,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "TryUpdateBatchAsync()", "methodShortName": "TryUpdateBatchAsync()", "fileIndex": 0, "line": 1286,
     "metrics": [
       { "value": 342, "exceeded": true },
       { "value": 18, "exceeded": true },
@@ -8203,7 +8215,7 @@ var riskHotspots = [
       { "value": 18, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "\u003CGetReportAggregatesAsync()", "methodShortName": "\u003CGetReportAggregatesAsync()", "fileIndex": 0, "line": 2362,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "\u003CGetReportAggregatesAsync()", "methodShortName": "\u003CGetReportAggregatesAsync()", "fileIndex": 0, "line": 2367,
     "metrics": [
       { "value": 342, "exceeded": true },
       { "value": 18, "exceeded": true },
@@ -8245,7 +8257,7 @@ var riskHotspots = [
       { "value": 18, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.StockSyncServices.WarehouseStockSyncService", "reportPath": "Services_WarehouseStockSyncService.html", "methodName": "BuildServiceAccountJson()", "methodShortName": "BuildServiceAccountJson()", "fileIndex": 0, "line": 798,
+    "assembly": "Services", "class": "Services.StockSyncServices.WarehouseStockSyncService", "reportPath": "Services_WarehouseStockSyncService.html", "methodName": "BuildServiceAccountJson()", "methodShortName": "BuildServiceAccountJson()", "fileIndex": 0, "line": 824,
     "metrics": [
       { "value": 342, "exceeded": true },
       { "value": 18, "exceeded": true },
@@ -8797,7 +8809,7 @@ var riskHotspots = [
       { "value": 16, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "\u003CApplyReportAsync()", "methodShortName": "\u003CApplyReportAsync()", "fileIndex": 0, "line": 681,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "\u003CApplyReportAsync()", "methodShortName": "\u003CApplyReportAsync()", "fileIndex": 0, "line": 727,
     "metrics": [
       { "value": 272, "exceeded": true },
       { "value": 16, "exceeded": true },
@@ -8815,7 +8827,7 @@ var riskHotspots = [
       { "value": 16, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "BuildExceptionSkipLines(OzonDomains.Models.BitrixModels.RemainingStockBitrix,System.Collections.Generic.HashSet\u00601\u003CSystem.String\u003E,System.String)", "methodShortName": "BuildExceptionSkipLines(...)", "fileIndex": 0, "line": 1222,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "BuildExceptionSkipLines(OzonDomains.Models.BitrixModels.RemainingStockBitrix,System.Collections.Generic.HashSet\u00601\u003CSystem.String\u003E,System.String)", "methodShortName": "BuildExceptionSkipLines(...)", "fileIndex": 0, "line": 1227,
     "metrics": [
       { "value": 272, "exceeded": true },
       { "value": 16, "exceeded": true },
@@ -9403,7 +9415,7 @@ var riskHotspots = [
       { "value": 14, "exceeded": false },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Controllers.UserController", "reportPath": "OzonOrdersWeb_UserController.html", "methodName": "UserList()", "methodShortName": "UserList()", "fileIndex": 0, "line": 105,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Controllers.UserController", "reportPath": "OzonOrdersWeb_UserController.html", "methodName": "UserList()", "methodShortName": "UserList()", "fileIndex": 0, "line": 106,
     "metrics": [
       { "value": 210, "exceeded": true },
       { "value": 14, "exceeded": false },
@@ -9649,25 +9661,31 @@ var riskHotspots = [
       { "value": 14, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "\u003CLoadArchiveStatusAsync()", "methodShortName": "\u003CLoadArchiveStatusAsync()", "fileIndex": 0, "line": 1794,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "ApplyLiveStockGuardAsync()", "methodShortName": "ApplyLiveStockGuardAsync()", "fileIndex": 0, "line": 911,
     "metrics": [
       { "value": 210, "exceeded": true },
       { "value": 14, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "\u003CPurgeOldCompletedReportsAsync()", "methodShortName": "\u003CPurgeOldCompletedReportsAsync()", "fileIndex": 0, "line": 2058,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "\u003CLoadArchiveStatusAsync()", "methodShortName": "\u003CLoadArchiveStatusAsync()", "fileIndex": 0, "line": 1799,
     "metrics": [
       { "value": 210, "exceeded": true },
       { "value": 14, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "\u003CGetArticleSnapshotAsync()", "methodShortName": "\u003CGetArticleSnapshotAsync()", "fileIndex": 0, "line": 2614,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "\u003CPurgeOldCompletedReportsAsync()", "methodShortName": "\u003CPurgeOldCompletedReportsAsync()", "fileIndex": 0, "line": 2063,
     "metrics": [
       { "value": 210, "exceeded": true },
       { "value": 14, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "LoadProductStocksChunkedParallelAsync()", "methodShortName": "LoadProductStocksChunkedParallelAsync()", "fileIndex": 0, "line": 1708,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "\u003CGetArticleSnapshotAsync()", "methodShortName": "\u003CGetArticleSnapshotAsync()", "fileIndex": 0, "line": 2619,
+    "metrics": [
+      { "value": 210, "exceeded": true },
+      { "value": 14, "exceeded": false },
+    ]},
+  {
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "LoadProductStocksChunkedParallelAsync()", "methodShortName": "LoadProductStocksChunkedParallelAsync()", "fileIndex": 0, "line": 1713,
     "metrics": [
       { "value": 210, "exceeded": true },
       { "value": 14, "exceeded": false },
@@ -9757,7 +9775,7 @@ var riskHotspots = [
       { "value": 14, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.StockSyncServices.WarehouseStockSyncService", "reportPath": "Services_WarehouseStockSyncService.html", "methodName": "\u003CReplaceSnapshotAsync()", "methodShortName": "\u003CReplaceSnapshotAsync()", "fileIndex": 0, "line": 632,
+    "assembly": "Services", "class": "Services.StockSyncServices.WarehouseStockSyncService", "reportPath": "Services_WarehouseStockSyncService.html", "methodName": "\u003CReplaceSnapshotAsync()", "methodShortName": "\u003CReplaceSnapshotAsync()", "fileIndex": 0, "line": 658,
     "metrics": [
       { "value": 210, "exceeded": true },
       { "value": 14, "exceeded": false },
@@ -9821,12 +9839,6 @@ var riskHotspots = [
     "metrics": [
       { "value": 167, "exceeded": true },
       { "value": 55, "exceeded": true },
-    ]},
-  {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.WebServices.SystemAlerts.PassiveSystemAlertSource", "reportPath": "OzonOrdersWeb_PassiveSystemAlertSource.html", "methodName": "GetSourceUrl(System.String,System.String,System.Collections.Generic.IReadOnlyDictionary\u00602\u003CSystem.String,System.Int64\u003E)", "methodShortName": "GetSourceUrl(...)", "fileIndex": 0, "line": 407,
-    "metrics": [
-      { "value": 166, "exceeded": true },
-      { "value": 37, "exceeded": true },
     ]},
   {
     "assembly": "OzonDomains", "class": "OzonDomains.Models.Order", "reportPath": "OzonDomains_Order.html", "methodName": "Clone()", "methodShortName": "Clone()", "fileIndex": 0, "line": 823,
@@ -10627,13 +10639,25 @@ var riskHotspots = [
       { "value": 12, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "FormatStockErrors(Services.ApiServices.OzonApi.Filters.UpdateStockResult)", "methodShortName": "FormatStockErrors(...)", "fileIndex": 0, "line": 1197,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "FormatStockErrors(Services.ApiServices.OzonApi.Filters.UpdateStockResult)", "methodShortName": "FormatStockErrors(...)", "fileIndex": 0, "line": 1324,
     "metrics": [
       { "value": 156, "exceeded": true },
       { "value": 12, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "ApplySingleAsync()", "methodShortName": "ApplySingleAsync()", "fileIndex": 0, "line": 818,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "RetryRateLimitedAsync()", "methodShortName": "RetryRateLimitedAsync()", "fileIndex": 0, "line": 491,
+    "metrics": [
+      { "value": 156, "exceeded": true },
+      { "value": 12, "exceeded": false },
+    ]},
+  {
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "\u003CApplyReportAsync()", "methodShortName": "\u003CApplyReportAsync()", "fileIndex": 0, "line": 706,
+    "metrics": [
+      { "value": 156, "exceeded": true },
+      { "value": 12, "exceeded": false },
+    ]},
+  {
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "ApplySingleAsync()", "methodShortName": "ApplySingleAsync()", "fileIndex": 0, "line": 869,
     "metrics": [
       { "value": 156, "exceeded": true },
       { "value": 12, "exceeded": false },
@@ -10657,19 +10681,19 @@ var riskHotspots = [
       { "value": 12, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "\u003CGetReportLogTextAsync()", "methodShortName": "\u003CGetReportLogTextAsync()", "fileIndex": 0, "line": 1118,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "\u003CGetReportLogTextAsync()", "methodShortName": "\u003CGetReportLogTextAsync()", "fileIndex": 0, "line": 1123,
     "metrics": [
       { "value": 156, "exceeded": true },
       { "value": 12, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "\u003CGetArticleC1PriceAsync()", "methodShortName": "\u003CGetArticleC1PriceAsync()", "fileIndex": 0, "line": 2589,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "\u003CGetArticleC1PriceAsync()", "methodShortName": "\u003CGetArticleC1PriceAsync()", "fileIndex": 0, "line": 2594,
     "metrics": [
       { "value": 156, "exceeded": true },
       { "value": 12, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "LoadPreviousPricesAsync()", "methodShortName": "LoadPreviousPricesAsync()", "fileIndex": 0, "line": 2214,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "LoadPreviousPricesAsync()", "methodShortName": "LoadPreviousPricesAsync()", "fileIndex": 0, "line": 2219,
     "metrics": [
       { "value": 156, "exceeded": true },
       { "value": 12, "exceeded": false },
@@ -11233,7 +11257,7 @@ var riskHotspots = [
       { "value": 10, "exceeded": false },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Identity.Pages.Account.LoginModel", "reportPath": "OzonOrdersWeb_LoginModel.html", "methodName": "OnGetAsync()", "methodShortName": "OnGetAsync()", "fileIndex": 0, "line": 103,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Identity.Pages.Account.LoginModel", "reportPath": "OzonOrdersWeb_LoginModel.html", "methodName": "OnGetAsync()", "methodShortName": "OnGetAsync()", "fileIndex": 0, "line": 104,
     "metrics": [
       { "value": 110, "exceeded": true },
       { "value": 10, "exceeded": false },
@@ -11689,19 +11713,19 @@ var riskHotspots = [
       { "value": 10, "exceeded": false },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Controllers.UserController", "reportPath": "OzonOrdersWeb_UserController.html", "methodName": "EditUserAccess()", "methodShortName": "EditUserAccess()", "fileIndex": 0, "line": 205,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Controllers.UserController", "reportPath": "OzonOrdersWeb_UserController.html", "methodName": "EditUserAccess()", "methodShortName": "EditUserAccess()", "fileIndex": 0, "line": 206,
     "metrics": [
       { "value": 110, "exceeded": true },
       { "value": 10, "exceeded": false },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Controllers.UserController", "reportPath": "OzonOrdersWeb_UserController.html", "methodName": "UnlockUser()", "methodShortName": "UnlockUser()", "fileIndex": 0, "line": 314,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Controllers.UserController", "reportPath": "OzonOrdersWeb_UserController.html", "methodName": "UnlockUser()", "methodShortName": "UnlockUser()", "fileIndex": 0, "line": 315,
     "metrics": [
       { "value": 110, "exceeded": true },
       { "value": 10, "exceeded": false },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Controllers.UserController", "reportPath": "OzonOrdersWeb_UserController.html", "methodName": "UserList()", "methodShortName": "UserList()", "fileIndex": 0, "line": 135,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Controllers.UserController", "reportPath": "OzonOrdersWeb_UserController.html", "methodName": "UserList()", "methodShortName": "UserList()", "fileIndex": 0, "line": 136,
     "metrics": [
       { "value": 110, "exceeded": true },
       { "value": 10, "exceeded": false },
@@ -11983,6 +12007,12 @@ var riskHotspots = [
       { "value": 10, "exceeded": false },
     ]},
   {
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockLiveStockComparer", "reportPath": "Services_BitrixStockLiveStockComparer.html", "methodName": "ResolveCardsAsync()", "methodShortName": "ResolveCardsAsync()", "fileIndex": 0, "line": 201,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
     "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockRolloutTelegramReporter", "reportPath": "Services_BitrixStockRolloutTelegramReporter.html", "methodName": "BuildSummaryAsync()", "methodShortName": "BuildSummaryAsync()", "fileIndex": 0, "line": 83,
     "metrics": [
       { "value": 110, "exceeded": true },
@@ -12031,25 +12061,19 @@ var riskHotspots = [
       { "value": 10, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "\u003CApplyReportAsync()", "methodShortName": "\u003CApplyReportAsync()", "fileIndex": 0, "line": 662,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "\u003CLoadReportMetaAsync()", "methodShortName": "\u003CLoadReportMetaAsync()", "fileIndex": 0, "line": 999,
     "metrics": [
       { "value": 110, "exceeded": true },
       { "value": 10, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "\u003CLoadReportMetaAsync()", "methodShortName": "\u003CLoadReportMetaAsync()", "fileIndex": 0, "line": 874,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "\u003CLoadOfferArchiveTypesAsync()", "methodShortName": "\u003CLoadOfferArchiveTypesAsync()", "fileIndex": 0, "line": 1358,
     "metrics": [
       { "value": 110, "exceeded": true },
       { "value": 10, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "\u003CLoadOfferArchiveTypesAsync()", "methodShortName": "\u003CLoadOfferArchiveTypesAsync()", "fileIndex": 0, "line": 1231,
-    "metrics": [
-      { "value": 110, "exceeded": true },
-      { "value": 10, "exceeded": false },
-    ]},
-  {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "AddLineFilterParams(System.Data.Common.DbCommand,System.String,System.String,System.String,System.Collections.Generic.IReadOnlyList\u00601\u003CSystem.String\u003E,System.Collections.Generic.IReadOnlyList\u00601\u003CSystem.String\u003E,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Collections.Generic.IReadOnlyList\u00601\u003CSystem.Int32\u003E,System.Boolean,System.Boolean)", "methodShortName": "AddLineFilterParams(...)", "fileIndex": 0, "line": 2190,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "AddLineFilterParams(System.Data.Common.DbCommand,System.String,System.String,System.String,System.Collections.Generic.IReadOnlyList\u00601\u003CSystem.String\u003E,System.Collections.Generic.IReadOnlyList\u00601\u003CSystem.String\u003E,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Collections.Generic.IReadOnlyList\u00601\u003CSystem.Int32\u003E,System.Boolean,System.Boolean)", "methodShortName": "AddLineFilterParams(...)", "fileIndex": 0, "line": 2195,
     "metrics": [
       { "value": 110, "exceeded": true },
       { "value": 10, "exceeded": false },
@@ -12157,12 +12181,6 @@ var riskHotspots = [
       { "value": 10, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.SearchServices.OrderSearch.OrderSearchFullReindexJob", "reportPath": "Services_OrderSearchFullReindexJob.html", "methodName": "ExecuteAsync()", "methodShortName": "ExecuteAsync()", "fileIndex": 0, "line": 40,
-    "metrics": [
-      { "value": 110, "exceeded": true },
-      { "value": 10, "exceeded": false },
-    ]},
-  {
     "assembly": "Services", "class": "Services.SupplierStatusServices.SupplierVerificationStatus", "reportPath": "Services_SupplierVerificationStatus.html", "methodName": "Title(System.String)", "methodShortName": "Title(...)", "fileIndex": 0, "line": 27,
     "metrics": [
       { "value": 110, "exceeded": true },
@@ -12185,6 +12203,12 @@ var riskHotspots = [
     "metrics": [
       { "value": 103, "exceeded": true },
       { "value": 88, "exceeded": true },
+    ]},
+  {
+    "assembly": "Services", "class": "Services.SearchServices.OrderSearch.OrderSearchFullReindexJob", "reportPath": "Services_OrderSearchFullReindexJob.html", "methodName": "ExecuteAsync()", "methodShortName": "ExecuteAsync()", "fileIndex": 0, "line": 43,
+    "metrics": [
+      { "value": 103, "exceeded": true },
+      { "value": 12, "exceeded": false },
     ]},
   {
     "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Observability.InvalidModelStateLoggingFilter", "reportPath": "OzonOrdersWeb_InvalidModelStateLoggingFilter.html", "methodName": "IsBooleanTarget(System.String,System.Collections.Generic.IDictionary\u00602\u003CSystem.String,System.Object\u003E,System.Collections.Generic.IList\u00601\u003CMicrosoft.AspNetCore.Mvc.Abstractions.ParameterDescriptor\u003E)", "methodShortName": "IsBooleanTarget(...)", "fileIndex": 0, "line": 201,
@@ -13441,13 +13465,13 @@ var riskHotspots = [
       { "value": 8, "exceeded": false },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Controllers.UserController", "reportPath": "OzonOrdersWeb_UserController.html", "methodName": "Create()", "methodShortName": "Create()", "fileIndex": 0, "line": 248,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Controllers.UserController", "reportPath": "OzonOrdersWeb_UserController.html", "methodName": "Create()", "methodShortName": "Create()", "fileIndex": 0, "line": 249,
     "metrics": [
       { "value": 72, "exceeded": true },
       { "value": 8, "exceeded": false },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Extensions.ApplicationServicesExtensions", "reportPath": "OzonOrdersWeb_ApplicationServicesExtensions.html", "methodName": "ResolveStockSyncSection(Microsoft.Extensions.Configuration.IConfiguration,System.Boolean)", "methodShortName": "ResolveStockSyncSection(...)", "fileIndex": 0, "line": 315,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Extensions.ApplicationServicesExtensions", "reportPath": "OzonOrdersWeb_ApplicationServicesExtensions.html", "methodName": "ResolveStockSyncSection(Microsoft.Extensions.Configuration.IConfiguration,System.Boolean)", "methodShortName": "ResolveStockSyncSection(...)", "fileIndex": 0, "line": 319,
     "metrics": [
       { "value": 72, "exceeded": true },
       { "value": 8, "exceeded": false },
@@ -14065,6 +14089,18 @@ var riskHotspots = [
       { "value": 8, "exceeded": false },
     ]},
   {
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockLiveStockComparer", "reportPath": "Services_BitrixStockLiveStockComparer.html", "methodName": "CompareAsync()", "methodShortName": "CompareAsync()", "fileIndex": 0, "line": 108,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockLiveStockComparer", "reportPath": "Services_BitrixStockLiveStockComparer.html", "methodName": "LoadBalancesAsync()", "methodShortName": "LoadBalancesAsync()", "fileIndex": 0, "line": 167,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
+  {
     "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockOzonOrphanCleanupService", "reportPath": "Services_BitrixStockOzonOrphanCleanupService.html", "methodName": "BuildWarehouseDisplayByOzonId(System.Collections.Generic.IEnumerable\u00601\u003COzonDomains.Models.WarehouseMapping\u003E)", "methodShortName": "BuildWarehouseDisplayByOzonId(...)", "fileIndex": 1, "line": 1544,
     "metrics": [
       { "value": 72, "exceeded": true },
@@ -14095,13 +14131,13 @@ var riskHotspots = [
       { "value": 8, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "Progress()", "methodShortName": "Progress()", "fileIndex": 0, "line": 82,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "Progress()", "methodShortName": "Progress()", "fileIndex": 0, "line": 85,
     "metrics": [
       { "value": 72, "exceeded": true },
       { "value": 8, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "\u003CLoadAllReportOfferIdsAsync()", "methodShortName": "\u003CLoadAllReportOfferIdsAsync()", "fileIndex": 0, "line": 1212,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "\u003CLoadAllReportOfferIdsAsync()", "methodShortName": "\u003CLoadAllReportOfferIdsAsync()", "fileIndex": 0, "line": 1339,
     "metrics": [
       { "value": 72, "exceeded": true },
       { "value": 8, "exceeded": false },
@@ -14113,43 +14149,43 @@ var riskHotspots = [
       { "value": 8, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "Progress()", "methodShortName": "Progress()", "fileIndex": 0, "line": 97,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "Progress()", "methodShortName": "Progress()", "fileIndex": 0, "line": 100,
     "metrics": [
       { "value": 72, "exceeded": true },
       { "value": 8, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "\u003CGetReportOneCStoresAsync()", "methodShortName": "\u003CGetReportOneCStoresAsync()", "fileIndex": 0, "line": 1061,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "\u003CGetReportOneCStoresAsync()", "methodShortName": "\u003CGetReportOneCStoresAsync()", "fileIndex": 0, "line": 1066,
     "metrics": [
       { "value": 72, "exceeded": true },
       { "value": 8, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "\u003CGetReportMappingCombosAsync()", "methodShortName": "\u003CGetReportMappingCombosAsync()", "fileIndex": 0, "line": 1088,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "\u003CGetReportMappingCombosAsync()", "methodShortName": "\u003CGetReportMappingCombosAsync()", "fileIndex": 0, "line": 1093,
     "metrics": [
       { "value": 72, "exceeded": true },
       { "value": 8, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "\u003CGetReportPromosAsync()", "methodShortName": "\u003CGetReportPromosAsync()", "fileIndex": 0, "line": 2536,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "\u003CGetReportPromosAsync()", "methodShortName": "\u003CGetReportPromosAsync()", "fileIndex": 0, "line": 2541,
     "metrics": [
       { "value": 72, "exceeded": true },
       { "value": 8, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "ApplySupplierPrefixesAsync()", "methodShortName": "ApplySupplierPrefixesAsync()", "fileIndex": 0, "line": 1753,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "ApplySupplierPrefixesAsync()", "methodShortName": "ApplySupplierPrefixesAsync()", "fileIndex": 0, "line": 1758,
     "metrics": [
       { "value": 72, "exceeded": true },
       { "value": 8, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "GetOrderReserveMapAsync()", "methodShortName": "GetOrderReserveMapAsync()", "fileIndex": 0, "line": 1556,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "GetOrderReserveMapAsync()", "methodShortName": "GetOrderReserveMapAsync()", "fileIndex": 0, "line": 1561,
     "metrics": [
       { "value": 72, "exceeded": true },
       { "value": 8, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "InsertReportLinesAsync()", "methodShortName": "InsertReportLinesAsync()", "fileIndex": 0, "line": 1893,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "InsertReportLinesAsync()", "methodShortName": "InsertReportLinesAsync()", "fileIndex": 0, "line": 1898,
     "metrics": [
       { "value": 72, "exceeded": true },
       { "value": 8, "exceeded": false },
@@ -14387,6 +14423,12 @@ var riskHotspots = [
     "metrics": [
       { "value": 66, "exceeded": true },
       { "value": 30, "exceeded": true },
+    ]},
+  {
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.WebServices.SystemAlerts.PassiveSystemAlertSource", "reportPath": "OzonOrdersWeb_PassiveSystemAlertSource.html", "methodName": "GetSourceUrl(System.String,System.String,System.Collections.Generic.IReadOnlyDictionary\u00602\u003CSystem.String,System.Int64\u003E)", "methodShortName": "GetSourceUrl(...)", "fileIndex": 0, "line": 429,
+    "metrics": [
+      { "value": 65, "exceeded": true },
+      { "value": 37, "exceeded": true },
     ]},
   {
     "assembly": "Services", "class": "Services.BackgroundJobsServices.WarehouseSelectionResolver", "reportPath": "Services_WarehouseSelectionResolver.html", "methodName": "ResolveCustomerReturnRecipientByOrderAsync()", "methodShortName": "ResolveCustomerReturnRecipientByOrderAsync()", "fileIndex": 0, "line": 313,
@@ -14647,6 +14689,12 @@ var riskHotspots = [
       { "value": 46, "exceeded": true },
     ]},
   {
+    "assembly": "Services", "class": "Services.BitrixStockServices.PriceOptimizationManager", "reportPath": "Services_PriceOptimizationManager.html", "methodName": "Calculate(Services.BitrixStockServices.PriceOptimizationInput)", "methodShortName": "Calculate(...)", "fileIndex": 0, "line": 96,
+    "metrics": [
+      { "value": 46, "exceeded": true },
+      { "value": 46, "exceeded": true },
+    ]},
+  {
     "assembly": "Services", "class": "Services.OzonWebhookServices.Handlers.PostingCancelledNotificationHandler", "reportPath": "Services_PostingCancelledNotificationHandler.html", "methodName": "HandleAsync()", "methodShortName": "HandleAsync()", "fileIndex": 0, "line": 67,
     "metrics": [
       { "value": 46, "exceeded": true },
@@ -14683,7 +14731,7 @@ var riskHotspots = [
       { "value": 44, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "ApplyPriorityForTwoClients(System.Collections.Generic.List\u00601\u003CServices.BitrixStockServices.BitrixStockSyncReportApplyService/ApplyLineRow\u003E,Services.BitrixStockServices.BitrixStockSyncReportApplyService/ReportMetaRow,System.Collections.Generic.Dictionary\u00602\u003CSystem.String,Services.BitrixStockServices.BitrixStockSyncReportApplyService/ApplyLineRow\u003E)", "methodShortName": "ApplyPriorityForTwoClients(...)", "fileIndex": 0, "line": 1278,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportApplyService", "reportPath": "Services_BitrixStockSyncReportApplyService.html", "methodName": "ApplyPriorityForTwoClients(System.Collections.Generic.List\u00601\u003CServices.BitrixStockServices.BitrixStockSyncReportApplyService/ApplyLineRow\u003E,Services.BitrixStockServices.BitrixStockSyncReportApplyService/ReportMetaRow,System.Collections.Generic.Dictionary\u00602\u003CSystem.String,Services.BitrixStockServices.BitrixStockSyncReportApplyService/ApplyLineRow\u003E)", "methodShortName": "ApplyPriorityForTwoClients(...)", "fileIndex": 0, "line": 1405,
     "metrics": [
       { "value": 44, "exceeded": true },
       { "value": 38, "exceeded": true },
@@ -15349,13 +15397,13 @@ var riskHotspots = [
       { "value": 6, "exceeded": false },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Identity.Pages.Account.LoginModel", "reportPath": "OzonOrdersWeb_LoginModel.html", "methodName": "SendAccountLockedNotificationAsync()", "methodShortName": "SendAccountLockedNotificationAsync()", "fileIndex": 0, "line": 304,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Identity.Pages.Account.LoginModel", "reportPath": "OzonOrdersWeb_LoginModel.html", "methodName": "SendAccountLockedNotificationAsync()", "methodShortName": "SendAccountLockedNotificationAsync()", "fileIndex": 0, "line": 311,
     "metrics": [
       { "value": 42, "exceeded": true },
       { "value": 6, "exceeded": false },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Identity.Pages.Account.LoginModel", "reportPath": "OzonOrdersWeb_LoginModel.html", "methodName": "SendFailedLoginNotificationAsync()", "methodShortName": "SendFailedLoginNotificationAsync()", "fileIndex": 0, "line": 252,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Identity.Pages.Account.LoginModel", "reportPath": "OzonOrdersWeb_LoginModel.html", "methodName": "SendFailedLoginNotificationAsync()", "methodShortName": "SendFailedLoginNotificationAsync()", "fileIndex": 0, "line": 259,
     "metrics": [
       { "value": 42, "exceeded": true },
       { "value": 6, "exceeded": false },
@@ -16177,19 +16225,19 @@ var riskHotspots = [
       { "value": 6, "exceeded": false },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Controllers.UserController", "reportPath": "OzonOrdersWeb_UserController.html", "methodName": "CreateRole()", "methodShortName": "CreateRole()", "fileIndex": 0, "line": 73,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Controllers.UserController", "reportPath": "OzonOrdersWeb_UserController.html", "methodName": "CreateRole()", "methodShortName": "CreateRole()", "fileIndex": 0, "line": 74,
     "metrics": [
       { "value": 42, "exceeded": true },
       { "value": 6, "exceeded": false },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Controllers.UserController", "reportPath": "OzonOrdersWeb_UserController.html", "methodName": "Edit()", "methodShortName": "Edit()", "fileIndex": 0, "line": 188,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Controllers.UserController", "reportPath": "OzonOrdersWeb_UserController.html", "methodName": "Edit()", "methodShortName": "Edit()", "fileIndex": 0, "line": 189,
     "metrics": [
       { "value": 42, "exceeded": true },
       { "value": 6, "exceeded": false },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Controllers.UserController", "reportPath": "OzonOrdersWeb_UserController.html", "methodName": "SetAccessProfile()", "methodShortName": "SetAccessProfile()", "fileIndex": 0, "line": 290,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Controllers.UserController", "reportPath": "OzonOrdersWeb_UserController.html", "methodName": "SetAccessProfile()", "methodShortName": "SetAccessProfile()", "fileIndex": 0, "line": 291,
     "metrics": [
       { "value": 42, "exceeded": true },
       { "value": 6, "exceeded": false },
@@ -17005,43 +17053,43 @@ var riskHotspots = [
       { "value": 6, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "BuildFilter(Services.BitrixStockServices.BitrixStockSyncReportStartRequest,System.Int32)", "methodShortName": "BuildFilter(...)", "fileIndex": 0, "line": 442,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "BuildFilter(Services.BitrixStockServices.BitrixStockSyncReportStartRequest,System.Int32)", "methodShortName": "BuildFilter(...)", "fileIndex": 0, "line": 447,
     "metrics": [
       { "value": 42, "exceeded": true },
       { "value": 6, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "\u003CGetReportPriceSettingsAsync()", "methodShortName": "\u003CGetReportPriceSettingsAsync()", "fileIndex": 0, "line": 2569,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "\u003CGetReportPriceSettingsAsync()", "methodShortName": "\u003CGetReportPriceSettingsAsync()", "fileIndex": 0, "line": 2574,
     "metrics": [
       { "value": 42, "exceeded": true },
       { "value": 6, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "GetOrCreateWarehouseCacheAsync()", "methodShortName": "GetOrCreateWarehouseCacheAsync()", "fileIndex": 0, "line": 1822,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "GetOrCreateWarehouseCacheAsync()", "methodShortName": "GetOrCreateWarehouseCacheAsync()", "fileIndex": 0, "line": 1827,
     "metrics": [
       { "value": 42, "exceeded": true },
       { "value": 6, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "InsertOzonPriceSnapshotsAsync()", "methodShortName": "InsertOzonPriceSnapshotsAsync()", "fileIndex": 0, "line": 2511,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "InsertOzonPriceSnapshotsAsync()", "methodShortName": "InsertOzonPriceSnapshotsAsync()", "fileIndex": 0, "line": 2516,
     "metrics": [
       { "value": 42, "exceeded": true },
       { "value": 6, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "ListReportsAsync()", "methodShortName": "ListReportsAsync()", "fileIndex": 0, "line": 850,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "ListReportsAsync()", "methodShortName": "ListReportsAsync()", "fileIndex": 0, "line": 855,
     "metrics": [
       { "value": 42, "exceeded": true },
       { "value": 6, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "PrepareReportStorageAsync()", "methodShortName": "PrepareReportStorageAsync()", "fileIndex": 0, "line": 1864,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "PrepareReportStorageAsync()", "methodShortName": "PrepareReportStorageAsync()", "fileIndex": 0, "line": 1869,
     "metrics": [
       { "value": 42, "exceeded": true },
       { "value": 6, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "UpdateOzonPriceSnapshotAsync()", "methodShortName": "UpdateOzonPriceSnapshotAsync()", "fileIndex": 0, "line": 2308,
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportService", "reportPath": "Services_BitrixStockSyncReportService.html", "methodName": "UpdateOzonPriceSnapshotAsync()", "methodShortName": "UpdateOzonPriceSnapshotAsync()", "fileIndex": 0, "line": 2313,
     "metrics": [
       { "value": 42, "exceeded": true },
       { "value": 6, "exceeded": false },
@@ -17057,12 +17105,6 @@ var riskHotspots = [
     "metrics": [
       { "value": 42, "exceeded": true },
       { "value": 6, "exceeded": false },
-    ]},
-  {
-    "assembly": "Services", "class": "Services.BitrixStockServices.PriceOptimizationManager", "reportPath": "Services_PriceOptimizationManager.html", "methodName": "Calculate(Services.BitrixStockServices.PriceOptimizationInput)", "methodShortName": "Calculate(...)", "fileIndex": 0, "line": 96,
-    "metrics": [
-      { "value": 42, "exceeded": true },
-      { "value": 42, "exceeded": true },
     ]},
   {
     "assembly": "Services", "class": "Services.CacheServices.Cache.CartCache.CartCache", "reportPath": "Services_CartCache.html", "methodName": "Get()", "methodShortName": "Get()", "fileIndex": 0, "line": 58,
@@ -17335,7 +17377,7 @@ var riskHotspots = [
       { "value": 40, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.StockSyncServices.WarehouseStockSyncService", "reportPath": "Services_WarehouseStockSyncService.html", "methodName": "ResolveWarehouse(System.Nullable\u00601\u003CSystem.Decimal\u003E,System.Nullable\u00601\u003CSystem.Decimal\u003E,System.Nullable\u00601\u003CSystem.Decimal\u003E,System.Nullable\u00601\u003CSystem.Decimal\u003E,System.Nullable\u00601\u003CSystem.Decimal\u003E)", "methodShortName": "ResolveWarehouse(...)", "fileIndex": 0, "line": 564,
+    "assembly": "Services", "class": "Services.StockSyncServices.WarehouseStockSyncService", "reportPath": "Services_WarehouseStockSyncService.html", "methodName": "ResolveWarehouse(System.Nullable\u00601\u003CSystem.Decimal\u003E,System.Nullable\u00601\u003CSystem.Decimal\u003E,System.Nullable\u00601\u003CSystem.Decimal\u003E,System.Nullable\u00601\u003CSystem.Decimal\u003E,System.Nullable\u00601\u003CSystem.Decimal\u003E)", "methodShortName": "ResolveWarehouse(...)", "fileIndex": 0, "line": 590,
     "metrics": [
       { "value": 40, "exceeded": true },
       { "value": 10, "exceeded": false },
@@ -17521,7 +17563,7 @@ var riskHotspots = [
       { "value": 16, "exceeded": true },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Observability.InfrastructureNoiseLogFilter", "reportPath": "OzonOrdersWeb_InfrastructureNoiseLogFilter.html", "methodName": "IsTransientOzonMethodNotAllowed(Serilog.Events.LogEvent)", "methodShortName": "IsTransientOzonMethodNotAllowed(...)", "fileIndex": 0, "line": 259,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Observability.InfrastructureNoiseLogFilter", "reportPath": "OzonOrdersWeb_InfrastructureNoiseLogFilter.html", "methodName": "IsTransientOzonMethodNotAllowed(Serilog.Events.LogEvent)", "methodShortName": "IsTransientOzonMethodNotAllowed(...)", "fileIndex": 0, "line": 290,
     "metrics": [
       { "value": 35, "exceeded": true },
       { "value": 26, "exceeded": true },
@@ -17543,12 +17585,6 @@ var riskHotspots = [
     "metrics": [
       { "value": 35, "exceeded": true },
       { "value": 8, "exceeded": false },
-    ]},
-  {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.WebServices.SystemAlerts.PassiveSystemAlertSource", "reportPath": "OzonOrdersWeb_PassiveSystemAlertSource.html", "methodName": "GetSourceTitle(System.String,System.String)", "methodShortName": "GetSourceTitle(...)", "fileIndex": 0, "line": 388,
-    "metrics": [
-      { "value": 35, "exceeded": true },
-      { "value": 18, "exceeded": true },
     ]},
   {
     "assembly": "Services", "class": "Services.ApiServices._1CApi.OData", "reportPath": "Services_OData.html", "methodName": "EnsureRequiredFieldsAsync()", "methodShortName": "EnsureRequiredFieldsAsync()", "fileIndex": 13, "line": 617,
@@ -17588,6 +17624,12 @@ var riskHotspots = [
     ]},
   {
     "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.WebServices.Orders.Grid.AgGridRequestMapper", "reportPath": "OzonOrdersWeb_AgGridRequestMapper.html", "methodName": "IsNativelySupported(System.String,System.String)", "methodShortName": "IsNativelySupported(...)", "fileIndex": 0, "line": 154,
+    "metrics": [
+      { "value": 34, "exceeded": true },
+      { "value": 34, "exceeded": true },
+    ]},
+  {
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.WebServices.SystemAlerts.PassiveSystemAlertSource", "reportPath": "OzonOrdersWeb_PassiveSystemAlertSource.html", "methodName": "CollectAsync()", "methodShortName": "CollectAsync()", "fileIndex": 0, "line": 335,
     "metrics": [
       { "value": 34, "exceeded": true },
       { "value": 34, "exceeded": true },
@@ -17713,6 +17755,12 @@ var riskHotspots = [
       { "value": 32, "exceeded": true },
     ]},
   {
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Observability.InfrastructureNoiseLogFilter", "reportPath": "OzonOrdersWeb_InfrastructureNoiseLogFilter.html", "methodName": "IsTransientInfrastructureNoise(Serilog.Events.LogEvent)", "methodShortName": "IsTransientInfrastructureNoise(...)", "fileIndex": 0, "line": 236,
+    "metrics": [
+      { "value": 32, "exceeded": true },
+      { "value": 32, "exceeded": true },
+    ]},
+  {
     "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.TransactionServices.MoskvorechieIstraCartService", "reportPath": "OzonOrdersWeb_MoskvorechieIstraCartService.html", "methodName": "ImportOrderAsync()", "methodShortName": "ImportOrderAsync()", "fileIndex": 0, "line": 166,
     "metrics": [
       { "value": 32, "exceeded": true },
@@ -17720,12 +17768,6 @@ var riskHotspots = [
     ]},
   {
     "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.TransactionServices.MotexCartService", "reportPath": "OzonOrdersWeb_MotexCartService.html", "methodName": "CreateOrderAsync()", "methodShortName": "CreateOrderAsync()", "fileIndex": 0, "line": 89,
-    "metrics": [
-      { "value": 32, "exceeded": true },
-      { "value": 32, "exceeded": true },
-    ]},
-  {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.WebServices.SystemAlerts.PassiveSystemAlertSource", "reportPath": "OzonOrdersWeb_PassiveSystemAlertSource.html", "methodName": "CollectAsync()", "methodShortName": "CollectAsync()", "fileIndex": 0, "line": 335,
     "metrics": [
       { "value": 32, "exceeded": true },
       { "value": 32, "exceeded": true },
@@ -17887,12 +17929,6 @@ var riskHotspots = [
       { "value": 30, "exceeded": true },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Observability.InfrastructureNoiseLogFilter", "reportPath": "OzonOrdersWeb_InfrastructureNoiseLogFilter.html", "methodName": "IsTransientInfrastructureNoise(Serilog.Events.LogEvent)", "methodShortName": "IsTransientInfrastructureNoise(...)", "fileIndex": 0, "line": 220,
-    "metrics": [
-      { "value": 28, "exceeded": false },
-      { "value": 28, "exceeded": true },
-    ]},
-  {
     "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.TransactionServices.ForumAutoCartService", "reportPath": "OzonOrdersWeb_ForumAutoCartService.html", "methodName": "CheckoutDirectAsync()", "methodShortName": "CheckoutDirectAsync()", "fileIndex": 0, "line": 274,
     "metrics": [
       { "value": 29, "exceeded": false },
@@ -17953,7 +17989,7 @@ var riskHotspots = [
       { "value": 28, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.StockSyncServices.WarehouseStockSyncService", "reportPath": "Services_WarehouseStockSyncService.html", "methodName": "BuildRowKey(System.String,System.Int32,System.String,System.String,System.String,System.String,System.Nullable\u00601\u003CSystem.Decimal\u003E,System.Nullable\u00601\u003CSystem.Decimal\u003E,System.Nullable\u00601\u003CSystem.Decimal\u003E,System.Nullable\u00601\u003CSystem.Decimal\u003E,System.Nullable\u00601\u003CSystem.Decimal\u003E)", "methodShortName": "BuildRowKey(...)", "fileIndex": 0, "line": 585,
+    "assembly": "Services", "class": "Services.StockSyncServices.WarehouseStockSyncService", "reportPath": "Services_WarehouseStockSyncService.html", "methodName": "BuildRowKey(System.String,System.Int32,System.String,System.String,System.String,System.String,System.Nullable\u00601\u003CSystem.Decimal\u003E,System.Nullable\u00601\u003CSystem.Decimal\u003E,System.Nullable\u00601\u003CSystem.Decimal\u003E,System.Nullable\u00601\u003CSystem.Decimal\u003E,System.Nullable\u00601\u003CSystem.Decimal\u003E)", "methodShortName": "BuildRowKey(...)", "fileIndex": 0, "line": 611,
     "metrics": [
       { "value": 28, "exceeded": false },
       { "value": 28, "exceeded": true },
@@ -18631,6 +18667,12 @@ var riskHotspots = [
       { "value": 20, "exceeded": true },
     ]},
   {
+    "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockLiveStockGuard", "reportPath": "Services_BitrixStockLiveStockGuard.html", "methodName": "GetLiveFreeStockAsync()", "methodShortName": "GetLiveFreeStockAsync()", "fileIndex": 0, "line": 33,
+    "metrics": [
+      { "value": 20, "exceeded": false },
+      { "value": 20, "exceeded": true },
+    ]},
+  {
     "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncFbsWarehouseBatchLoader", "reportPath": "Services_BitrixStockSyncFbsWarehouseBatchLoader.html", "methodName": "MergeOfferSkusFromStocks(Newtonsoft.Json.Linq.JObject,System.Collections.Generic.IDictionary\u00602\u003CSystem.String,System.Collections.Generic.HashSet\u00601\u003CSystem.String\u003E\u003E)", "methodShortName": "MergeOfferSkusFromStocks(...)", "fileIndex": 0, "line": 149,
     "metrics": [
       { "value": 20, "exceeded": false },
@@ -18790,6 +18832,12 @@ var riskHotspots = [
     "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.WebServices.Orders.Grid.AgGridRequestMapper", "reportPath": "OzonOrdersWeb_AgGridRequestMapper.html", "methodName": "TextValue(OzonOrdersWeb.WebServices.Orders.Grid.AgGridFilterModelItem)", "methodShortName": "TextValue(...)", "fileIndex": 0, "line": 276,
     "metrics": [
       { "value": 18, "exceeded": false },
+      { "value": 18, "exceeded": true },
+    ]},
+  {
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.WebServices.SystemAlerts.PassiveSystemAlertSource", "reportPath": "OzonOrdersWeb_PassiveSystemAlertSource.html", "methodName": "GetSourceTitle(System.String,System.String)", "methodShortName": "GetSourceTitle(...)", "fileIndex": 0, "line": 410,
+    "metrics": [
+      { "value": 28, "exceeded": false },
       { "value": 18, "exceeded": true },
     ]},
   {
@@ -19297,7 +19345,7 @@ var riskHotspots = [
       { "value": 16, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.StockSyncServices.WarehouseStockSyncService", "reportPath": "Services_WarehouseStockSyncService.html", "methodName": "BuildTombstones(System.Collections.Generic.IReadOnlyCollection\u00601\u003COzonDomains.Models.WarehouseStockSnapshot\u003E,System.Collections.Generic.IReadOnlyCollection\u00601\u003COzonDomains.Models.WarehouseStockSnapshot\u003E,System.DateTime,System.TimeSpan)", "methodShortName": "BuildTombstones(...)", "fileIndex": 0, "line": 684,
+    "assembly": "Services", "class": "Services.StockSyncServices.WarehouseStockSyncService", "reportPath": "Services_WarehouseStockSyncService.html", "methodName": "BuildTombstones(System.Collections.Generic.IReadOnlyCollection\u00601\u003COzonDomains.Models.WarehouseStockSnapshot\u003E,System.Collections.Generic.IReadOnlyCollection\u00601\u003COzonDomains.Models.WarehouseStockSnapshot\u003E,System.DateTime,System.TimeSpan)", "methodShortName": "BuildTombstones(...)", "fileIndex": 0, "line": 710,
     "metrics": [
       { "value": 16, "exceeded": false },
       { "value": 16, "exceeded": true },
