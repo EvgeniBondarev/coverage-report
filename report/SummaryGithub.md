@@ -3,20 +3,20 @@
 
 |||
 |:---|:---|
-| Generated on: | 10/13/2026 - 09:19:48 |
-| Coverage date: | 10/13/2026 - 09:17:05 - 10/13/2026 - 09:19:32 |
+| Generated on: | 10/14/2026 - 07:32:24 |
+| Coverage date: | 10/14/2026 - 07:28:59 - 10/14/2026 - 07:32:06 |
 | Parser: | MultiReport (2x Cobertura) |
 | Assemblies: | 5 |
-| Classes: | 3016 |
-| Files: | 2077 |
-| **Line coverage:** | 13.2% (51115 of 385406) |
-| Covered lines: | 51115 |
-| Uncovered lines: | 334291 |
-| Coverable lines: | 385406 |
-| Total lines: | 572440 |
-| **Branch coverage:** | 25.4% (23501 of 92352) |
-| Covered branches: | 23501 |
-| Total branches: | 92352 |
+| Classes: | 3024 |
+| Files: | 2084 |
+| **Line coverage:** | 12.9% (51373 of 397166) |
+| Covered lines: | 51373 |
+| Uncovered lines: | 345793 |
+| Coverable lines: | 397166 |
+| Total lines: | 584752 |
+| **Branch coverage:** | 25.5% (23627 of 92532) |
+| Covered branches: | 23627 |
+| Total branches: | 92532 |
 | **Method coverage:** | [Feature is only available for sponsors](https://reportgenerator.io/pro) |
 
 </details>
@@ -199,6 +199,7 @@
 |OzonDomains.Models.OzonPushNotification|33.3%||
 |OzonDomains.Models.Partners.Partner|100%||
 |OzonDomains.Models.Partners.PartnerAuditLog|100%||
+|OzonDomains.Models.Partners.PartnerLoginCode|80%||
 |OzonDomains.Models.Partners.PartnerPermission|25%||
 |OzonDomains.Models.Partners.PartnerRule|83.3%||
 |OzonDomains.Models.Partners.PartnerRuleCondition|40%||
@@ -621,7 +622,8 @@
 |OzonOrdersWeb.Api.OzonHandoverImportController|0%|0%|
 |OzonOrdersWeb.Api.OzonHandoverOptions|100%||
 |OzonOrdersWeb.Api.Partner.PartnerAuthController|0%|0%|
-|OzonOrdersWeb.Api.Partner.PartnerLoginRequest|100%||
+|OzonOrdersWeb.Api.Partner.PartnerCodeVerifyRequest|100%||
+|OzonOrdersWeb.Api.Partner.PartnerEmailRequest|100%||
 |OzonOrdersWeb.Api.Partner.PartnerOrdersController|0%|0%|
 |OzonOrdersWeb.Api.Partner.SetCountriesBody|0%||
 |OzonOrdersWeb.Api.Partner.SetExemplarsBody|0%||
@@ -1102,7 +1104,7 @@
 |OzonOrdersWeb.Controllers.UserController|6.2%|0%|
 |OzonOrdersWeb.Extensions.ApiClientsExtensions|0%|0%|
 |OzonOrdersWeb.Extensions.ApplicationServicesExtensions|0%|0%|
-|OzonOrdersWeb.Extensions.AuthorizationExtensions|45.9%|0%|
+|OzonOrdersWeb.Extensions.AuthorizationExtensions|41.3%|0%|
 |OzonOrdersWeb.Extensions.CacheExtensions|0%||
 |OzonOrdersWeb.Extensions.DatabaseExtensions|0%|0%|
 |OzonOrdersWeb.Extensions.DatabaseMigrationExtensions|0%|0%|
@@ -1667,6 +1669,7 @@
 |OzonRepositories.Migrations.AddOrderTriggers|0%||
 |OzonRepositories.Migrations.AddOzonHandoverImport|0%||
 |OzonRepositories.Migrations.AddOzonHandoverReturnDetails|0%||
+|OzonRepositories.Migrations.AddPartnerEmailLogin|0%||
 |OzonRepositories.Migrations.AddPartnerOffice|0%||
 |OzonRepositories.Migrations.AddSystemAlertIncidentOrders|0%||
 |OzonRepositories.Migrations.AddSystemAlertMonitoring|0%||
@@ -1690,11 +1693,11 @@
 |Services.DataServices.ExcelMapping.ExcludedBitrixWarehouseRepository|0%||
 
 </details>
-<details><summary>Services - 42.8%</summary>
+<details><summary>Services - 42.9%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**Services**|**42.8%**|**37.3%**|
+|**Services**|**42.9%**|**37.4%**|
 |AppRepository.ApiServices.OzonApi.Filters.Chat|0%||
 |AppRepository.ApiServices.OzonApi.Filters.ChatFilter|0%||
 |AppRepository.ApiServices.OzonApi.Filters.ChatHistoryRequest|0%||
@@ -2503,7 +2506,7 @@
 |Services.BitrixStockServices.BitrixStockSyncPresetUpdateRequest|0%|0%|
 |Services.BitrixStockServices.BitrixStockSyncReportActions|0%||
 |Services.BitrixStockServices.BitrixStockSyncReportAggregatesDto|0%||
-|Services.BitrixStockServices.BitrixStockSyncReportApplyService|4.4%|5.4%|
+|Services.BitrixStockServices.BitrixStockSyncReportApplyService|4.4%|5.3%|
 |Services.BitrixStockServices.BitrixStockSyncReportApplyStartRequest|90.9%||
 |Services.BitrixStockServices.BitrixStockSyncReportCleanupService|2.2%|3.6%|
 |Services.BitrixStockServices.BitrixStockSyncReportDto|41.1%||
@@ -2863,14 +2866,18 @@
 |Services.PartnerServices.CreatePartnerRequest|100%||
 |Services.PartnerServices.PartnerAuditQuery|100%||
 |Services.PartnerServices.PartnerAuditService|100%|71.4%|
-|Services.PartnerServices.PartnerAuthService|94%|81.5%|
-|Services.PartnerServices.PartnerDetailsDto|30.7%||
+|Services.PartnerServices.PartnerAuthService|96.7%|87.7%|
+|Services.PartnerServices.PartnerCodeRequestResult|100%||
+|Services.PartnerServices.PartnerDetailsDto|35.7%||
+|Services.PartnerServices.PartnerEmail|100%|100%|
 |Services.PartnerServices.PartnerFilterOption|100%||
 |Services.PartnerServices.PartnerLabelFile|100%||
-|Services.PartnerServices.PartnerListItemDto|100%||
-|Services.PartnerServices.PartnerLogin|100%|50%|
+|Services.PartnerServices.PartnerListItemDto|90%||
+|Services.PartnerServices.PartnerLogin|0%|0%|
+|Services.PartnerServices.PartnerLoginMailer|97.5%|62.5%|
 |Services.PartnerServices.PartnerLoginResult|100%||
-|Services.PartnerServices.PartnerManagementService|86.6%|73.7%|
+|Services.PartnerServices.PartnerManagementService|86.3%|76.7%|
+|Services.PartnerServices.PartnerOfficeOptions|100%||
 |Services.PartnerServices.PartnerOpResult`1|100%||
 |Services.PartnerServices.PartnerOrderDetailsDto|37.5%||
 |Services.PartnerServices.PartnerOrderFilters|100%||
@@ -2915,7 +2922,7 @@
 |Services.SearchServices.OrderSearch.OrderSearchSyncService|88.6%|79.4%|
 |Services.SignalRServices.JobProgressHub|0%|0%|
 |Services.SignalRServices.NotificationHub|0%|0%|
-|Services.SignalRServices.NotificationService|39.1%|0%|
+|Services.SignalRServices.NotificationService|52.1%|50%|
 |Services.SignalRServices.OrderHistoryHub|0%|0%|
 |Services.SignalRServices.UserSessionInfo|0%||
 |Services.StockSyncServices.GoogleServiceAccountOptions|100%||
@@ -2997,10 +3004,11 @@
 |SlqStudio.Application.Services.AppSettingsServices.AppSettingsBuilder|0%|0%|
 |SlqStudio.Application.Services.AppSettingsServices.AppSettingsService|0%||
 |SlqStudio.Application.Services.EmailService.Implementation.EmailService|0%|0%|
+|SlqStudio.Application.Services.EmailService.Implementation.HtmlEmailSender|0%|0%|
 |SlqStudio.Application.Services.EmailService.Models.SmtpSettings|0%||
 |StockItemForUpdate|0%||
 |SupplierResponse|75%||
-|System.Text.RegularExpressions.Generated|43.3%|37.9%|
+|System.Text.RegularExpressions.Generated|43.5%|38.1%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__AppStatusRegex_16|74.6%|67.7%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__ArticleRegex_18|20.8%|15.9%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__BareArticleTokenRegex_3|79.3%|67.3%|
@@ -3019,7 +3027,6 @@
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__LastMonthsRegex_33|50%|41.3%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__LastOneMonthRegex_34|70.5%|54.2%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__LastWeeksRegex_36|20.3%|14.4%|
-|System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__LoginPattern_52|94.4%|88.4%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__ManufacturerRegex_20|19.2%|13.2%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__MergePullRequest_47|86.7%|83.3%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__MinQuantityPiecesRegex_1<br/>0|38.4%|27.6%|
@@ -3040,6 +3047,7 @@
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__ProfitMinRegex_30|12.6%|9.8%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__PurchasePriceMaxRegex_32|23.5%|18.3%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__QuantityRegex_46|84.4%|72.3%|
+|System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__Shape_52|95.5%|87%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__ShipmentNumberRegex_4|0%|0%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__SquashSuffix_48|75.5%|60.8%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__StatusNameRegex_41|87%|80.7%|
