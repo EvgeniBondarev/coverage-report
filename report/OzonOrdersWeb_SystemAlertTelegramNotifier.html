@@ -36,28 +36,28 @@
 <div class="card">
 <div class="card-header">Line coverage</div>
 <div class="card-body">
-<div class="large cardpercentagebar cardpercentagebar100">0%</div>
+<div class="large cardpercentagebar cardpercentagebar82">18%</div>
 <div class="table">
 <table>
 <tr>
 <th>Covered lines:</th>
-<td class="limit-width right" title="0">0</td>
+<td class="limit-width right" title="9">9</td>
 </tr>
 <tr>
 <th>Uncovered lines:</th>
-<td class="limit-width right" title="43">43</td>
+<td class="limit-width right" title="40">40</td>
 </tr>
 <tr>
 <th>Coverable lines:</th>
-<td class="limit-width right" title="43">43</td>
+<td class="limit-width right" title="49">49</td>
 </tr>
 <tr>
 <th>Total lines:</th>
-<td class="limit-width right" title="69">69</td>
+<td class="limit-width right" title="77">77</td>
 </tr>
 <tr>
 <th>Line coverage:</th>
-<td class="limit-width right" title="0 of 43">0%</td>
+<td class="limit-width right" title="9 of 49">18.3%</td>
 </tr>
 </table>
 </div>
@@ -66,20 +66,20 @@
 <div class="card">
 <div class="card-header">Branch coverage</div>
 <div class="card-body">
-<div class="large cardpercentagebar cardpercentagebar100">0%</div>
+<div class="large cardpercentagebar cardpercentagebar77">22%</div>
 <div class="table">
 <table>
 <tr>
 <th>Covered branches:</th>
-<td class="limit-width right" title="0">0</td>
+<td class="limit-width right" title="5">5</td>
 </tr>
 <tr>
 <th>Total branches:</th>
-<td class="limit-width right" title="20">20</td>
+<td class="limit-width right" title="22">22</td>
 </tr>
 <tr>
 <th>Branch coverage:</th>
-<td class="limit-width right" title="0 of 20">0%</td>
+<td class="limit-width right" title="5 of 22">22.7%</td>
 </tr>
 </table>
 </div>
@@ -112,7 +112,8 @@
 <tr><td title="NotifyAsync()"><a href="#file0_line31" class="navigatetohash">NotifyAsync()</a></td><td>0%</td><td>42</td><td>6</td><td>0%</td></tr>
 <tr><td title="ToItems(System.Collections.Generic.IEnumerable`1&lt;OzonOrdersWeb.WebServices.JobLogs.JobLogsSystemAlertDto&gt;)"><a href="#file0_line52" class="navigatetohash">ToItems(...)</a></td><td>0%</td><td>42</td><td>6</td><td>0%</td></tr>
 <tr><td title="DomainLabel(System.String)"><a href="#file0_line60" class="navigatetohash">DomainLabel(...)</a></td><td>0%</td><td>6</td><td>2</td><td>0%</td></tr>
-<tr><td title="ToItems(System.Collections.Generic.IEnumerable`1&lt;OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertTransition&gt;)"><a href="#file0_line62" class="navigatetohash">ToItems(...)</a></td><td>0%</td><td>42</td><td>6</td><td>0%</td></tr>
+<tr><td title="ToItems(System.Collections.Generic.IEnumerable`1&lt;OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertTransition&gt;)"><a href="#file0_line62" class="navigatetohash">ToItems(...)</a></td><td>50%</td><td>8</td><td>6</td><td>63.63%</td></tr>
+<tr><td title="IsDirectOneCEvent(System.String)"><a href="#file0_line75" class="navigatetohash">IsDirectOneCEvent(...)</a></td><td>100%</td><td>2</td><td>2</td><td>100%</td></tr>
 </tbody>
 </table>
 </div>
@@ -183,18 +184,26 @@
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line59"></a><code>59</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;static&nbsp;string&nbsp;DomainLabel(string&nbsp;domain)&nbsp;=&gt;</code></td></tr>
 <tr class="coverableline" title="Not covered (0 visits, 0 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line60"></a><code>60</code></td><td class="percentagebar percentagebar0"><i class="icon-fork"></i></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DomainLabels.GetValueOrDefault(domain,&nbsp;string.IsNullOrWhiteSpace(domain)&nbsp;?&nbsp;&quot;Система&quot;&nbsp;:&nbsp;domain);</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line61"></a><code>61</code></td><td></td><td class="lightgray"><code></code></td></tr>
-<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line62"></a><code>62</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;static&nbsp;IReadOnlyList&lt;TelegramAlertItem&gt;&nbsp;ToItems(IEnumerable&lt;SystemAlertTransition&gt;&nbsp;transitions)&nbsp;=&gt;&nbsp;transition</code></td></tr>
-<tr class="coverableline" title="Not covered (0 visits, 0 of 4 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line63"></a><code>63</code></td><td class="percentagebar percentagebar0"><i class="icon-fork"></i></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.Where(x&nbsp;=&gt;&nbsp;x.Severity&nbsp;is&nbsp;&quot;danger&quot;&nbsp;or&nbsp;&quot;warning&quot;)</code></td></tr>
-<tr class="coverableline" title="Not covered (0 visits, 0 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line64"></a><code>64</code></td><td class="percentagebar percentagebar0"><i class="icon-fork"></i></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.Select(x&nbsp;=&gt;&nbsp;new&nbsp;TelegramAlertItem(</code></td></tr>
-<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line65"></a><code>65</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x.Severity&nbsp;==&nbsp;&quot;danger&quot;&nbsp;?&nbsp;TelegramSeverity.Critical&nbsp;:&nbsp;TelegramSeverity.Warning,</code></td></tr>
-<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line66"></a><code>66</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DomainLabel(x.Domain),</code></td></tr>
-<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line67"></a><code>67</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x.Title,&nbsp;x.Lines,&nbsp;x.Url,&nbsp;x.OrderCount,&nbsp;x.Resolved))</code></td></tr>
-<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line68"></a><code>68</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.ToList();</code></td></tr>
-<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line69"></a><code>69</code></td><td></td><td class="lightgray"><code>}</code></td></tr>
+<tr class="coverableline" title="Covered (2 visits)" data-coverage="{'AllTestMethods': {'VC': '2', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">2</td><td class="rightmargin right"><a id="file0_line62"></a><code>62</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;static&nbsp;IReadOnlyList&lt;TelegramAlertItem&gt;&nbsp;ToItems(IEnumerable&lt;SystemAlertTransition&gt;&nbsp;transitions)&nbsp;=&gt;&nbsp;transition</code></td></tr>
+<tr class="coverableline" title="Partially covered (2 visits, 3 of 4 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '2', 'LVS': 'orange'}}"><td class="orange">&nbsp;</td><td class="leftmargin rightmargin right">2</td><td class="rightmargin right"><a id="file0_line63"></a><code>63</code></td><td class="percentagebar percentagebar70"><i class="icon-fork"></i></td><td class="lightorange"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.Where(x&nbsp;=&gt;&nbsp;x.Severity&nbsp;is&nbsp;&quot;danger&quot;&nbsp;or&nbsp;&quot;warning&quot;)</code></td></tr>
+<tr class="coverableline" title="Covered (2 visits)" data-coverage="{'AllTestMethods': {'VC': '2', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">2</td><td class="rightmargin right"><a id="file0_line64"></a><code>64</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;Номенклатура&nbsp;и&nbsp;подтверждённый&nbsp;дефицит&nbsp;отправляют&nbsp;отдельное&nbsp;сообщение&nbsp;сразу&nbsp;в&nbsp;тему&nbsp;1С.</code></td></tr>
+<tr class="coverableline" title="Covered (2 visits)" data-coverage="{'AllTestMethods': {'VC': '2', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">2</td><td class="rightmargin right"><a id="file0_line65"></a><code>65</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;Инцидент&nbsp;всё&nbsp;равно&nbsp;остаётся&nbsp;в&nbsp;JobLogs&nbsp;и&nbsp;в&nbsp;закреплённом&nbsp;сообщении,&nbsp;но&nbsp;не&nbsp;должен&nbsp;дублироваться</code></td></tr>
+<tr class="coverableline" title="Covered (2 visits)" data-coverage="{'AllTestMethods': {'VC': '2', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">2</td><td class="rightmargin right"><a id="file0_line66"></a><code>66</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;общим&nbsp;пятиминутным&nbsp;дайджестом&nbsp;в&nbsp;теме&nbsp;системных&nbsp;алертов.</code></td></tr>
+<tr class="coverableline" title="Covered (2 visits)" data-coverage="{'AllTestMethods': {'VC': '2', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">2</td><td class="rightmargin right"><a id="file0_line67"></a><code>67</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.Where(x&nbsp;=&gt;&nbsp;!IsDirectOneCEvent(x.Title))</code></td></tr>
+<tr class="coverableline" title="Not covered (0 visits, 0 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line68"></a><code>68</code></td><td class="percentagebar percentagebar0"><i class="icon-fork"></i></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.Select(x&nbsp;=&gt;&nbsp;new&nbsp;TelegramAlertItem(</code></td></tr>
+<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line69"></a><code>69</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x.Severity&nbsp;==&nbsp;&quot;danger&quot;&nbsp;?&nbsp;TelegramSeverity.Critical&nbsp;:&nbsp;TelegramSeverity.Warning,</code></td></tr>
+<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line70"></a><code>70</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DomainLabel(x.Domain),</code></td></tr>
+<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line71"></a><code>71</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x.Title,&nbsp;x.Lines,&nbsp;x.Url,&nbsp;x.OrderCount,&nbsp;x.Resolved))</code></td></tr>
+<tr class="coverableline" title="Covered (2 visits)" data-coverage="{'AllTestMethods': {'VC': '2', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">2</td><td class="rightmargin right"><a id="file0_line72"></a><code>72</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.ToList();</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line73"></a><code>73</code></td><td></td><td class="lightgray"><code></code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line74"></a><code>74</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;static&nbsp;bool&nbsp;IsDirectOneCEvent(string&nbsp;title)&nbsp;=&gt;</code></td></tr>
+<tr class="coverableline" title="Covered (2 visits, 2 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '2', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">2</td><td class="rightmargin right"><a id="file0_line75"></a><code>75</code></td><td class="percentagebar percentagebar100"><i class="icon-fork"></i></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;title.Contains(&quot;номенклатур&quot;,&nbsp;StringComparison.OrdinalIgnoreCase)</code></td></tr>
+<tr class="coverableline" title="Covered (2 visits)" data-coverage="{'AllTestMethods': {'VC': '2', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">2</td><td class="rightmargin right"><a id="file0_line76"></a><code>76</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;||&nbsp;title.Contains(&quot;нехватка&nbsp;остатка&nbsp;перед&nbsp;проведением&quot;,&nbsp;StringComparison.OrdinalIgnoreCase);</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line77"></a><code>77</code></td><td></td><td class="lightgray"><code>}</code></td></tr>
 </tbody>
 </table>
 </div>
-<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />10/14/2026 - 07:32:20<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
+<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />10/15/2026 - 07:25:26<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
 <div class="containerright">
 <div class="containerrightfixed">
 <h1>Methods/Properties</h1>
@@ -203,7 +212,8 @@
 <a href="#file0_line31" class="navigatetohash percentagebar percentagebar0" title="Line coverage: 0% - NotifyAsync()"><i class="icon-cube"></i>NotifyAsync()</a><br />
 <a href="#file0_line52" class="navigatetohash percentagebar percentagebar0" title="Line coverage: 0% - ToItems(System.Collections.Generic.IEnumerable`1&lt;OzonOrdersWeb.WebServices.JobLogs.JobLogsSystemAlertDto&gt;)"><i class="icon-cube"></i>ToItems(System.Collections.Generic.IEnumerable`1&lt;OzonOrdersWeb.WebServices.JobLogs.JobLogsSystemAlertDto&gt;)</a><br />
 <a href="#file0_line60" class="navigatetohash percentagebar percentagebar0" title="Line coverage: 0% - DomainLabel(System.String)"><i class="icon-cube"></i>DomainLabel(System.String)</a><br />
-<a href="#file0_line62" class="navigatetohash percentagebar percentagebar0" title="Line coverage: 0% - ToItems(System.Collections.Generic.IEnumerable`1&lt;OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertTransition&gt;)"><i class="icon-cube"></i>ToItems(System.Collections.Generic.IEnumerable`1&lt;OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertTransition&gt;)</a><br />
+<a href="#file0_line62" class="navigatetohash percentagebar percentagebar60" title="Line coverage: 63.6% - ToItems(System.Collections.Generic.IEnumerable`1&lt;OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertTransition&gt;)"><i class="icon-cube"></i>ToItems(System.Collections.Generic.IEnumerable`1&lt;OzonOrdersWeb.WebServices.SystemAlerts.SystemAlertTransition&gt;)</a><br />
+<a href="#file0_line75" class="navigatetohash percentagebar percentagebar100" title="Line coverage: 100% - IsDirectOneCEvent(System.String)"><i class="icon-cube"></i>IsDirectOneCEvent(System.String)</a><br />
 <br/></div>
 </div></div>
 <script type="text/javascript" src="class.js"></script>
