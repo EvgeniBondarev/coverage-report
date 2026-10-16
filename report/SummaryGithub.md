@@ -3,20 +3,20 @@
 
 |||
 |:---|:---|
-| Generated on: | 10/15/2026 - 07:25:31 |
-| Coverage date: | 10/15/2026 - 07:22:03 - 10/15/2026 - 07:25:12 |
+| Generated on: | 10/16/2026 - 07:05:52 |
+| Coverage date: | 10/16/2026 - 07:03:47 - 10/16/2026 - 07:05:37 |
 | Parser: | MultiReport (2x Cobertura) |
 | Assemblies: | 5 |
-| Classes: | 3062 |
-| Files: | 2104 |
-| **Line coverage:** | 13.2% (52914 of 399000) |
-| Covered lines: | 52914 |
-| Uncovered lines: | 346086 |
-| Coverable lines: | 399000 |
-| Total lines: | 587623 |
-| **Branch coverage:** | 26.2% (24598 of 93783) |
-| Covered branches: | 24598 |
-| Total branches: | 93783 |
+| Classes: | 3065 |
+| Files: | 2106 |
+| **Line coverage:** | 13.2% (52912 of 399148) |
+| Covered lines: | 52912 |
+| Uncovered lines: | 346236 |
+| Coverable lines: | 399148 |
+| Total lines: | 587887 |
+| **Branch coverage:** | 26.2% (24596 of 93867) |
+| Covered branches: | 24596 |
+| Total branches: | 93867 |
 | **Method coverage:** | [Feature is only available for sponsors](https://reportgenerator.io/pro) |
 
 </details>
@@ -265,11 +265,11 @@
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>FD1EB2003989FAC7<br/>9BE6464720841C72544341B3094C7BE296B61D2524CC4E18A__NumericTag_0|79.6%|70.5%|
 
 </details>
-<details><summary>OzonOrdersWeb - 21.9%</summary>
+<details><summary>OzonOrdersWeb - 21.8%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**OzonOrdersWeb**|**21.9%**|**15.3%**|
+|**OzonOrdersWeb**|**21.8%**|**15.3%**|
 |AspNetCoreGeneratedDocument.Areas_Admin_Views__ViewStart|0%||
 |AspNetCoreGeneratedDocument.Areas_Admin_Views_AuditLog_Details|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Admin_Views_AuditLog_Index|0%|0%|
@@ -999,8 +999,11 @@
 |OzonOrdersWeb.Areas.Studio2.ViewModels.HangfireQueue.DeleteJobRequest|0%||
 |OzonOrdersWeb.Areas.Studio2.ViewModels.HangfireQueue.HangfireJobsViewModel|0%||
 |OzonOrdersWeb.Areas.Studio2.ViewModels.JobLogs.JobLogsGridPanelViewModel|0%||
+|OzonOrdersWeb.Areas.Studio2.ViewModels.JobLogs.JobLogsOneCExcelExportReques<br/>t|0%||
 |OzonOrdersWeb.Areas.Studio2.ViewModels.JobLogs.JobLogsOneCPostingRowViewMod<br/>el|0%||
 |OzonOrdersWeb.Areas.Studio2.ViewModels.JobLogs.JobLogsOneCPostingsTabViewMo<br/>del|0%|0%|
+|OzonOrdersWeb.Areas.Studio2.ViewModels.JobLogs.JobLogsOneCStatisticsItemVie<br/>wModel|0%||
+|OzonOrdersWeb.Areas.Studio2.ViewModels.JobLogs.JobLogsOneCStatisticsViewMod<br/>el|0%||
 |OzonOrdersWeb.Areas.Studio2.ViewModels.JobLogs.JobLogsOrderSearchTabViewMod<br/>el|0%|0%|
 |OzonOrdersWeb.Areas.Studio2.ViewModels.JobLogs.JobLogsPageViewModel|0%||
 |OzonOrdersWeb.Areas.Studio2.ViewModels.JobLogs.JobLogsServerDiagnosticsTabV<br/>iewModel|0%||
@@ -1831,7 +1834,7 @@
 |Services.ApiServices._1CApi.Nomenclature.ProducerResolution|100%||
 |Services.ApiServices._1CApi.Nomenclature.ProducerRow|100%||
 |Services.ApiServices._1CApi.Nomenclature.ProducerValue|100%||
-|Services.ApiServices._1CApi.Nomenclature.ProducerValueResolver|97.6%|86.3%|
+|Services.ApiServices._1CApi.Nomenclature.ProducerValueResolver|95.3%|81.8%|
 |Services.ApiServices._1CApi.Nomenclature.ProductQuery|100%||
 |Services.ApiServices._1CApi.Nomenclature.ShadowOutcome|100%||
 |Services.ApiServices._1CApi.OData|49.5%|56.1%|
@@ -2301,7 +2304,7 @@
 |Services.ApiServices.OzonApi.Filters.WarehouseStock|100%||
 |Services.ApiServices.OzonApi.Filters.WarehouseStockReportRequest|0%||
 |Services.ApiServices.OzonApi.GenerationRequest|0%||
-|Services.ApiServices.OzonApi.OzonApiClient|49.3%|51.3%|
+|Services.ApiServices.OzonApi.OzonApiClient|48.6%|50%|
 |Services.ApiServices.OzonApi.OzonApiDataManager|30.9%|20.6%|
 |Services.ApiServices.OzonApi.OzonCancelExecutionResult|0%||
 |Services.ApiServices.OzonApi.OzonCancelFormRequest|100%||
