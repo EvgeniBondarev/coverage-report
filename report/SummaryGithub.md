@@ -3,19 +3,19 @@
 
 |||
 |:---|:---|
-| Generated on: | 10/17/2026 - 07:00:27 |
-| Coverage date: | 10/17/2026 - 06:57:28 - 10/17/2026 - 07:00:10 |
+| Generated on: | 10/18/2026 - 07:19:37 |
+| Coverage date: | 10/18/2026 - 07:17:20 - 10/18/2026 - 07:19:22 |
 | Parser: | MultiReport (2x Cobertura) |
 | Assemblies: | 5 |
 | Classes: | 3091 |
 | Files: | 2116 |
-| **Line coverage:** | 13.3% (53234 of 399800) |
-| Covered lines: | 53234 |
-| Uncovered lines: | 346566 |
+| **Line coverage:** | 13.3% (53230 of 399800) |
+| Covered lines: | 53230 |
+| Uncovered lines: | 346570 |
 | Coverable lines: | 399800 |
 | Total lines: | 587838 |
-| **Branch coverage:** | 26.3% (24741 of 93927) |
-| Covered branches: | 24741 |
+| **Branch coverage:** | 26.3% (24739 of 93927) |
+| Covered branches: | 24739 |
 | Total branches: | 93927 |
 | **Method coverage:** | [Feature is only available for sponsors](https://reportgenerator.io/pro) |
 
@@ -1844,7 +1844,7 @@
 |Services.ApiServices._1CApi.Nomenclature.ProducerResolution|100%||
 |Services.ApiServices._1CApi.Nomenclature.ProducerRow|100%||
 |Services.ApiServices._1CApi.Nomenclature.ProducerValue|100%||
-|Services.ApiServices._1CApi.Nomenclature.ProducerValueResolver|97.6%|86.3%|
+|Services.ApiServices._1CApi.Nomenclature.ProducerValueResolver|95.3%|81.8%|
 |Services.ApiServices._1CApi.Nomenclature.ProductQuery|100%||
 |Services.ApiServices._1CApi.Nomenclature.ShadowOutcome|100%||
 |Services.ApiServices._1CApi.OData|49.6%|56.4%|
@@ -2989,7 +2989,7 @@
 |Services.SearchServices.OrderSearch.OrderSearchSyncService|88.6%|79.4%|
 |Services.SignalRServices.JobProgressHub|0%|0%|
 |Services.SignalRServices.NotificationHub|0%|0%|
-|Services.SignalRServices.NotificationService|52.1%|50%|
+|Services.SignalRServices.NotificationService|39.1%|0%|
 |Services.SignalRServices.OrderHistoryHub|0%|0%|
 |Services.SignalRServices.UserSessionInfo|0%||
 |Services.StockSyncServices.GoogleServiceAccountOptions|100%||
