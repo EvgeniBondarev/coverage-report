@@ -3,19 +3,19 @@
 
 |||
 |:---|:---|
-| Generated on: | 10/18/2026 - 07:19:37 |
-| Coverage date: | 10/18/2026 - 07:17:20 - 10/18/2026 - 07:19:22 |
+| Generated on: | 10/19/2026 - 07:42:35 |
+| Coverage date: | 10/19/2026 - 07:40:35 - 10/19/2026 - 07:42:19 |
 | Parser: | MultiReport (2x Cobertura) |
 | Assemblies: | 5 |
 | Classes: | 3091 |
 | Files: | 2116 |
-| **Line coverage:** | 13.3% (53230 of 399800) |
-| Covered lines: | 53230 |
-| Uncovered lines: | 346570 |
+| **Line coverage:** | 13.3% (53233 of 399800) |
+| Covered lines: | 53233 |
+| Uncovered lines: | 346567 |
 | Coverable lines: | 399800 |
 | Total lines: | 587838 |
-| **Branch coverage:** | 26.3% (24739 of 93927) |
-| Covered branches: | 24739 |
+| **Branch coverage:** | 26.3% (24740 of 93927) |
+| Covered branches: | 24740 |
 | Total branches: | 93927 |
 | **Method coverage:** | [Feature is only available for sponsors](https://reportgenerator.io/pro) |
 
@@ -2989,7 +2989,7 @@
 |Services.SearchServices.OrderSearch.OrderSearchSyncService|88.6%|79.4%|
 |Services.SignalRServices.JobProgressHub|0%|0%|
 |Services.SignalRServices.NotificationHub|0%|0%|
-|Services.SignalRServices.NotificationService|39.1%|0%|
+|Services.SignalRServices.NotificationService|52.1%|50%|
 |Services.SignalRServices.OrderHistoryHub|0%|0%|
 |Services.SignalRServices.UserSessionInfo|0%||
 |Services.StockSyncServices.GoogleServiceAccountOptions|100%||
