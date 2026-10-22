@@ -3,20 +3,20 @@
 
 |||
 |:---|:---|
-| Generated on: | 10/20/2026 - 07:36:15 |
-| Coverage date: | 10/20/2026 - 07:32:42 - 10/20/2026 - 07:35:56 |
+| Generated on: | 10/22/2026 - 07:34:03 |
+| Coverage date: | 10/22/2026 - 07:30:49 - 10/22/2026 - 07:33:43 |
 | Parser: | MultiReport (2x Cobertura) |
 | Assemblies: | 5 |
-| Classes: | 3112 |
-| Files: | 2126 |
-| **Line coverage:** | 13.2% (54652 of 412451) |
-| Covered lines: | 54652 |
-| Uncovered lines: | 357799 |
-| Coverable lines: | 412451 |
-| Total lines: | 602042 |
-| **Branch coverage:** | 26.8% (25441 of 94743) |
-| Covered branches: | 25441 |
-| Total branches: | 94743 |
+| Classes: | 3144 |
+| Files: | 2138 |
+| **Line coverage:** | 13.3% (55346 of 413230) |
+| Covered lines: | 55346 |
+| Uncovered lines: | 357884 |
+| Coverable lines: | 413230 |
+| Total lines: | 603905 |
+| **Branch coverage:** | 27% (25788 of 95241) |
+| Covered branches: | 25788 |
+| Total branches: | 95241 |
 | **Method coverage:** | [Feature is only available for sponsors](https://reportgenerator.io/pro) |
 
 </details>
@@ -267,11 +267,11 @@
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>FD1EB2003989FAC7<br/>9BE6464720841C72544341B3094C7BE296B61D2524CC4E18A__NumericTag_0|79.6%|70.5%|
 
 </details>
-<details><summary>OzonOrdersWeb - 23.1%</summary>
+<details><summary>OzonOrdersWeb - 23.2%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**OzonOrdersWeb**|**23.1%**|**16.3%**|
+|**OzonOrdersWeb**|**23.2%**|**16.6%**|
 |AspNetCoreGeneratedDocument.Areas_Admin_Views__ViewStart|0%||
 |AspNetCoreGeneratedDocument.Areas_Admin_Views_AuditLog_Details|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Admin_Views_AuditLog_Index|0%|0%|
@@ -840,6 +840,7 @@
 |OzonOrdersWeb.Areas.Studio2.Controllers.ForumAutoPriceController|35%|10%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.ForumAutoRostovPriceController|0%|0%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.GridSettingsController|0%|0%|
+|OzonOrdersWeb.Areas.Studio2.Controllers.InterpartsEngineController|0%|0%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.InterpartsPriceApiController|19.4%|13.3%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.JapartsCartController|0%|0%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.JapartsPriceController|96.7%|53.5%|
@@ -866,7 +867,7 @@
 |OzonOrdersWeb.Areas.Studio2.Controllers.OrderReturnsController|0%|0%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.OrderSessionController|0%|0%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.OrdersGridCheckFormulaRequest|0%||
-|OzonOrdersWeb.Areas.Studio2.Controllers.OrdersGridController|18.4%|5.5%|
+|OzonOrdersWeb.Areas.Studio2.Controllers.OrdersGridController|16.5%|4.6%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.OrdersGridSaveSettingRequest|0%||
 |OzonOrdersWeb.Areas.Studio2.Controllers.OrderStatusFlowController|0%|0%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.OrderSummaryController|0%|0%|
@@ -1153,7 +1154,7 @@
 |OzonOrdersWeb.ModelBinding.OrderNavigationValidationMetadataProvider|100%|100%|
 |OzonOrdersWeb.Observability.AppInstanceInfo|0%||
 |OzonOrdersWeb.Observability.ApplicationReadyHealthCheck|0%|0%|
-|OzonOrdersWeb.Observability.BusinessFailureLoggingFilter|66.9%|46.8%|
+|OzonOrdersWeb.Observability.BusinessFailureLoggingFilter|61.2%|42.4%|
 |OzonOrdersWeb.Observability.ClientTelemetryController|97.6%|75%|
 |OzonOrdersWeb.Observability.ClientTelemetryEvent|100%||
 |OzonOrdersWeb.Observability.FirstWithoutOrderByDiagnostics|100%|75%|
@@ -1162,13 +1163,13 @@
 |OzonOrdersWeb.Observability.HangfireFailureTelegramFilter|0%|0%|
 |OzonOrdersWeb.Observability.HangfireObservabilityFilter|71.4%|73%|
 |OzonOrdersWeb.Observability.HangfireSafeDistributedLockFilter|92.8%|100%|
-|OzonOrdersWeb.Observability.InfrastructureNoiseLogFilter|96.8%|89.2%|
-|OzonOrdersWeb.Observability.InvalidModelStateLoggingFilter|88.3%|75.7%|
+|OzonOrdersWeb.Observability.InfrastructureNoiseLogFilter|95.4%|86.9%|
+|OzonOrdersWeb.Observability.InvalidModelStateLoggingFilter|85%|71%|
 |OzonOrdersWeb.Observability.InvalidModelStatePageFilter|0%|0%|
 |OzonOrdersWeb.Observability.ObservabilityOptions|100%||
-|OzonOrdersWeb.Observability.OutboundRequestLoggingHandler|95.3%|91.2%|
+|OzonOrdersWeb.Observability.OutboundRequestLoggingHandler|95.6%|91.2%|
 |OzonOrdersWeb.Observability.OutboundTransportFailureClassifier|63.3%|57.4%|
-|OzonOrdersWeb.Observability.RequestObservabilityMiddleware|96.5%|91.3%|
+|OzonOrdersWeb.Observability.RequestObservabilityMiddleware|96.5%|91.5%|
 |OzonOrdersWeb.Observability.SafeDistributedLockWrapper|100%|83.3%|
 |OzonOrdersWeb.Observability.SensitiveDataRedactor|89.4%|80%|
 |OzonOrdersWeb.Observability.SlowDbCommandInterceptor|0%|0%|
@@ -1629,7 +1630,7 @@
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**OzonRepositories**|**0.9%**|**17.4%**|
+|**OzonRepositories**|**0.9%**|**17.2%**|
 |ColumnMappingExcel|0%||
 |ExcelMappingRepository|0%|0%|
 |OzonOrdersWeb.Areas.OzonCards.ViewModels.ExcelMappingRequest|0%||
@@ -1690,7 +1691,7 @@
 |OzonRepositories.Data.OzonPushNotificationRepository|0%|0%|
 |OzonRepositories.Data.ProductRepository|0%|0%|
 |OzonRepositories.Data.SavedMatchingColumnRepository|0%|0%|
-|OzonRepositories.Data.ShipmentRepository|58.3%|65.3%|
+|OzonRepositories.Data.ShipmentRepository|45.2%|47%|
 |OzonRepositories.Data.StatusTransitionHistoryRepository|100%||
 |OzonRepositories.Data.StatusTransitionRepository|17.3%||
 |OzonRepositories.Data.SupplierRepository|100%||
@@ -1736,11 +1737,11 @@
 |Services.DataServices.ExcelMapping.ExcludedBitrixWarehouseRepository|0%||
 
 </details>
-<details><summary>Services - 43.9%</summary>
+<details><summary>Services - 44.4%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**Services**|**43.9%**|**38.4%**|
+|**Services**|**44.4%**|**38.7%**|
 |AppRepository.ApiServices.OzonApi.Filters.Chat|0%||
 |AppRepository.ApiServices.OzonApi.Filters.ChatFilter|0%||
 |AppRepository.ApiServices.OzonApi.Filters.ChatHistoryRequest|0%||
@@ -1865,7 +1866,7 @@
 |Services.ApiServices._1CApi.Nomenclature.ProducerResolution|100%||
 |Services.ApiServices._1CApi.Nomenclature.ProducerRow|100%||
 |Services.ApiServices._1CApi.Nomenclature.ProducerValue|100%||
-|Services.ApiServices._1CApi.Nomenclature.ProducerValueResolver|95.3%|81.8%|
+|Services.ApiServices._1CApi.Nomenclature.ProducerValueResolver|97.6%|86.3%|
 |Services.ApiServices._1CApi.Nomenclature.ProductQuery|100%||
 |Services.ApiServices._1CApi.Nomenclature.ShadowOutcome|100%||
 |Services.ApiServices._1CApi.OData|49.9%|56.5%|
@@ -1967,18 +1968,18 @@
 |Services.ApiServices.ApiSupplierRequestLog.ApiSupplierRequestLogPersistence<br/>Service|0%|0%|
 |Services.ApiServices.ApiSupplierRequestLog.ApiSupplierRequestLogStore|30%|33.7%|
 |Services.ApiServices.ArmtekApi.ArmtekApiException|62.5%||
-|Services.ApiServices.ArmtekApi.ArmtekBrandResolver|51.7%|45.8%|
+|Services.ApiServices.ArmtekApi.ArmtekBrandResolver|65.5%|54.1%|
 |Services.ApiServices.ArmtekApi.ArmtekByConfig|100%||
 |Services.ApiServices.ArmtekApi.ArmtekByDataManager|100%||
 |Services.ApiServices.ArmtekApi.ArmtekByHttpClient|100%||
 |Services.ApiServices.ArmtekApi.ArmtekBySupplierConnector|0%|0%|
 |Services.ApiServices.ArmtekApi.ArmtekConfig|100%||
-|Services.ApiServices.ArmtekApi.ArmtekDailyQuotaGuard|73.6%|91.6%|
+|Services.ApiServices.ArmtekApi.ArmtekDailyQuotaGuard|71.4%|81.2%|
 |Services.ApiServices.ArmtekApi.ArmtekDataManager|99.2%|75.5%|
 |Services.ApiServices.ArmtekApi.ArmtekHttpClient|75.3%|55.4%|
 |Services.ApiServices.ArmtekApi.ArmtekOrderRequestItem|100%||
 |Services.ApiServices.ArmtekApi.ArmtekPriceCurrencyConverter|100%||
-|Services.ApiServices.ArmtekApi.ArmtekStoreDirectory|63.6%|25%|
+|Services.ApiServices.ArmtekApi.ArmtekStoreDirectory|89.8%|65.6%|
 |Services.ApiServices.ArmtekApi.ArmtekStoreDirectoryHostedService|0%|0%|
 |Services.ApiServices.ArmtekApi.ArmtekSupplierConnector|0%|0%|
 |Services.ApiServices.ArmtekApi.Converters.ArmtekEmptyStringAsListConverter`<br/>1|50%|66.6%|
@@ -2069,9 +2070,16 @@
 |Services.ApiServices.FavoritPartsApi.FavoritPartsRostovSupplierConnector|0%||
 |Services.ApiServices.FavoritPartsApi.FavoritPartsSupplierConnector|0%||
 |Services.ApiServices.FidApi.FidApiConfig|100%||
-|Services.ApiServices.FidApi.FidApiDataManager|100%|50%|
+|Services.ApiServices.FidApi.FidApiDataManager|100%|87.5%|
 |Services.ApiServices.FidApi.FidApiException|83.3%||
-|Services.ApiServices.FidApi.FidApiHttpClient|90.9%|92.8%|
+|Services.ApiServices.FidApi.FidApiHttpClient|90.6%|91.6%|
+|Services.ApiServices.FidApi.Models.FidPriceCurrentRow|100%||
+|Services.ApiServices.FidApi.Models.FidPriceExplanation|100%||
+|Services.ApiServices.FidApi.Models.FidPriceExplanationResponse|100%||
+|Services.ApiServices.FidApi.Models.FidPriceFormula|100%||
+|Services.ApiServices.FidApi.Models.FidPriceHistoryRow|100%||
+|Services.ApiServices.FidApi.Models.FidPriceOzon|100%||
+|Services.ApiServices.FidApi.Models.FidPriceStock|100%||
 |Services.ApiServices.FidApi.Models.FidSupplier|100%||
 |Services.ApiServices.FidApi.Models.FidSuppliers|100%||
 |Services.ApiServices.FidApi.Models.FidSupplierWarehouse|33.3%||
@@ -2093,6 +2101,16 @@
 |Services.ApiServices.ForumAutoApi.ForumAutoRostovHttpClient|100%||
 |Services.ApiServices.ForumAutoApi.ForumAutoRostovSupplierConnector|0%||
 |Services.ApiServices.ForumAutoApi.ForumAutoSupplierConnector|0%||
+|Services.ApiServices.InterpartsEngine.EngineBrand|100%||
+|Services.ApiServices.InterpartsEngine.EngineBrandsResponse|100%||
+|Services.ApiServices.InterpartsEngine.EngineErrorBody|100%||
+|Services.ApiServices.InterpartsEngine.EngineErrorEnvelope|100%||
+|Services.ApiServices.InterpartsEngine.EngineOffer|94.7%|50%|
+|Services.ApiServices.InterpartsEngine.EngineOffersResponse|100%|50%|
+|Services.ApiServices.InterpartsEngine.InterpartsEngineApiClient|94.9%|67.6%|
+|Services.ApiServices.InterpartsEngine.InterpartsEngineConfig|100%|50%|
+|Services.ApiServices.InterpartsEngine.InterpartsEngineResult`1|90.9%|100%|
+|Services.ApiServices.InterpartsEngine.InterpartsEngineService|96.4%|66%|
 |Services.ApiServices.InterpartsPriceApi.InterpartsCurrencyDirectory|0%||
 |Services.ApiServices.InterpartsPriceApi.InterpartsCurrencyRateService|36.3%|60%|
 |Services.ApiServices.InterpartsPriceApi.InterpartsPriceApiClient|13.3%|0%|
@@ -2772,18 +2790,32 @@
 |Services.EmailRoutingServices.RoutingRuleEvaluator|100%|97.9%|
 |Services.EmailRoutingServices.RuleEvaluationResult|100%||
 |Services.FeedPriceServices.FeedArticleKey|100%|100%|
-|Services.FeedPriceServices.FeedCabinets|0%|0%|
-|Services.FeedPriceServices.FeedCurrentRow|20%|0%|
-|Services.FeedPriceServices.FeedHistoryRow|70%||
-|Services.FeedPriceServices.FeedPriceOptions|50%||
+|Services.FeedPriceServices.FeedBatchItem|100%||
+|Services.FeedPriceServices.FeedBatchOrder|100%||
+|Services.FeedPriceServices.FeedBatchPicker|100%|100%|
+|Services.FeedPriceServices.FeedCabinets|90.9%|91.6%|
+|Services.FeedPriceServices.FeedCurrentRow|100%|50%|
+|Services.FeedPriceServices.FeedExplanation|100%||
+|Services.FeedPriceServices.FeedExplanationResult|100%||
+|Services.FeedPriceServices.FeedExplanationService|93.7%|100%|
+|Services.FeedPriceServices.FeedHistoryRow|90%||
+|Services.FeedPriceServices.FeedOrderExplanation|100%|50%|
+|Services.FeedPriceServices.FeedOrderExplanationPicker|100%|100%|
+|Services.FeedPriceServices.FeedOrderPick|100%|50%|
+|Services.FeedPriceServices.FeedOrderRowPicker|100%|96.6%|
+|Services.FeedPriceServices.FeedPriceOptions|100%||
 |Services.FeedPriceServices.FeedPriceResult|100%||
-|Services.FeedPriceServices.FeedPriceService|95.4%|90.9%|
-|Services.FeedPriceServices.NpgsqlFeedPriceReader|0%|0%|
+|Services.FeedPriceServices.FeedPriceService|94.5%|90.9%|
+|Services.FeedPriceServices.FeedPriceSnapshot|100%||
+|Services.FeedPriceServices.FeedRowsResult|100%||
+|Services.FeedPriceServices.FidApiFeedExplanationReader|100%|50%|
+|Services.FeedPriceServices.FidApiFeedPriceReader|100%|50%|
 |Services.FidSupplierLinkServices.FidSupplierLinkDiscoveryJob|84.2%|57.1%|
 |Services.FidSupplierLinkServices.FidSupplierLinkInput|100%||
 |Services.FidSupplierLinkServices.FidSupplierLinkOverview|100%||
+|Services.FidSupplierLinkServices.FidSupplierLinkRefreshResult|100%||
 |Services.FidSupplierLinkServices.FidSupplierLinkRow|80%||
-|Services.FidSupplierLinkServices.FidSupplierLinkService|100%|97.6%|
+|Services.FidSupplierLinkServices.FidSupplierLinkService|100%|97.7%|
 |Services.FidSupplierLinkServices.FidSuppliersFeedCache|100%|85%|
 |Services.FileStorageServices.ServerFileDownload|100%||
 |Services.FileStorageServices.ServerFileInfo|100%||
