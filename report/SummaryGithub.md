@@ -3,30 +3,30 @@
 
 |||
 |:---|:---|
-| Generated on: | 10/23/2026 - 07:24:35 |
-| Coverage date: | 10/23/2026 - 07:21:00 - 10/23/2026 - 07:24:16 |
+| Generated on: | 10/24/2026 - 07:17:09 |
+| Coverage date: | 10/24/2026 - 07:13:10 - 10/24/2026 - 07:16:50 |
 | Parser: | MultiReport (2x Cobertura) |
 | Assemblies: | 5 |
-| Classes: | 3155 |
-| Files: | 2144 |
-| **Line coverage:** | 13% (55700 of 425205) |
-| Covered lines: | 55700 |
-| Uncovered lines: | 369505 |
-| Coverable lines: | 425205 |
-| Total lines: | 616619 |
-| **Branch coverage:** | 27.1% (25890 of 95486) |
-| Covered branches: | 25890 |
-| Total branches: | 95486 |
+| Classes: | 3196 |
+| Files: | 2171 |
+| **Line coverage:** | 12.3% (57054 of 463193) |
+| Covered lines: | 57054 |
+| Uncovered lines: | 406139 |
+| Coverable lines: | 463193 |
+| Total lines: | 657263 |
+| **Branch coverage:** | 27.4% (26520 of 96601) |
+| Covered branches: | 26520 |
+| Total branches: | 96601 |
 | **Method coverage:** | [Feature is only available for sponsors](https://reportgenerator.io/pro) |
 
 </details>
 
 ## Coverage
-<details><summary>OzonDomains - 67.8%</summary>
+<details><summary>OzonDomains - 68.7%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**OzonDomains**|**67.8%**|**72.1%**|
+|**OzonDomains**|**68.7%**|**72.1%**|
 |BIblockElementProperty|0%||
 |OzonDomains.DateTimeAbbreviationService|92.8%|100%|
 |OzonDomains.Delivery|100%||
@@ -42,6 +42,10 @@
 |OzonDomains.Models.ArmtekCartItem|96.1%||
 |OzonDomains.Models.ArmtekCartItemStatus|100%||
 |OzonDomains.Models.ArmtekDeliveryAddressMapping|83.3%||
+|OzonDomains.Models.ArmtekEtp.ArmtekEtpSyncRun|100%||
+|OzonDomains.Models.ArmtekEtp.ArmtekInvoice|100%||
+|OzonDomains.Models.ArmtekEtp.ArmtekInvoiceItem|89.2%||
+|OzonDomains.Models.ArmtekEtp.ArmtekSettlement|96.2%||
 |OzonDomains.Models.ArmtekOrder|100%||
 |OzonDomains.Models.ArmtekOrderItem|80%||
 |OzonDomains.Models.AssemblyListAccessKey|0%|0%|
@@ -272,7 +276,7 @@
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**OzonOrdersWeb**|**23.5%**|**16.6%**|
+|**OzonOrdersWeb**|**23.5%**|**16.7%**|
 |AspNetCoreGeneratedDocument.Areas_Admin_Views__ViewStart|0%||
 |AspNetCoreGeneratedDocument.Areas_Admin_Views_AuditLog_Details|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Admin_Views_AuditLog_Index|0%|0%|
@@ -335,6 +339,10 @@
 |AspNetCoreGeneratedDocument.Areas_Public_Views__ViewStart|0%||
 |AspNetCoreGeneratedDocument.Areas_Public_Views_AssemblyList_AccessDenied|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Public_Views_AssemblyList_Index|0%|0%|
+|AspNetCoreGeneratedDocument.Areas_Settlements_Views__ViewStart|0%||
+|AspNetCoreGeneratedDocument.Areas_Settlements_Views_Armtek_Index|0%|0%|
+|AspNetCoreGeneratedDocument.Areas_Settlements_Views_Armtek_Invoice|0%|0%|
+|AspNetCoreGeneratedDocument.Areas_Settlements_Views_Home_Index|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Studio2_Views__ViewStart|0%||
 |AspNetCoreGeneratedDocument.Areas_Studio2_Views_AcceptedToWarehouseTransact<br/>ion_AcceptedToWarehouseTransaction|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Studio2_Views_AccessProfiles_Create|0%|0%|
@@ -719,6 +727,11 @@
 |OzonOrdersWeb.Areas.Public.Controllers.AssemblyListController|0%|0%|
 |OzonOrdersWeb.Areas.Public.Controllers.PublicGenerateRequest|0%||
 |OzonOrdersWeb.Areas.Public.OgHtml|0%|0%|
+|OzonOrdersWeb.Areas.Settlements.Controllers.ArmtekController|0%|0%|
+|OzonOrdersWeb.Areas.Settlements.Controllers.HomeController|0%||
+|OzonOrdersWeb.Areas.Settlements.Models.ArmtekInvoiceHeaderRow|100%||
+|OzonOrdersWeb.Areas.Settlements.Models.ArmtekInvoicePageViewModel|95.8%|84%|
+|OzonOrdersWeb.Areas.Settlements.Models.ArmtekSettlementsPageViewModel|0%||
 |OzonOrdersWeb.Areas.Studio2.AnalysisServices.AdditionalMetrics|100%||
 |OzonOrdersWeb.Areas.Studio2.AnalysisServices.AnalyticsOrderRow|100%||
 |OzonOrdersWeb.Areas.Studio2.AnalysisServices.AnalyticsRowProjection|30.2%|50%|
@@ -1146,7 +1159,7 @@
 |OzonOrdersWeb.Filters.SupplierQuotationResultReader|57.1%|35.7%|
 |OzonOrdersWeb.Filters.SupplierWarehouseRestrictionFilter|86.3%|64%|
 |OzonOrdersWeb.HostedServices.HangfireSchedulerWatchdogHostedService|0%|0%|
-|OzonOrdersWeb.HostedServices.HangfireStartupHostedService|4.2%|3.2%|
+|OzonOrdersWeb.HostedServices.HangfireStartupHostedService|4%|2.9%|
 |OzonOrdersWeb.HostedServices.OrderSearchStartupHostedService|0%|0%|
 |OzonOrdersWeb.Middleware.ImpersonationMiddleware|0%|0%|
 |OzonOrdersWeb.Middleware.OzonIpWhitelistFilter|88.1%|76.1%|
@@ -1319,6 +1332,10 @@
 |OzonOrdersWeb.WebServices.ApiSettingsGrid.ApiSupplierSettingsGridRows|100%|72.7%|
 |OzonOrdersWeb.WebServices.ApiSettingsGrid.ApiWarehouseRow|100%||
 |OzonOrdersWeb.WebServices.AppBuildInfoDisplay|0%|0%|
+|OzonOrdersWeb.WebServices.ArmtekEtp.ArmtekEtpGridDefinitions|96.1%||
+|OzonOrdersWeb.WebServices.ArmtekEtp.SettlementSuppliersOverview|17.6%|50%|
+|OzonOrdersWeb.WebServices.ArmtekEtp.SettlementSupplierSummary|0%||
+|OzonOrdersWeb.WebServices.ArmtekEtp.SettlementSupplierTile|0%||
 |OzonOrdersWeb.WebServices.BitrixStock.BitrixStockGridOzonStoreDto|100%||
 |OzonOrdersWeb.WebServices.BitrixStock.BitrixStockGridPriceIndexDto|100%||
 |OzonOrdersWeb.WebServices.BitrixStock.BitrixStockGridRowBuilder|99.1%|64%|
@@ -1346,7 +1363,7 @@
 |OzonOrdersWeb.WebServices.Grid.ServerGridColumn|80%||
 |OzonOrdersWeb.WebServices.Grid.ServerGridDefinition`1|100%|92.8%|
 |OzonOrdersWeb.WebServices.Grid.ServerGridFacet|0%||
-|OzonOrdersWeb.WebServices.Grid.ServerGridQuery|67.3%|57.6%|
+|OzonOrdersWeb.WebServices.Grid.ServerGridQuery|69.5%|58.7%|
 |OzonOrdersWeb.WebServices.Grid.ServerGridRequest|85.7%||
 |OzonOrdersWeb.WebServices.Hangfire.HangfireJobGridRow|33.3%||
 |OzonOrdersWeb.WebServices.Hangfire.HangfireJobGridRows|100%|83.3%|
@@ -1469,7 +1486,7 @@
 |OzonOrdersWeb.WebServices.Partners.PartnerPrintedLabel|0%||
 |OzonOrdersWeb.WebServices.Partners.PartnerShipRequirements|0%||
 |OzonOrdersWeb.WebServices.Sidebar.NavigationPageRow|58.3%||
-|OzonOrdersWeb.WebServices.Sidebar.NavigationPageRows|100%|88.8%|
+|OzonOrdersWeb.WebServices.Sidebar.NavigationPageRows|100%|94.4%|
 |OzonOrdersWeb.WebServices.Sidebar.SidebarNavigationCatalog|100%|100%|
 |OzonOrdersWeb.WebServices.Sidebar.SidebarNavViewModel|0%||
 |OzonOrdersWeb.WebServices.Sidebar.SidebarNode|90%||
@@ -1526,6 +1543,7 @@
 |OzonOrdersWeb.WebServices.TransactionJobs.ExecutionReportLoadRow|0%||
 |OzonOrdersWeb.WebServices.TransactionJobs.ExecutionResultRow|75%||
 |OzonOrdersWeb.WebServices.TransactionJobs.ExecutionStepRow|100%||
+|OzonOrdersWeb.WebServices.Transactions.ArmtekReceiptOriginService|27.4%|37.5%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.Authorization.TransactionGridAu<br/>thorizeAttribute|13.3%|0%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.AiCommentStep|0%|0%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.ApplyEditsStep|52%|51.8%|
@@ -1584,6 +1602,8 @@
 |OzonOrdersWeb.WebServices.Transactions.Grid.Preview.ShipToSellerZasylChip|100%||
 |OzonOrdersWeb.WebServices.Transactions.Grid.Settings.TransactionGridSetting<br/>sMapper|94.1%|92.8%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.SupplierCarts.SupplierCartsProc<br/>essor|39.7%|25.6%|
+|OzonOrdersWeb.WebServices.Transactions.ReceiptOriginPreview|0%|0%|
+|OzonOrdersWeb.WebServices.Transactions.ReceiptOriginRow|0%||
 |OzonOrdersWeb.WebServices.Transactions.SupplierQueueOrderIds|90%|90.6%|
 |OzonOrdersWeb.WebServices.Transactions.SupplierVerificationDto|10%|9%|
 |OzonOrdersWeb.WebServices.Transactions.SupplierVerificationRowDto|68.7%||
@@ -1633,11 +1653,11 @@
 |TreeGrouping.Web.Models.TranslationRequest|0%||
 
 </details>
-<details><summary>OzonRepositories - 0.9%</summary>
+<details><summary>OzonRepositories - 0.8%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**OzonRepositories**|**0.9%**|**17.2%**|
+|**OzonRepositories**|**0.8%**|**17.2%**|
 |ColumnMappingExcel|0%||
 |ExcelMappingRepository|0%|0%|
 |OzonOrdersWeb.Areas.OzonCards.ViewModels.ExcelMappingRequest|0%||
@@ -1708,6 +1728,9 @@
 |OzonRepositories.Data.WarehouseMappingRepository|35.8%||
 |OzonRepositories.Data.WarehouseRepository|0%|0%|
 |OzonRepositories.Migrations.AddApiSupplierDisplayName|0%||
+|OzonRepositories.Migrations.AddArmtekApiInvoiceFields|0%||
+|OzonRepositories.Migrations.AddArmtekEtpSettlements|0%||
+|OzonRepositories.Migrations.AddArmtekEtpSyncRuns|0%||
 |OzonRepositories.Migrations.AddBitrixStockReportTables|0%||
 |OzonRepositories.Migrations.AddLabelPrintLogs|0%||
 |OzonRepositories.Migrations.AddNikeiCart|0%||
@@ -1745,11 +1768,11 @@
 |Services.DataServices.ExcelMapping.ExcludedBitrixWarehouseRepository|0%||
 
 </details>
-<details><summary>Services - 44.4%</summary>
+<details><summary>Services - 45.1%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**Services**|**44.4%**|**38.7%**|
+|**Services**|**45.1%**|**39.3%**|
 |AppRepository.ApiServices.OzonApi.Filters.Chat|0%||
 |AppRepository.ApiServices.OzonApi.Filters.ChatFilter|0%||
 |AppRepository.ApiServices.OzonApi.Filters.ChatHistoryRequest|0%||
@@ -1877,11 +1900,12 @@
 |Services.ApiServices._1CApi.Nomenclature.ProducerValueResolver|95.3%|81.8%|
 |Services.ApiServices._1CApi.Nomenclature.ProductQuery|100%||
 |Services.ApiServices._1CApi.Nomenclature.ShadowOutcome|100%||
-|Services.ApiServices._1CApi.OData|49.9%|56.5%|
+|Services.ApiServices._1CApi.OData|54.3%|58.5%|
+|Services.ApiServices._1CApi.OData.ExistingReceipt|100%||
 |Services.ApiServices._1CApi.OData.IOneCNomenclatureService|100%|75%|
 |Services.ApiServices._1CApi.OData.Models.ODataContract|100%||
 |Services.ApiServices._1CApi.OData.Models.ODataContractFull|0%||
-|Services.ApiServices._1CApi.OData.Models.ODataCounterparty|100%||
+|Services.ApiServices._1CApi.OData.Models.ODataCounterparty|100%|100%|
 |Services.ApiServices._1CApi.OData.Models.ODataCounterpartyFull|0%||
 |Services.ApiServices._1CApi.OData.Models.ODataCountry|100%||
 |Services.ApiServices._1CApi.OData.Models.ODataDocHeader|100%||
@@ -1940,18 +1964,20 @@
 |Services.ApiServices._1CApi.OData.OneCNomenclatureResult|100%||
 |Services.ApiServices._1CApi.OData.OneCNomenclatureService|86.9%|76.8%|
 |Services.ApiServices._1CApi.OData.OneCODataConfig|100%||
+|Services.ApiServices._1CApi.OData.OneCODataConstants|100%|100%|
 |Services.ApiServices._1CApi.OData.OneCODataError|94.4%|87.5%|
 |Services.ApiServices._1CApi.OData.OneCODataErrorFormatter|68.7%|71.8%|
 |Services.ApiServices._1CApi.OData.OneCODataException|100%||
 |Services.ApiServices._1CApi.OData.OneCODataHttpClient|93.7%|82%|
-|Services.ApiServices._1CApi.OData.OneCODataReferenceService|0%|0%|
+|Services.ApiServices._1CApi.OData.OneCODataReferenceService|31.5%|18.4%|
 |Services.ApiServices._1CApi.OData.OneCProducerAliasEntry|100%||
+|Services.ApiServices._1CApi.OData.OneCReceiptDuplicateFinder|100%|92.3%|
 |Services.ApiServices._1CApi.OData.OneCRegisterEndpoint|100%|100%|
 |Services.ApiServices._1CApi.OData.OneCResponseErrors|100%|88.8%|
 |Services.ApiServices._1CApi.OData.OneCTransferShortage|100%|75%|
 |Services.ApiServices._1CApi.OData.TransferShortageLine|100%||
 |Services.ApiServices._1CApi.OneCExpenseManager|0%|0%|
-|Services.ApiServices._1CApi.OneCReceiptManager|2.6%|3.7%|
+|Services.ApiServices._1CApi.OneCReceiptManager|2.7%|5.4%|
 |Services.ApiServices._1CApi.OneCReceiptWarehouseHistoryResolver|24.4%|50%|
 |Services.ApiServices._1CApi.OneCReceiptWarehouseSuggestion|80%||
 |Services.ApiServices._1CApi.OneCTransferManager|7.5%|9.6%|
@@ -1984,21 +2010,21 @@
 |Services.ApiServices.ArmtekApi.ArmtekConfig|100%||
 |Services.ApiServices.ArmtekApi.ArmtekDailyQuotaGuard|71.4%|81.2%|
 |Services.ApiServices.ArmtekApi.ArmtekDataManager|89.5%|70.8%|
-|Services.ApiServices.ArmtekApi.ArmtekHttpClient|75.3%|55.4%|
+|Services.ApiServices.ArmtekApi.ArmtekHttpClient|75.3%|56.5%|
 |Services.ApiServices.ArmtekApi.ArmtekOrderRequestItem|100%||
 |Services.ApiServices.ArmtekApi.ArmtekPriceCurrencyConverter|100%||
 |Services.ApiServices.ArmtekApi.ArmtekStoreDirectory|89.8%|65.6%|
 |Services.ApiServices.ArmtekApi.ArmtekStoreDirectoryHostedService|0%|0%|
 |Services.ApiServices.ArmtekApi.ArmtekSupplierConnector|0%|0%|
 |Services.ApiServices.ArmtekApi.Converters.ArmtekEmptyStringAsListConverter`<br/>1|50%|66.6%|
-|Services.ApiServices.ArmtekApi.Converters.ArmtekFlexibleStringConverter|50%|75%|
+|Services.ApiServices.ArmtekApi.Converters.ArmtekFlexibleStringConverter|60%|75%|
 |Services.ApiServices.ArmtekApi.Converters.ArmtekResultsAsListConverter`1|64.2%|68.7%|
 |Services.ApiServices.ArmtekApi.Models.Envelope.ArmtekMessage|100%||
 |Services.ApiServices.ArmtekApi.Models.Envelope.ArmtekResponse`1|100%|100%|
 |Services.ApiServices.ArmtekApi.Models.Response.ArmtekAbgruItem|0%||
 |Services.ApiServices.ArmtekApi.Models.Response.ArmtekAssortmentItem|100%||
 |Services.ApiServices.ArmtekApi.Models.Response.ArmtekBuyerItem|100%||
-|Services.ApiServices.ArmtekApi.Models.Response.ArmtekContactItem|0%||
+|Services.ApiServices.ArmtekApi.Models.Response.ArmtekContactItem|100%||
 |Services.ApiServices.ArmtekApi.Models.Response.ArmtekCreateOrderAllocation|100%||
 |Services.ApiServices.ArmtekApi.Models.Response.ArmtekCreateOrderItemResult|100%||
 |Services.ApiServices.ArmtekApi.Models.Response.ArmtekCreateOrderResponse|100%||
@@ -2015,7 +2041,7 @@
 |Services.ApiServices.ArmtekApi.Models.Response.ArmtekInvoiceAugruOutput|100%||
 |Services.ApiServices.ArmtekApi.Models.Response.ArmtekInvoiceCash|100%||
 |Services.ApiServices.ArmtekApi.Models.Response.ArmtekInvoiceHeader|100%||
-|Services.ApiServices.ArmtekApi.Models.Response.ArmtekInvoiceItem|96%||
+|Services.ApiServices.ArmtekApi.Models.Response.ArmtekInvoiceItem|100%||
 |Services.ApiServices.ArmtekApi.Models.Response.ArmtekOrderHeader|100%||
 |Services.ApiServices.ArmtekApi.Models.Response.ArmtekOrderItem|57.1%||
 |Services.ApiServices.ArmtekApi.Models.Response.ArmtekOrderPositionReportIte<br/>m|80.6%||
@@ -2035,6 +2061,13 @@
 |Services.ApiServices.ArmtekApi.Models.Response.ArmtekUserInfoResponse|100%||
 |Services.ApiServices.ArmtekApi.Models.Response.ArmtekUserStructure|100%||
 |Services.ApiServices.ArmtekApi.Models.Response.ArmtekVkorgItem|100%||
+|Services.ApiServices.ArmtekEtp.ArmtekEtpClient|84.6%|82.6%|
+|Services.ApiServices.ArmtekEtp.ArmtekEtpColumn|100%||
+|Services.ApiServices.ArmtekEtp.ArmtekEtpConfig|92.3%|0%|
+|Services.ApiServices.ArmtekEtp.ArmtekEtpException|100%||
+|Services.ApiServices.ArmtekEtp.ArmtekEtpHeaderField|100%||
+|Services.ApiServices.ArmtekEtp.ArmtekEtpInvoicePage|100%||
+|Services.ApiServices.ArmtekEtp.ArmtekEtpParser|88.7%|78.2%|
 |Services.ApiServices.AvdApi.AvdApiException|50%||
 |Services.ApiServices.AvdApi.AvdBasketItem|100%||
 |Services.ApiServices.AvdApi.AvdConfig|100%||
@@ -2180,7 +2213,7 @@
 |Services.ApiServices.NikeiApi.NikeiHttpClient|77.5%|53.3%|
 |Services.ApiServices.NikeiApi.NikeiPriceMapper|100%|84.2%|
 |Services.ApiServices.NikeiApi.NikeiSupplierConnector|0%||
-|Services.ApiServices.OneCDataManager|47.4%|37.2%|
+|Services.ApiServices.OneCDataManager|49.5%|39.5%|
 |Services.ApiServices.OpenRouterApi.Models.AiActionLinkDto|100%||
 |Services.ApiServices.OpenRouterApi.Models.AiActionProposalDto|50%||
 |Services.ApiServices.OpenRouterApi.Models.AiChatPrepareResponse|0%||
@@ -2493,6 +2526,14 @@
 |Services.ApiSupplierSettingsServices.SupplierDeliverySurcharge|100%|100%|
 |Services.ApiSupplierSettingsServices.SupplierQuotationHistoryService|98.3%|71.4%|
 |Services.ApiSupplierSettingsServices.SupplierQuotationPriceMultiplier|78.5%|83.3%|
+|Services.ArmtekEtpServices.ArmtekEtpSyncJob|68.7%|42.8%|
+|Services.ArmtekEtpServices.ArmtekEtpSyncResult|100%|100%|
+|Services.ArmtekEtpServices.ArmtekEtpSyncService|91.5%|66.3%|
+|Services.ArmtekEtpServices.ArmtekExcelImportResult|100%||
+|Services.ArmtekEtpServices.ArmtekSettlementExcelRow|100%||
+|Services.ArmtekEtpServices.ArmtekSettlementsExcelReader|90.5%|80%|
+|Services.ArmtekEtpServices.ArmtekSettlementsExcelResult|83.3%|50%|
+|Services.ArmtekEtpServices.ArmtekSyncPartialException|100%||
 |Services.Authorization.AppAuthorizationOptions|100%||
 |Services.Authorization.Dtos.DataScopeRef|100%||
 |Services.Authorization.Dtos.FieldPermissionDto|100%||
@@ -2915,7 +2956,7 @@
 |Services.OneCServices.OneCPostingSummary|100%||
 |Services.OneCServices.OneCPostingSummaryBuilder|99.2%|89.3%|
 |Services.OrderControlServices.OrderControlEvaluationJob|0%|0%|
-|Services.OrderControlServices.OrderControlService|79.5%|65.9%|
+|Services.OrderControlServices.OrderControlService|78.7%|65.9%|
 |Services.OrderControlServices.OrderDeliveryStatusSynchronizer|96%|63.6%|
 |Services.OrderDailySummaryServices.MissingSystemStatusOrder|0%||
 |Services.OrderDailySummaryServices.OrderDailySummary|100%||
@@ -3053,7 +3094,7 @@
 |Services.SearchServices.OrderSearch.OrderSearchSyncService|88.6%|79.4%|
 |Services.SignalRServices.JobProgressHub|0%|0%|
 |Services.SignalRServices.NotificationHub|0%|0%|
-|Services.SignalRServices.NotificationService|56.5%|50%|
+|Services.SignalRServices.NotificationService|52.1%|50%|
 |Services.SignalRServices.OrderHistoryHub|0%|0%|
 |Services.SignalRServices.UserSessionInfo|0%||
 |Services.StockSyncServices.GoogleServiceAccountOptions|100%||
