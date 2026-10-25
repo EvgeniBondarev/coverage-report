@@ -3,20 +3,20 @@
 
 |||
 |:---|:---|
-| Generated on: | 10/24/2026 - 07:17:09 |
-| Coverage date: | 10/24/2026 - 07:13:10 - 10/24/2026 - 07:16:50 |
+| Generated on: | 10/25/2026 - 07:43:50 |
+| Coverage date: | 10/25/2026 - 07:39:50 - 10/25/2026 - 07:43:30 |
 | Parser: | MultiReport (2x Cobertura) |
 | Assemblies: | 5 |
-| Classes: | 3196 |
-| Files: | 2171 |
-| **Line coverage:** | 12.3% (57054 of 463193) |
-| Covered lines: | 57054 |
-| Uncovered lines: | 406139 |
-| Coverable lines: | 463193 |
-| Total lines: | 657263 |
-| **Branch coverage:** | 27.4% (26520 of 96601) |
-| Covered branches: | 26520 |
-| Total branches: | 96601 |
+| Classes: | 3199 |
+| Files: | 2172 |
+| **Line coverage:** | 12.3% (57139 of 463288) |
+| Covered lines: | 57139 |
+| Uncovered lines: | 406149 |
+| Coverable lines: | 463288 |
+| Total lines: | 657484 |
+| **Branch coverage:** | 27.4% (26567 of 96661) |
+| Covered branches: | 26567 |
+| Total branches: | 96661 |
 | **Method coverage:** | [Feature is only available for sponsors](https://reportgenerator.io/pro) |
 
 </details>
@@ -44,7 +44,7 @@
 |OzonDomains.Models.ArmtekDeliveryAddressMapping|83.3%||
 |OzonDomains.Models.ArmtekEtp.ArmtekEtpSyncRun|100%||
 |OzonDomains.Models.ArmtekEtp.ArmtekInvoice|100%||
-|OzonDomains.Models.ArmtekEtp.ArmtekInvoiceItem|89.2%||
+|OzonDomains.Models.ArmtekEtp.ArmtekInvoiceItem|92.8%||
 |OzonDomains.Models.ArmtekEtp.ArmtekSettlement|96.2%||
 |OzonDomains.Models.ArmtekOrder|100%||
 |OzonDomains.Models.ArmtekOrderItem|80%||
@@ -272,11 +272,11 @@
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>FD1EB2003989FAC7<br/>9BE6464720841C72544341B3094C7BE296B61D2524CC4E18A__NumericTag_0|79.6%|70.5%|
 
 </details>
-<details><summary>OzonOrdersWeb - 23.5%</summary>
+<details><summary>OzonOrdersWeb - 23.6%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**OzonOrdersWeb**|**23.5%**|**16.7%**|
+|**OzonOrdersWeb**|**23.6%**|**16.8%**|
 |AspNetCoreGeneratedDocument.Areas_Admin_Views__ViewStart|0%||
 |AspNetCoreGeneratedDocument.Areas_Admin_Views_AuditLog_Details|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Admin_Views_AuditLog_Index|0%|0%|
@@ -1360,10 +1360,10 @@
 |OzonOrdersWeb.WebServices.Directories.SupplierGridRow|43.7%||
 |OzonOrdersWeb.WebServices.Directories.WarehouseGridRow|100%||
 |OzonOrdersWeb.WebServices.Directories.WarehouseMappingBadge|100%||
-|OzonOrdersWeb.WebServices.Grid.ServerGridColumn|80%||
+|OzonOrdersWeb.WebServices.Grid.ServerGridColumn|83.3%||
 |OzonOrdersWeb.WebServices.Grid.ServerGridDefinition`1|100%|92.8%|
 |OzonOrdersWeb.WebServices.Grid.ServerGridFacet|0%||
-|OzonOrdersWeb.WebServices.Grid.ServerGridQuery|69.5%|58.7%|
+|OzonOrdersWeb.WebServices.Grid.ServerGridQuery|71.9%|61.2%|
 |OzonOrdersWeb.WebServices.Grid.ServerGridRequest|85.7%||
 |OzonOrdersWeb.WebServices.Hangfire.HangfireJobGridRow|33.3%||
 |OzonOrdersWeb.WebServices.Hangfire.HangfireJobGridRows|100%|83.3%|
@@ -1543,6 +1543,7 @@
 |OzonOrdersWeb.WebServices.TransactionJobs.ExecutionReportLoadRow|0%||
 |OzonOrdersWeb.WebServices.TransactionJobs.ExecutionResultRow|75%||
 |OzonOrdersWeb.WebServices.TransactionJobs.ExecutionStepRow|100%||
+|OzonOrdersWeb.WebServices.Transactions.ArmtekInvoiceNumberSuggestService|100%|83.3%|
 |OzonOrdersWeb.WebServices.Transactions.ArmtekReceiptOriginService|27.4%|37.5%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.Authorization.TransactionGridAu<br/>thorizeAttribute|13.3%|0%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.AiCommentStep|0%|0%|
@@ -1602,6 +1603,8 @@
 |OzonOrdersWeb.WebServices.Transactions.Grid.Preview.ShipToSellerZasylChip|100%||
 |OzonOrdersWeb.WebServices.Transactions.Grid.Settings.TransactionGridSetting<br/>sMapper|94.1%|92.8%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.SupplierCarts.SupplierCartsProc<br/>essor|39.7%|25.6%|
+|OzonOrdersWeb.WebServices.Transactions.InvoiceNumberSuggestion|100%||
+|OzonOrdersWeb.WebServices.Transactions.OrderCountrySuggestion|100%||
 |OzonOrdersWeb.WebServices.Transactions.ReceiptOriginPreview|0%|0%|
 |OzonOrdersWeb.WebServices.Transactions.ReceiptOriginRow|0%||
 |OzonOrdersWeb.WebServices.Transactions.SupplierQueueOrderIds|90%|90.6%|
@@ -3094,7 +3097,7 @@
 |Services.SearchServices.OrderSearch.OrderSearchSyncService|88.6%|79.4%|
 |Services.SignalRServices.JobProgressHub|0%|0%|
 |Services.SignalRServices.NotificationHub|0%|0%|
-|Services.SignalRServices.NotificationService|52.1%|50%|
+|Services.SignalRServices.NotificationService|39.1%|0%|
 |Services.SignalRServices.OrderHistoryHub|0%|0%|
 |Services.SignalRServices.UserSessionInfo|0%||
 |Services.StockSyncServices.GoogleServiceAccountOptions|100%||
