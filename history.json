@@ -390,5 +390,19 @@
     "branchCoverage": 27.4,
     "coveredBranches": 26567,
     "totalBranches": 96661
+  },
+  {
+    "generatedAt": "2026-11-01T09:10:13.808Z",
+    "coverageDate": "11/01/2026 - 09:06:07 - 11/01/2026 - 09:09:13",
+    "parser": "MultiReport (2x Cobertura)",
+    "assemblies": 5,
+    "classes": 3297,
+    "files": 2218,
+    "lineCoverage": 12,
+    "coveredLines": 60681,
+    "coverableLines": 505024,
+    "branchCoverage": 28.6,
+    "coveredBranches": 28471,
+    "totalBranches": 99435
   }
 ]

@@ -45,19 +45,19 @@
 </tr>
 <tr>
 <th>Uncovered lines:</th>
-<td class="limit-width right" title="10">10</td>
+<td class="limit-width right" title="11">11</td>
 </tr>
 <tr>
 <th>Coverable lines:</th>
-<td class="limit-width right" title="10">10</td>
+<td class="limit-width right" title="11">11</td>
 </tr>
 <tr>
 <th>Total lines:</th>
-<td class="limit-width right" title="24">24</td>
+<td class="limit-width right" title="30">30</td>
 </tr>
 <tr>
 <th>Line coverage:</th>
-<td class="limit-width right" title="0 of 10">0%</td>
+<td class="limit-width right" title="0 of 11">0%</td>
 </tr>
 </table>
 </div>
@@ -116,7 +116,8 @@
 <tr><td title="get_IsAdmin()"><a href="#file0_line15" class="navigatetohash">get_IsAdmin()</a></td><td>100%</td><td>2</td><td>1</td><td>0%</td></tr>
 <tr><td title="get_FormulaFields()"><a href="#file0_line16" class="navigatetohash">get_FormulaFields()</a></td><td>100%</td><td>2</td><td>1</td><td>0%</td></tr>
 <tr><td title="get_UserSettings()"><a href="#file0_line17" class="navigatetohash">get_UserSettings()</a></td><td>100%</td><td>2</td><td>1</td><td>0%</td></tr>
-<tr><td title="get_QuotationSources()"><a href="#file0_line20" class="navigatetohash">get_QuotationSources()</a></td><td>100%</td><td>2</td><td>1</td><td>0%</td></tr>
+<tr><td title="get_ReceiptProvider()"><a href="#file0_line23" class="navigatetohash">get_ReceiptProvider()</a></td><td>100%</td><td>2</td><td>1</td><td>0%</td></tr>
+<tr><td title="get_QuotationSources()"><a href="#file0_line26" class="navigatetohash">get_QuotationSources()</a></td><td>100%</td><td>2</td><td>1</td><td>0%</td></tr>
 </tbody>
 </table>
 </div>
@@ -144,16 +145,22 @@
 <tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line16"></a><code>16</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;IReadOnlyList&lt;OrdersGridFormulaField&gt;&nbsp;FormulaFields&nbsp;{&nbsp;get;&nbsp;init;&nbsp;}&nbsp;=&nbsp;[];</code></td></tr>
 <tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line17"></a><code>17</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;IReadOnlyDictionary&lt;string,&nbsp;string&gt;&nbsp;UserSettings&nbsp;{&nbsp;get;&nbsp;init;&nbsp;}&nbsp;=&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;string&gt;();</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line18"></a><code>18</code></td><td></td><td class="lightgray"><code></code></td></tr>
-<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line19"></a><code>19</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;summary&gt;Источники&nbsp;предложений&nbsp;API-поставщиков&nbsp;(порт&nbsp;реестра&nbsp;из&nbsp;_TransactionScript).&lt;/summary&gt;</code></td></tr>
-<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line20"></a><code>20</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;IReadOnlyList&lt;TransactionGridQuotationSource&gt;&nbsp;QuotationSources&nbsp;{&nbsp;get;&nbsp;init;&nbsp;}&nbsp;=&nbsp;[];</code></td></tr>
-<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line21"></a><code>21</code></td><td></td><td class="lightgray"><code>}</code></td></tr>
-<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line22"></a><code>22</code></td><td></td><td class="lightgray"><code></code></td></tr>
-<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line23"></a><code>23</code></td><td></td><td class="lightgray"><code>///&nbsp;&lt;summary&gt;Провайдер&nbsp;предложений:&nbsp;ключ,&nbsp;имя,&nbsp;endpoint&nbsp;поиска&nbsp;и&nbsp;флаг&nbsp;включённости&nbsp;из&nbsp;настроек.&lt;/summary&gt;</code></td></tr>
-<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line24"></a><code>24</code></td><td></td><td class="lightgray"><code>public&nbsp;sealed&nbsp;record&nbsp;TransactionGridQuotationSource(string&nbsp;ProviderKey,&nbsp;string&nbsp;DisplayName,&nbsp;string&nbsp;Endpoint,&nbsp;string?&nbsp;War</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line19"></a><code>19</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;summary&gt;</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line20"></a><code>20</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;Приход&nbsp;от&nbsp;поставщика:&nbsp;откуда&nbsp;берутся&nbsp;&#171;№&nbsp;входящего&#187;,&nbsp;страна&nbsp;и&nbsp;ГТД&nbsp;—&nbsp;&#171;armtek&#187;&nbsp;(фактуры&nbsp;Армтека)&nbsp;или&nbsp;&#171;sviat&#187;&nbsp;(реали</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line21"></a><code>21</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;накладные&nbsp;Sviat,&nbsp;когда&nbsp;поставщик&nbsp;всех&nbsp;заказов&nbsp;страницы&nbsp;—&nbsp;Sviat).&nbsp;Решается&nbsp;один&nbsp;раз&nbsp;при&nbsp;открытии&nbsp;страницы.</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line22"></a><code>22</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;/summary&gt;</code></td></tr>
+<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line23"></a><code>23</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;string&nbsp;ReceiptProvider&nbsp;{&nbsp;get;&nbsp;init;&nbsp;}&nbsp;=&nbsp;&quot;armtek&quot;;</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line24"></a><code>24</code></td><td></td><td class="lightgray"><code></code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line25"></a><code>25</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;summary&gt;Источники&nbsp;предложений&nbsp;API-поставщиков&nbsp;(порт&nbsp;реестра&nbsp;из&nbsp;_TransactionScript).&lt;/summary&gt;</code></td></tr>
+<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line26"></a><code>26</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;IReadOnlyList&lt;TransactionGridQuotationSource&gt;&nbsp;QuotationSources&nbsp;{&nbsp;get;&nbsp;init;&nbsp;}&nbsp;=&nbsp;[];</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line27"></a><code>27</code></td><td></td><td class="lightgray"><code>}</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line28"></a><code>28</code></td><td></td><td class="lightgray"><code></code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line29"></a><code>29</code></td><td></td><td class="lightgray"><code>///&nbsp;&lt;summary&gt;Провайдер&nbsp;предложений:&nbsp;ключ,&nbsp;имя,&nbsp;endpoint&nbsp;поиска&nbsp;и&nbsp;флаг&nbsp;включённости&nbsp;из&nbsp;настроек.&lt;/summary&gt;</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line30"></a><code>30</code></td><td></td><td class="lightgray"><code>public&nbsp;sealed&nbsp;record&nbsp;TransactionGridQuotationSource(string&nbsp;ProviderKey,&nbsp;string&nbsp;DisplayName,&nbsp;string&nbsp;Endpoint,&nbsp;string?&nbsp;War</code></td></tr>
 </tbody>
 </table>
 </div>
-<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />10/25/2026 - 07:43:44<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
+<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />11/01/2026 - 09:09:27<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
 <div class="containerright">
 <div class="containerrightfixed">
 <h1>Methods/Properties</h1>
@@ -166,7 +173,8 @@
 <a href="#file0_line15" class="navigatetohash percentagebar percentagebar0" title="Line coverage: 0% - get_IsAdmin()"><i class="icon-wrench"></i>get_IsAdmin()</a><br />
 <a href="#file0_line16" class="navigatetohash percentagebar percentagebar0" title="Line coverage: 0% - get_FormulaFields()"><i class="icon-wrench"></i>get_FormulaFields()</a><br />
 <a href="#file0_line17" class="navigatetohash percentagebar percentagebar0" title="Line coverage: 0% - get_UserSettings()"><i class="icon-wrench"></i>get_UserSettings()</a><br />
-<a href="#file0_line20" class="navigatetohash percentagebar percentagebar0" title="Line coverage: 0% - get_QuotationSources()"><i class="icon-wrench"></i>get_QuotationSources()</a><br />
+<a href="#file0_line23" class="navigatetohash percentagebar percentagebar0" title="Line coverage: 0% - get_ReceiptProvider()"><i class="icon-wrench"></i>get_ReceiptProvider()</a><br />
+<a href="#file0_line26" class="navigatetohash percentagebar percentagebar0" title="Line coverage: 0% - get_QuotationSources()"><i class="icon-wrench"></i>get_QuotationSources()</a><br />
 <br/></div>
 </div></div>
 <script type="text/javascript" src="class.js"></script>
