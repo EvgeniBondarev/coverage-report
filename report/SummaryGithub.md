@@ -3,20 +3,20 @@
 
 |||
 |:---|:---|
-| Generated on: | 11/01/2026 - 09:09:34 |
-| Coverage date: | 11/01/2026 - 09:06:07 - 11/01/2026 - 09:09:13 |
+| Generated on: | 11/02/2026 - 09:21:34 |
+| Coverage date: | 11/02/2026 - 09:17:44 - 11/02/2026 - 09:21:12 |
 | Parser: | MultiReport (2x Cobertura) |
 | Assemblies: | 5 |
-| Classes: | 3297 |
-| Files: | 2218 |
-| **Line coverage:** | 12% (60681 of 505024) |
-| Covered lines: | 60681 |
-| Uncovered lines: | 444343 |
-| Coverable lines: | 505024 |
-| Total lines: | 702374 |
-| **Branch coverage:** | 28.6% (28471 of 99435) |
-| Covered branches: | 28471 |
-| Total branches: | 99435 |
+| Classes: | 3306 |
+| Files: | 2222 |
+| **Line coverage:** | 11.7% (60813 of 517718) |
+| Covered lines: | 60813 |
+| Uncovered lines: | 456905 |
+| Coverable lines: | 517718 |
+| Total lines: | 715570 |
+| **Branch coverage:** | 28.6% (28569 of 99597) |
+| Covered branches: | 28569 |
+| Total branches: | 99597 |
 | **Method coverage:** | [Feature is only available for sponsors](https://reportgenerator.io/pro) |
 
 </details>
@@ -205,7 +205,8 @@
 |OzonDomains.Models.Partners.Partner|100%||
 |OzonDomains.Models.Partners.PartnerAuditLog|100%||
 |OzonDomains.Models.Partners.PartnerLoginCode|80%||
-|OzonDomains.Models.Partners.PartnerPermission|25%||
+|OzonDomains.Models.Partners.PartnerPermission|50%||
+|OzonDomains.Models.Partners.PartnerReturnClient|40%||
 |OzonDomains.Models.Partners.PartnerRule|83.3%||
 |OzonDomains.Models.Partners.PartnerRuleCondition|40%||
 |OzonDomains.Models.PriceIndexes|0%||
@@ -281,11 +282,11 @@
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>FD1EB2003989FAC7<br/>9BE6464720841C72544341B3094C7BE296B61D2524CC4E18A__NumericTag_0|79.6%|70.5%|
 
 </details>
-<details><summary>OzonOrdersWeb - 24.8%</summary>
+<details><summary>OzonOrdersWeb - 24.9%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**OzonOrdersWeb**|**24.8%**|**17.8%**|
+|**OzonOrdersWeb**|**24.9%**|**18%**|
 |AspNetCoreGeneratedDocument.Areas_Admin_Views__ViewStart|0%||
 |AspNetCoreGeneratedDocument.Areas_Admin_Views_AuditLog_Details|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Admin_Views_AuditLog_Index|0%|0%|
@@ -657,6 +658,12 @@
 |OzonOrdersWeb.Api.Partner.PartnerCodeVerifyRequest|100%||
 |OzonOrdersWeb.Api.Partner.PartnerEmailRequest|100%||
 |OzonOrdersWeb.Api.Partner.PartnerOrdersController|0%|0%|
+|OzonOrdersWeb.Api.Partner.PartnerReturnCabinet|100%||
+|OzonOrdersWeb.Api.Partner.PartnerReturnMark|42.8%||
+|OzonOrdersWeb.Api.Partner.PartnerReturnMarkRequest|100%||
+|OzonOrdersWeb.Api.Partner.PartnerReturnRow|25.9%||
+|OzonOrdersWeb.Api.Partner.PartnerReturnsController|93.5%|82.2%|
+|OzonOrdersWeb.Api.Partner.PartnerReturnsResponse|44.4%||
 |OzonOrdersWeb.Api.Partner.SetCountriesBody|0%||
 |OzonOrdersWeb.Api.Partner.SetExemplarsBody|0%||
 |OzonOrdersWeb.Areas.Admin.Controllers.AdminAreaControllerBase|0%|0%|
@@ -732,6 +739,7 @@
 |OzonOrdersWeb.Areas.PartnerOffice.Models.PartnerEditViewModel|0%||
 |OzonOrdersWeb.Areas.PartnerOffice.Models.PartnerMainForm|0%||
 |OzonOrdersWeb.Areas.PartnerOffice.Models.PartnerPermissionsForm|0%||
+|OzonOrdersWeb.Areas.PartnerOffice.Models.PartnerReturnsForm|0%||
 |OzonOrdersWeb.Areas.PartnerOffice.Models.RuleLookupOption|0%||
 |OzonOrdersWeb.Areas.PartnerOffice.Models.RuleLookups|0%||
 |OzonOrdersWeb.Areas.Public.AssemblyListOgMetadata|0%|0%|
@@ -1163,7 +1171,7 @@
 |OzonOrdersWeb.Extensions.IdentityExtensions|86.9%|100%|
 |OzonOrdersWeb.Extensions.LocalRedirectUrlEncoder|100%||
 |OzonOrdersWeb.Extensions.MiddlewareExtensions|0%||
-|OzonOrdersWeb.Extensions.PartnerOfficeExtensions|0%|0%|
+|OzonOrdersWeb.Extensions.PartnerOfficeExtensions|1.8%|0%|
 |OzonOrdersWeb.Extensions.RepositoryExtensions|0%|0%|
 |OzonOrdersWeb.Extensions.RuntimeSettingsConfigurationExtensions|0%||
 |OzonOrdersWeb.Extensions.SecurityExtensions|0%|0%|
@@ -1504,7 +1512,7 @@
 |OzonOrdersWeb.WebServices.Partners.PartnerCountrySelection|100%||
 |OzonOrdersWeb.WebServices.Partners.PartnerExemplarRequirement|0%||
 |OzonOrdersWeb.WebServices.Partners.PartnerGridRow|41.6%||
-|OzonOrdersWeb.WebServices.Partners.PartnerGridRows|88.8%|75%|
+|OzonOrdersWeb.WebServices.Partners.PartnerGridRows|82.7%|64.2%|
 |OzonOrdersWeb.WebServices.Partners.PartnerOrderActionsService|24.4%|18.4%|
 |OzonOrdersWeb.WebServices.Partners.PartnerPrintedLabel|0%||
 |OzonOrdersWeb.WebServices.Partners.PartnerShipRequirements|0%||
@@ -1799,6 +1807,7 @@
 |OzonRepositories.Migrations.AddOzonHandoverReturnDetails|0%||
 |OzonRepositories.Migrations.AddPartnerEmailLogin|0%||
 |OzonRepositories.Migrations.AddPartnerOffice|0%||
+|OzonRepositories.Migrations.AddPartnerReturnClients|0%||
 |OzonRepositories.Migrations.AddSupplierOrderIntents|0%||
 |OzonRepositories.Migrations.AddSupplierReceiptContractLink|0%||
 |OzonRepositories.Migrations.AddSviatInvoiceItemCountry|0%||
@@ -3180,7 +3189,7 @@
 |Services.SearchServices.OrderSearch.OrderSearchSyncService|88.6%|79.4%|
 |Services.SignalRServices.JobProgressHub|0%|0%|
 |Services.SignalRServices.NotificationHub|0%|0%|
-|Services.SignalRServices.NotificationService|39.1%|0%|
+|Services.SignalRServices.NotificationService|52.1%|50%|
 |Services.SignalRServices.OrderHistoryHub|0%|0%|
 |Services.SignalRServices.UserSessionInfo|0%||
 |Services.StockSyncServices.GoogleServiceAccountOptions|100%||
