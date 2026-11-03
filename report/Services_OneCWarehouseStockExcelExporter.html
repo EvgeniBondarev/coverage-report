@@ -36,28 +36,28 @@
 <div class="card">
 <div class="card-header">Line coverage</div>
 <div class="card-body">
-<div class="large cardpercentagebar cardpercentagebar3">97%</div>
+<div class="large cardpercentagebar cardpercentagebar4">96%</div>
 <div class="table">
 <table>
 <tr>
 <th>Covered lines:</th>
-<td class="limit-width right" title="100">100</td>
+<td class="limit-width right" title="102">102</td>
 </tr>
 <tr>
 <th>Uncovered lines:</th>
-<td class="limit-width right" title="3">3</td>
+<td class="limit-width right" title="4">4</td>
 </tr>
 <tr>
 <th>Coverable lines:</th>
-<td class="limit-width right" title="103">103</td>
+<td class="limit-width right" title="106">106</td>
 </tr>
 <tr>
 <th>Total lines:</th>
-<td class="limit-width right" title="166">166</td>
+<td class="limit-width right" title="169">169</td>
 </tr>
 <tr>
 <th>Line coverage:</th>
-<td class="limit-width right" title="100 of 103">97%</td>
+<td class="limit-width right" title="102 of 106">96.2%</td>
 </tr>
 </table>
 </div>
@@ -66,20 +66,20 @@
 <div class="card">
 <div class="card-header">Branch coverage</div>
 <div class="card-body">
-<div class="large cardpercentagebar cardpercentagebar35">65%</div>
+<div class="large cardpercentagebar cardpercentagebar44">56%</div>
 <div class="table">
 <table>
 <tr>
 <th>Covered branches:</th>
-<td class="limit-width right" title="26">26</td>
+<td class="limit-width right" title="28">28</td>
 </tr>
 <tr>
 <th>Total branches:</th>
-<td class="limit-width right" title="40">40</td>
+<td class="limit-width right" title="50">50</td>
 </tr>
 <tr>
 <th>Branch coverage:</th>
-<td class="limit-width right" title="26 of 40">65%</td>
+<td class="limit-width right" title="28 of 50">56%</td>
 </tr>
 </table>
 </div>
@@ -110,7 +110,7 @@
 <tr><td title=".ctor(Services.ApiServices._1CApi.Stock.IOneCWarehouseStockService)"><a href="#file0_line26" class="navigatetohash">.ctor(...)</a></td><td>100%</td><td>1</td><td>1</td><td>100%</td></tr>
 <tr><td title="ExportAsync()"><a href="#file0_line33" class="navigatetohash">ExportAsync()</a></td><td>70%</td><td>10</td><td>10</td><td>95%</td></tr>
 <tr><td title="BuildWorkbook(Services.ApiServices._1CApi.Stock.OneCWarehouseStockResult,Services.ApiServices._1CApi.Stock.OneCWarehouseStockQuery,System.Collections.Generic.IReadOnlyList`1&lt;Services.ApiServices._1CApi.Stock.OneCWarehouseStockRow&gt;)"><a href="#file0_line67" class="navigatetohash">BuildWorkbook(...)</a></td><td>65%</td><td>20</td><td>20</td><td>100%</td></tr>
-<tr><td title="DescribeFilters(Services.ApiServices._1CApi.Stock.OneCWarehouseStockQuery)"><a href="#file0_line154" class="navigatetohash">DescribeFilters(...)</a></td><td>60%</td><td>11</td><td>10</td><td>81.81%</td></tr>
+<tr><td title="DescribeFilters(Services.ApiServices._1CApi.Stock.OneCWarehouseStockQuery)"><a href="#file0_line154" class="navigatetohash">DescribeFilters(...)</a></td><td>40%</td><td>24</td><td>20</td><td>78.57%</td></tr>
 </tbody>
 </table>
 </div>
@@ -282,21 +282,24 @@
 <tr class="coverableline" title="Covered (1 visits)" data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line160"></a><code>160</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;filters&nbsp;=&nbsp;new&nbsp;List&lt;string&gt;&nbsp;{&nbsp;age&nbsp;};</code></td></tr>
 <tr class="coverableline" title="Covered (2 visits, 2 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '2', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">2</td><td class="rightmargin right"><a id="file0_line161"></a><code>161</code></td><td class="percentagebar percentagebar100"><i class="icon-fork"></i></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!string.IsNullOrWhiteSpace(query.ArticleSearch))&nbsp;filters.Add($&quot;артикул:&nbsp;{query.ArticleSearch}&quot;);</code></td></tr>
 <tr class="coverableline" title="Partially covered (1 visits, 1 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'orange'}}"><td class="orange">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line162"></a><code>162</code></td><td class="percentagebar percentagebar50"><i class="icon-fork"></i></td><td class="lightorange"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!string.IsNullOrWhiteSpace(query.ProducerSearch))&nbsp;filters.Add($&quot;производитель:&nbsp;{query.ProducerSearch}&quot;);</code></td></tr>
-<tr class="coverableline" title="Partially covered (1 visits, 1 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'orange'}}"><td class="orange">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line163"></a><code>163</code></td><td class="percentagebar percentagebar50"><i class="icon-fork"></i></td><td class="lightorange"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(query.MinQuantity&nbsp;&gt;&nbsp;0)&nbsp;filters.Add($&quot;остаток&nbsp;от&nbsp;{query.MinQuantity:N2}&quot;);</code></td></tr>
-<tr class="coverableline" title="Covered (1 visits)" data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line164"></a><code>164</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;&quot;Фильтры:&nbsp;&quot;&nbsp;+&nbsp;string.Join(&quot;&nbsp;&#183;&nbsp;&quot;,&nbsp;filters);</code></td></tr>
-<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line165"></a><code>165</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
-<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line166"></a><code>166</code></td><td></td><td class="lightgray"><code>}</code></td></tr>
+<tr class="coverableline" title="Partially covered (1 visits, 1 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'orange'}}"><td class="orange">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line163"></a><code>163</code></td><td class="percentagebar percentagebar50"><i class="icon-fork"></i></td><td class="lightorange"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(query.ProducerValues&nbsp;is&nbsp;not&nbsp;null)</code></td></tr>
+<tr class="coverableline" title="Not covered (0 visits, 0 of 4 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line164"></a><code>164</code></td><td class="percentagebar percentagebar0"><i class="icon-fork"></i></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;filters.Add($&quot;производители:&nbsp;{(query.ProducerValues.Count&nbsp;==&nbsp;0&nbsp;?&nbsp;&quot;нет&nbsp;выбранных&quot;&nbsp;:&nbsp;string.Join(&quot;,&nbsp;&quot;,&nbsp;query.P</code></td></tr>
+<tr class="coverableline" title="Partially covered (1 visits, 1 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'orange'}}"><td class="orange">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line165"></a><code>165</code></td><td class="percentagebar percentagebar50"><i class="icon-fork"></i></td><td class="lightorange"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(query.MinQuantity&nbsp;&gt;&nbsp;0)&nbsp;filters.Add($&quot;остаток&nbsp;от&nbsp;{query.MinQuantity:N2}&quot;);</code></td></tr>
+<tr class="coverableline" title="Partially covered (1 visits, 1 of 4 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'orange'}}"><td class="orange">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line166"></a><code>166</code></td><td class="percentagebar percentagebar20"><i class="icon-fork"></i></td><td class="lightorange"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(query.Confirmed.HasValue)&nbsp;filters.Add(query.Confirmed.Value&nbsp;?&nbsp;&quot;подтверждены&quot;&nbsp;:&nbsp;&quot;не&nbsp;подтверждены&quot;);</code></td></tr>
+<tr class="coverableline" title="Covered (1 visits)" data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line167"></a><code>167</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;&quot;Фильтры:&nbsp;&quot;&nbsp;+&nbsp;string.Join(&quot;&nbsp;&#183;&nbsp;&quot;,&nbsp;filters);</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line168"></a><code>168</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line169"></a><code>169</code></td><td></td><td class="lightgray"><code>}</code></td></tr>
 </tbody>
 </table>
 </div>
-<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />11/02/2026 - 09:21:30<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
+<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />11/03/2026 - 09:26:36<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
 <div class="containerright">
 <div class="containerrightfixed">
 <h1>Methods/Properties</h1>
 <a href="#file0_line26" class="navigatetohash percentagebar percentagebar100" title="Line coverage: 100% - .ctor(Services.ApiServices._1CApi.Stock.IOneCWarehouseStockService)"><i class="icon-cube"></i>.ctor(Services.ApiServices._1CApi.Stock.IOneCWarehouseStockService)</a><br />
 <a href="#file0_line33" class="navigatetohash percentagebar percentagebar90" title="Line coverage: 95% - ExportAsync()"><i class="icon-cube"></i>ExportAsync()</a><br />
 <a href="#file0_line67" class="navigatetohash percentagebar percentagebar100" title="Line coverage: 100% - BuildWorkbook(Services.ApiServices._1CApi.Stock.OneCWarehouseStockResult,Services.ApiServices._1CApi.Stock.OneCWarehouseStockQuery,System.Collections.Generic.IReadOnlyList`1&lt;Services.ApiServices._1CApi.Stock.OneCWarehouseStockRow&gt;)"><i class="icon-cube"></i>BuildWorkbook(Services.ApiServices._1CApi.Stock.OneCWarehouseStockResult,Services.ApiServices._1CApi.Stock.OneCWarehouseStockQuery,System.Collections.Generic.IReadOnlyList`1&lt;Services.ApiServices._1CApi.Stock.OneCWarehouseStockRow&gt;)</a><br />
-<a href="#file0_line154" class="navigatetohash percentagebar percentagebar80" title="Line coverage: 81.8% - DescribeFilters(Services.ApiServices._1CApi.Stock.OneCWarehouseStockQuery)"><i class="icon-cube"></i>DescribeFilters(Services.ApiServices._1CApi.Stock.OneCWarehouseStockQuery)</a><br />
+<a href="#file0_line154" class="navigatetohash percentagebar percentagebar70" title="Line coverage: 78.5% - DescribeFilters(Services.ApiServices._1CApi.Stock.OneCWarehouseStockQuery)"><i class="icon-cube"></i>DescribeFilters(Services.ApiServices._1CApi.Stock.OneCWarehouseStockQuery)</a><br />
 <br/></div>
 </div></div>
 <script type="text/javascript" src="class.js"></script>
