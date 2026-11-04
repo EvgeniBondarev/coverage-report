@@ -3,20 +3,20 @@
 
 |||
 |:---|:---|
-| Generated on: | 11/03/2026 - 09:26:39 |
-| Coverage date: | 11/03/2026 - 09:22:42 - 11/03/2026 - 09:26:19 |
+| Generated on: | 11/04/2026 - 09:08:20 |
+| Coverage date: | 11/04/2026 - 09:02:29 - 11/04/2026 - 09:07:56 |
 | Parser: | MultiReport (2x Cobertura) |
 | Assemblies: | 5 |
-| Classes: | 3346 |
-| Files: | 2241 |
-| **Line coverage:** | 11.3% (61670 of 541268) |
-| Covered lines: | 61670 |
-| Uncovered lines: | 479598 |
-| Coverable lines: | 541268 |
-| Total lines: | 740960 |
-| **Branch coverage:** | 28.8% (28913 of 100095) |
-| Covered branches: | 28913 |
-| Total branches: | 100095 |
+| Classes: | 3348 |
+| Files: | 2244 |
+| **Line coverage:** | 11.1% (61699 of 553876) |
+| Covered lines: | 61699 |
+| Uncovered lines: | 492177 |
+| Coverable lines: | 553876 |
+| Total lines: | 754023 |
+| **Branch coverage:** | 28.9% (28944 of 100143) |
+| Covered branches: | 28944 |
+| Total branches: | 100143 |
 | **Method coverage:** | [Feature is only available for sponsors](https://reportgenerator.io/pro) |
 
 </details>
@@ -674,9 +674,9 @@
 |OzonOrdersWeb.Api.Partner.PartnerReturnCabinet|100%||
 |OzonOrdersWeb.Api.Partner.PartnerReturnMark|42.8%||
 |OzonOrdersWeb.Api.Partner.PartnerReturnMarkRequest|100%||
-|OzonOrdersWeb.Api.Partner.PartnerReturnRow|25.9%||
-|OzonOrdersWeb.Api.Partner.PartnerReturnsController|93.5%|82.2%|
-|OzonOrdersWeb.Api.Partner.PartnerReturnsResponse|44.4%||
+|OzonOrdersWeb.Api.Partner.PartnerReturnRow|31%||
+|OzonOrdersWeb.Api.Partner.PartnerReturnsController|82.5%|73.1%|
+|OzonOrdersWeb.Api.Partner.PartnerReturnsResponse|40%||
 |OzonOrdersWeb.Api.Partner.SetCountriesBody|0%||
 |OzonOrdersWeb.Api.Partner.SetExemplarsBody|0%||
 |OzonOrdersWeb.Areas.Admin.Controllers.AdminAreaControllerBase|0%|0%|
@@ -1590,7 +1590,7 @@
 |OzonOrdersWeb.WebServices.TransactionJobs.ExecutionResultRow|75%||
 |OzonOrdersWeb.WebServices.TransactionJobs.ExecutionStepRow|100%||
 |OzonOrdersWeb.WebServices.Transactions.ArmtekInvoiceNumberSuggestService|100%|89%|
-|OzonOrdersWeb.WebServices.Transactions.ArmtekReceiptOriginService|93.9%|86.1%|
+|OzonOrdersWeb.WebServices.Transactions.ArmtekReceiptOriginService|94.1%|86.3%|
 |OzonOrdersWeb.WebServices.Transactions.Fixes.TransactionFailureReport|95%|88%|
 |OzonOrdersWeb.WebServices.Transactions.Fixes.TransactionFixContext|100%||
 |OzonOrdersWeb.WebServices.Transactions.Fixes.TransactionFixLinks|73%|65.8%|
@@ -1608,7 +1608,7 @@
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.OneCStockCheckStep|0%|0%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.OzonCancelStep|0%|0%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.QuantitySplitCance<br/>llationStep|0%|0%|
-|OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.ReceiptOriginStep|96.2%|100%|
+|OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.ReceiptOriginStep|97.5%|97.6%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.ResolveTargetStatu<br/>sStep|0%|0%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.ScopeAndLoadStep|0%|0%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.SupplierCartsPostS<br/>tep|0%|0%|
@@ -1833,6 +1833,7 @@
 |OzonRepositories.Migrations.AddSystemAlertSuppressionAndDebounce|0%||
 |OzonRepositories.Migrations.AddTransactionTypeSettings|0%||
 |OzonRepositories.Migrations.AddUserSidebarSettings|0%||
+|OzonRepositories.Migrations.AddWarehouseTargetFlag|0%||
 |OzonRepositories.Migrations.AddZZapCartItems|0%||
 |OzonRepositories.Migrations.ApplicationDbContextModelSnapshot|0%||
 |OzonRepositories.Migrations.Baseline|0%||
@@ -1873,6 +1874,7 @@
 |AppRepository.ApiServices.OzonApi.Filters.ChatSendMessageResponse|0%||
 |AppRepository.ApiServices.OzonApi.OzonChatHttpClient|0%|0%|
 |AppRepository.ApiServices.OzonApi.OzonChatManager|0%|0%|
+|AppRepository.ApiServices.OzonApi.OzonOnlyWebProxy|80%|100%|
 |CurrencyNormalizer|100%|100%|
 |InterpartsApiConfig|0%||
 |OrderSummaryCache|0%|0%|
@@ -2748,7 +2750,7 @@
 |Services.BitrixStockServices.BitrixStockPushStartRequest|0%||
 |Services.BitrixStockServices.BitrixStockRolloutTelegramReporter|11.8%|4%|
 |Services.BitrixStockServices.BitrixStockRunContext|100%||
-|Services.BitrixStockServices.BitrixStockRunFileLogger|95.8%|71.6%|
+|Services.BitrixStockServices.BitrixStockRunFileLogger|95.8%|74.3%|
 |Services.BitrixStockServices.BitrixStockRunHttpLoggingHandler|0%|0%|
 |Services.BitrixStockServices.BitrixStockRunLoggingOptions|100%||
 |Services.BitrixStockServices.BitrixStockSyncActionResolver|0%|0%|
@@ -3191,7 +3193,7 @@
 |Services.PartnerServices.PartnerOrderListItemDto|100%||
 |Services.PartnerServices.PartnerOrderQuery|100%||
 |Services.PartnerServices.PartnerOrderScope|95.8%|79.6%|
-|Services.PartnerServices.PartnerOrdersService|100%|76.1%|
+|Services.PartnerServices.PartnerOrdersService|100%|75%|
 |Services.PartnerServices.PartnerOrderSuggestion|100%||
 |Services.PartnerServices.PartnerPage`1|100%||
 |Services.PartnerServices.PartnerPermissionService|100%||
