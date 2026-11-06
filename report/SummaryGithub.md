@@ -3,20 +3,20 @@
 
 |||
 |:---|:---|
-| Generated on: | 11/04/2026 - 09:08:20 |
-| Coverage date: | 11/04/2026 - 09:02:29 - 11/04/2026 - 09:07:56 |
+| Generated on: | 11/06/2026 - 09:19:27 |
+| Coverage date: | 11/06/2026 - 09:15:26 - 11/06/2026 - 09:19:09 |
 | Parser: | MultiReport (2x Cobertura) |
 | Assemblies: | 5 |
-| Classes: | 3348 |
-| Files: | 2244 |
-| **Line coverage:** | 11.1% (61699 of 553876) |
-| Covered lines: | 61699 |
-| Uncovered lines: | 492177 |
-| Coverable lines: | 553876 |
-| Total lines: | 754023 |
-| **Branch coverage:** | 28.9% (28944 of 100143) |
-| Covered branches: | 28944 |
-| Total branches: | 100143 |
+| Classes: | 3354 |
+| Files: | 2246 |
+| **Line coverage:** | 11.1% (61747 of 554062) |
+| Covered lines: | 61747 |
+| Uncovered lines: | 492315 |
+| Coverable lines: | 554062 |
+| Total lines: | 754350 |
+| **Branch coverage:** | 28.9% (28983 of 100243) |
+| Covered branches: | 28983 |
+| Total branches: | 100243 |
 | **Method coverage:** | [Feature is only available for sponsors](https://reportgenerator.io/pro) |
 
 </details>
@@ -664,6 +664,9 @@
 |OzonOrdersWeb.Api.OneCStockConfirmationListApiResponse|100%||
 |OzonOrdersWeb.Api.OneCStockConfirmationsApiController|96%|75%|
 |OzonOrdersWeb.Api.OneCStockPositionApiController|100%|75%|
+|OzonOrdersWeb.Api.OneCStockWarehouseApiDto|100%||
+|OzonOrdersWeb.Api.OneCStockWarehouseListApiResponse|100%||
+|OzonOrdersWeb.Api.OneCStockWarehousesApiController|100%||
 |OzonOrdersWeb.Api.OzonHandoverApiKeyFilter|95%|90%|
 |OzonOrdersWeb.Api.OzonHandoverImportController|0%|0%|
 |OzonOrdersWeb.Api.OzonHandoverOptions|100%||
@@ -965,7 +968,7 @@
 |OzonOrdersWeb.Areas.Studio2.Controllers.Transactions.WarehouseTransferTrans<br/>actionController|0%|0%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.TransactionsGridController|4.8%|7.4%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.TransactionTimeTrackingReportContro<br/>ller|0%||
-|OzonOrdersWeb.Areas.Studio2.Controllers.WarehouseStockController|25.9%|20%|
+|OzonOrdersWeb.Areas.Studio2.Controllers.WarehouseStockController|29.2%|23.6%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.ZZapMoscowPriceController|0%|0%|
 |OzonOrdersWeb.Areas.Studio2.DTOs.ClientDetailDto|100%||
 |OzonOrdersWeb.Areas.Studio2.DTOs.ForecastTrendAnalysisDto|0%||
@@ -1696,6 +1699,9 @@
 |OzonOrdersWeb.WebServices.TransactionTooltipService|0%|0%|
 |OzonOrdersWeb.WebServices.TransactionTransitionRuleService|94.1%|44.1%|
 |OzonOrdersWeb.WebServices.TransactionTransitionRuleVm|95.6%||
+|OzonOrdersWeb.WebServices.WarehouseStock.OzonArticleInfo|0%||
+|OzonOrdersWeb.WebServices.WarehouseStock.OzonClientListing|0%||
+|OzonOrdersWeb.WebServices.WarehouseStock.WarehouseStockOzonEnricher|0%|0%|
 |OzonWebApp.Controllers.ExcludedArticlesController|0%|0%|
 |PartsInfo.Cache.UrlResponseCacheService|100%||
 |PartsInfo.HttpUtils.ProxyHttpClientService|94.7%|100%|
@@ -1855,7 +1861,7 @@
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**Services**|**46.7%**|**40.8%**|
+|**Services**|**46.7%**|**40.9%**|
 |AppRepository.ApiServices.OzonApi.Filters.Chat|0%||
 |AppRepository.ApiServices.OzonApi.Filters.ChatFilter|0%||
 |AppRepository.ApiServices.OzonApi.Filters.ChatHistoryRequest|0%||
@@ -1981,7 +1987,7 @@
 |Services.ApiServices._1CApi.Nomenclature.ProducerResolution|100%||
 |Services.ApiServices._1CApi.Nomenclature.ProducerRow|100%||
 |Services.ApiServices._1CApi.Nomenclature.ProducerValue|100%||
-|Services.ApiServices._1CApi.Nomenclature.ProducerValueResolver|95.3%|81.8%|
+|Services.ApiServices._1CApi.Nomenclature.ProducerValueResolver|97.6%|86.3%|
 |Services.ApiServices._1CApi.Nomenclature.ProductQuery|100%||
 |Services.ApiServices._1CApi.Nomenclature.ShadowOutcome|100%||
 |Services.ApiServices._1CApi.OData|56%|60.5%|
@@ -2695,7 +2701,7 @@
 |Services.BitrixStockServices.BitrixOzonApiFactory|0%|0%|
 |Services.BitrixStockServices.BitrixOzonLinkedStockApiSyncService|0%|0%|
 |Services.BitrixStockServices.BitrixOzonStockErrorMapper|22.8%|18.4%|
-|Services.BitrixStockServices.BitrixOzonStockLinkage|66.6%|57.2%|
+|Services.BitrixStockServices.BitrixOzonStockLinkage|67.1%|58.6%|
 |Services.BitrixStockServices.BitrixOzonStockSyncDetailEntry|0%||
 |Services.BitrixStockServices.BitrixOzonStockSyncSummary|0%||
 |Services.BitrixStockServices.BitrixStockActiveStageStore|100%|100%|
@@ -2828,7 +2834,7 @@
 |Services.BitrixStockServices.OrderReserveMapDto|0%||
 |Services.BitrixStockServices.OrderReserveOrderDto|100%||
 |Services.BitrixStockServices.OrderReserveSourceRow|100%||
-|Services.BitrixStockServices.OzonApiFoundInfo|70%||
+|Services.BitrixStockServices.OzonApiFoundInfo|63.6%||
 |Services.BitrixStockServices.OzonCatalogStockEnricher|89.6%|66.6%|
 |Services.BitrixStockServices.OzonCatalogStockRow|100%||
 |Services.BitrixStockServices.OzonOrphanPreviewDto|0%||
@@ -3231,7 +3237,7 @@
 |Services.SearchServices.OrderSearch.OrderSearchSyncService|88.6%|79.4%|
 |Services.SignalRServices.JobProgressHub|0%|0%|
 |Services.SignalRServices.NotificationHub|0%|0%|
-|Services.SignalRServices.NotificationService|52.1%|50%|
+|Services.SignalRServices.NotificationService|47.8%|50%|
 |Services.SignalRServices.OrderHistoryHub|0%|0%|
 |Services.SignalRServices.UserSessionInfo|0%||
 |Services.StockSyncServices.GoogleServiceAccountOptions|100%||
