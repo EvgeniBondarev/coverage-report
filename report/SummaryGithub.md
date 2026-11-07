@@ -3,20 +3,20 @@
 
 |||
 |:---|:---|
-| Generated on: | 11/06/2026 - 09:19:27 |
-| Coverage date: | 11/06/2026 - 09:15:26 - 11/06/2026 - 09:19:09 |
+| Generated on: | 11/07/2026 - 08:52:51 |
+| Coverage date: | 11/07/2026 - 08:46:07 - 11/07/2026 - 08:52:28 |
 | Parser: | MultiReport (2x Cobertura) |
 | Assemblies: | 5 |
-| Classes: | 3354 |
+| Classes: | 3355 |
 | Files: | 2246 |
-| **Line coverage:** | 11.1% (61747 of 554062) |
-| Covered lines: | 61747 |
-| Uncovered lines: | 492315 |
-| Coverable lines: | 554062 |
-| Total lines: | 754350 |
-| **Branch coverage:** | 28.9% (28983 of 100243) |
-| Covered branches: | 28983 |
-| Total branches: | 100243 |
+| **Line coverage:** | 11.1% (61749 of 554069) |
+| Covered lines: | 61749 |
+| Uncovered lines: | 492320 |
+| Coverable lines: | 554069 |
+| Total lines: | 754359 |
+| **Branch coverage:** | 28.9% (28986 of 100247) |
+| Covered branches: | 28986 |
+| Total branches: | 100247 |
 | **Method coverage:** | [Feature is only available for sponsors](https://reportgenerator.io/pro) |
 
 </details>
@@ -677,8 +677,9 @@
 |OzonOrdersWeb.Api.Partner.PartnerReturnCabinet|100%||
 |OzonOrdersWeb.Api.Partner.PartnerReturnMark|42.8%||
 |OzonOrdersWeb.Api.Partner.PartnerReturnMarkRequest|100%||
-|OzonOrdersWeb.Api.Partner.PartnerReturnRow|31%||
-|OzonOrdersWeb.Api.Partner.PartnerReturnsController|82.5%|73.1%|
+|OzonOrdersWeb.Api.Partner.PartnerReturnOneC|0%||
+|OzonOrdersWeb.Api.Partner.PartnerReturnRow|30%||
+|OzonOrdersWeb.Api.Partner.PartnerReturnsController|82.8%|73.9%|
 |OzonOrdersWeb.Api.Partner.PartnerReturnsResponse|40%||
 |OzonOrdersWeb.Api.Partner.SetCountriesBody|0%||
 |OzonOrdersWeb.Api.Partner.SetExemplarsBody|0%||
@@ -1861,7 +1862,7 @@
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**Services**|**46.7%**|**40.9%**|
+|**Services**|**46.7%**|**40.8%**|
 |AppRepository.ApiServices.OzonApi.Filters.Chat|0%||
 |AppRepository.ApiServices.OzonApi.Filters.ChatFilter|0%||
 |AppRepository.ApiServices.OzonApi.Filters.ChatHistoryRequest|0%||
@@ -1987,7 +1988,7 @@
 |Services.ApiServices._1CApi.Nomenclature.ProducerResolution|100%||
 |Services.ApiServices._1CApi.Nomenclature.ProducerRow|100%||
 |Services.ApiServices._1CApi.Nomenclature.ProducerValue|100%||
-|Services.ApiServices._1CApi.Nomenclature.ProducerValueResolver|97.6%|86.3%|
+|Services.ApiServices._1CApi.Nomenclature.ProducerValueResolver|95.3%|81.8%|
 |Services.ApiServices._1CApi.Nomenclature.ProductQuery|100%||
 |Services.ApiServices._1CApi.Nomenclature.ShadowOutcome|100%||
 |Services.ApiServices._1CApi.OData|56%|60.5%|
@@ -3237,7 +3238,7 @@
 |Services.SearchServices.OrderSearch.OrderSearchSyncService|88.6%|79.4%|
 |Services.SignalRServices.JobProgressHub|0%|0%|
 |Services.SignalRServices.NotificationHub|0%|0%|
-|Services.SignalRServices.NotificationService|47.8%|50%|
+|Services.SignalRServices.NotificationService|52.1%|50%|
 |Services.SignalRServices.OrderHistoryHub|0%|0%|
 |Services.SignalRServices.UserSessionInfo|0%||
 |Services.StockSyncServices.GoogleServiceAccountOptions|100%||
