@@ -3,20 +3,20 @@
 
 |||
 |:---|:---|
-| Generated on: | 11/07/2026 - 08:52:51 |
-| Coverage date: | 11/07/2026 - 08:46:07 - 11/07/2026 - 08:52:28 |
+| Generated on: | 11/08/2026 - 08:58:32 |
+| Coverage date: | 11/08/2026 - 08:55:53 - 11/08/2026 - 08:58:16 |
 | Parser: | MultiReport (2x Cobertura) |
 | Assemblies: | 5 |
 | Classes: | 3355 |
 | Files: | 2246 |
-| **Line coverage:** | 11.1% (61749 of 554069) |
-| Covered lines: | 61749 |
-| Uncovered lines: | 492320 |
-| Coverable lines: | 554069 |
-| Total lines: | 754359 |
-| **Branch coverage:** | 28.9% (28986 of 100247) |
-| Covered branches: | 28986 |
-| Total branches: | 100247 |
+| **Line coverage:** | 11.1% (61763 of 554087) |
+| Covered lines: | 61763 |
+| Uncovered lines: | 492324 |
+| Coverable lines: | 554087 |
+| Total lines: | 754394 |
+| **Branch coverage:** | 28.9% (28984 of 100245) |
+| Covered branches: | 28984 |
+| Total branches: | 100245 |
 | **Method coverage:** | [Feature is only available for sponsors](https://reportgenerator.io/pro) |
 
 </details>
@@ -1227,7 +1227,7 @@
 |OzonOrdersWeb.Observability.InvalidModelStateLoggingFilter|85%|71%|
 |OzonOrdersWeb.Observability.InvalidModelStatePageFilter|0%|0%|
 |OzonOrdersWeb.Observability.ObservabilityOptions|100%||
-|OzonOrdersWeb.Observability.OutboundRequestLoggingHandler|95.6%|91.2%|
+|OzonOrdersWeb.Observability.OutboundRequestLoggingHandler|95.5%|91.5%|
 |OzonOrdersWeb.Observability.OutboundTransportFailureClassifier|63.3%|57.4%|
 |OzonOrdersWeb.Observability.RequestObservabilityMiddleware|96.5%|91.5%|
 |OzonOrdersWeb.Observability.SafeDistributedLockWrapper|100%|83.3%|
@@ -1858,11 +1858,11 @@
 |Services.DataServices.ExcelMapping.ExcludedBitrixWarehouseRepository|0%||
 
 </details>
-<details><summary>Services - 46.7%</summary>
+<details><summary>Services - 46.8%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**Services**|**46.7%**|**40.8%**|
+|**Services**|**46.8%**|**40.8%**|
 |AppRepository.ApiServices.OzonApi.Filters.Chat|0%||
 |AppRepository.ApiServices.OzonApi.Filters.ChatFilter|0%||
 |AppRepository.ApiServices.OzonApi.Filters.ChatHistoryRequest|0%||
@@ -2514,7 +2514,7 @@
 |Services.ApiServices.OzonApi.Filters.WarehouseStock|100%||
 |Services.ApiServices.OzonApi.Filters.WarehouseStockReportRequest|0%||
 |Services.ApiServices.OzonApi.GenerationRequest|0%||
-|Services.ApiServices.OzonApi.OzonApiClient|49.3%|51.3%|
+|Services.ApiServices.OzonApi.OzonApiClient|54.8%|52.5%|
 |Services.ApiServices.OzonApi.OzonApiDataManager|30.9%|20.6%|
 |Services.ApiServices.OzonApi.OzonCancelExecutionResult|0%||
 |Services.ApiServices.OzonApi.OzonCancelFormRequest|100%||
@@ -3238,7 +3238,7 @@
 |Services.SearchServices.OrderSearch.OrderSearchSyncService|88.6%|79.4%|
 |Services.SignalRServices.JobProgressHub|0%|0%|
 |Services.SignalRServices.NotificationHub|0%|0%|
-|Services.SignalRServices.NotificationService|52.1%|50%|
+|Services.SignalRServices.NotificationService|39.1%|0%|
 |Services.SignalRServices.OrderHistoryHub|0%|0%|
 |Services.SignalRServices.UserSessionInfo|0%||
 |Services.StockSyncServices.GoogleServiceAccountOptions|100%||
