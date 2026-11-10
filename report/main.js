@@ -467,6 +467,7 @@ var assemblies = [
       { "name": "OzonDomains.Models.OzonPostingCancellation", "rp": "OzonDomains_OzonPostingCancellation.html", "cl": 12, "ucl": 1, "cal": 13, "tl": 32, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonDomains.Models.OzonPostingCancellationOrder", "rp": "OzonDomains_OzonPostingCancellationOrder.html", "cl": 2, "ucl": 2, "cal": 4, "tl": 32, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonDomains.Models.OzonPushNotification", "rp": "OzonDomains_OzonPushNotification.html", "cl": 4, "ucl": 8, "cal": 12, "tl": 94, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "OzonDomains.Models.OzonStatusTransitionOutbox", "rp": "OzonDomains_OzonStatusTransitionOutbox.html", "cl": 14, "ucl": 3, "cal": 17, "tl": 52, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonDomains.Models.Partners.Partner", "rp": "OzonDomains_Partner.html", "cl": 19, "ucl": 0, "cal": 19, "tl": 64, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonDomains.Models.Partners.PartnerAuditLog", "rp": "OzonDomains_PartnerAuditLog.html", "cl": 10, "ucl": 0, "cal": 10, "tl": 43, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonDomains.Models.Partners.PartnerLoginCode", "rp": "OzonDomains_PartnerLoginCode.html", "cl": 8, "ucl": 2, "cal": 10, "tl": 40, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -1441,7 +1442,7 @@ var assemblies = [
       { "name": "OzonOrdersWeb.Controllers.CartController", "rp": "OzonOrdersWeb_CartController.html", "cl": 0, "ucl": 45, "cal": 45, "tl": 110, "cb": 0, "tb": 18, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Controllers.HomeController", "rp": "OzonOrdersWeb_HomeController.4.html", "cl": 11, "ucl": 2, "cal": 13, "tl": 51, "cb": 5, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Controllers.ImpersonationController", "rp": "OzonOrdersWeb_ImpersonationController.html", "cl": 0, "ucl": 10, "cal": 10, "tl": 33, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "OzonOrdersWeb.Controllers.JobController", "rp": "OzonOrdersWeb_JobController.html", "cl": 0, "ucl": 729, "cal": 729, "tl": 1338, "cb": 0, "tb": 358, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "OzonOrdersWeb.Controllers.JobController", "rp": "OzonOrdersWeb_JobController.html", "cl": 0, "ucl": 731, "cal": 731, "tl": 1340, "cb": 0, "tb": 358, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Controllers.MatchFileDataController", "rp": "OzonOrdersWeb_MatchFileDataController.html", "cl": 0, "ucl": 180, "cal": 180, "tl": 319, "cb": 0, "tb": 78, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Controllers.OrderItemController", "rp": "OzonOrdersWeb_OrderItemController.html", "cl": 0, "ucl": 24, "cal": 24, "tl": 59, "cb": 0, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Controllers.OrdersController", "rp": "OzonOrdersWeb_OrdersController.html", "cl": 0, "ucl": 3144, "cal": 3144, "tl": 6836, "cb": 0, "tb": 1495, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -1453,7 +1454,7 @@ var assemblies = [
       { "name": "OzonOrdersWeb.Controllers.TransactionController", "rp": "OzonOrdersWeb_TransactionController.html", "cl": 0, "ucl": 362, "cal": 362, "tl": 681, "cb": 0, "tb": 241, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Controllers.UserController", "rp": "OzonOrdersWeb_UserController.html", "cl": 12, "ucl": 180, "cal": 192, "tl": 432, "cb": 0, "tb": 102, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Extensions.ApiClientsExtensions", "rp": "OzonOrdersWeb_ApiClientsExtensions.html", "cl": 0, "ucl": 603, "cal": 603, "tl": 741, "cb": 0, "tb": 194, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "OzonOrdersWeb.Extensions.ApplicationServicesExtensions", "rp": "OzonOrdersWeb_ApplicationServicesExtensions.html", "cl": 0, "ucl": 265, "cal": 265, "tl": 350, "cb": 0, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "OzonOrdersWeb.Extensions.ApplicationServicesExtensions", "rp": "OzonOrdersWeb_ApplicationServicesExtensions.html", "cl": 0, "ucl": 267, "cal": 267, "tl": 352, "cb": 0, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Extensions.AuthorizationExtensions", "rp": "OzonOrdersWeb_AuthorizationExtensions.html", "cl": 36, "ucl": 51, "cal": 87, "tl": 139, "cb": 0, "tb": 20, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Extensions.CacheExtensions", "rp": "OzonOrdersWeb_CacheExtensions.html", "cl": 0, "ucl": 16, "cal": 16, "tl": 37, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Extensions.DatabaseExtensions", "rp": "OzonOrdersWeb_DatabaseExtensions.html", "cl": 0, "ucl": 122, "cal": 122, "tl": 171, "cb": 0, "tb": 20, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -1477,7 +1478,7 @@ var assemblies = [
       { "name": "OzonOrdersWeb.Filters.SupplierQuotationResultReader", "rp": "OzonOrdersWeb_SupplierQuotationResultReader.html", "cl": 4, "ucl": 3, "cal": 7, "tl": 21, "cb": 5, "tb": 14, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Filters.SupplierWarehouseRestrictionFilter", "rp": "OzonOrdersWeb_SupplierWarehouseRestrictionFilter.html", "cl": 38, "ucl": 6, "cal": 44, "tl": 86, "cb": 32, "tb": 50, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.HostedServices.HangfireSchedulerWatchdogHostedService", "rp": "OzonOrdersWeb_HangfireSchedulerWatchdogHostedService.html", "cl": 0, "ucl": 53, "cal": 53, "tl": 119, "cb": 0, "tb": 20, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "OzonOrdersWeb.HostedServices.HangfireStartupHostedService", "rp": "OzonOrdersWeb_HangfireStartupHostedService.html", "cl": 11, "ucl": 274, "cal": 285, "tl": 522, "cb": 2, "tb": 74, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "OzonOrdersWeb.HostedServices.HangfireStartupHostedService", "rp": "OzonOrdersWeb_HangfireStartupHostedService.html", "cl": 11, "ucl": 282, "cal": 293, "tl": 535, "cb": 2, "tb": 74, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.HostedServices.OrderSearchStartupHostedService", "rp": "OzonOrdersWeb_OrderSearchStartupHostedService.html", "cl": 0, "ucl": 46, "cal": 46, "tl": 110, "cb": 0, "tb": 18, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Middleware.ImpersonationMiddleware", "rp": "OzonOrdersWeb_ImpersonationMiddleware.html", "cl": 0, "ucl": 15, "cal": 15, "tl": 46, "cb": 0, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Middleware.OzonIpWhitelistFilter", "rp": "OzonOrdersWeb_OzonIpWhitelistFilter.html", "cl": 67, "ucl": 9, "cal": 76, "tl": 184, "cb": 32, "tb": 42, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -2015,7 +2016,7 @@ var assemblies = [
       { "name": "ColumnMappingExcel", "rp": "OzonRepositories_ColumnMappingExcel.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 8, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "ExcelMappingRepository", "rp": "OzonRepositories_ExcelMappingRepository.html", "cl": 0, "ucl": 38, "cal": 38, "tl": 72, "cb": 0, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonOrdersWeb.Areas.OzonCards.ViewModels.ExcelMappingRequest", "rp": "OzonRepositories_ExcelMappingRequest.html", "cl": 0, "ucl": 9, "cal": 9, "tl": 14, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "OzonRepositories.Context.ApplicationDbContext", "rp": "OzonRepositories_ApplicationDbContext.html", "cl": 1036, "ucl": 2, "cal": 1038, "tl": 1204, "cb": 3, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "OzonRepositories.Context.ApplicationDbContext", "rp": "OzonRepositories_ApplicationDbContext.html", "cl": 1041, "ucl": 2, "cal": 1043, "tl": 1209, "cb": 3, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonRepositories.Context.ApplicationDbContextFactory", "rp": "OzonRepositories_ApplicationDbContextFactory.html", "cl": 0, "ucl": 9, "cal": 9, "tl": 32, "cb": 0, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonRepositories.Context.BitrixContext", "rp": "OzonRepositories_BitrixContext.html", "cl": 32, "ucl": 0, "cal": 32, "tl": 48, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonRepositories.Context.Identity.CustomIdentityUser", "rp": "OzonRepositories_CustomIdentityUser.html", "cl": 7, "ucl": 0, "cal": 7, "tl": 17, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -2086,6 +2087,7 @@ var assemblies = [
       { "name": "OzonRepositories.Migrations.AddArmtekEtpSettlements", "rp": "OzonRepositories_AddArmtekEtpSettlements.html", "cl": 0, "ucl": 11909, "cal": 11909, "tl": 12299, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonRepositories.Migrations.AddArmtekEtpSyncRuns", "rp": "OzonRepositories_AddArmtekEtpSyncRuns.html", "cl": 0, "ucl": 11806, "cal": 11806, "tl": 12189, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonRepositories.Migrations.AddBitrixStockReportTables", "rp": "OzonRepositories_AddBitrixStockReportTables.html", "cl": 0, "ucl": 266, "cal": 266, "tl": 309, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "OzonRepositories.Migrations.AddClientStatusHistoryTriggers", "rp": "OzonRepositories_AddClientStatusHistoryTriggers.html", "cl": 0, "ucl": 27, "cal": 27, "tl": 44, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonRepositories.Migrations.AddLabelPrintLogs", "rp": "OzonRepositories_AddLabelPrintLogs.html", "cl": 0, "ucl": 11439, "cal": 11439, "tl": 11817, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonRepositories.Migrations.AddNikeiCart", "rp": "OzonRepositories_AddNikeiCart.html", "cl": 0, "ucl": 10952, "cal": 10952, "tl": 11316, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonRepositories.Migrations.AddOneCStockConfirmationArticleNorm", "rp": "OzonRepositories_AddOneCStockConfirmationArticleNorm.html", "cl": 0, "ucl": 11169, "cal": 11169, "tl": 11538, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -2099,6 +2101,7 @@ var assemblies = [
       { "name": "OzonRepositories.Migrations.AddOrderTriggers", "rp": "OzonRepositories_AddOrderTriggers.html", "cl": 0, "ucl": 460, "cal": 460, "tl": 506, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonRepositories.Migrations.AddOzonHandoverImport", "rp": "OzonRepositories_AddOzonHandoverImport.html", "cl": 0, "ucl": 10804, "cal": 10804, "tl": 11168, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonRepositories.Migrations.AddOzonHandoverReturnDetails", "rp": "OzonRepositories_AddOzonHandoverReturnDetails.html", "cl": 0, "ucl": 10988, "cal": 10988, "tl": 11387, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "OzonRepositories.Migrations.AddOzonStatusTransitionOutbox", "rp": "OzonRepositories_AddOzonStatusTransitionOutbox.html", "cl": 0, "ucl": 11292, "cal": 11292, "tl": 11670, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonRepositories.Migrations.AddPartnerEmailLogin", "rp": "OzonRepositories_AddPartnerEmailLogin.html", "cl": 0, "ucl": 11350, "cal": 11350, "tl": 11729, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonRepositories.Migrations.AddPartnerOffice", "rp": "OzonRepositories_AddPartnerOffice.html", "cl": 0, "ucl": 11400, "cal": 11400, "tl": 11787, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonRepositories.Migrations.AddPartnerOneCWarehouse", "rp": "OzonRepositories_AddPartnerOneCWarehouse.html", "cl": 0, "ucl": 12559, "cal": 12559, "tl": 12956, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -2114,7 +2117,7 @@ var assemblies = [
       { "name": "OzonRepositories.Migrations.AddUserSidebarSettings", "rp": "OzonRepositories_AddUserSidebarSettings.html", "cl": 0, "ucl": 10226, "cal": 10226, "tl": 10572, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonRepositories.Migrations.AddWarehouseTargetFlag", "rp": "OzonRepositories_AddWarehouseTargetFlag.html", "cl": 0, "ucl": 12554, "cal": 12554, "tl": 12951, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonRepositories.Migrations.AddZZapCartItems", "rp": "OzonRepositories_AddZZapCartItems.html", "cl": 0, "ucl": 10400, "cal": 10400, "tl": 10750, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "OzonRepositories.Migrations.ApplicationDbContextModelSnapshot", "rp": "OzonRepositories_ApplicationDbContextModelSnapshot.html", "cl": 0, "ucl": 12547, "cal": 12547, "tl": 12923, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "OzonRepositories.Migrations.ApplicationDbContextModelSnapshot", "rp": "OzonRepositories_ApplicationDbContextModelSnapshot.html", "cl": 0, "ucl": 12621, "cal": 12621, "tl": 12998, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonRepositories.Migrations.Baseline", "rp": "OzonRepositories_Baseline.html", "cl": 0, "ucl": 17069, "cal": 17069, "tl": 18075, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonRepositories.Migrations.OzonIdentityOrder.Baseline", "rp": "OzonRepositories_Baseline.2.html", "cl": 0, "ucl": 643, "cal": 643, "tl": 729, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "OzonRepositories.Migrations.OzonIdentityOrder.OzonIdentityOrderContextModelSnapshot", "rp": "OzonRepositories_OzonIdentityOrderContextModelSnapshot.html", "cl": 0, "ucl": 396, "cal": 396, "tl": 438, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -2257,7 +2260,7 @@ var assemblies = [
       { "name": "Services.ApiServices._1CApi.Nomenclature.ProducerResolution", "rp": "Services_ProducerResolution.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 233, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices._1CApi.Nomenclature.ProducerRow", "rp": "Services_ProducerRow.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 233, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices._1CApi.Nomenclature.ProducerValue", "rp": "Services_ProducerValue.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 91, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.ApiServices._1CApi.Nomenclature.ProducerValueResolver", "rp": "Services_ProducerValueResolver.html", "cl": 42, "ucl": 1, "cal": 43, "tl": 91, "cb": 19, "tb": 22, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.ApiServices._1CApi.Nomenclature.ProducerValueResolver", "rp": "Services_ProducerValueResolver.html", "cl": 41, "ucl": 2, "cal": 43, "tl": 91, "cb": 18, "tb": 22, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices._1CApi.Nomenclature.ProductQuery", "rp": "Services_ProductQuery.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 293, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices._1CApi.Nomenclature.ShadowOutcome", "rp": "Services_ShadowOutcome.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 80, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices._1CApi.OData", "rp": "Services_OData.html", "cl": 1085, "ucl": 847, "cal": 1932, "tl": 3897, "cb": 514, "tb": 849, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -2699,10 +2702,10 @@ var assemblies = [
       { "name": "Services.ApiServices.OzonApi.Filters.OzonPromoProductDto", "rp": "Services_OzonPromoProductDto.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 75, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.OzonApi.Filters.OzonPromoStatusDto", "rp": "Services_OzonPromoStatusDto.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 75, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.OzonApi.Filters.OzonReturn", "rp": "Services_OzonReturn.html", "cl": 0, "ucl": 20, "cal": 20, "tl": 237, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.ApiServices.OzonApi.Filters.PackageLabelCreateRequest", "rp": "Services_PackageLabelCreateRequest.html", "cl": 0, "ucl": 1, "cal": 1, "tl": 10, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.ApiServices.OzonApi.Filters.PackageLabelCreateRequest", "rp": "Services_PackageLabelCreateRequest.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 10, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.OzonApi.Filters.PackageLabelCreateResponse", "rp": "Services_PackageLabelCreateResponse.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 28, "cb": 6, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.OzonApi.Filters.PackageLabelError", "rp": "Services_PackageLabelError.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 52, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.ApiServices.OzonApi.Filters.PackageLabelGetRequest", "rp": "Services_PackageLabelGetRequest.html", "cl": 0, "ucl": 1, "cal": 1, "tl": 11, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.ApiServices.OzonApi.Filters.PackageLabelGetRequest", "rp": "Services_PackageLabelGetRequest.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 11, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.OzonApi.Filters.PackageLabelGetResponse", "rp": "Services_PackageLabelGetResponse.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 52, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.OzonApi.Filters.PackageLabelStatus", "rp": "Services_PackageLabelStatus.html", "cl": 3, "ucl": 1, "cal": 4, "tl": 52, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.OzonApi.Filters.PackageLabelTask", "rp": "Services_PackageLabelTask.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 28, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -2783,21 +2786,21 @@ var assemblies = [
       { "name": "Services.ApiServices.OzonApi.Filters.WarehouseStock", "rp": "Services_WarehouseStock.html", "cl": 7, "ucl": 0, "cal": 7, "tl": 27, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.OzonApi.Filters.WarehouseStockReportRequest", "rp": "Services_WarehouseStockReportRequest.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 12, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.OzonApi.GenerationRequest", "rp": "Services_GenerationRequest.html", "cl": 0, "ucl": 11, "cal": 11, "tl": 288, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.ApiServices.OzonApi.OzonApiClient", "rp": "Services_OzonApiClient.html", "cl": 91, "ucl": 75, "cal": 166, "tl": 334, "cb": 41, "tb": 78, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.ApiServices.OzonApi.OzonApiDataManager", "rp": "Services_OzonApiDataManager.html", "cl": 356, "ucl": 795, "cal": 1151, "tl": 2205, "cb": 146, "tb": 708, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.ApiServices.OzonApi.OzonCancelExecutionResult", "rp": "Services_OzonCancelExecutionResult.html", "cl": 0, "ucl": 1, "cal": 1, "tl": 588, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.ApiServices.OzonApi.OzonCancelFormRequest", "rp": "Services_OzonCancelFormRequest.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 588, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.ApiServices.OzonApi.OzonCancelReasonOption", "rp": "Services_OzonCancelReasonOption.html", "cl": 2, "ucl": 1, "cal": 3, "tl": 588, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.ApiServices.OzonApi.OzonCancelSuccessEntry", "rp": "Services_OzonCancelSuccessEntry.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 588, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.ApiServices.OzonApi.OzonJsonDataBuilder", "rp": "Services_OzonJsonDataBuilder.html", "cl": 99, "ucl": 372, "cal": 471, "tl": 856, "cb": 28, "tb": 306, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.ApiServices.OzonApi.OzonOrderCancellationService", "rp": "Services_OzonOrderCancellationService.html", "cl": 44, "ucl": 275, "cal": 319, "tl": 588, "cb": 30, "tb": 194, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.ApiServices.OzonApi.OzonOrderCancelReasonsInfo", "rp": "Services_OzonOrderCancelReasonsInfo.html", "cl": 3, "ucl": 1, "cal": 4, "tl": 588, "cb": 2, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.ApiServices.OzonApi.OzonApiClient", "rp": "Services_OzonApiClient.html", "cl": 93, "ucl": 73, "cal": 166, "tl": 334, "cb": 43, "tb": 78, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.ApiServices.OzonApi.OzonApiDataManager", "rp": "Services_OzonApiDataManager.html", "cl": 374, "ucl": 777, "cal": 1151, "tl": 2205, "cb": 151, "tb": 708, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.ApiServices.OzonApi.OzonCancelExecutionResult", "rp": "Services_OzonCancelExecutionResult.html", "cl": 0, "ucl": 1, "cal": 1, "tl": 589, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.ApiServices.OzonApi.OzonCancelFormRequest", "rp": "Services_OzonCancelFormRequest.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 589, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.ApiServices.OzonApi.OzonCancelReasonOption", "rp": "Services_OzonCancelReasonOption.html", "cl": 2, "ucl": 1, "cal": 3, "tl": 589, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.ApiServices.OzonApi.OzonCancelSuccessEntry", "rp": "Services_OzonCancelSuccessEntry.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 589, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.ApiServices.OzonApi.OzonJsonDataBuilder", "rp": "Services_OzonJsonDataBuilder.html", "cl": 113, "ucl": 358, "cal": 471, "tl": 856, "cb": 29, "tb": 306, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.ApiServices.OzonApi.OzonOrderCancellationService", "rp": "Services_OzonOrderCancellationService.html", "cl": 44, "ucl": 276, "cal": 320, "tl": 589, "cb": 30, "tb": 194, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.ApiServices.OzonApi.OzonOrderCancelReasonsInfo", "rp": "Services_OzonOrderCancelReasonsInfo.html", "cl": 3, "ucl": 1, "cal": 4, "tl": 589, "cb": 2, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.OzonApi.OzonReportCodeParsing", "rp": "Services_OzonReportCodeParsing.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 18, "cb": 12, "tb": 12, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.OzonApi.OzonReportDebugLog", "rp": "Services_OzonReportDebugLog.html", "cl": 0, "ucl": 19, "cal": 19, "tl": 37, "cb": 0, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.OzonApi.OzonReportDownloadHelper", "rp": "Services_OzonReportDownloadHelper.html", "cl": 38, "ucl": 9, "cal": 47, "tl": 121, "cb": 27, "tb": 32, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.OzonApi.OzonReportInfoParsing", "rp": "Services_OzonReportInfoParsing.html", "cl": 4, "ucl": 0, "cal": 4, "tl": 21, "cb": 6, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.OzonApi.OzonSplitPostingMapper", "rp": "Services_OzonSplitPostingMapper.html", "cl": 28, "ucl": 6, "cal": 34, "tl": 96, "cb": 23, "tb": 38, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.ApiServices.OzonApi.PackageLabelPollingHelper", "rp": "Services_PackageLabelPollingHelper.html", "cl": 47, "ucl": 20, "cal": 67, "tl": 165, "cb": 37, "tb": 76, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.ApiServices.OzonApi.PackageLabelPollingHelper", "rp": "Services_PackageLabelPollingHelper.html", "cl": 54, "ucl": 13, "cal": 67, "tl": 165, "cb": 41, "tb": 76, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.OzonApi.PackageLabelPollResult", "rp": "Services_PackageLabelPollResult.html", "cl": 5, "ucl": 0, "cal": 5, "tl": 165, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.PartsnavigatorApi.PartsnavigatorAnalog", "rp": "Services_PartsnavigatorAnalog.html", "cl": 10, "ucl": 0, "cal": 10, "tl": 80, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.ApiServices.PartsnavigatorApi.PartsnavigatorApiClient", "rp": "Services_PartsnavigatorApiClient.html", "cl": 42, "ucl": 2, "cal": 44, "tl": 95, "cb": 24, "tb": 34, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -3186,15 +3189,15 @@ var assemblies = [
       { "name": "Services.DataServices.OrderHistoryDataService", "rp": "Services_OrderHistoryDataService.html", "cl": 0, "ucl": 20, "cal": 20, "tl": 58, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.DataServices.OrderHistoryOneCPostingRecorder", "rp": "Services_OrderHistoryOneCPostingRecorder.html", "cl": 47, "ucl": 0, "cal": 47, "tl": 106, "cb": 10, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.DataServices.OrderHistoryOneCPostingService", "rp": "Services_OrderHistoryOneCPostingService.html", "cl": 77, "ucl": 0, "cal": 77, "tl": 128, "cb": 23, "tb": 24, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.DataServices.OrderReturnDataServices", "rp": "Services_OrderReturnDataServices.html", "cl": 0, "ucl": 183, "cal": 183, "tl": 385, "cb": 0, "tb": 106, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.DataServices.OrderReturnDataServices", "rp": "Services_OrderReturnDataServices.html", "cl": 0, "ucl": 184, "cal": 184, "tl": 386, "cb": 0, "tb": 106, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.DataServices.OrderRollback.OrderHistoryRollbackService", "rp": "Services_OrderHistoryRollbackService.html", "cl": 173, "ucl": 102, "cal": 275, "tl": 461, "cb": 94, "tb": 334, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.DataServices.OrderRollback.OrderHistorySnapshotReconstructor", "rp": "Services_OrderHistorySnapshotReconstructor.html", "cl": 18, "ucl": 0, "cal": 18, "tl": 67, "cb": 18, "tb": 18, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.DataServices.OrderRollback.OrderRollbackFieldCatalog", "rp": "Services_OrderRollbackFieldCatalog.html", "cl": 33, "ucl": 0, "cal": 33, "tl": 79, "cb": 1, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.DataServices.OrderRollback.OrderRollbackFieldCatalog", "rp": "Services_OrderRollbackFieldCatalog.html", "cl": 33, "ucl": 0, "cal": 33, "tl": 80, "cb": 1, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.DataServices.OrderRollback.OrderRollbackFieldChange", "rp": "Services_OrderRollbackFieldChange.html", "cl": 6, "ucl": 0, "cal": 6, "tl": 46, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.DataServices.OrderRollback.OrderRollbackPreview", "rp": "Services_OrderRollbackPreview.html", "cl": 6, "ucl": 0, "cal": 6, "tl": 46, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.DataServices.OrderRollback.OrderRollbackResult", "rp": "Services_OrderRollbackResult.html", "cl": 4, "ucl": 0, "cal": 4, "tl": 46, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.DataServices.OrderRollback.RollbackFieldDef", "rp": "Services_RollbackFieldDef.html", "cl": 5, "ucl": 0, "cal": 5, "tl": 79, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.DataServices.OrdersDataServices", "rp": "Services_OrdersDataServices.html", "cl": 269, "ucl": 1050, "cal": 1319, "tl": 2625, "cb": 159, "tb": 818, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.DataServices.OrderRollback.RollbackFieldDef", "rp": "Services_RollbackFieldDef.html", "cl": 5, "ucl": 0, "cal": 5, "tl": 80, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.DataServices.OrdersDataServices", "rp": "Services_OrdersDataServices.html", "cl": 269, "ucl": 1051, "cal": 1320, "tl": 2626, "cb": 159, "tb": 818, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.DataServices.OrdersFileMetadataDataService", "rp": "Services_OrdersFileMetadataDataService.html", "cl": 0, "ucl": 8, "cal": 8, "tl": 31, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.DataServices.OrderShipmentTotalsDataServices", "rp": "Services_OrderShipmentTotalsDataServices.html", "cl": 0, "ucl": 7, "cal": 7, "tl": 25, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.DataServices.OzonChatOrderDataServices", "rp": "Services_OzonChatOrderDataServices.html", "cl": 0, "ucl": 70, "cal": 70, "tl": 203, "cb": 0, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -3204,7 +3207,7 @@ var assemblies = [
       { "name": "Services.DataServices.OzonPushNotificationDataService", "rp": "Services_OzonPushNotificationDataService.html", "cl": 0, "ucl": 12, "cal": 12, "tl": 100, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.DataServices.PriceHistoryDataService", "rp": "Services_PriceHistoryDataService.html", "cl": 0, "ucl": 26, "cal": 26, "tl": 75, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.DataServices.ProductsDataServices", "rp": "Services_ProductsDataServices.html", "cl": 0, "ucl": 19, "cal": 19, "tl": 55, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.DataServices.ReturnsSyncResult", "rp": "Services_ReturnsSyncResult.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 385, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.DataServices.ReturnsSyncResult", "rp": "Services_ReturnsSyncResult.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 386, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.DataServices.SavedMatchingColumnDataServices", "rp": "Services_SavedMatchingColumnDataServices.html", "cl": 0, "ucl": 10, "cal": 10, "tl": 36, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.DataServices.StatusTransitionDataServices", "rp": "Services_StatusTransitionDataServices.html", "cl": 5, "ucl": 16, "cal": 21, "tl": 69, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.DataServices.StatusTransitionHistoryService", "rp": "Services_StatusTransitionHistoryService.html", "cl": 67, "ucl": 0, "cal": 67, "tl": 130, "cb": 51, "tb": 54, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -3343,6 +3346,8 @@ var assemblies = [
       { "name": "Services.LabelServices.LabelStorageOptions", "rp": "Services_LabelStorageOptions.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 8, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.LabelServices.OrderScanitStore", "rp": "Services_OrderScanitStore.html", "cl": 27, "ucl": 0, "cal": 27, "tl": 47, "cb": 10, "tb": 12, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.LabelServices.OrdersOzonShipService", "rp": "Services_OrdersOzonShipService.html", "cl": 22, "ucl": 100, "cal": 122, "tl": 291, "cb": 18, "tb": 74, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.LabelServices.OzonAwaitingDeliverLabelJob", "rp": "Services_OzonAwaitingDeliverLabelJob.html", "cl": 87, "ucl": 11, "cal": 98, "tl": 197, "cb": 32, "tb": 38, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.LabelServices.OzonAwaitingDeliverLabelResult", "rp": "Services_OzonAwaitingDeliverLabelResult.html", "cl": 5, "ucl": 0, "cal": 5, "tl": 66, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.LabelServices.OzonDeliveryMethodHelper", "rp": "Services_OzonDeliveryMethodHelper.html", "cl": 4, "ucl": 0, "cal": 4, "tl": 20, "cb": 6, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.LabelServices.OzonErrorCatalog", "rp": "Services_OzonErrorCatalog.html", "cl": 35, "ucl": 0, "cal": 35, "tl": 110, "cb": 1, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.LabelServices.OzonErrorInfo", "rp": "Services_OzonErrorInfo.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 110, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -3355,13 +3360,14 @@ var assemblies = [
       { "name": "Services.LabelServices.OzonFbsShipPackageBuilder", "rp": "Services_OzonFbsShipPackageBuilder.html", "cl": 18, "ucl": 0, "cal": 18, "tl": 43, "cb": 6, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.LabelServices.OzonLabelOrderEligibility", "rp": "Services_OzonLabelOrderEligibility.html", "cl": 5, "ucl": 0, "cal": 5, "tl": 18, "cb": 10, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.LabelServices.OzonLabelPrintErrorHelper", "rp": "Services_OzonLabelPrintErrorHelper.html", "cl": 43, "ucl": 15, "cal": 58, "tl": 101, "cb": 18, "tb": 40, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.LabelServices.OzonLabelPrintService", "rp": "Services_OzonLabelPrintService.html", "cl": 39, "ucl": 164, "cal": 203, "tl": 477, "cb": 22, "tb": 110, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.LabelServices.OzonLabelPrintService", "rp": "Services_OzonLabelPrintService.html", "cl": 153, "ucl": 113, "cal": 266, "tl": 611, "cb": 93, "tb": 174, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.LabelServices.OzonLabelSessionStore", "rp": "Services_OzonLabelSessionStore.html", "cl": 30, "ucl": 0, "cal": 30, "tl": 72, "cb": 28, "tb": 30, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.LabelServices.OzonLabelStatusHelper", "rp": "Services_OzonLabelStatusHelper.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 15, "cb": 16, "tb": 16, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.LabelServices.OzonOrderSplitConfig", "rp": "Services_OzonOrderSplitConfig.html", "cl": 13, "ucl": 0, "cal": 13, "tl": 35, "cb": 8, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.LabelServices.OzonPostingNumberHelper", "rp": "Services_OzonPostingNumberHelper.html", "cl": 49, "ucl": 1, "cal": 50, "tl": 122, "cb": 38, "tb": 44, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.LabelServices.OzonPostingNumberHelper", "rp": "Services_OzonPostingNumberHelper.html", "cl": 54, "ucl": 5, "cal": 59, "tl": 141, "cb": 43, "tb": 56, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.LabelServices.OzonPostingStatusCatalog", "rp": "Services_OzonPostingStatusCatalog.html", "cl": 26, "ucl": 0, "cal": 26, "tl": 110, "cb": 7, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.LabelServices.OzonStatusInfo", "rp": "Services_OzonStatusInfo.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 110, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.LabelServices.OzonStatusTransitionOutboxStore", "rp": "Services_OzonStatusTransitionOutboxStore.html", "cl": 47, "ucl": 3, "cal": 50, "tl": 87, "cb": 10, "tb": 14, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.LabelServices.SplitOrderPartsResult", "rp": "Services_SplitOrderPartsResult.html", "cl": 0, "ucl": 5, "cal": 5, "tl": 17, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.OneCServices.OneCPostingFailureReporter", "rp": "Services_OneCPostingFailureReporter.html", "cl": 47, "ucl": 6, "cal": 53, "tl": 128, "cb": 33, "tb": 46, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.OneCServices.OneCPostingSummary", "rp": "Services_OneCPostingSummary.html", "cl": 15, "ucl": 0, "cal": 15, "tl": 235, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -3394,8 +3400,8 @@ var assemblies = [
       { "name": "Services.OzonReturnsServices.ReturnsRunSummary", "rp": "Services_ReturnsRunSummary.html", "cl": 31, "ucl": 1, "cal": 32, "tl": 91, "cb": 20, "tb": 20, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.OzonReturnsServices.SignalRReturnsLoadProgress", "rp": "Services_SignalRReturnsLoadProgress.html", "cl": 0, "ucl": 8, "cal": 8, "tl": 59, "cb": 0, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.OzonWebhookServices.Handlers.NewPostingNotificationHandler", "rp": "Services_NewPostingNotificationHandler.html", "cl": 58, "ucl": 21, "cal": 79, "tl": 170, "cb": 25, "tb": 44, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.OzonWebhookServices.Handlers.PostingCancelledNotificationHandler", "rp": "Services_PostingCancelledNotificationHandler.html", "cl": 98, "ucl": 8, "cal": 106, "tl": 199, "cb": 36, "tb": 44, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.OzonWebhookServices.Handlers.StateChangedNotificationHandler", "rp": "Services_StateChangedNotificationHandler.html", "cl": 66, "ucl": 2, "cal": 68, "tl": 153, "cb": 30, "tb": 34, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.OzonWebhookServices.Handlers.PostingCancelledNotificationHandler", "rp": "Services_PostingCancelledNotificationHandler.html", "cl": 99, "ucl": 8, "cal": 107, "tl": 200, "cb": 36, "tb": 44, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.OzonWebhookServices.Handlers.StateChangedNotificationHandler", "rp": "Services_StateChangedNotificationHandler.html", "cl": 89, "ucl": 3, "cal": 92, "tl": 188, "cb": 48, "tb": 54, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.OzonWebhookServices.Handlers.WebhookHandlingResult", "rp": "Services_WebhookHandlingResult.html", "cl": 2, "ucl": 1, "cal": 3, "tl": 54, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.OzonWebhookServices.Models.OzonCancelReason", "rp": "Services_OzonCancelReason.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 580, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.OzonWebhookServices.Models.OzonChatClosedNotification", "rp": "Services_OzonChatClosedNotification.html", "cl": 5, "ucl": 0, "cal": 5, "tl": 580, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -3507,7 +3513,7 @@ var assemblies = [
       { "name": "Services.SearchServices.OrderSearch.OrderSearchSyncService", "rp": "Services_OrderSearchSyncService.html", "cl": 156, "ucl": 20, "cal": 176, "tl": 289, "cb": 27, "tb": 34, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.SignalRServices.JobProgressHub", "rp": "Services_JobProgressHub.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 21, "cb": 0, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.SignalRServices.NotificationHub", "rp": "Services_NotificationHub.html", "cl": 0, "ucl": 105, "cal": 105, "tl": 228, "cb": 0, "tb": 54, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Services.SignalRServices.NotificationService", "rp": "Services_NotificationService.html", "cl": 12, "ucl": 11, "cal": 23, "tl": 55, "cb": 1, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Services.SignalRServices.NotificationService", "rp": "Services_NotificationService.html", "cl": 9, "ucl": 14, "cal": 23, "tl": 55, "cb": 0, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.SignalRServices.OrderHistoryHub", "rp": "Services_OrderHistoryHub.html", "cl": 0, "ucl": 23, "cal": 23, "tl": 53, "cb": 0, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.SignalRServices.UserSessionInfo", "rp": "Services_UserSessionInfo.html", "cl": 0, "ucl": 3, "cal": 3, "tl": 228, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Services.StockSyncServices.GoogleServiceAccountOptions", "rp": "Services_GoogleServiceAccountOptions.html", "cl": 11, "ucl": 0, "cal": 11, "tl": 26, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -6006,7 +6012,7 @@ var riskHotspots = [
       { "value": 34, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.DataServices.OrderReturnDataServices", "reportPath": "Services_OrderReturnDataServices.html", "methodName": "MapToOrderReturn(Services.ApiServices.OzonApi.Filters.OzonReturn,System.Int32)", "methodShortName": "MapToOrderReturn(...)", "fileIndex": 0, "line": 236,
+    "assembly": "Services", "class": "Services.DataServices.OrderReturnDataServices", "reportPath": "Services_OrderReturnDataServices.html", "methodName": "MapToOrderReturn(Services.ApiServices.OzonApi.Filters.OzonReturn,System.Int32)", "methodShortName": "MapToOrderReturn(...)", "fileIndex": 0, "line": 237,
     "metrics": [
       { "value": 1190, "exceeded": true },
       { "value": 34, "exceeded": true },
@@ -6174,7 +6180,7 @@ var riskHotspots = [
       { "value": 32, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.ApiServices.OzonApi.OzonOrderCancellationService", "reportPath": "Services_OzonOrderCancellationService.html", "methodName": "CancelOrdersAsync()", "methodShortName": "CancelOrdersAsync()", "fileIndex": 0, "line": 272,
+    "assembly": "Services", "class": "Services.ApiServices.OzonApi.OzonOrderCancellationService", "reportPath": "Services_OzonOrderCancellationService.html", "methodName": "CancelOrdersAsync()", "methodShortName": "CancelOrdersAsync()", "fileIndex": 0, "line": 273,
     "metrics": [
       { "value": 1056, "exceeded": true },
       { "value": 32, "exceeded": true },
@@ -6366,7 +6372,7 @@ var riskHotspots = [
       { "value": 30, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.ApiServices.OzonApi.OzonOrderCancellationService", "reportPath": "Services_OzonOrderCancellationService.html", "methodName": "EnsureOzonClientsResolvedAsync()", "methodShortName": "EnsureOzonClientsResolvedAsync()", "fileIndex": 0, "line": 484,
+    "assembly": "Services", "class": "Services.ApiServices.OzonApi.OzonOrderCancellationService", "reportPath": "Services_OzonOrderCancellationService.html", "methodName": "EnsureOzonClientsResolvedAsync()", "methodShortName": "EnsureOzonClientsResolvedAsync()", "fileIndex": 0, "line": 485,
     "metrics": [
       { "value": 930, "exceeded": true },
       { "value": 30, "exceeded": true },
@@ -8778,13 +8784,7 @@ var riskHotspots = [
       { "value": 18, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.LabelServices.OzonLabelPrintService", "reportPath": "Services_OzonLabelPrintService.html", "methodName": "GenerateLabelsInParallelAsync()", "methodShortName": "GenerateLabelsInParallelAsync()", "fileIndex": 0, "line": 248,
-    "metrics": [
-      { "value": 342, "exceeded": true },
-      { "value": 18, "exceeded": true },
-    ]},
-  {
-    "assembly": "Services", "class": "Services.LabelServices.OzonLabelPrintService", "reportPath": "Services_OzonLabelPrintService.html", "methodName": "ShipPendingPostingsAsync()", "methodShortName": "ShipPendingPostingsAsync()", "fileIndex": 0, "line": 188,
+    "assembly": "Services", "class": "Services.LabelServices.OzonLabelPrintService", "reportPath": "Services_OzonLabelPrintService.html", "methodName": "ShipPendingPostingsAsync()", "methodShortName": "ShipPendingPostingsAsync()", "fileIndex": 0, "line": 307,
     "metrics": [
       { "value": 342, "exceeded": true },
       { "value": 18, "exceeded": true },
@@ -9174,7 +9174,7 @@ var riskHotspots = [
       { "value": 16, "exceeded": true },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.HostedServices.HangfireStartupHostedService", "reportPath": "OzonOrdersWeb_HangfireStartupHostedService.html", "methodName": "RegisterOzonReturnsRecurringJobs(Microsoft.Extensions.Configuration.IConfiguration)", "methodShortName": "RegisterOzonReturnsRecurringJobs(...)", "fileIndex": 0, "line": 275,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.HostedServices.HangfireStartupHostedService", "reportPath": "OzonOrdersWeb_HangfireStartupHostedService.html", "methodName": "RegisterOzonReturnsRecurringJobs(Microsoft.Extensions.Configuration.IConfiguration)", "methodShortName": "RegisterOzonReturnsRecurringJobs(...)", "fileIndex": 0, "line": 288,
     "metrics": [
       { "value": 272, "exceeded": true },
       { "value": 16, "exceeded": true },
@@ -10194,7 +10194,7 @@ var riskHotspots = [
       { "value": 14, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.ApiServices.OzonApi.OzonOrderCancellationService", "reportPath": "Services_OzonOrderCancellationService.html", "methodName": "ApplyOzonClientFromSource(OzonDomains.Models.Order,OzonDomains.Models.Order)", "methodShortName": "ApplyOzonClientFromSource(...)", "fileIndex": 0, "line": 579,
+    "assembly": "Services", "class": "Services.ApiServices.OzonApi.OzonOrderCancellationService", "reportPath": "Services_OzonOrderCancellationService.html", "methodName": "ApplyOzonClientFromSource(OzonDomains.Models.Order,OzonDomains.Models.Order)", "methodShortName": "ApplyOzonClientFromSource(...)", "fileIndex": 0, "line": 580,
     "metrics": [
       { "value": 210, "exceeded": true },
       { "value": 14, "exceeded": false },
@@ -11010,7 +11010,7 @@ var riskHotspots = [
       { "value": 12, "exceeded": false },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.HostedServices.HangfireStartupHostedService", "reportPath": "OzonOrdersWeb_HangfireStartupHostedService.html", "methodName": "ReadMonthsCountFromRawHash(System.String)", "methodShortName": "ReadMonthsCountFromRawHash(...)", "fileIndex": 0, "line": 379,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.HostedServices.HangfireStartupHostedService", "reportPath": "OzonOrdersWeb_HangfireStartupHostedService.html", "methodName": "ReadMonthsCountFromRawHash(System.String)", "methodShortName": "ReadMonthsCountFromRawHash(...)", "fileIndex": 0, "line": 392,
     "metrics": [
       { "value": 156, "exceeded": true },
       { "value": 12, "exceeded": false },
@@ -11412,13 +11412,7 @@ var riskHotspots = [
       { "value": 12, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.LabelServices.OzonLabelPrintService", "reportPath": "Services_OzonLabelPrintService.html", "methodName": "EnsureScanitAsync()", "methodShortName": "EnsureScanitAsync()", "fileIndex": 0, "line": 37,
-    "metrics": [
-      { "value": 156, "exceeded": true },
-      { "value": 12, "exceeded": false },
-    ]},
-  {
-    "assembly": "Services", "class": "Services.LabelServices.OzonLabelPrintService", "reportPath": "Services_OzonLabelPrintService.html", "methodName": "GetLabelBytesAsync()", "methodShortName": "GetLabelBytesAsync()", "fileIndex": 0, "line": 323,
+    "assembly": "Services", "class": "Services.LabelServices.OzonLabelPrintService", "reportPath": "Services_OzonLabelPrintService.html", "methodName": "EnsureScanitAsync()", "methodShortName": "EnsureScanitAsync()", "fileIndex": 0, "line": 38,
     "metrics": [
       { "value": 156, "exceeded": true },
       { "value": 12, "exceeded": false },
@@ -11482,12 +11476,6 @@ var riskHotspots = [
     "metrics": [
       { "value": 154, "exceeded": true },
       { "value": 20, "exceeded": true },
-    ]},
-  {
-    "assembly": "Services", "class": "Services.LabelServices.OzonLabelPrintService", "reportPath": "Services_OzonLabelPrintService.html", "methodName": "GenerateOzonLabelsForOrdersAsync()", "methodShortName": "GenerateOzonLabelsForOrdersAsync()", "fileIndex": 0, "line": 120,
-    "metrics": [
-      { "value": 153, "exceeded": true },
-      { "value": 22, "exceeded": true },
     ]},
   {
     "assembly": "Services", "class": "Services.BitrixStockServices.BitrixStockSyncReportRowPresenter", "reportPath": "Services_BitrixStockSyncReportRowPresenter.html", "methodName": "FormatOzonCleanupStatus(Services.BitrixStockServices.BitrixStockSyncReportWarehouseLineDto)", "methodShortName": "FormatOzonCleanupStatus(...)", "fileIndex": 0, "line": 110,
@@ -12696,19 +12684,13 @@ var riskHotspots = [
       { "value": 10, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.ApiServices.OzonApi.OzonOrderCancellationService", "reportPath": "Services_OzonOrderCancellationService.html", "methodName": "ResolveOzonClientId(OzonDomains.Models.Order)", "methodShortName": "ResolveOzonClientId(...)", "fileIndex": 0, "line": 473,
+    "assembly": "Services", "class": "Services.ApiServices.OzonApi.OzonOrderCancellationService", "reportPath": "Services_OzonOrderCancellationService.html", "methodName": "ResolveOzonClientId(OzonDomains.Models.Order)", "methodShortName": "ResolveOzonClientId(...)", "fileIndex": 0, "line": 474,
     "metrics": [
       { "value": 110, "exceeded": true },
       { "value": 10, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.ApiServices.OzonApi.OzonOrderCancellationService", "reportPath": "Services_OzonOrderCancellationService.html", "methodName": "IsOzonMarketplaceOrderAsync()", "methodShortName": "IsOzonMarketplaceOrderAsync()", "fileIndex": 0, "line": 449,
-    "metrics": [
-      { "value": 110, "exceeded": true },
-      { "value": 10, "exceeded": false },
-    ]},
-  {
-    "assembly": "Services", "class": "Services.ApiServices.OzonApi.PackageLabelPollingHelper", "reportPath": "Services_PackageLabelPollingHelper.html", "methodName": "PollSingleTaskForBytesAsync()", "methodShortName": "PollSingleTaskForBytesAsync()", "fileIndex": 0, "line": 35,
+    "assembly": "Services", "class": "Services.ApiServices.OzonApi.OzonOrderCancellationService", "reportPath": "Services_OzonOrderCancellationService.html", "methodName": "IsOzonMarketplaceOrderAsync()", "methodShortName": "IsOzonMarketplaceOrderAsync()", "fileIndex": 0, "line": 450,
     "metrics": [
       { "value": 110, "exceeded": true },
       { "value": 10, "exceeded": false },
@@ -14382,7 +14364,7 @@ var riskHotspots = [
       { "value": 8, "exceeded": false },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Extensions.ApplicationServicesExtensions", "reportPath": "OzonOrdersWeb_ApplicationServicesExtensions.html", "methodName": "ResolveStockSyncSection(Microsoft.Extensions.Configuration.IConfiguration,System.Boolean)", "methodShortName": "ResolveStockSyncSection(...)", "fileIndex": 0, "line": 337,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Extensions.ApplicationServicesExtensions", "reportPath": "OzonOrdersWeb_ApplicationServicesExtensions.html", "methodName": "ResolveStockSyncSection(Microsoft.Extensions.Configuration.IConfiguration,System.Boolean)", "methodShortName": "ResolveStockSyncSection(...)", "fileIndex": 0, "line": 339,
     "metrics": [
       { "value": 72, "exceeded": true },
       { "value": 8, "exceeded": false },
@@ -14400,7 +14382,7 @@ var riskHotspots = [
       { "value": 8, "exceeded": false },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.HostedServices.HangfireStartupHostedService", "reportPath": "OzonOrdersWeb_HangfireStartupHostedService.html", "methodName": "ReadMonthsCount(System.String,Hangfire.Storage.RecurringJobDto)", "methodShortName": "ReadMonthsCount(...)", "fileIndex": 0, "line": 369,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.HostedServices.HangfireStartupHostedService", "reportPath": "OzonOrdersWeb_HangfireStartupHostedService.html", "methodName": "ReadMonthsCount(System.String,Hangfire.Storage.RecurringJobDto)", "methodShortName": "ReadMonthsCount(...)", "fileIndex": 0, "line": 382,
     "metrics": [
       { "value": 72, "exceeded": true },
       { "value": 8, "exceeded": false },
@@ -15624,6 +15606,12 @@ var riskHotspots = [
       { "value": 48, "exceeded": true },
     ]},
   {
+    "assembly": "Services", "class": "Services.OzonWebhookServices.Handlers.StateChangedNotificationHandler", "reportPath": "Services_StateChangedNotificationHandler.html", "methodName": "HandleAsync()", "methodShortName": "HandleAsync()", "fileIndex": 0, "line": 61,
+    "metrics": [
+      { "value": 48, "exceeded": true },
+      { "value": 48, "exceeded": true },
+    ]},
+  {
     "assembly": "Services", "class": "Services.ParserServices.DropboxOrderFolderNaming", "reportPath": "Services_DropboxOrderFolderNaming.html", "methodName": "ParseFolderNameAndAdjustDate(System.String,System.DateTime)", "methodShortName": "ParseFolderNameAndAdjustDate(...)", "fileIndex": 0, "line": 15,
     "metrics": [
       { "value": 48, "exceeded": true },
@@ -15748,6 +15736,12 @@ var riskHotspots = [
     "metrics": [
       { "value": 43, "exceeded": true },
       { "value": 32, "exceeded": true },
+    ]},
+  {
+    "assembly": "Services", "class": "Services.LabelServices.OzonLabelPrintService", "reportPath": "Services_OzonLabelPrintService.html", "methodName": "GetLabelBytesAsync()", "methodShortName": "GetLabelBytesAsync()", "fileIndex": 0, "line": 456,
+    "metrics": [
+      { "value": 43, "exceeded": true },
+      { "value": 16, "exceeded": true },
     ]},
   {
     "assembly": "Services", "class": "Services.PartnerServices.PartnerManagementService", "reportPath": "Services_PartnerManagementService.html", "methodName": "ValidateRules(System.Collections.Generic.IReadOnlyList\u00601\u003CServices.PartnerServices.PartnerRuleDto\u003E)", "methodShortName": "ValidateRules(...)", "fileIndex": 0, "line": 238,
@@ -17370,19 +17364,19 @@ var riskHotspots = [
       { "value": 6, "exceeded": false },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.HostedServices.HangfireStartupHostedService", "reportPath": "OzonOrdersWeb_HangfireStartupHostedService.html", "methodName": "RegisterSviatSyncJob(Microsoft.Extensions.Configuration.IConfiguration)", "methodShortName": "RegisterSviatSyncJob(...)", "fileIndex": 0, "line": 220,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.HostedServices.HangfireStartupHostedService", "reportPath": "OzonOrdersWeb_HangfireStartupHostedService.html", "methodName": "RegisterSviatSyncJob(Microsoft.Extensions.Configuration.IConfiguration)", "methodShortName": "RegisterSviatSyncJob(...)", "fileIndex": 0, "line": 233,
     "metrics": [
       { "value": 42, "exceeded": true },
       { "value": 6, "exceeded": false },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.HostedServices.HangfireStartupHostedService", "reportPath": "OzonOrdersWeb_HangfireStartupHostedService.html", "methodName": "RegisterArmtekEtpSyncJob(Microsoft.Extensions.Configuration.IConfiguration)", "methodShortName": "RegisterArmtekEtpSyncJob(...)", "fileIndex": 0, "line": 242,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.HostedServices.HangfireStartupHostedService", "reportPath": "OzonOrdersWeb_HangfireStartupHostedService.html", "methodName": "RegisterArmtekEtpSyncJob(Microsoft.Extensions.Configuration.IConfiguration)", "methodShortName": "RegisterArmtekEtpSyncJob(...)", "fileIndex": 0, "line": 255,
     "metrics": [
       { "value": 42, "exceeded": true },
       { "value": 6, "exceeded": false },
     ]},
   {
-    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.HostedServices.HangfireStartupHostedService", "reportPath": "OzonOrdersWeb_HangfireStartupHostedService.html", "methodName": "TryParseMonths(System.Object)", "methodShortName": "TryParseMonths(...)", "fileIndex": 0, "line": 399,
+    "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.HostedServices.HangfireStartupHostedService", "reportPath": "OzonOrdersWeb_HangfireStartupHostedService.html", "methodName": "TryParseMonths(System.Object)", "methodShortName": "TryParseMonths(...)", "fileIndex": 0, "line": 412,
     "metrics": [
       { "value": 42, "exceeded": true },
       { "value": 6, "exceeded": false },
@@ -17964,12 +17958,6 @@ var riskHotspots = [
       { "value": 20, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.ApiServices.OzonApi.OzonApiDataManager", "reportPath": "Services_OzonApiDataManager.html", "methodName": "CreatePackageLabelTask()", "methodShortName": "CreatePackageLabelTask()", "fileIndex": 0, "line": 1926,
-    "metrics": [
-      { "value": 42, "exceeded": true },
-      { "value": 6, "exceeded": false },
-    ]},
-  {
     "assembly": "Services", "class": "Services.ApiServices.OzonApi.OzonApiDataManager", "reportPath": "Services_OzonApiDataManager.html", "methodName": "GetProductCode()", "methodShortName": "GetProductCode()", "fileIndex": 0, "line": 405,
     "metrics": [
       { "value": 42, "exceeded": true },
@@ -18270,7 +18258,7 @@ var riskHotspots = [
       { "value": 6, "exceeded": false },
     ]},
   {
-    "assembly": "Services", "class": "Services.DataServices.OrderReturnDataServices", "reportPath": "Services_OrderReturnDataServices.html", "methodName": "GetByOzonClientIdAsync()", "methodShortName": "GetByOzonClientIdAsync()", "fileIndex": 0, "line": 351,
+    "assembly": "Services", "class": "Services.DataServices.OrderReturnDataServices", "reportPath": "Services_OrderReturnDataServices.html", "methodName": "GetByOzonClientIdAsync()", "methodShortName": "GetByOzonClientIdAsync()", "fileIndex": 0, "line": 352,
     "metrics": [
       { "value": 42, "exceeded": true },
       { "value": 6, "exceeded": false },
@@ -18556,6 +18544,12 @@ var riskHotspots = [
     "metrics": [
       { "value": 39, "exceeded": true },
       { "value": 30, "exceeded": true },
+    ]},
+  {
+    "assembly": "Services", "class": "Services.LabelServices.OzonLabelPrintService", "reportPath": "Services_OzonLabelPrintService.html", "methodName": "GenerateLabelsAsync()", "methodShortName": "GenerateLabelsAsync()", "fileIndex": 0, "line": 206,
+    "metrics": [
+      { "value": 39, "exceeded": true },
+      { "value": 38, "exceeded": true },
     ]},
   {
     "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Areas.Studio2.Helpers.OneCTransactionSummaryHelper", "reportPath": "OzonOrdersWeb_OneCTransactionSummaryHelper.html", "methodName": "BuildPostedAlertSummary(System.Collections.Generic.List\u00601\u003COzonDomains.Models.Order\u003E,System.Collections.Generic.List\u00601\u003CServices.ApiServices._1CApi.Models.OneCResponse\u003E,System.String,System.String)", "methodShortName": "BuildPostedAlertSummary(...)", "fileIndex": 0, "line": 344,
@@ -19074,6 +19068,12 @@ var riskHotspots = [
       { "value": 18, "exceeded": true },
     ]},
   {
+    "assembly": "Services", "class": "Services.LabelServices.OzonLabelPrintService", "reportPath": "Services_OzonLabelPrintService.html", "methodName": "SaveAwaitingDeliverLabelAsync()", "methodShortName": "SaveAwaitingDeliverLabelAsync()", "fileIndex": 0, "line": 135,
+    "metrics": [
+      { "value": 31, "exceeded": true },
+      { "value": 22, "exceeded": true },
+    ]},
+  {
     "assembly": "OzonOrdersWeb", "class": "OzonOrdersWeb.Api.Partner.PartnerReturnsController", "reportPath": "OzonOrdersWeb_PartnerReturnsController.html", "methodName": "ShelfAck()", "methodShortName": "ShelfAck()", "fileIndex": 0, "line": 337,
     "metrics": [
       { "value": 30, "exceeded": false },
@@ -19135,12 +19135,6 @@ var riskHotspots = [
     ]},
   {
     "assembly": "Services", "class": "Services.EmailRoutingServices.RoutingRuleEvaluator", "reportPath": "Services_RoutingRuleEvaluator.html", "methodName": "ValidateRule(OzonDomains.Models.EmailRoutingRule,Services.EmailRoutingServices.InboxMessageDto,Services.EmailRoutingServices.InboxAttachmentDto)", "methodShortName": "ValidateRule(...)", "fileIndex": 0, "line": 28,
-    "metrics": [
-      { "value": 30, "exceeded": false },
-      { "value": 30, "exceeded": true },
-    ]},
-  {
-    "assembly": "Services", "class": "Services.OzonWebhookServices.Handlers.StateChangedNotificationHandler", "reportPath": "Services_StateChangedNotificationHandler.html", "methodName": "HandleAsync()", "methodShortName": "HandleAsync()", "fileIndex": 0, "line": 52,
     "metrics": [
       { "value": 30, "exceeded": false },
       { "value": 30, "exceeded": true },
@@ -19383,6 +19377,12 @@ var riskHotspots = [
     "assembly": "Services", "class": "Services.FidSupplierLinkServices.FidSupplierLinkService", "reportPath": "Services_FidSupplierLinkService.html", "methodName": "SaveAsync()", "methodShortName": "SaveAsync()", "fileIndex": 0, "line": 95,
     "metrics": [
       { "value": 26, "exceeded": false },
+      { "value": 26, "exceeded": true },
+    ]},
+  {
+    "assembly": "Services", "class": "Services.LabelServices.OzonLabelPrintService", "reportPath": "Services_OzonLabelPrintService.html", "methodName": "GenerateLabelsInParallelAsync()", "methodShortName": "GenerateLabelsInParallelAsync()", "fileIndex": 0, "line": 368,
+    "metrics": [
+      { "value": 29, "exceeded": false },
       { "value": 26, "exceeded": true },
     ]},
   {
@@ -20112,7 +20112,7 @@ var riskHotspots = [
       { "value": 20, "exceeded": true },
     ]},
   {
-    "assembly": "Services", "class": "Services.ApiServices.OzonApi.OzonOrderCancellationService", "reportPath": "Services_OzonOrderCancellationService.html", "methodName": "ParseFormRequests(Microsoft.AspNetCore.Http.IFormCollection)", "methodShortName": "ParseFormRequests(...)", "fileIndex": 0, "line": 368,
+    "assembly": "Services", "class": "Services.ApiServices.OzonApi.OzonOrderCancellationService", "reportPath": "Services_OzonOrderCancellationService.html", "methodName": "ParseFormRequests(Microsoft.AspNetCore.Http.IFormCollection)", "methodShortName": "ParseFormRequests(...)", "fileIndex": 0, "line": 369,
     "metrics": [
       { "value": 20, "exceeded": false },
       { "value": 20, "exceeded": true },
@@ -20205,6 +20205,12 @@ var riskHotspots = [
     "assembly": "Services", "class": "Services.FidSupplierLinkServices.FidSuppliersFeedCache", "reportPath": "Services_FidSuppliersFeedCache.html", "methodName": "GetAsync()", "methodShortName": "GetAsync()", "fileIndex": 0, "line": 24,
     "metrics": [
       { "value": 20, "exceeded": false },
+      { "value": 20, "exceeded": true },
+    ]},
+  {
+    "assembly": "Services", "class": "Services.LabelServices.OzonAwaitingDeliverLabelJob", "reportPath": "Services_OzonAwaitingDeliverLabelJob.html", "methodName": "ProcessAsync()", "methodShortName": "ProcessAsync()", "fileIndex": 0, "line": 100,
+    "metrics": [
+      { "value": 21, "exceeded": false },
       { "value": 20, "exceeded": true },
     ]},
   {
@@ -20522,7 +20528,7 @@ var riskHotspots = [
   {
     "assembly": "Services", "class": "Services.ApiServices.OzonApi.OzonApiClient", "reportPath": "Services_OzonApiClient.html", "methodName": "MakeFastRequestAsync()", "methodShortName": "MakeFastRequestAsync()", "fileIndex": 0, "line": 204,
     "metrics": [
-      { "value": 19, "exceeded": false },
+      { "value": 18, "exceeded": false },
       { "value": 18, "exceeded": true },
     ]},
   {
