@@ -3,20 +3,20 @@
 
 |||
 |:---|:---|
-| Generated on: | 11/08/2026 - 08:58:32 |
-| Coverage date: | 11/08/2026 - 08:55:53 - 11/08/2026 - 08:58:16 |
+| Generated on: | 11/10/2026 - 06:00:37 |
+| Coverage date: | 11/10/2026 - 05:55:31 - 11/10/2026 - 06:00:05 |
 | Parser: | MultiReport (2x Cobertura) |
 | Assemblies: | 5 |
-| Classes: | 3355 |
-| Files: | 2246 |
-| **Line coverage:** | 11.1% (61763 of 554087) |
-| Covered lines: | 61763 |
-| Uncovered lines: | 492324 |
-| Coverable lines: | 554087 |
-| Total lines: | 754394 |
-| **Branch coverage:** | 28.9% (28984 of 100245) |
-| Covered branches: | 28984 |
-| Total branches: | 100245 |
+| Classes: | 3370 |
+| Files: | 2250 |
+| **Line coverage:** | 10.9% (62144 of 567001) |
+| Covered lines: | 62144 |
+| Uncovered lines: | 504857 |
+| Coverable lines: | 567001 |
+| Total lines: | 767865 |
+| **Branch coverage:** | 29% (29200 of 100541) |
+| Covered branches: | 29200 |
+| Total branches: | 100541 |
 | **Method coverage:** | [Feature is only available for sponsors](https://reportgenerator.io/pro) |
 
 </details>
@@ -284,11 +284,11 @@
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>FD1EB2003989FAC7<br/>9BE6464720841C72544341B3094C7BE296B61D2524CC4E18A__NumericTag_0|79.6%|70.5%|
 
 </details>
-<details><summary>OzonOrdersWeb - 25.2%</summary>
+<details><summary>OzonOrdersWeb - 25.3%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**OzonOrdersWeb**|**25.2%**|**18.1%**|
+|**OzonOrdersWeb**|**25.3%**|**18.2%**|
 |AspNetCoreGeneratedDocument.Areas_Admin_Views__ViewStart|0%||
 |AspNetCoreGeneratedDocument.Areas_Admin_Views_AuditLog_Details|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Admin_Views_AuditLog_Index|0%|0%|
@@ -670,17 +670,30 @@
 |OzonOrdersWeb.Api.OzonHandoverApiKeyFilter|95%|90%|
 |OzonOrdersWeb.Api.OzonHandoverImportController|0%|0%|
 |OzonOrdersWeb.Api.OzonHandoverOptions|100%||
+|OzonOrdersWeb.Api.OzonHandoverPartner|75%||
+|OzonOrdersWeb.Api.OzonHandoverPartnersController|100%|100%|
+|OzonOrdersWeb.Api.OzonHandoverPartnersResponse|100%||
 |OzonOrdersWeb.Api.Partner.PartnerAuthController|0%|0%|
 |OzonOrdersWeb.Api.Partner.PartnerCodeVerifyRequest|100%||
 |OzonOrdersWeb.Api.Partner.PartnerEmailRequest|100%||
 |OzonOrdersWeb.Api.Partner.PartnerOrdersController|0%|0%|
+|OzonOrdersWeb.Api.Partner.PartnerReturnBatchMarkItem|0%||
+|OzonOrdersWeb.Api.Partner.PartnerReturnBatchMarkRequest|0%||
+|OzonOrdersWeb.Api.Partner.PartnerReturnBatchMarkResponse|0%||
 |OzonOrdersWeb.Api.Partner.PartnerReturnCabinet|100%||
+|OzonOrdersWeb.Api.Partner.PartnerReturnChanges|0%||
+|OzonOrdersWeb.Api.Partner.PartnerReturnCounts|0%||
+|OzonOrdersWeb.Api.Partner.PartnerReturnDecision|100%||
+|OzonOrdersWeb.Api.Partner.PartnerReturnDecisionOneC|100%||
 |OzonOrdersWeb.Api.Partner.PartnerReturnMark|42.8%||
 |OzonOrdersWeb.Api.Partner.PartnerReturnMarkRequest|100%||
 |OzonOrdersWeb.Api.Partner.PartnerReturnOneC|0%||
-|OzonOrdersWeb.Api.Partner.PartnerReturnRow|30%||
-|OzonOrdersWeb.Api.Partner.PartnerReturnsController|82.8%|73.9%|
-|OzonOrdersWeb.Api.Partner.PartnerReturnsResponse|40%||
+|OzonOrdersWeb.Api.Partner.PartnerReturnRow|100%||
+|OzonOrdersWeb.Api.Partner.PartnerReturnsController|59.1%|56.2%|
+|OzonOrdersWeb.Api.Partner.PartnerReturnShelfAck|100%||
+|OzonOrdersWeb.Api.Partner.PartnerReturnShelfAckRequest|100%||
+|OzonOrdersWeb.Api.Partner.PartnerReturnsResponse|36.3%||
+|OzonOrdersWeb.Api.Partner.PartnerReturnTtn|100%||
 |OzonOrdersWeb.Api.Partner.SetCountriesBody|0%||
 |OzonOrdersWeb.Api.Partner.SetExemplarsBody|0%||
 |OzonOrdersWeb.Areas.Admin.Controllers.AdminAreaControllerBase|0%|0%|
@@ -1213,7 +1226,7 @@
 |OzonOrdersWeb.Middleware.UserScopeInitializerMiddleware|0%|0%|
 |OzonOrdersWeb.ModelBinding.OrderNavigationValidationMetadataProvider|100%|100%|
 |OzonOrdersWeb.Observability.AppInstanceInfo|0%||
-|OzonOrdersWeb.Observability.ApplicationReadyHealthCheck|0%|0%|
+|OzonOrdersWeb.Observability.ApplicationReadyHealthCheck|84.6%|66.6%|
 |OzonOrdersWeb.Observability.BusinessFailureLoggingFilter|61.2%|42.4%|
 |OzonOrdersWeb.Observability.ClientTelemetryController|97.6%|75%|
 |OzonOrdersWeb.Observability.ClientTelemetryEvent|100%||
@@ -1531,6 +1544,7 @@
 |OzonOrdersWeb.WebServices.Partners.PartnerExemplarRequirement|0%||
 |OzonOrdersWeb.WebServices.Partners.PartnerGridRow|41.6%||
 |OzonOrdersWeb.WebServices.Partners.PartnerGridRows|82.7%|64.2%|
+|OzonOrdersWeb.WebServices.Partners.PartnerOneCWarehouses|100%|90%|
 |OzonOrdersWeb.WebServices.Partners.PartnerOrderActionsService|24.4%|18.4%|
 |OzonOrdersWeb.WebServices.Partners.PartnerPrintedLabel|0%||
 |OzonOrdersWeb.WebServices.Partners.PartnerShipRequirements|0%||
@@ -1740,7 +1754,7 @@
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**OzonRepositories**|**0.6%**|**17.2%**|
+|**OzonRepositories**|**0.6%**|**17.6%**|
 |ColumnMappingExcel|0%||
 |ExcelMappingRepository|0%|0%|
 |OzonOrdersWeb.Areas.OzonCards.ViewModels.ExcelMappingRequest|0%||
@@ -1797,7 +1811,7 @@
 |OzonRepositories.Data.OzonChatResponseStatisticRepository|10.2%|6.6%|
 |OzonRepositories.Data.OzonChatResponseTimeRepository|0%|0%|
 |OzonRepositories.Data.OzonClientRepository|0%|0%|
-|OzonRepositories.Data.OzonHandoverRepository|85.9%|63.1%|
+|OzonRepositories.Data.OzonHandoverRepository|67.8%|48.6%|
 |OzonRepositories.Data.OzonPushNotificationRepository|0%|0%|
 |OzonRepositories.Data.ProductRepository|0%|0%|
 |OzonRepositories.Data.SavedMatchingColumnRepository|0%|0%|
@@ -1830,6 +1844,7 @@
 |OzonRepositories.Migrations.AddOzonHandoverReturnDetails|0%||
 |OzonRepositories.Migrations.AddPartnerEmailLogin|0%||
 |OzonRepositories.Migrations.AddPartnerOffice|0%||
+|OzonRepositories.Migrations.AddPartnerOneCWarehouse|0%||
 |OzonRepositories.Migrations.AddPartnerReturnClients|0%||
 |OzonRepositories.Migrations.AddSupplierOrderIntents|0%||
 |OzonRepositories.Migrations.AddSupplierReceiptContractLink|0%||
@@ -1858,11 +1873,11 @@
 |Services.DataServices.ExcelMapping.ExcludedBitrixWarehouseRepository|0%||
 
 </details>
-<details><summary>Services - 46.8%</summary>
+<details><summary>Services - 47%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**Services**|**46.8%**|**40.8%**|
+|**Services**|**47%**|**41%**|
 |AppRepository.ApiServices.OzonApi.Filters.Chat|0%||
 |AppRepository.ApiServices.OzonApi.Filters.ChatFilter|0%||
 |AppRepository.ApiServices.OzonApi.Filters.ChatHistoryRequest|0%||
@@ -1988,10 +2003,10 @@
 |Services.ApiServices._1CApi.Nomenclature.ProducerResolution|100%||
 |Services.ApiServices._1CApi.Nomenclature.ProducerRow|100%||
 |Services.ApiServices._1CApi.Nomenclature.ProducerValue|100%||
-|Services.ApiServices._1CApi.Nomenclature.ProducerValueResolver|95.3%|81.8%|
+|Services.ApiServices._1CApi.Nomenclature.ProducerValueResolver|97.6%|86.3%|
 |Services.ApiServices._1CApi.Nomenclature.ProductQuery|100%||
 |Services.ApiServices._1CApi.Nomenclature.ShadowOutcome|100%||
-|Services.ApiServices._1CApi.OData|56%|60.5%|
+|Services.ApiServices._1CApi.OData|56.1%|60.5%|
 |Services.ApiServices._1CApi.OData.ExistingReceipt|100%||
 |Services.ApiServices._1CApi.OData.GtdCreateResult|100%||
 |Services.ApiServices._1CApi.OData.IOneCNomenclatureService|100%|75%|
@@ -2042,7 +2057,7 @@
 |Services.ApiServices._1CApi.OData.Models.ODataTransferRequest|0%||
 |Services.ApiServices._1CApi.OData.Models.ODataVatRate|0%||
 |Services.ApiServices._1CApi.OData.Models.ODataWarehouse|100%||
-|Services.ApiServices._1CApi.OData.Models.ODataWarehouseFull|0%||
+|Services.ApiServices._1CApi.OData.Models.ODataWarehouseFull|100%||
 |Services.ApiServices._1CApi.OData.OneCDocumentDetails|0%||
 |Services.ApiServices._1CApi.OData.OneCDocumentLineDetails|0%||
 |Services.ApiServices._1CApi.OData.OneCDocumentPostingException|100%|100%|
@@ -2274,7 +2289,7 @@
 |Services.ApiServices.InterpartsEngine.InterpartsEngineService|96.4%|66%|
 |Services.ApiServices.InterpartsPriceApi.InterpartsCurrencyDirectory|0%||
 |Services.ApiServices.InterpartsPriceApi.InterpartsCurrencyRateService|36.3%|60%|
-|Services.ApiServices.InterpartsPriceApi.InterpartsPriceApiClient|13.3%|0%|
+|Services.ApiServices.InterpartsPriceApi.InterpartsPriceApiClient|12.5%|0%|
 |Services.ApiServices.InterpartsPriceApi.InterpartsPriceApiConfig|100%||
 |Services.ApiServices.InterpartsPriceApi.InterpartsPriceApiDataManager|6.7%|0%|
 |Services.ApiServices.InterpartsPriceApi.InterpartsPriceApiExtensions|0%||
@@ -2635,8 +2650,8 @@
 |Services.ApiServices.YandexApi.Filters.CampaignsRequest|0%||
 |Services.ApiServices.YandexApi.Filters.OrdersRequest|0%||
 |Services.ApiServices.YandexApi.Filters.YandexFilter|0%||
-|Services.ApiServices.YandexApi.YandexApiClient|60.6%|62.5%|
-|Services.ApiServices.YandexApi.YandexDataManager|0%|0%|
+|Services.ApiServices.YandexApi.YandexApiClient|62.7%|65%|
+|Services.ApiServices.YandexApi.YandexDataManager|35.2%|19.9%|
 |Services.ApiServices.ZZapApi.ZZapApiException|83.3%||
 |Services.ApiServices.ZZapApi.ZZapBuyerContact|100%||
 |Services.ApiServices.ZZapApi.ZZapConfig|100%||
@@ -2925,7 +2940,7 @@
 |Services.DataServices.OrderRollback.OrderRollbackPreview|100%||
 |Services.DataServices.OrderRollback.OrderRollbackResult|100%||
 |Services.DataServices.OrderRollback.RollbackFieldDef|100%||
-|Services.DataServices.OrdersDataServices|20.4%|19.5%|
+|Services.DataServices.OrdersDataServices|20.3%|19.4%|
 |Services.DataServices.OrdersFileMetadataDataService|0%||
 |Services.DataServices.OrderShipmentTotalsDataServices|0%||
 |Services.DataServices.OzonChatOrderDataServices|0%|0%|
@@ -3108,7 +3123,7 @@
 |Services.OzonHandoverServices.OzonHandoverGroupDto|100%||
 |Services.OzonHandoverServices.OzonHandoverImportRequest|100%||
 |Services.OzonHandoverServices.OzonHandoverImportResult|100%||
-|Services.OzonHandoverServices.OzonHandoverImportService|99.4%|55.4%|
+|Services.OzonHandoverServices.OzonHandoverImportService|99.5%|58.3%|
 |Services.OzonHandoverServices.OzonHandoverItemDto|100%||
 |Services.OzonHandoverServices.OzonHandoverMatchedOrderDto|100%||
 |Services.OzonHandoverServices.OzonHandoverPhotoStorage|100%|100%|
@@ -3177,7 +3192,7 @@
 |Services.ParserServices.HelpDictEnum.OzonStatus|97%|9%|
 |Services.ParserServices.HelpDictEnum.StocksCaster|0%|0%|
 |Services.ParserServices.HelpDictEnum.YandexStatus|97.5%|66.6%|
-|Services.ParserServices.OrderCaster|0%|0%|
+|Services.ParserServices.OrderCaster|0.7%|1.5%|
 |Services.ParserServices.SubstituteResultCaster|0%|0%|
 |Services.PartnerServices.CreatePartnerRequest|100%||
 |Services.PartnerServices.PartnerAuditQuery|100%||
@@ -3238,7 +3253,7 @@
 |Services.SearchServices.OrderSearch.OrderSearchSyncService|88.6%|79.4%|
 |Services.SignalRServices.JobProgressHub|0%|0%|
 |Services.SignalRServices.NotificationHub|0%|0%|
-|Services.SignalRServices.NotificationService|39.1%|0%|
+|Services.SignalRServices.NotificationService|52.1%|50%|
 |Services.SignalRServices.OrderHistoryHub|0%|0%|
 |Services.SignalRServices.UserSessionInfo|0%||
 |Services.StockSyncServices.GoogleServiceAccountOptions|100%||
@@ -3400,9 +3415,9 @@
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**TreeGrouping.Application**|**86.8%**|**98.1%**|
+|**TreeGrouping.Application**|**86.8%**|**95.6%**|
 |ConsoleApp1.CategoryLinkTypeExtensions|100%|100%|
-|ConsoleApp1.StoredProcedureTypeExtensions|100%|100%|
+|ConsoleApp1.StoredProcedureTypeExtensions|100%|96%|
 |DatabaseService|0%|0%|
 |TreeGrouping.Application.CategoryService.CategoryCacheService|100%|100%|
 |TreeGrouping.Application.CategoryService.CategoryFilterService|100%|100%|

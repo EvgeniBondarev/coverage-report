@@ -45,19 +45,19 @@
 </tr>
 <tr>
 <th>Uncovered lines:</th>
-<td class="limit-width right" title="2">2</td>
+<td class="limit-width right" title="4">4</td>
 </tr>
 <tr>
 <th>Coverable lines:</th>
-<td class="limit-width right" title="2">2</td>
+<td class="limit-width right" title="4">4</td>
 </tr>
 <tr>
 <th>Total lines:</th>
-<td class="limit-width right" title="50">50</td>
+<td class="limit-width right" title="54">54</td>
 </tr>
 <tr>
 <th>Line coverage:</th>
-<td class="limit-width right" title="0 of 2">0%</td>
+<td class="limit-width right" title="0 of 4">0%</td>
 </tr>
 </table>
 </div>
@@ -109,6 +109,8 @@
 <tbody>
 <tr><td title="get_Partner()"><a href="#file0_line42" class="navigatetohash">get_Partner()</a></td><td>100%</td><td>2</td><td>1</td><td>0%</td></tr>
 <tr><td title="get_ReturnClients()"><a href="#file0_line43" class="navigatetohash">get_ReturnClients()</a></td><td>100%</td><td>2</td><td>1</td><td>0%</td></tr>
+<tr><td title="get_OneCWarehouseName()"><a href="#file0_line44" class="navigatetohash">get_OneCWarehouseName()</a></td><td>100%</td><td>2</td><td>1</td><td>0%</td></tr>
+<tr><td title="get_OneCWarehouses()"><a href="#file0_line45" class="navigatetohash">get_OneCWarehouses()</a></td><td>100%</td><td>2</td><td>1</td><td>0%</td></tr>
 </tbody>
 </table>
 </div>
@@ -160,23 +162,29 @@
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line40"></a><code>40</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;IReadOnlyList&lt;RuleLookupOption&gt;&nbsp;Marketplaces);</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line41"></a><code>41</code></td><td></td><td class="lightgray"><code></code></td></tr>
 <tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line42"></a><code>42</code></td><td></td><td class="lightred"><code>public&nbsp;sealed&nbsp;record&nbsp;PartnerEditViewModel(PartnerDetailsDto&nbsp;Partner,&nbsp;RuleLookups&nbsp;Lookups,</code></td></tr>
-<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line43"></a><code>43</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;IReadOnlyList&lt;RuleLookupOption&gt;&nbsp;ReturnClients,&nbsp;IReadOnlyList&lt;int&gt;&nbsp;SelectedReturnClients);</code></td></tr>
-<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line44"></a><code>44</code></td><td></td><td class="lightgray"><code></code></td></tr>
-<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line45"></a><code>45</code></td><td></td><td class="lightgray"><code>public&nbsp;sealed&nbsp;class&nbsp;PartnerReturnsForm</code></td></tr>
-<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line46"></a><code>46</code></td><td></td><td class="lightgray"><code>{</code></td></tr>
-<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line47"></a><code>47</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;bool&nbsp;Enabled&nbsp;{&nbsp;get;&nbsp;set;&nbsp;}</code></td></tr>
-<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line48"></a><code>48</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;bool&nbsp;Work&nbsp;{&nbsp;get;&nbsp;set;&nbsp;}</code></td></tr>
-<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line49"></a><code>49</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;List&lt;int&gt;&nbsp;ClientIds&nbsp;{&nbsp;get;&nbsp;set;&nbsp;}&nbsp;=&nbsp;[];</code></td></tr>
-<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line50"></a><code>50</code></td><td></td><td class="lightgray"><code>}</code></td></tr>
+<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line43"></a><code>43</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;IReadOnlyList&lt;RuleLookupOption&gt;&nbsp;ReturnClients,&nbsp;IReadOnlyList&lt;int&gt;&nbsp;SelectedReturnClients,</code></td></tr>
+<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line44"></a><code>44</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;string?&nbsp;OneCWarehouseName&nbsp;=&nbsp;null,</code></td></tr>
+<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line45"></a><code>45</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;IReadOnlyList&lt;string&gt;?&nbsp;OneCWarehouses&nbsp;=&nbsp;null);</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line46"></a><code>46</code></td><td></td><td class="lightgray"><code></code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line47"></a><code>47</code></td><td></td><td class="lightgray"><code>public&nbsp;sealed&nbsp;class&nbsp;PartnerReturnsForm</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line48"></a><code>48</code></td><td></td><td class="lightgray"><code>{</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line49"></a><code>49</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;bool&nbsp;Enabled&nbsp;{&nbsp;get;&nbsp;set;&nbsp;}</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line50"></a><code>50</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;bool&nbsp;Work&nbsp;{&nbsp;get;&nbsp;set;&nbsp;}</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line51"></a><code>51</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;List&lt;int&gt;&nbsp;ClientIds&nbsp;{&nbsp;get;&nbsp;set;&nbsp;}&nbsp;=&nbsp;[];</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line52"></a><code>52</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;summary&gt;Склад&nbsp;партнёра&nbsp;в&nbsp;1С&nbsp;для&nbsp;решения&nbsp;&#171;Полка&#187;.&lt;/summary&gt;</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line53"></a><code>53</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;string?&nbsp;OneCWarehouseName&nbsp;{&nbsp;get;&nbsp;set;&nbsp;}</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line54"></a><code>54</code></td><td></td><td class="lightgray"><code>}</code></td></tr>
 </tbody>
 </table>
 </div>
-<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />11/08/2026 - 08:58:26<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
+<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />11/10/2026 - 06:00:19<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
 <div class="containerright">
 <div class="containerrightfixed">
 <h1>Methods/Properties</h1>
 <a href="#file0_line42" class="navigatetohash percentagebar percentagebar0" title="Line coverage: 0% - get_Partner()"><i class="icon-wrench"></i>get_Partner()</a><br />
 <a href="#file0_line43" class="navigatetohash percentagebar percentagebar0" title="Line coverage: 0% - get_ReturnClients()"><i class="icon-wrench"></i>get_ReturnClients()</a><br />
+<a href="#file0_line44" class="navigatetohash percentagebar percentagebar0" title="Line coverage: 0% - get_OneCWarehouseName()"><i class="icon-wrench"></i>get_OneCWarehouseName()</a><br />
+<a href="#file0_line45" class="navigatetohash percentagebar percentagebar0" title="Line coverage: 0% - get_OneCWarehouses()"><i class="icon-wrench"></i>get_OneCWarehouses()</a><br />
 <br/></div>
 </div></div>
 <script type="text/javascript" src="class.js"></script>
