@@ -3,30 +3,30 @@
 
 |||
 |:---|:---|
-| Generated on: | 11/11/2026 - 09:20:35 |
-| Coverage date: | 11/11/2026 - 09:15:31 - 11/11/2026 - 09:20:13 |
+| Generated on: | 11/12/2026 - 09:46:01 |
+| Coverage date: | 11/12/2026 - 09:40:57 - 11/12/2026 - 09:45:38 |
 | Parser: | MultiReport (2x Cobertura) |
 | Assemblies: | 5 |
-| Classes: | 3145 |
-| Files: | 2120 |
-| **Line coverage:** | 10.3% (58084 of 561010) |
-| Covered lines: | 58084 |
-| Uncovered lines: | 502926 |
-| Coverable lines: | 561010 |
-| Total lines: | 736294 |
-| **Branch coverage:** | 29.9% (27182 of 90790) |
-| Covered branches: | 27182 |
-| Total branches: | 90790 |
+| Classes: | 3275 |
+| Files: | 2191 |
+| **Line coverage:** | 8.6% (60730 of 701030) |
+| Covered lines: | 60730 |
+| Uncovered lines: | 640300 |
+| Coverable lines: | 701030 |
+| Total lines: | 884679 |
+| **Branch coverage:** | 30.8% (28702 of 93028) |
+| Covered branches: | 28702 |
+| Total branches: | 93028 |
 | **Method coverage:** | [Feature is only available for sponsors](https://reportgenerator.io/pro) |
 
 </details>
 
 ## Coverage
-<details><summary>OzonDomains - 69.8%</summary>
+<details><summary>OzonDomains - 70.7%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**OzonDomains**|**69.8%**|**72.9%**|
+|**OzonDomains**|**70.7%**|**73.3%**|
 |BIblockElementProperty|0%||
 |OzonDomains.DateTimeAbbreviationService|92.8%|100%|
 |OzonDomains.Delivery|100%||
@@ -145,6 +145,15 @@
 |OzonDomains.Models.NikeiCartItem|100%||
 |OzonDomains.Models.NikeiCartItemStatus|100%||
 |OzonDomains.Models.OneCNomenclatureMap|0%||
+|OzonDomains.Models.OneCOzonSync.OneCOzonPriceRuleVersion|80%||
+|OzonDomains.Models.OneCOzonSync.OneCOzonSyncCatalogItem|93.3%||
+|OzonDomains.Models.OneCOzonSync.OneCOzonSyncCatalogState|87.5%||
+|OzonDomains.Models.OneCOzonSync.OneCOzonSyncProfile|100%||
+|OzonDomains.Models.OneCOzonSync.OneCOzonSyncProfileWarehouse|50%||
+|OzonDomains.Models.OneCOzonSync.OneCOzonSyncRun|97.3%||
+|OzonDomains.Models.OneCOzonSync.OneCOzonSyncRunLine|93.3%||
+|OzonDomains.Models.OneCOzonSync.OneCOzonSyncRunLog|85.7%||
+|OzonDomains.Models.OneCOzonSync.OneCOzonSyncStockState|85.7%||
 |OzonDomains.Models.OneCProducerAlias|100%||
 |OzonDomains.Models.OneCStock.OneCStockConfirmation|100%||
 |OzonDomains.Models.OneCStock.OneCStockConfirmationPhoto|75%||
@@ -245,7 +254,7 @@
 |OzonDomains.Nomenclature.ArticleKey|100%|100%|
 |OzonDomains.Nomenclature.ArticleVariant|100%||
 |OzonDomains.Nomenclature.ParsedProductRef|100%||
-|OzonDomains.Nomenclature.ProductKeyParser|97.2%|95%|
+|OzonDomains.Nomenclature.ProductKeyParser|97.2%|96.6%|
 |OzonDomains.OrderDateDisplay|100%|100%|
 |OzonDomains.ShipmentNumberMatching|100%|100%|
 |OzonDomains.StatusColor|100%||
@@ -270,11 +279,11 @@
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>FD1EB2003989FAC7<br/>9BE6464720841C72544341B3094C7BE296B61D2524CC4E18A__NumericTag_0|79.6%|70.5%|
 
 </details>
-<details><summary>OzonOrdersWeb - 26.1%</summary>
+<details><summary>OzonOrdersWeb - 26%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**OzonOrdersWeb**|**26.1%**|**18.6%**|
+|**OzonOrdersWeb**|**26%**|**18.6%**|
 |AspNetCoreGeneratedDocument.Areas_Admin_Views__ViewStart|0%||
 |AspNetCoreGeneratedDocument.Areas_Admin_Views_AuditLog_Details|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Admin_Views_AuditLog_Index|0%|0%|
@@ -463,6 +472,7 @@
 |AspNetCoreGeneratedDocument.Areas_Studio2_Views_Motex_Index|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Studio2_Views_Nikei_Index|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Studio2_Views_OneCDocument_Details|0%|0%|
+|AspNetCoreGeneratedDocument.Areas_Studio2_Views_OneCOzonSync_Index|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Studio2_Views_OneCStock_Index|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Studio2_Views_OrderArchive_Index|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Studio2_Views_OrderCartItemStatus_CartSta<br/>tuses|0%|0%|
@@ -658,9 +668,11 @@
 |OzonOrdersWeb.Api.Partner.PartnerReturnCounts|0%||
 |OzonOrdersWeb.Api.Partner.PartnerReturnDecision|100%||
 |OzonOrdersWeb.Api.Partner.PartnerReturnDecisionOneC|100%||
+|OzonOrdersWeb.Api.Partner.PartnerReturnEvent|100%||
 |OzonOrdersWeb.Api.Partner.PartnerReturnMark|42.8%||
 |OzonOrdersWeb.Api.Partner.PartnerReturnMarkRequest|100%||
 |OzonOrdersWeb.Api.Partner.PartnerReturnOneC|0%||
+|OzonOrdersWeb.Api.Partner.PartnerReturnPair|100%||
 |OzonOrdersWeb.Api.Partner.PartnerReturnRow|100%||
 |OzonOrdersWeb.Api.Partner.PartnerReturnsController|59.1%|56.2%|
 |OzonOrdersWeb.Api.Partner.PartnerReturnShelfAck|100%||
@@ -900,6 +912,10 @@
 |OzonOrdersWeb.Areas.Studio2.Controllers.NikeiPriceController|0%|0%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.OneCDocumentController|0%|0%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.OneCNomenclatureController|100%|90.7%|
+|OzonOrdersWeb.Areas.Studio2.Controllers.OneCOzonPriceEvaluateRequest|0%||
+|OzonOrdersWeb.Areas.Studio2.Controllers.OneCOzonProfileStateRequest|0%||
+|OzonOrdersWeb.Areas.Studio2.Controllers.OneCOzonStartRunRequest|0%||
+|OzonOrdersWeb.Areas.Studio2.Controllers.OneCOzonSyncController|0%|0%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.OneCStockController|24.2%|18.2%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.OrderArchiveController|0%|0%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.OrderCartItemStatusController|0%|0%|
@@ -1182,7 +1198,7 @@
 |OzonOrdersWeb.Filters.SupplierQuotationResultReader|57.1%|35.7%|
 |OzonOrdersWeb.Filters.SupplierWarehouseRestrictionFilter|86.3%|64%|
 |OzonOrdersWeb.HostedServices.HangfireSchedulerWatchdogHostedService|0%|0%|
-|OzonOrdersWeb.HostedServices.HangfireStartupHostedService|4.8%|2.5%|
+|OzonOrdersWeb.HostedServices.HangfireStartupHostedService|4.5%|2.4%|
 |OzonOrdersWeb.HostedServices.OrderSearchStartupHostedService|0%|0%|
 |OzonOrdersWeb.Middleware.ImpersonationMiddleware|0%|0%|
 |OzonOrdersWeb.Middleware.OzonIpWhitelistFilter|88.1%|76.1%|
@@ -1706,15 +1722,15 @@
 |TreeGrouping.Web.Models.TranslationRequest|0%||
 
 </details>
-<details><summary>OzonRepositories - 0.5%</summary>
+<details><summary>OzonRepositories - 0.4%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**OzonRepositories**|**0.5%**|**18.3%**|
+|**OzonRepositories**|**0.4%**|**18.3%**|
 |ColumnMappingExcel|0%||
 |ExcelMappingRepository|0%|0%|
 |OzonOrdersWeb.Areas.OzonCards.ViewModels.ExcelMappingRequest|0%||
-|OzonRepositories.Context.ApplicationDbContext|99.8%|75%|
+|OzonRepositories.Context.ApplicationDbContext|99.8%|66.6%|
 |OzonRepositories.Context.ApplicationDbContextFactory|0%|0%|
 |OzonRepositories.Context.BitrixContext|100%||
 |OzonRepositories.Context.Identity.CustomIdentityUser|100%||
@@ -1782,6 +1798,15 @@
 |OzonRepositories.Migrations.AddClientStatusHistoryTriggers|0%||
 |OzonRepositories.Migrations.AddLabelPrintLogs|0%||
 |OzonRepositories.Migrations.AddNikeiCart|0%||
+|OzonRepositories.Migrations.AddOneCOzonIgnoreReceiptCurrency|0%||
+|OzonRepositories.Migrations.AddOneCOzonPriceRuleVersions|0%||
+|OzonRepositories.Migrations.AddOneCOzonReserveMarketplaceStatuses|0%||
+|OzonRepositories.Migrations.AddOneCOzonStockWithoutOzonCount|0%||
+|OzonRepositories.Migrations.AddOneCOzonSyncApplyState|0%||
+|OzonRepositories.Migrations.AddOneCOzonSyncCatalogCache|0%||
+|OzonRepositories.Migrations.AddOneCOzonSyncRunLogs|0%||
+|OzonRepositories.Migrations.AddOneCOzonSyncScheduleNotifyPrices|0%||
+|OzonRepositories.Migrations.AddOneCOzonSyncTables|0%||
 |OzonRepositories.Migrations.AddOneCStockConfirmationArticleNorm|0%||
 |OzonRepositories.Migrations.AddOneCStockConfirmations|0%||
 |OzonRepositories.Migrations.AddOrdersArticleIndex|0%||
@@ -1798,6 +1823,7 @@
 |OzonRepositories.Migrations.AddPartnerOffice|0%||
 |OzonRepositories.Migrations.AddPartnerOneCWarehouse|0%||
 |OzonRepositories.Migrations.AddPartnerReturnClients|0%||
+|OzonRepositories.Migrations.AddPriceSourceToOneCOzonSyncProfile|0%||
 |OzonRepositories.Migrations.AddSupplierOrderIntents|0%||
 |OzonRepositories.Migrations.AddSupplierReceiptContractLink|0%||
 |OzonRepositories.Migrations.AddSviatInvoiceItemCountry|0%||
@@ -1811,6 +1837,7 @@
 |OzonRepositories.Migrations.AddZZapCartItems|0%||
 |OzonRepositories.Migrations.ApplicationDbContextModelSnapshot|0%||
 |OzonRepositories.Migrations.Baseline|0%||
+|OzonRepositories.Migrations.OneCOzonCaseSensitiveOfferIds|0%||
 |OzonRepositories.Migrations.OzonIdentityOrder.Baseline|0%||
 |OzonRepositories.Migrations.OzonIdentityOrder.OzonIdentityOrderContextModel<br/>Snapshot|0%||
 |OzonRepositories.Migrations.OzonIdentityOrder.ReconcileProdSchema|0%||
@@ -1824,11 +1851,11 @@
 |OzonRepositories.Utils.TransactionHelper|83.6%|75%|
 
 </details>
-<details><summary>Services - 51.1%</summary>
+<details><summary>Services - 52.2%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**Services**|**51.1%**|**44.4%**|
+|**Services**|**52.2%**|**45.8%**|
 |AppRepository.ApiServices.OzonApi.Filters.Chat|0%||
 |AppRepository.ApiServices.OzonApi.Filters.ChatFilter|0%||
 |AppRepository.ApiServices.OzonApi.Filters.ChatHistoryRequest|0%||
@@ -1857,10 +1884,10 @@
 |OzonOrdersWeb.ViewModels.OzonClientViewModels.YandexClient|0%||
 |PdfBuilderFactory|0%|0%|
 |PdfService|0%|0%|
-|ProductImportPricesResponse|0%||
-|ProductPriceCommissions|0%||
-|ProductPriceItem|0%|0%|
-|ProductPriceItemResponse|50%||
+|ProductImportPricesResponse|100%||
+|ProductPriceCommissions|64.2%||
+|ProductPriceItem|60%|20%|
+|ProductPriceItemResponse|75%||
 |ProductPriceMarketingAction|0%||
 |ProductPricesResponse|0%||
 |ProductStocksRequestFilter|0%||
@@ -2410,8 +2437,8 @@
 |Services.ApiServices.OzonApi.Filters.ProductAttributesRequest|100%||
 |Services.ApiServices.OzonApi.Filters.ProductAttributesRequestFilter|100%||
 |Services.ApiServices.OzonApi.Filters.ProductAttributesResponse|33.3%||
-|Services.ApiServices.OzonApi.Filters.ProductImportPriceError|0%||
-|Services.ApiServices.OzonApi.Filters.ProductImportPriceResult|0%||
+|Services.ApiServices.OzonApi.Filters.ProductImportPriceError|100%||
+|Services.ApiServices.OzonApi.Filters.ProductImportPriceResult|60%||
 |Services.ApiServices.OzonApi.Filters.ProductImportPricesRequest|0%||
 |Services.ApiServices.OzonApi.Filters.ProductInfoListBySkuRequest|0%||
 |Services.ApiServices.OzonApi.Filters.ProductInfoListRequest|0%||
@@ -2419,9 +2446,10 @@
 |Services.ApiServices.OzonApi.Filters.ProductPriceDetailsIndexResponse|0%||
 |Services.ApiServices.OzonApi.Filters.ProductPriceDetailsItemResponse|50%||
 |Services.ApiServices.OzonApi.Filters.ProductPriceMoneyResponse|50%||
+|Services.ApiServices.OzonApi.Filters.ProductPricesCursorRequest|0%||
 |Services.ApiServices.OzonApi.Filters.ProductPricesDetailsRequest|0%||
 |Services.ApiServices.OzonApi.Filters.ProductPricesDetailsResponse|0%||
-|Services.ApiServices.OzonApi.Filters.ProductPriceses.ProductPriceDetail|36.3%||
+|Services.ApiServices.OzonApi.Filters.ProductPriceses.ProductPriceDetail|63.6%||
 |Services.ApiServices.OzonApi.Filters.ProductPriceses.ProductPriceIndexData|66.6%||
 |Services.ApiServices.OzonApi.Filters.ProductPriceses.ProductPriceIndexes|75%||
 |Services.ApiServices.OzonApi.Filters.ProductPriceses.ProductPriceMarketingA<br/>ctions|0%||
@@ -2456,7 +2484,7 @@
 |Services.ApiServices.OzonApi.Filters.SellerReturnsReportCreateRequest|0%||
 |Services.ApiServices.OzonApi.Filters.SellerReturnsReportFilter|0%||
 |Services.ApiServices.OzonApi.Filters.StocksByWarehouseRequest|100%||
-|Services.ApiServices.OzonApi.Filters.StockUpdateError|0%||
+|Services.ApiServices.OzonApi.Filters.StockUpdateError|40%||
 |Services.ApiServices.OzonApi.Filters.Subscription|0%||
 |Services.ApiServices.OzonApi.Filters.UnfulfilledDeliveryMethod|25%||
 |Services.ApiServices.OzonApi.Filters.UnfulfilledListFilter|0%||
@@ -2465,7 +2493,7 @@
 |Services.ApiServices.OzonApi.Filters.UnfulfilledPosting|62.5%|25%|
 |Services.ApiServices.OzonApi.Filters.UnfulfilledProduct|0%||
 |Services.ApiServices.OzonApi.Filters.UnprintedPosting|100%||
-|Services.ApiServices.OzonApi.Filters.UpdateStockResult|0%||
+|Services.ApiServices.OzonApi.Filters.UpdateStockResult|80%||
 |Services.ApiServices.OzonApi.Filters.UpdateStocksRequest|0%||
 |Services.ApiServices.OzonApi.Filters.WarehouseOzon|0%||
 |Services.ApiServices.OzonApi.Filters.WarehouseResponse|0%||
@@ -2473,7 +2501,7 @@
 |Services.ApiServices.OzonApi.Filters.WarehouseStockReportRequest|0%||
 |Services.ApiServices.OzonApi.GenerationRequest|0%||
 |Services.ApiServices.OzonApi.OzonApiClient|64.1%|61%|
-|Services.ApiServices.OzonApi.OzonApiDataManager|19.5%|9.7%|
+|Services.ApiServices.OzonApi.OzonApiDataManager|19.2%|9.6%|
 |Services.ApiServices.OzonApi.OzonCancelExecutionResult|0%||
 |Services.ApiServices.OzonApi.OzonCancelFormRequest|100%||
 |Services.ApiServices.OzonApi.OzonCancelReasonOption|66.6%||
@@ -2576,8 +2604,9 @@
 |Services.ApiServices.TelegramBotApi.OrdersGridLinks|100%||
 |Services.ApiServices.TelegramBotApi.TelegramAlertItem|100%||
 |Services.ApiServices.TelegramBotApi.TelegramApiResult`1|100%||
-|Services.ApiServices.TelegramBotApi.TelegramBotApiClient|69.2%|57.6%|
+|Services.ApiServices.TelegramBotApi.TelegramBotApiClient|39.7%|30%|
 |Services.ApiServices.TelegramBotApi.TelegramBotConfig|100%|83.3%|
+|Services.ApiServices.TelegramBotApi.TelegramDocumentSender|0%|0%|
 |Services.ApiServices.TelegramBotApi.TelegramMessage|100%||
 |Services.ApiServices.TelegramBotApi.TelegramMessageBuilder|100%|94.7%|
 |Services.ApiServices.TelegramBotApi.TelegramMessageFactory|89.6%|78.7%|
@@ -2840,7 +2869,7 @@
 |Services.HangfireService.TransactionCommentAiJob|0%||
 |Services.HangfireService.TransactionTimeTrackingCleanupJob|100%||
 |Services.ImportProductPricesServices.CurrentCustomerPriceSource|100%||
-|Services.ImportProductPricesServices.ImportProductPricesManager|47.5%|55.7%|
+|Services.ImportProductPricesServices.ImportProductPricesManager|47%|54.2%|
 |Services.ImportProductPricesServices.PriceDumpingCandidate|100%||
 |Services.ImportProductPricesServices.PriceDumpingCandidatePreview|100%||
 |Services.ImportProductPricesServices.PriceDumpingPreview|100%||
@@ -2885,6 +2914,106 @@
 |Services.LabelServices.OzonStatusInfo|100%||
 |Services.LabelServices.OzonStatusTransitionOutboxStore|94%|71.4%|
 |Services.LabelServices.SplitOrderPartsResult|0%||
+|Services.OneCOzonSyncServices.CurrencyRow|100%||
+|Services.OneCOzonSyncServices.Formulas.OneCOzonCurrentPrices|100%||
+|Services.OneCOzonSyncServices.Formulas.OneCOzonExpression|96.7%|90.2%|
+|Services.OneCOzonSyncServices.Formulas.OneCOzonExpressionResult|100%|50%|
+|Services.OneCOzonSyncServices.Formulas.OneCOzonExpressionStep|100%||
+|Services.OneCOzonSyncServices.Formulas.OneCOzonPriceBreakdown|60%||
+|Services.OneCOzonSyncServices.Formulas.OneCOzonPriceBreakdownBuilder|100%|82.1%|
+|Services.OneCOzonSyncServices.Formulas.OneCOzonPriceCalculation|100%|83.3%|
+|Services.OneCOzonSyncServices.Formulas.OneCOzonPriceCalculator|98.5%|97.5%|
+|Services.OneCOzonSyncServices.Formulas.OneCOzonPriceFieldResult|81.8%|50%|
+|Services.OneCOzonSyncServices.Formulas.OneCOzonPriceRules|100%||
+|Services.OneCOzonSyncServices.Formulas.OneCOzonPriceScenario|78.5%||
+|Services.OneCOzonSyncServices.OneCOzonBulkPriceProvider|87.3%|62.5%|
+|Services.OneCOzonSyncServices.OneCOzonCardInfo|100%||
+|Services.OneCOzonSyncServices.OneCOzonCatalogCache|98.4%|94.1%|
+|Services.OneCOzonSyncServices.OneCOzonCatalogCacheInfo|100%||
+|Services.OneCOzonSyncServices.OneCOzonCatalogMapper|97.2%|90%|
+|Services.OneCOzonSyncServices.OneCOzonCatalogRecord|100%||
+|Services.OneCOzonSyncServices.OneCOzonCatalogSnapshot|100%||
+|Services.OneCOzonSyncServices.OneCOzonClassifiedError|100%||
+|Services.OneCOzonSyncServices.OneCOzonClientOption|100%||
+|Services.OneCOzonSyncServices.OneCOzonCurrentPriceReader|21.2%|8.8%|
+|Services.OneCOzonSyncServices.OneCOzonLinkSuggestion|0%||
+|Services.OneCOzonSyncServices.OneCOzonMarketplaceStatusOption|0%||
+|Services.OneCOzonSyncServices.OneCOzonNomenclatureIndex|0%|0%|
+|Services.OneCOzonSyncServices.OneCOzonNotifyRetryJob|0%||
+|Services.OneCOzonSyncServices.OneCOzonOzonApiFactory|0%|0%|
+|Services.OneCOzonSyncServices.OneCOzonOzonCommissions|100%||
+|Services.OneCOzonSyncServices.OneCOzonOzonErrorClassifier|90.4%|90.2%|
+|Services.OneCOzonSyncServices.OneCOzonOzonPriceInfo|90%|50%|
+|Services.OneCOzonSyncServices.OneCOzonOzonStock|100%||
+|Services.OneCOzonSyncServices.OneCOzonOzonStockReader|0%|0%|
+|Services.OneCOzonSyncServices.OneCOzonOzonStockSnapshot|85.7%|100%|
+|Services.OneCOzonSyncServices.OneCOzonPriceKind|0%||
+|Services.OneCOzonSyncServices.OneCOzonPriceOwnership|100%|100%|
+|Services.OneCOzonSyncServices.OneCOzonPriceProvider|0%|0%|
+|Services.OneCOzonSyncServices.OneCOzonPriceResolver|96.2%|89.4%|
+|Services.OneCOzonSyncServices.OneCOzonPriceResult|100%||
+|Services.OneCOzonSyncServices.OneCOzonPriceRuleService|96.7%|96.2%|
+|Services.OneCOzonSyncServices.OneCOzonPriceRulesSaveRequest|100%||
+|Services.OneCOzonSyncServices.OneCOzonPriceRulesSaveResult|100%|100%|
+|Services.OneCOzonSyncServices.OneCOzonPriceRulesView|66.6%||
+|Services.OneCOzonSyncServices.OneCOzonPriceSender|56.8%|59.5%|
+|Services.OneCOzonSyncServices.OneCOzonPriceSendItem|100%||
+|Services.OneCOzonSyncServices.OneCOzonPriceSendResult|100%||
+|Services.OneCOzonSyncServices.OneCOzonPriceSettingsRequest|85.7%||
+|Services.OneCOzonSyncServices.OneCOzonProductPreview|0%||
+|Services.OneCOzonSyncServices.OneCOzonProductPreviewService|8.1%|9.6%|
+|Services.OneCOzonSyncServices.OneCOzonProfileFormOptions|62.5%||
+|Services.OneCOzonSyncServices.OneCOzonProfileSaveRequest|95.2%||
+|Services.OneCOzonSyncServices.OneCOzonProfileSaveResult|100%|100%|
+|Services.OneCOzonSyncServices.OneCOzonReceiptLine|100%||
+|Services.OneCOzonSyncServices.OneCOzonReserveAggregator|100%|91.6%|
+|Services.OneCOzonSyncServices.OneCOzonReserveDecision|100%||
+|Services.OneCOzonSyncServices.OneCOzonReserveKey|50%||
+|Services.OneCOzonSyncServices.OneCOzonReserveLoader|94.6%|75%|
+|Services.OneCOzonSyncServices.OneCOzonReserveOrder|30.7%||
+|Services.OneCOzonSyncServices.OneCOzonReservePolicy|90.5%|86%|
+|Services.OneCOzonSyncServices.OneCOzonReserveResult|100%||
+|Services.OneCOzonSyncServices.OneCOzonReserveSourceRow|100%||
+|Services.OneCOzonSyncServices.OneCOzonRetentionJob|0%||
+|Services.OneCOzonSyncServices.OneCOzonRunLinesPage|0%||
+|Services.OneCOzonSyncServices.OneCOzonRunLineView|0%||
+|Services.OneCOzonSyncServices.OneCOzonRunLogEntry|100%||
+|Services.OneCOzonSyncServices.OneCOzonRunLogger|100%|96.1%|
+|Services.OneCOzonSyncServices.OneCOzonRunLogPage|100%||
+|Services.OneCOzonSyncServices.OneCOzonRunOffersPage|100%||
+|Services.OneCOzonSyncServices.OneCOzonRunOfferView|100%||
+|Services.OneCOzonSyncServices.OneCOzonRunSummary|0%||
+|Services.OneCOzonSyncServices.OneCOzonScheduleCron|100%|100%|
+|Services.OneCOzonSyncServices.OneCOzonScheduledSyncJob|0%|0%|
+|Services.OneCOzonSyncServices.OneCOzonStockCalculation|100%||
+|Services.OneCOzonSyncServices.OneCOzonStockCalculator|100%|50%|
+|Services.OneCOzonSyncServices.OneCOzonStockPlanner|100%|95%|
+|Services.OneCOzonSyncServices.OneCOzonStockPlanRow|71.4%||
+|Services.OneCOzonSyncServices.OneCOzonStockSender|37.7%|45%|
+|Services.OneCOzonSyncServices.OneCOzonStockSendItem|100%||
+|Services.OneCOzonSyncServices.OneCOzonStockSendResult|100%||
+|Services.OneCOzonSyncServices.OneCOzonStockSnapshot|95.6%|100%|
+|Services.OneCOzonSyncServices.OneCOzonStockSnapshotProvider|0%|0%|
+|Services.OneCOzonSyncServices.OneCOzonSyncExcelBuilder|94.5%|79.1%|
+|Services.OneCOzonSyncServices.OneCOzonSyncJob|0%||
+|Services.OneCOzonSyncServices.OneCOzonSyncLease|0%|0%|
+|Services.OneCOzonSyncServices.OneCOzonSyncMessageBuilder|93%|78.2%|
+|Services.OneCOzonSyncServices.OneCOzonSyncNotifier|91.5%|95.4%|
+|Services.OneCOzonSyncServices.OneCOzonSyncProfileService|77.1%|65%|
+|Services.OneCOzonSyncServices.OneCOzonSyncRecovery|100%|100%|
+|Services.OneCOzonSyncServices.OneCOzonSyncReportData|100%||
+|Services.OneCOzonSyncServices.OneCOzonSyncReportService|85%|50%|
+|Services.OneCOzonSyncServices.OneCOzonSyncRetention|0%|0%|
+|Services.OneCOzonSyncServices.OneCOzonSyncRunner|89.2%|82.8%|
+|Services.OneCOzonSyncServices.OneCOzonSyncRunQuery|65.5%|70.4%|
+|Services.OneCOzonSyncServices.OneCOzonSyncScheduler|6.4%|8.3%|
+|Services.OneCOzonSyncServices.OneCOzonUnpublished|85.7%|76.1%|
+|Services.OneCOzonSyncServices.OneCOzonWarehouseLink|100%||
+|Services.OneCOzonSyncServices.OneCOzonWarehouseLinkResolver|0%|0%|
+|Services.OneCOzonSyncServices.PriceKindRow|0%||
+|Services.OneCOzonSyncServices.ReceiptHeaderRow|88.8%||
+|Services.OneCOzonSyncServices.ReceiptTabRow|100%||
+|Services.OneCOzonSyncServices.RegisterPriceRow|0%|0%|
 |Services.OneCServices.OneCPostingFailureReporter|88.6%|71.7%|
 |Services.OneCServices.OneCPostingSummary|100%||
 |Services.OneCServices.OneCPostingSummaryBuilder|99.2%|89.3%|
@@ -3122,7 +3251,7 @@
 |SlqStudio.Application.Services.EmailService.Models.SmtpSettings|0%||
 |StockItemForUpdate|0%||
 |SupplierResponse|75%||
-|System.Text.RegularExpressions.Generated|46.1%|40%|
+|System.Text.RegularExpressions.Generated|46.3%|40.2%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__AppStatusRegex_16|74.6%|67.7%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__ArticleRegex_18|20.8%|15.9%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__BarcodeRegex_51|85.7%|66.6%|
@@ -3150,12 +3279,13 @@
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__MinQuantityRegex_9|16.3%|13.2%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__MoneyRegex_49|85.3%|77.2%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__NaKlienteRegex_22|71.1%|63.7%|
-|System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__NonAlnum_59|100%|100%|
+|System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__NonAlnum_60|100%|100%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__NonAlphanumeric_57|100%|100%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__OfferKeyPattern_56|86.9%|71.4%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__OrderIdHashRegex_6|0%|0%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__OrderIdWordRegex_7|0%|0%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__OzonClientRegex_12|42.7%|36.8%|
+|System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__ParameterName_58|92.1%|85.7%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__PoSkladuRegex_23|74.1%|65%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__PriceMaxRegex_29|12.8%|10.2%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__PriceMinRegex_28|12.8%|10.2%|
@@ -3167,7 +3297,7 @@
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__PurchasePriceMaxRegex_32|23.5%|18.3%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__QuantityRegex_46|84.4%|72.3%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__RussianDateRegex_52|91.6%|92.3%|
-|System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__Shape_58|95.5%|87%|
+|System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__Shape_59|95.5%|87%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__ShipmentNumberRegex_4|0%|0%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__SquashSuffix_54|75.5%|60.8%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__StatusNameRegex_41|87%|80.7%|
@@ -3183,7 +3313,7 @@
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__WarehouseSenderRegex_43|92.4%|84%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__Whitespace_48|89.4%|77.7%|
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>F3AFAE55489EF7DD<br/>D329F6F5E314E5C94BC0ED740169416BF024C1E9D6E7F4560__ZaMonthRegex_35|82.3%|61.5%|
-|UpdateStocksResponse|0%||
+|UpdateStocksResponse|100%||
 
 </details>
 <details><summary>TreeGrouping.Application - 86.8%</summary>
