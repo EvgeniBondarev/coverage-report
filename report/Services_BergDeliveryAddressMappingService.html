@@ -71,15 +71,15 @@
 <table>
 <tr>
 <th>Covered branches:</th>
-<td class="limit-width right" title="14">14</td>
+<td class="limit-width right" title="12">12</td>
 </tr>
 <tr>
 <th>Total branches:</th>
-<td class="limit-width right" title="14">14</td>
+<td class="limit-width right" title="12">12</td>
 </tr>
 <tr>
 <th>Branch coverage:</th>
-<td class="limit-width right" title="14 of 14">100%</td>
+<td class="limit-width right" title="12 of 12">100%</td>
 </tr>
 </table>
 </div>
@@ -111,7 +111,7 @@
 <tr><td title=".ctor(OzonRepositories.Context.ApplicationDbContext,Services.ApiSupplierSettingsServices.ApiSupplierDeliveryWarehouseResolver)"><a href="#file0_line21" class="navigatetohash">.ctor(...)</a></td><td>100%</td><td>1</td><td>1</td><td>100%</td></tr>
 <tr><td title="ResolveAsync()"><a href="#file0_line30" class="navigatetohash">ResolveAsync()</a></td><td>100%</td><td>4</td><td>4</td><td>100%</td></tr>
 <tr><td title="GetAllAsync(System.Threading.CancellationToken)"><a href="#file0_line44" class="navigatetohash">GetAllAsync(...)</a></td><td>100%</td><td>1</td><td>1</td><td>100%</td></tr>
-<tr><td title="SaveAsync()"><a href="#file0_line52" class="navigatetohash">SaveAsync()</a></td><td>100%</td><td>10</td><td>10</td><td>100%</td></tr>
+<tr><td title="SaveAsync()"><a href="#file0_line52" class="navigatetohash">SaveAsync()</a></td><td>100%</td><td>8</td><td>8</td><td>100%</td></tr>
 </tbody>
 </table>
 </div>
@@ -176,7 +176,7 @@
 <tr class="coverableline" title="Covered (10 visits)" data-coverage="{'AllTestMethods': {'VC': '10', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">10</td><td class="rightmargin right"><a id="file0_line53"></a><code>53</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.SingleOrDefaultAsync(x&nbsp;=&gt;&nbsp;x.ShipmentWarehouseId&nbsp;==&nbsp;shipmentWarehouseId,&nbsp;cancellationToken);</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line54"></a><code>54</code></td><td></td><td class="lightgray"><code></code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line55"></a><code>55</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;Пустой&nbsp;адрес&nbsp;—&nbsp;это&nbsp;снятие&nbsp;связи:&nbsp;склад&nbsp;перестаёт&nbsp;участвовать&nbsp;в&nbsp;заказах&nbsp;через&nbsp;API.</code></td></tr>
-<tr class="coverableline" title="Covered (9 visits, 6 of 6 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '9', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">9</td><td class="rightmargin right"><a id="file0_line56"></a><code>56</code></td><td class="percentagebar percentagebar100"><i class="icon-fork"></i></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(bergShipmentAddressId&nbsp;is&nbsp;null&nbsp;or&nbsp;&lt;=&nbsp;0)</code></td></tr>
+<tr class="coverableline" title="Covered (9 visits, 4 of 4 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '9', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">9</td><td class="rightmargin right"><a id="file0_line56"></a><code>56</code></td><td class="percentagebar percentagebar100"><i class="icon-fork"></i></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(bergShipmentAddressId&nbsp;is&nbsp;null&nbsp;or&nbsp;&lt;=&nbsp;0)</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line57"></a><code>57</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
 <tr class="coverableline" title="Covered (7 visits, 2 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '7', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">7</td><td class="rightmargin right"><a id="file0_line58"></a><code>58</code></td><td class="percentagebar percentagebar100"><i class="icon-fork"></i></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(existing&nbsp;is&nbsp;not&nbsp;null)</code></td></tr>
 <tr class="coverableline" title="Covered (4 visits)" data-coverage="{'AllTestMethods': {'VC': '4', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">4</td><td class="rightmargin right"><a id="file0_line59"></a><code>59</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_context.BergDeliveryAddressMappings.Remove(existing);</code></td></tr>
@@ -204,7 +204,7 @@
 </tbody>
 </table>
 </div>
-<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />11/12/2026 - 09:45:59<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
+<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />11/13/2026 - 09:39:47<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
 <div class="containerright">
 <div class="containerrightfixed">
 <h1>Methods/Properties</h1>

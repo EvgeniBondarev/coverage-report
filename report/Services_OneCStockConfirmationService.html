@@ -66,20 +66,20 @@
 <div class="card">
 <div class="card-header">Branch coverage</div>
 <div class="card-body">
-<div class="large cardpercentagebar cardpercentagebar6">94%</div>
+<div class="large cardpercentagebar cardpercentagebar6">93%</div>
 <div class="table">
 <table>
 <tr>
 <th>Covered branches:</th>
-<td class="limit-width right" title="143">143</td>
+<td class="limit-width right" title="139">139</td>
 </tr>
 <tr>
 <th>Total branches:</th>
-<td class="limit-width right" title="152">152</td>
+<td class="limit-width right" title="148">148</td>
 </tr>
 <tr>
 <th>Branch coverage:</th>
-<td class="limit-width right" title="143 of 152">94%</td>
+<td class="limit-width right" title="139 of 148">93.9%</td>
 </tr>
 </table>
 </div>
@@ -118,7 +118,7 @@
 <tr><td title="GetAsync()"><a href="#file0_line284" class="navigatetohash">GetAsync()</a></td><td>100%</td><td>2</td><td>2</td><td>100%</td></tr>
 <tr><td title="OpenPhotoAsync()"><a href="#file0_line292" class="navigatetohash">OpenPhotoAsync()</a></td><td>75%</td><td>4</td><td>4</td><td>100%</td></tr>
 <tr><td title="LoadByExternalIdAsync(System.String,System.Threading.CancellationToken)"><a href="#file0_line311" class="navigatetohash">LoadByExternalIdAsync(...)</a></td><td>100%</td><td>1</td><td>1</td><td>100%</td></tr>
-<tr><td title="Validate(Services.ApiServices._1CApi.Stock.Confirmations.OneCStockConfirmationRequest,System.Collections.Generic.IReadOnlyList`1&lt;Services.ApiServices._1CApi.Stock.Confirmations.OneCStockConfirmationPhotoInput&gt;,System.DateTime,System.DateTime&amp;)"><a href="#file0_line321" class="navigatetohash">Validate(...)</a></td><td>90.74%</td><td>57</td><td>54</td><td>90.47%</td></tr>
+<tr><td title="Validate(Services.ApiServices._1CApi.Stock.Confirmations.OneCStockConfirmationRequest,System.Collections.Generic.IReadOnlyList`1&lt;Services.ApiServices._1CApi.Stock.Confirmations.OneCStockConfirmationPhotoInput&gt;,System.DateTime,System.DateTime&amp;)"><a href="#file0_line321" class="navigatetohash">Validate(...)</a></td><td>90%</td><td>52</td><td>50</td><td>90.47%</td></tr>
 <tr><td title="DetectImageTypeAsync()"><a href="#file0_line377" class="navigatetohash">DetectImageTypeAsync()</a></td><td>100%</td><td>48</td><td>48</td><td>100%</td></tr>
 <tr><td title="DeleteStoredAsync()"><a href="#file0_line401" class="navigatetohash">DeleteStoredAsync()</a></td><td>100%</td><td>2</td><td>2</td><td>62.5%</td></tr>
 <tr><td title="Truncate(System.String,System.Int32)"><a href="#file0_line416" class="navigatetohash">Truncate(...)</a></td><td>100%</td><td>4</td><td>4</td><td>100%</td></tr>
@@ -460,7 +460,7 @@
 <tr class="coverableline" title="Covered (1 visits)" data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line326"></a><code>326</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;OneCStockConfirmationSaveResult.Invalid(&quot;invalid_nomenclature&quot;,&nbsp;&quot;Не&nbsp;указана&nbsp;карточка&nbsp;номенклатуры&nbsp;1С.</code></td></tr>
 <tr class="coverableline" title="Covered (56 visits, 2 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '56', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">56</td><td class="rightmargin right"><a id="file0_line327"></a><code>327</code></td><td class="percentagebar percentagebar100"><i class="icon-fork"></i></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(string.IsNullOrWhiteSpace(request.Article))</code></td></tr>
 <tr class="coverableline" title="Covered (1 visits)" data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line328"></a><code>328</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;OneCStockConfirmationSaveResult.Invalid(&quot;invalid_article&quot;,&nbsp;&quot;Не&nbsp;указан&nbsp;артикул.&quot;);</code></td></tr>
-<tr class="coverableline" title="Covered (55 visits, 6 of 6 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '55', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">55</td><td class="rightmargin right"><a id="file0_line329"></a><code>329</code></td><td class="percentagebar percentagebar100"><i class="icon-fork"></i></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(request.Source&nbsp;is&nbsp;not&nbsp;(OneCStockConfirmation.SourceWeb&nbsp;or&nbsp;OneCStockConfirmation.SourceTelegramBot))</code></td></tr>
+<tr class="coverableline" title="Covered (55 visits, 4 of 4 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '55', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">55</td><td class="rightmargin right"><a id="file0_line329"></a><code>329</code></td><td class="percentagebar percentagebar100"><i class="icon-fork"></i></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(request.Source&nbsp;is&nbsp;not&nbsp;(OneCStockConfirmation.SourceWeb&nbsp;or&nbsp;OneCStockConfirmation.SourceTelegramBot))</code></td></tr>
 <tr class="coverableline" title="Covered (1 visits)" data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line330"></a><code>330</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;OneCStockConfirmationSaveResult.Invalid(&quot;invalid_source&quot;,&nbsp;&quot;Источник&nbsp;должен&nbsp;быть&nbsp;web&nbsp;или&nbsp;telegram-bot.</code></td></tr>
 <tr class="coverableline" title="Partially covered (54 visits, 3 of 4 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '54', 'LVS': 'orange'}}"><td class="orange">&nbsp;</td><td class="leftmargin rightmargin right">54</td><td class="rightmargin right"><a id="file0_line331"></a><code>331</code></td><td class="percentagebar percentagebar70"><i class="icon-fork"></i></td><td class="lightorange"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(request.ExternalId&nbsp;is&nbsp;{&nbsp;Length:&nbsp;&gt;&nbsp;64&nbsp;})</code></td></tr>
 <tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line332"></a><code>332</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;OneCStockConfirmationSaveResult.Invalid(&quot;invalid_external_id&quot;,&nbsp;&quot;externalId&nbsp;длиннее&nbsp;64&nbsp;символов.&quot;);</code></td></tr>
@@ -490,7 +490,7 @@
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line356"></a><code>356</code></td><td></td><td class="lightgray"><code></code></td></tr>
 <tr class="coverableline" title="Covered (155 visits, 2 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '155', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">155</td><td class="rightmargin right"><a id="file0_line357"></a><code>357</code></td><td class="percentagebar percentagebar100"><i class="icon-fork"></i></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;foreach&nbsp;(var&nbsp;photo&nbsp;in&nbsp;photos)</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line358"></a><code>358</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
-<tr class="coverableline" title="Covered (32 visits, 6 of 6 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '32', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">32</td><td class="rightmargin right"><a id="file0_line359"></a><code>359</code></td><td class="percentagebar percentagebar100"><i class="icon-fork"></i></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(photo.Kind&nbsp;is&nbsp;not&nbsp;(OneCStockConfirmationPhoto.KindLabel&nbsp;or&nbsp;OneCStockConfirmationPhoto.KindShelf))</code></td></tr>
+<tr class="coverableline" title="Covered (32 visits, 4 of 4 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '32', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">32</td><td class="rightmargin right"><a id="file0_line359"></a><code>359</code></td><td class="percentagebar percentagebar100"><i class="icon-fork"></i></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(photo.Kind&nbsp;is&nbsp;not&nbsp;(OneCStockConfirmationPhoto.KindLabel&nbsp;or&nbsp;OneCStockConfirmationPhoto.KindShelf))</code></td></tr>
 <tr class="coverableline" title="Covered (1 visits)" data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line360"></a><code>360</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;OneCStockConfirmationSaveResult.Invalid(&quot;invalid_photo_kind&quot;,&nbsp;&quot;Вид&nbsp;фото&nbsp;должен&nbsp;быть&nbsp;label&nbsp;или&nbsp;she</code></td></tr>
 <tr class="coverableline" title="Covered (31 visits, 2 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '31', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">31</td><td class="rightmargin right"><a id="file0_line361"></a><code>361</code></td><td class="percentagebar percentagebar100"><i class="icon-fork"></i></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(photo.Length&nbsp;&lt;=&nbsp;0)</code></td></tr>
 <tr class="coverableline" title="Covered (1 visits)" data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line362"></a><code>362</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;OneCStockConfirmationSaveResult.Invalid(&quot;empty_photo&quot;,&nbsp;&quot;Файл&nbsp;фото&nbsp;пустой.&quot;);</code></td></tr>
@@ -565,7 +565,7 @@
 </tbody>
 </table>
 </div>
-<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />11/12/2026 - 09:45:59<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
+<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />11/13/2026 - 09:39:47<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
 <div class="containerright">
 <div class="containerrightfixed">
 <h1>Methods/Properties</h1>

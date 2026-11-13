@@ -75,11 +75,11 @@
 </tr>
 <tr>
 <th>Total branches:</th>
-<td class="limit-width right" title="336">336</td>
+<td class="limit-width right" title="334">334</td>
 </tr>
 <tr>
 <th>Branch coverage:</th>
-<td class="limit-width right" title="162 of 336">48.2%</td>
+<td class="limit-width right" title="162 of 334">48.5%</td>
 </tr>
 </table>
 </div>
@@ -109,7 +109,7 @@
 <tbody>
 <tr><td title=".cctor()"><a href="#file0_line40" class="navigatetohash">.cctor()</a></td><td>100%</td><td>1</td><td>1</td><td>100%</td></tr>
 <tr><td title=".ctor(OzonRepositories.Context.ApplicationDbContext,Microsoft.Extensions.Options.IOptions`1&lt;Services.StockSyncServices.GoogleSheetsStockSyncOptions&gt;,Microsoft.Extensions.Logging.ILogger`1&lt;Services.StockSyncServices.WarehouseStockSyncService&gt;,Services.SystemMonitoringServices.ISystemMonitoringSignalWriter)"><a href="#file0_line62" class="navigatetohash">.ctor(...)</a></td><td>100%</td><td>2</td><td>1</td><td>0%</td></tr>
-<tr><td title="IsTransientGoogleException(System.Exception)"><a href="#file0_line87" class="navigatetohash">IsTransientGoogleException(...)</a></td><td>70%</td><td>85</td><td>70</td><td>85.36%</td></tr>
+<tr><td title="IsTransientGoogleException(System.Exception)"><a href="#file0_line87" class="navigatetohash">IsTransientGoogleException(...)</a></td><td>72.05%</td><td>83</td><td>68</td><td>85.36%</td></tr>
 <tr><td title="IsTransientSocketError(System.Net.Sockets.SocketError)"><a href="#file0_line161" class="navigatetohash">IsTransientSocketError(...)</a></td><td>44.44%</td><td>18</td><td>18</td><td>100%</td></tr>
 <tr><td title="ExecuteGoogleApiWithRetryAsync()"><a href="#file0_line176" class="navigatetohash">ExecuteGoogleApiWithRetryAsync()</a></td><td>0%</td><td>6</td><td>2</td><td>0%</td></tr>
 <tr><td title="SyncFromGoogleSheetAsync()"><a href="#file0_line205" class="navigatetohash">SyncFromGoogleSheetAsync()</a></td><td>0%</td><td>156</td><td>12</td><td>0%</td></tr>
@@ -252,7 +252,7 @@
 <tr class="coverableline" title="Partially covered (1 visits, 2 of 4 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'orange'}}"><td class="orange">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line106"></a><code>106</code></td><td class="percentagebar percentagebar50"><i class="icon-fork"></i></td><td class="lightorange"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(inner&nbsp;is&nbsp;SocketException&nbsp;socketEx&nbsp;&amp;&amp;&nbsp;IsTransientSocketError(socketEx.SocketErrorCode))</code></td></tr>
 <tr class="coverableline" title="Covered (1 visits)" data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line107"></a><code>107</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;true;</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line108"></a><code>108</code></td><td></td><td class="lightgray"><code></code></td></tr>
-<tr class="coverableline" title="Not covered (0 visits, 0 of 6 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line109"></a><code>109</code></td><td class="percentagebar percentagebar0"><i class="icon-fork"></i></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(inner&nbsp;is&nbsp;IOException&nbsp;or&nbsp;TimeoutException)</code></td></tr>
+<tr class="coverableline" title="Not covered (0 visits, 0 of 4 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line109"></a><code>109</code></td><td class="percentagebar percentagebar0"><i class="icon-fork"></i></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(inner&nbsp;is&nbsp;IOException&nbsp;or&nbsp;TimeoutException)</code></td></tr>
 <tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line110"></a><code>110</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;true;</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line111"></a><code>111</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line112"></a><code>112</code></td><td></td><td class="lightgray"><code></code></td></tr>
@@ -1000,7 +1000,7 @@
 </tbody>
 </table>
 </div>
-<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />11/12/2026 - 09:46:00<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
+<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />11/13/2026 - 09:39:48<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
 <div class="containerright">
 <div class="containerrightfixed">
 <h1>Methods/Properties</h1>

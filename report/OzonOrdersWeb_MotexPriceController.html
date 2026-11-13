@@ -66,12 +66,12 @@
 <div class="card">
 <div class="card-header">Branch coverage</div>
 <div class="card-body">
-<div class="large cardpercentagebar cardpercentagebar26">73%</div>
+<div class="large cardpercentagebar cardpercentagebar27">72%</div>
 <div class="table">
 <table>
 <tr>
 <th>Covered branches:</th>
-<td class="limit-width right" title="70">70</td>
+<td class="limit-width right" title="69">69</td>
 </tr>
 <tr>
 <th>Total branches:</th>
@@ -79,7 +79,7 @@
 </tr>
 <tr>
 <th>Branch coverage:</th>
-<td class="limit-width right" title="70 of 95">73.6%</td>
+<td class="limit-width right" title="69 of 95">72.6%</td>
 </tr>
 </table>
 </div>
@@ -115,7 +115,7 @@
 <tr><td title="get_Code()"><a href="#file0_line169" class="navigatetohash">get_Code()</a></td><td>100%</td><td>1</td><td>1</td><td>100%</td></tr>
 <tr><td title="ConvertPricesAsync()"><a href="#file0_line173" class="navigatetohash">ConvertPricesAsync()</a></td><td>83.33%</td><td>6</td><td>6</td><td>100%</td></tr>
 <tr><td title="GetRateToRubAsync()"><a href="#file0_line192" class="navigatetohash">GetRateToRubAsync()</a></td><td>20%</td><td>8</td><td>5</td><td>50%</td></tr>
-<tr><td title="ReadDecimal(Newtonsoft.Json.Linq.JObject,System.String)"><a href="#file0_line203" class="navigatetohash">ReadDecimal(...)</a></td><td>68.75%</td><td>17</td><td>16</td><td>83.33%</td></tr>
+<tr><td title="ReadDecimal(Newtonsoft.Json.Linq.JObject,System.String)"><a href="#file0_line203" class="navigatetohash">ReadDecimal(...)</a></td><td>62.5%</td><td>17</td><td>16</td><td>83.33%</td></tr>
 <tr><td title="ParseMotexDate(System.String)"><a href="#file0_line229" class="navigatetohash">ParseMotexDate(...)</a></td><td>100%</td><td>4</td><td>4</td><td>100%</td></tr>
 <tr><td title="BuildDescription(Newtonsoft.Json.Linq.JObject,System.Decimal,System.Nullable`1&lt;System.Decimal&gt;,System.String,System.Nullable`1&lt;System.Int32&gt;,System.Nullable`1&lt;System.Int32&gt;)"><a href="#file0_line235" class="navigatetohash">BuildDescription(...)</a></td><td>90%</td><td>10</td><td>10</td><td>100%</td></tr>
 <tr><td title="BuildPriceDescription(System.Decimal,OzonDomains.CurrencyCode,System.Decimal,System.Decimal)"><a href="#file0_line252" class="navigatetohash">BuildPriceDescription(...)</a></td><td>50%</td><td>2</td><td>2</td><td>100%</td></tr>
@@ -331,7 +331,7 @@
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line201"></a><code>201</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;static&nbsp;decimal?&nbsp;ReadDecimal(JObject&nbsp;source,&nbsp;string&nbsp;field)</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line202"></a><code>202</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
 <tr class="coverableline" title="Covered (15 visits)" data-coverage="{'AllTestMethods': {'VC': '15', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">15</td><td class="rightmargin right"><a id="file0_line203"></a><code>203</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;token&nbsp;=&nbsp;source[field];</code></td></tr>
-<tr class="coverableline" title="Partially covered (15 visits, 4 of 6 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '15', 'LVS': 'orange'}}"><td class="orange">&nbsp;</td><td class="leftmargin rightmargin right">15</td><td class="rightmargin right"><a id="file0_line204"></a><code>204</code></td><td class="percentagebar percentagebar60"><i class="icon-fork"></i></td><td class="lightorange"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(token&nbsp;==&nbsp;null&nbsp;||&nbsp;token.Type&nbsp;is&nbsp;JTokenType.Null&nbsp;or&nbsp;JTokenType.Undefined)</code></td></tr>
+<tr class="coverableline" title="Partially covered (15 visits, 3 of 6 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '15', 'LVS': 'orange'}}"><td class="orange">&nbsp;</td><td class="leftmargin rightmargin right">15</td><td class="rightmargin right"><a id="file0_line204"></a><code>204</code></td><td class="percentagebar percentagebar50"><i class="icon-fork"></i></td><td class="lightorange"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(token&nbsp;==&nbsp;null&nbsp;||&nbsp;token.Type&nbsp;is&nbsp;JTokenType.Null&nbsp;or&nbsp;JTokenType.Undefined)</code></td></tr>
 <tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line205"></a><code>205</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;null;</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line206"></a><code>206</code></td><td></td><td class="lightgray"><code></code></td></tr>
 <tr class="coverableline" title="Covered (15 visits, 4 of 4 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '15', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">15</td><td class="rightmargin right"><a id="file0_line207"></a><code>207</code></td><td class="percentagebar percentagebar100"><i class="icon-fork"></i></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(token.Type&nbsp;is&nbsp;JTokenType.Integer&nbsp;or&nbsp;JTokenType.Float)</code></td></tr>
@@ -386,7 +386,7 @@
 </tbody>
 </table>
 </div>
-<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />11/12/2026 - 09:45:54<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
+<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />11/13/2026 - 09:39:43<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
 <div class="containerright">
 <div class="containerrightfixed">
 <h1>Methods/Properties</h1>

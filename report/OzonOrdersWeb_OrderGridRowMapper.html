@@ -66,20 +66,20 @@
 <div class="card">
 <div class="card-header">Branch coverage</div>
 <div class="card-body">
-<div class="large cardpercentagebar cardpercentagebar30">69%</div>
+<div class="large cardpercentagebar cardpercentagebar31">69%</div>
 <div class="table">
 <table>
 <tr>
 <th>Covered branches:</th>
-<td class="limit-width right" title="174">174</td>
+<td class="limit-width right" title="172">172</td>
 </tr>
 <tr>
 <th>Total branches:</th>
-<td class="limit-width right" title="250">250</td>
+<td class="limit-width right" title="248">248</td>
 </tr>
 <tr>
 <th>Branch coverage:</th>
-<td class="limit-width right" title="174 of 250">69.6%</td>
+<td class="limit-width right" title="172 of 248">69.3%</td>
 </tr>
 </table>
 </div>
@@ -109,7 +109,7 @@
 <tbody>
 <tr><td title="MapBlock(System.Collections.Generic.IReadOnlyList`1&lt;OzonDomains.Models.Order&gt;,System.Collections.Generic.IReadOnlySet`1&lt;System.String&gt;,System.Collections.Generic.IReadOnlyDictionary`2&lt;System.String,System.Boolean&gt;,System.Boolean,System.String)"><a href="#file0_line20" class="navigatetohash">MapBlock(...)</a></td><td>71.05%</td><td>41</td><td>38</td><td>87.87%</td></tr>
 <tr><td title="Map(OzonDomains.Models.Order,System.Collections.Generic.IReadOnlySet`1&lt;System.String&gt;,System.Collections.Generic.IReadOnlyDictionary`2&lt;System.String,System.Boolean&gt;)"><a href="#file0_line83" class="navigatetohash">Map(...)</a></td><td>73.41%</td><td>178</td><td>158</td><td>90.78%</td></tr>
-<tr><td title="IsCancelled(OzonDomains.Models.Order)"><a href="#file0_line325" class="navigatetohash">IsCancelled(...)</a></td><td>92.85%</td><td>14</td><td>14</td><td>100%</td></tr>
+<tr><td title="IsCancelled(OzonDomains.Models.Order)"><a href="#file0_line325" class="navigatetohash">IsCancelled(...)</a></td><td>91.66%</td><td>12</td><td>12</td><td>100%</td></tr>
 <tr><td title="ResolveRowTone(OzonDomains.Models.Order,System.Boolean)"><a href="#file0_line332" class="navigatetohash">ResolveRowTone(...)</a></td><td>100%</td><td>14</td><td>14</td><td>100%</td></tr>
 <tr><td title="Extension(OzonDomains.Models.Order,System.String)"><a href="#file0_line345" class="navigatetohash">Extension(...)</a></td><td>50%</td><td>4</td><td>4</td><td>100%</td></tr>
 <tr><td title="BuildCancellationReason(OzonDomains.Models.Order)"><a href="#file0_line349" class="navigatetohash">BuildCancellationReason(...)</a></td><td>6.25%</td><td>124</td><td>16</td><td>25%</td></tr>
@@ -448,7 +448,7 @@
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line323"></a><code>323</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;static&nbsp;bool&nbsp;IsCancelled(Order&nbsp;o)</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line324"></a><code>324</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
 <tr class="coverableline" title="Covered (18 visits, 2 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '18', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">18</td><td class="rightmargin right"><a id="file0_line325"></a><code>325</code></td><td class="percentagebar percentagebar100"><i class="icon-fork"></i></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;client&nbsp;=&nbsp;o.ClientStatus?.Name;</code></td></tr>
-<tr class="coverableline" title="Partially covered (18 visits, 11 of 12 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '18', 'LVS': 'orange'}}"><td class="orange">&nbsp;</td><td class="leftmargin rightmargin right">18</td><td class="rightmargin right"><a id="file0_line326"></a><code>326</code></td><td class="percentagebar percentagebar90"><i class="icon-fork"></i></td><td class="lightorange"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;(o.AppStatus?.Name&nbsp;==&nbsp;&quot;Отменен&quot;&nbsp;&amp;&amp;&nbsp;(client&nbsp;==&nbsp;&quot;Отменён&quot;&nbsp;||&nbsp;o.ClientStatus&nbsp;==&nbsp;null))</code></td></tr>
+<tr class="coverableline" title="Partially covered (18 visits, 9 of 10 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '18', 'LVS': 'orange'}}"><td class="orange">&nbsp;</td><td class="leftmargin rightmargin right">18</td><td class="rightmargin right"><a id="file0_line326"></a><code>326</code></td><td class="percentagebar percentagebar90"><i class="icon-fork"></i></td><td class="lightorange"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;(o.AppStatus?.Name&nbsp;==&nbsp;&quot;Отменен&quot;&nbsp;&amp;&amp;&nbsp;(client&nbsp;==&nbsp;&quot;Отменён&quot;&nbsp;||&nbsp;o.ClientStatus&nbsp;==&nbsp;null))</code></td></tr>
 <tr class="coverableline" title="Covered (18 visits)" data-coverage="{'AllTestMethods': {'VC': '18', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">18</td><td class="rightmargin right"><a id="file0_line327"></a><code>327</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;||&nbsp;client&nbsp;is&nbsp;&quot;Отменен&quot;&nbsp;or&nbsp;&quot;Отменён&quot;;</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line328"></a><code>328</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line329"></a><code>329</code></td><td></td><td class="lightgray"><code></code></td></tr>
@@ -497,7 +497,7 @@
 </tbody>
 </table>
 </div>
-<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />11/12/2026 - 09:45:55<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
+<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />11/13/2026 - 09:39:43<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
 <div class="containerright">
 <div class="containerrightfixed">
 <h1>Methods/Properties</h1>

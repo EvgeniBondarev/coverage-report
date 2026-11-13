@@ -71,15 +71,15 @@
 <table>
 <tr>
 <th>Covered branches:</th>
-<td class="limit-width right" title="2">2</td>
+<td class="limit-width right" title="1">1</td>
 </tr>
 <tr>
 <th>Total branches:</th>
-<td class="limit-width right" title="4">4</td>
+<td class="limit-width right" title="2">2</td>
 </tr>
 <tr>
 <th>Branch coverage:</th>
-<td class="limit-width right" title="2 of 4">50%</td>
+<td class="limit-width right" title="1 of 2">50%</td>
 </tr>
 </table>
 </div>
@@ -124,7 +124,7 @@
 <tr><td title="get_ExpiresAt()"><a href="#file0_line58" class="navigatetohash">get_ExpiresAt()</a></td><td>100%</td><td>1</td><td>1</td><td>100%</td></tr>
 <tr><td title="get_IsAnalog()"><a href="#file0_line60" class="navigatetohash">get_IsAnalog()</a></td><td>100%</td><td>1</td><td>1</td><td>100%</td></tr>
 <tr><td title="get_PriceRub()"><a href="#file0_line61" class="navigatetohash">get_PriceRub()</a></td><td>100%</td><td>1</td><td>1</td><td>100%</td></tr>
-<tr><td title="get_InStock()"><a href="#file0_line62" class="navigatetohash">get_InStock()</a></td><td>50%</td><td>4</td><td>4</td><td>100%</td></tr>
+<tr><td title="get_InStock()"><a href="#file0_line62" class="navigatetohash">get_InStock()</a></td><td>50%</td><td>2</td><td>2</td><td>100%</td></tr>
 <tr><td title="IsExpired(System.DateTimeOffset)"><a href="#file0_line64" class="navigatetohash">IsExpired(...)</a></td><td>100%</td><td>2</td><td>1</td><td>0%</td></tr>
 </tbody>
 </table>
@@ -196,7 +196,7 @@
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line59"></a><code>59</code></td><td></td><td class="lightgray"><code></code></td></tr>
 <tr class="coverableline" title="Covered (4 visits)" data-coverage="{'AllTestMethods': {'VC': '4', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">4</td><td class="rightmargin right"><a id="file0_line60"></a><code>60</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;[JsonIgnore]&nbsp;public&nbsp;bool&nbsp;IsAnalog&nbsp;=&gt;&nbsp;string.Equals(Match,&nbsp;&quot;analog&quot;,&nbsp;StringComparison.OrdinalIgnoreCase);</code></td></tr>
 <tr class="coverableline" title="Covered (1 visits)" data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line61"></a><code>61</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;[JsonIgnore]&nbsp;public&nbsp;decimal&nbsp;PriceRub&nbsp;=&gt;&nbsp;PriceKopecks&nbsp;/&nbsp;100m;</code></td></tr>
-<tr class="coverableline" title="Partially covered (1 visits, 2 of 4 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'orange'}}"><td class="orange">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line62"></a><code>62</code></td><td class="percentagebar percentagebar50"><i class="icon-fork"></i></td><td class="lightorange"><code>&nbsp;&nbsp;&nbsp;&nbsp;[JsonIgnore]&nbsp;public&nbsp;bool&nbsp;InStock&nbsp;=&gt;&nbsp;QuantityAvailable&nbsp;is&nbsp;null&nbsp;or&nbsp;&gt;&nbsp;0;</code></td></tr>
+<tr class="coverableline" title="Partially covered (1 visits, 1 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'orange'}}"><td class="orange">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line62"></a><code>62</code></td><td class="percentagebar percentagebar50"><i class="icon-fork"></i></td><td class="lightorange"><code>&nbsp;&nbsp;&nbsp;&nbsp;[JsonIgnore]&nbsp;public&nbsp;bool&nbsp;InStock&nbsp;=&gt;&nbsp;QuantityAvailable&nbsp;is&nbsp;null&nbsp;or&nbsp;&gt;&nbsp;0;</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line63"></a><code>63</code></td><td></td><td class="lightgray"><code></code></td></tr>
 <tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line64"></a><code>64</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;bool&nbsp;IsExpired(DateTimeOffset&nbsp;now)&nbsp;=&gt;&nbsp;ExpiresAt&nbsp;&lt;=&nbsp;now;</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line65"></a><code>65</code></td><td></td><td class="lightgray"><code>}</code></td></tr>
@@ -242,7 +242,7 @@
 </tbody>
 </table>
 </div>
-<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />11/12/2026 - 09:45:59<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
+<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />11/13/2026 - 09:39:47<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
 <div class="containerright">
 <div class="containerrightfixed">
 <h1>Methods/Properties</h1>

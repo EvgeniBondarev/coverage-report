@@ -75,11 +75,11 @@
 </tr>
 <tr>
 <th>Total branches:</th>
-<td class="limit-width right" title="310">310</td>
+<td class="limit-width right" title="308">308</td>
 </tr>
 <tr>
 <th>Branch coverage:</th>
-<td class="limit-width right" title="0 of 310">0%</td>
+<td class="limit-width right" title="0 of 308">0%</td>
 </tr>
 </table>
 </div>
@@ -134,7 +134,7 @@
 <tr><td title="ParseStringArray(System.String)"><a href="#file0_line896" class="navigatetohash">ParseStringArray(...)</a></td><td>0%</td><td>6</td><td>2</td><td>0%</td></tr>
 <tr><td title="ParseLongArray(System.String)"><a href="#file0_line906" class="navigatetohash">ParseLongArray(...)</a></td><td>0%</td><td>6</td><td>2</td><td>0%</td></tr>
 <tr><td title="GuessContentTypeForReportFile(System.String)"><a href="#file0_line915" class="navigatetohash">GuessContentTypeForReportFile(...)</a></td><td>0%</td><td>20</td><td>4</td><td>0%</td></tr>
-<tr><td title="BuildReportFileName(System.String)"><a href="#file0_line924" class="navigatetohash">BuildReportFileName(...)</a></td><td>0%</td><td>110</td><td>10</td><td>0%</td></tr>
+<tr><td title="BuildReportFileName(System.String)"><a href="#file0_line924" class="navigatetohash">BuildReportFileName(...)</a></td><td>0%</td><td>72</td><td>8</td><td>0%</td></tr>
 <tr><td title="Percentage()"><a href="#file0_line931" class="navigatetohash">Percentage()</a></td><td>0%</td><td>600</td><td>24</td><td>0%</td></tr>
 <tr><td title="RunBackgroundCacheTask(System.Collections.Generic.List`1&lt;OzonDomains.Models.Order&gt;)"><a href="#file0_line1005" class="navigatetohash">RunBackgroundCacheTask(...)</a></td><td>100%</td><td>2</td><td>1</td><td>0%</td></tr>
 <tr><td title="Percentage()"><a href="#file0_line1040" class="navigatetohash">Percentage()</a></td><td>0%</td><td>506</td><td>22</td><td>0%</td></tr>
@@ -1072,7 +1072,7 @@
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line921"></a><code>921</code></td><td></td><td class="lightgray"><code></code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line922"></a><code>922</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;static&nbsp;string&nbsp;BuildReportFileName(string&nbsp;reportCode)</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line923"></a><code>923</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
-<tr class="coverableline" title="Not covered (0 visits, 0 of 8 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line924"></a><code>924</code></td><td class="percentagebar percentagebar0"><i class="icon-fork"></i></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;safeCode&nbsp;=&nbsp;string.Concat(reportCode.Select(ch&nbsp;=&gt;&nbsp;char.IsLetterOrDigit(ch)&nbsp;||&nbsp;ch&nbsp;is&nbsp;&#39;-&#39;&nbsp;or&nbsp;&#39;_&#39;&nbsp;?&nbsp;ch&nbsp;:&nbsp;&#39;_&#39;));</code></td></tr>
+<tr class="coverableline" title="Not covered (0 visits, 0 of 6 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line924"></a><code>924</code></td><td class="percentagebar percentagebar0"><i class="icon-fork"></i></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;safeCode&nbsp;=&nbsp;string.Concat(reportCode.Select(ch&nbsp;=&gt;&nbsp;char.IsLetterOrDigit(ch)&nbsp;||&nbsp;ch&nbsp;is&nbsp;&#39;-&#39;&nbsp;or&nbsp;&#39;_&#39;&nbsp;?&nbsp;ch&nbsp;:&nbsp;&#39;_&#39;));</code></td></tr>
 <tr class="coverableline" title="Not covered (0 visits, 0 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line925"></a><code>925</code></td><td class="percentagebar percentagebar0"><i class="icon-fork"></i></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;ext&nbsp;=&nbsp;reportCode.Contains(&quot;returns&quot;,&nbsp;StringComparison.OrdinalIgnoreCase)&nbsp;?&nbsp;&quot;.xlsx&quot;&nbsp;:&nbsp;&quot;.csv&quot;;</code></td></tr>
 <tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line926"></a><code>926</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;$&quot;{safeCode}{ext}&quot;;</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line927"></a><code>927</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
@@ -1299,7 +1299,7 @@
 </tbody>
 </table>
 </div>
-<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />11/12/2026 - 09:45:54<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
+<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />11/13/2026 - 09:39:43<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
 <div class="containerright">
 <div class="containerrightfixed">
 <h1>Methods/Properties</h1>

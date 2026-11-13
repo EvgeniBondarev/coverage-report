@@ -66,20 +66,20 @@
 <div class="card">
 <div class="card-header">Branch coverage</div>
 <div class="card-body">
-<div class="large cardpercentagebar cardpercentagebar32">67%</div>
+<div class="large cardpercentagebar cardpercentagebar32">68%</div>
 <div class="table">
 <table>
 <tr>
 <th>Covered branches:</th>
-<td class="limit-width right" title="57">57</td>
+<td class="limit-width right" title="56">56</td>
 </tr>
 <tr>
 <th>Total branches:</th>
-<td class="limit-width right" title="84">84</td>
+<td class="limit-width right" title="82">82</td>
 </tr>
 <tr>
 <th>Branch coverage:</th>
-<td class="limit-width right" title="57 of 84">67.8%</td>
+<td class="limit-width right" title="56 of 82">68.2%</td>
 </tr>
 </table>
 </div>
@@ -116,7 +116,7 @@
 <tr><td title="GetWaybillAsync()"><a href="#file0_line109" class="navigatetohash">GetWaybillAsync()</a></td><td>58.33%</td><td>14</td><td>12</td><td>75%</td></tr>
 <tr><td title="GetWithReloginAsync()"><a href="#file0_line129" class="navigatetohash">GetWithReloginAsync()</a></td><td>30%</td><td>30</td><td>10</td><td>41.66%</td></tr>
 <tr><td title="TryGetAsync()"><a href="#file0_line147" class="navigatetohash">TryGetAsync()</a></td><td>100%</td><td>4</td><td>4</td><td>100%</td></tr>
-<tr><td title="FollowAsync()"><a href="#file0_line157" class="navigatetohash">FollowAsync()</a></td><td>50%</td><td>10</td><td>10</td><td>83.33%</td></tr>
+<tr><td title="FollowAsync()"><a href="#file0_line157" class="navigatetohash">FollowAsync()</a></td><td>50%</td><td>8</td><td>8</td><td>83.33%</td></tr>
 <tr><td title="LooksLikeJson(System.String)"><a href="#file0_line166" class="navigatetohash">LooksLikeJson(...)</a></td><td>50%</td><td>2</td><td>2</td><td>100%</td></tr>
 <tr><td title="HiddenFields(System.String)"><a href="#file0_line170" class="navigatetohash">HiddenFields(...)</a></td><td>66.66%</td><td>8</td><td>6</td><td>62.5%</td></tr>
 <tr><td title="CookieNames()"><a href="#file0_line183" class="navigatetohash">CookieNames()</a></td><td>100%</td><td>1</td><td>1</td><td>100%</td></tr>
@@ -290,7 +290,7 @@
 <tr class="coverableline" title="Partially covered (20 visits, 1 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '20', 'LVS': 'orange'}}"><td class="orange">&nbsp;</td><td class="leftmargin rightmargin right">20</td><td class="rightmargin right"><a id="file0_line157"></a><code>157</code></td><td class="percentagebar percentagebar50"><i class="icon-fork"></i></td><td class="lightorange"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for&nbsp;(var&nbsp;hop&nbsp;=&nbsp;0;&nbsp;hop&nbsp;&lt;&nbsp;5;&nbsp;hop++)</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line158"></a><code>158</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
 <tr class="coverableline" title="Covered (10 visits)" data-coverage="{'AllTestMethods': {'VC': '10', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">10</td><td class="rightmargin right"><a id="file0_line159"></a><code>159</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;using&nbsp;var&nbsp;response&nbsp;=&nbsp;await&nbsp;SendAsync(HttpMethod.Get,&nbsp;uri.ToString(),&nbsp;null,&nbsp;ct);</code></td></tr>
-<tr class="coverableline" title="Partially covered (10 visits, 4 of 8 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '10', 'LVS': 'orange'}}"><td class="orange">&nbsp;</td><td class="leftmargin rightmargin right">10</td><td class="rightmargin right"><a id="file0_line160"></a><code>160</code></td><td class="percentagebar percentagebar50"><i class="icon-fork"></i></td><td class="lightorange"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;((int)response.StatusCode&nbsp;is&nbsp;&lt;&nbsp;300&nbsp;or&nbsp;&gt;=&nbsp;400&nbsp;||&nbsp;response.Headers.Location&nbsp;==&nbsp;null)</code></td></tr>
+<tr class="coverableline" title="Partially covered (10 visits, 3 of 6 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '10', 'LVS': 'orange'}}"><td class="orange">&nbsp;</td><td class="leftmargin rightmargin right">10</td><td class="rightmargin right"><a id="file0_line160"></a><code>160</code></td><td class="percentagebar percentagebar50"><i class="icon-fork"></i></td><td class="lightorange"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;((int)response.StatusCode&nbsp;is&nbsp;&lt;&nbsp;300&nbsp;or&nbsp;&gt;=&nbsp;400&nbsp;||&nbsp;response.Headers.Location&nbsp;==&nbsp;null)</code></td></tr>
 <tr class="coverableline" title="Covered (10 visits)" data-coverage="{'AllTestMethods': {'VC': '10', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">10</td><td class="rightmargin right"><a id="file0_line161"></a><code>161</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return;</code></td></tr>
 <tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line162"></a><code>162</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uri&nbsp;=&nbsp;new&nbsp;Uri(uri,&nbsp;response.Headers.Location);</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line163"></a><code>163</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
@@ -387,7 +387,7 @@
 </tbody>
 </table>
 </div>
-<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />11/12/2026 - 09:45:59<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
+<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />11/13/2026 - 09:39:47<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
 <div class="containerright">
 <div class="containerrightfixed">
 <h1>Methods/Properties</h1>

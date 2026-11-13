@@ -66,20 +66,20 @@
 <div class="card">
 <div class="card-header">Branch coverage</div>
 <div class="card-body">
-<div class="large cardpercentagebar cardpercentagebar30">70%</div>
+<div class="large cardpercentagebar cardpercentagebar30">69%</div>
 <div class="table">
 <table>
 <tr>
 <th>Covered branches:</th>
-<td class="limit-width right" title="74">74</td>
+<td class="limit-width right" title="72">72</td>
 </tr>
 <tr>
 <th>Total branches:</th>
-<td class="limit-width right" title="105">105</td>
+<td class="limit-width right" title="103">103</td>
 </tr>
 <tr>
 <th>Branch coverage:</th>
-<td class="limit-width right" title="74 of 105">70.4%</td>
+<td class="limit-width right" title="72 of 103">69.9%</td>
 </tr>
 </table>
 </div>
@@ -115,7 +115,7 @@
 <tr><td title="StockState(System.Collections.Generic.List`1&lt;OzonDomains.Models.OneCOzonSync.OneCOzonSyncRunLine&gt;,OzonDomains.Models.OneCOzonSync.OneCOzonSyncRunMode)"><a href="#file0_line161" class="navigatetohash">StockState(...)</a></td><td>100%</td><td>2</td><td>2</td><td>100%</td></tr>
 <tr><td title="Severity(Services.OneCOzonSyncServices.OneCOzonPartState)"><a href="#file0_line167" class="navigatetohash">Severity(...)</a></td><td>75%</td><td>8</td><td>8</td><td>100%</td></tr>
 <tr><td title="PartState(OzonDomains.Models.OneCOzonSync.OneCOzonSyncRunLine,OzonDomains.Models.OneCOzonSync.OneCOzonSyncRunMode,System.Boolean)"><a href="#file0_line175" class="navigatetohash">PartState(...)</a></td><td>93.33%</td><td>15</td><td>15</td><td>90.9%</td></tr>
-<tr><td title="GetLogAsync()"><a href="#file0_line190" class="navigatetohash">GetLogAsync()</a></td><td>100%</td><td>12</td><td>12</td><td>100%</td></tr>
+<tr><td title="GetLogAsync()"><a href="#file0_line190" class="navigatetohash">GetLogAsync()</a></td><td>100%</td><td>10</td><td>10</td><td>100%</td></tr>
 <tr><td title="GetLinesAsync()"><a href="#file0_line207" class="navigatetohash">GetLinesAsync()</a></td><td>0%</td><td>272</td><td>16</td><td>0%</td></tr>
 <tr><td title=".cctor()"><a href="#file0_line240" class="navigatetohash">.cctor()</a></td><td>100%</td><td>2</td><td>1</td><td>0%</td></tr>
 </tbody>
@@ -325,7 +325,7 @@
 <tr class="coverableline" title="Covered (5 visits)" data-coverage="{'AllTestMethods': {'VC': '5', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">5</td><td class="rightmargin right"><a id="file0_line196"></a><code>196</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.Where(l&nbsp;=&gt;&nbsp;l.RunId&nbsp;==&nbsp;runId&nbsp;&amp;&amp;&nbsp;l.Id&nbsp;&gt;&nbsp;afterId).OrderBy(l&nbsp;=&gt;&nbsp;l.Id).Take(Math.Clamp(take,&nbsp;1,&nbsp;1000))</code></td></tr>
 <tr class="coverableline" title="Covered (5 visits)" data-coverage="{'AllTestMethods': {'VC': '5', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">5</td><td class="rightmargin right"><a id="file0_line197"></a><code>197</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.Select(l&nbsp;=&gt;&nbsp;new&nbsp;OneCOzonRunLogEntry(l.Id,&nbsp;l.AtUtc,&nbsp;l.Level,&nbsp;l.Stage,&nbsp;l.Message,&nbsp;l.OfferId)).ToListAsync(ct)</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line198"></a><code>198</code></td><td></td><td class="lightgray"><code></code></td></tr>
-<tr class="coverableline" title="Covered (5 visits, 4 of 4 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '5', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">5</td><td class="rightmargin right"><a id="file0_line199"></a><code>199</code></td><td class="percentagebar percentagebar100"><i class="icon-fork"></i></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;finished&nbsp;=&nbsp;run.Status&nbsp;is&nbsp;not&nbsp;(OneCOzonSyncRunStatus.Queued&nbsp;or&nbsp;OneCOzonSyncRunStatus.Running);</code></td></tr>
+<tr class="coverableline" title="Covered (5 visits, 2 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '5', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">5</td><td class="rightmargin right"><a id="file0_line199"></a><code>199</code></td><td class="percentagebar percentagebar100"><i class="icon-fork"></i></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;finished&nbsp;=&nbsp;run.Status&nbsp;is&nbsp;not&nbsp;(OneCOzonSyncRunStatus.Queued&nbsp;or&nbsp;OneCOzonSyncRunStatus.Running);</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line200"></a><code>200</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;Закончился&nbsp;ли&nbsp;запуск&nbsp;—&nbsp;недостаточно:&nbsp;итоговая&nbsp;запись&nbsp;могла&nbsp;попасть&nbsp;в&nbsp;БД&nbsp;уже&nbsp;после&nbsp;этого&nbsp;чтения,&nbsp;поэтому&nbsp;&#171;fini</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line201"></a><code>201</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;отдаётся&nbsp;только&nbsp;когда&nbsp;новых&nbsp;записей&nbsp;нет.</code></td></tr>
 <tr class="coverableline" title="Covered (5 visits, 6 of 6 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '5', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">5</td><td class="rightmargin right"><a id="file0_line202"></a><code>202</code></td><td class="percentagebar percentagebar100"><i class="icon-fork"></i></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;new&nbsp;OneCOzonRunLogPage(items,&nbsp;items.Count&nbsp;&gt;&nbsp;0&nbsp;?&nbsp;items[^1].Id&nbsp;:&nbsp;afterId,&nbsp;finished&nbsp;&amp;&amp;&nbsp;items.Count&nbsp;==&nbsp;0,&nbsp;run</code></td></tr>
@@ -374,7 +374,7 @@
 </tbody>
 </table>
 </div>
-<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />11/12/2026 - 09:46:00<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
+<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />11/13/2026 - 09:39:47<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
 <div class="containerright">
 <div class="containerrightfixed">
 <h1>Methods/Properties</h1>

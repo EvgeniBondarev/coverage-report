@@ -75,11 +75,11 @@
 </tr>
 <tr>
 <th>Total branches:</th>
-<td class="limit-width right" title="162">162</td>
+<td class="limit-width right" title="160">160</td>
 </tr>
 <tr>
 <th>Branch coverage:</th>
-<td class="limit-width right" title="0 of 162">0%</td>
+<td class="limit-width right" title="0 of 160">0%</td>
 </tr>
 </table>
 </div>
@@ -109,7 +109,7 @@
 <tbody>
 <tr><td title=".ctor(OzonRepositories.Context.ApplicationDbContext,Services.DataServices.AppStatusDataServices,Services.DataServices.OrdersDataServices,Services.TransactionUtilsServices.TransactionManager,Services.CacheServices.Cache.OzonOrdersCache.TransactionCache,Services.DataServices.SupplierDataServices,Services.CacheServices.Cache.UserCacheService.IUserCacheService,OzonOrdersWeb.WebServices.Currency.ICurrencyRatesViewBagService,Services.CacheServices.Cache.CacheUpdater`1&lt;OzonDomains.Models.Order&gt;,Services.CacheServices.Cache.OzonOrdersCache.OrderCache,Services.DataServices.WarehouseDataServices,Services.DataServices.ExpenseTypeDataServices,Services.DataServices.OrderExtraExpenseDataServices,Services.DataServices.StatusTransitionDataServices,Services.ApiServices.OneCDataManager,Services.ApiServices._1CApi.OneCTransferManager,Services.Authorization.Services.IScopeFilterValuesService,Services.BackgroundJobsServices.WarehouseSelectionResolver,Services.ApiServices.OzonApi.OzonOrderCancellationService)"><a href="#file0_line51" class="navigatetohash">.ctor(...)</a></td><td>100%</td><td>2</td><td>1</td><td>0%</td></tr>
 <tr><td title="GetTransactionConfig()"><a href="#file0_line66" class="navigatetohash">GetTransactionConfig()</a></td><td>0%</td><td>20</td><td>4</td><td>0%</td></tr>
-<tr><td title="GetStandardCustomerReturnTransactionConfig()"><a href="#file0_line75" class="navigatetohash">GetStandardCustomerReturnTransactionConfig()</a></td><td>0%</td><td>110</td><td>10</td><td>0%</td></tr>
+<tr><td title="GetStandardCustomerReturnTransactionConfig()"><a href="#file0_line75" class="navigatetohash">GetStandardCustomerReturnTransactionConfig()</a></td><td>0%</td><td>72</td><td>8</td><td>0%</td></tr>
 <tr><td title="GetCustomerReturnFromFileTransactionConfig()"><a href="#file0_line93" class="navigatetohash">GetCustomerReturnFromFileTransactionConfig()</a></td><td>0%</td><td>6</td><td>2</td><td>0%</td></tr>
 <tr><td title="IsMarketplaceCancelled(OzonDomains.Models.Order)"><a href="#file0_line134" class="navigatetohash">IsMarketplaceCancelled(...)</a></td><td>0%</td><td>156</td><td>12</td><td>0%</td></tr>
 <tr><td title="CreateCustomerReturnTransactionFromFile()"><a href="#file0_line156" class="navigatetohash">CreateCustomerReturnTransactionFromFile()</a></td><td>100%</td><td>2</td><td>1</td><td>0%</td></tr>
@@ -213,7 +213,7 @@
 <tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line83"></a><code>83</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LoadWarehouseListForSelector&nbsp;=&nbsp;true,</code></td></tr>
 <tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line84"></a><code>84</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UseCustomWarehousesFor1C&nbsp;=&nbsp;true,</code></td></tr>
 <tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line85"></a><code>85</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OrderFilter&nbsp;=&nbsp;order&nbsp;=&gt;</code></td></tr>
-<tr class="coverableline" title="Not covered (0 visits, 0 of 10 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line86"></a><code>86</code></td><td class="percentagebar percentagebar0"><i class="icon-fork"></i></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IsMarketplaceCancelled(order)&nbsp;||</code></td></tr>
+<tr class="coverableline" title="Not covered (0 visits, 0 of 8 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line86"></a><code>86</code></td><td class="percentagebar percentagebar0"><i class="icon-fork"></i></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IsMarketplaceCancelled(order)&nbsp;||</code></td></tr>
 <tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line87"></a><code>87</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;order.AppStatus?.Name&nbsp;is&nbsp;&quot;Отгружен&nbsp;клиенту&quot;&nbsp;or&nbsp;&quot;Отгружен&nbsp;комиссионеру&quot;&nbsp;or&nbsp;&quot;Отменен&quot;,</code></td></tr>
 <tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line88"></a><code>88</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CreateTransactionMethod&nbsp;=&nbsp;(tm,&nbsp;orders,&nbsp;userName,&nbsp;createAt,&nbsp;comment)&nbsp;=&gt;</code></td></tr>
 <tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line89"></a><code>89</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tm.CreateCustomerReturnTransaction(orders,&nbsp;userName,&nbsp;createAt,&nbsp;comment)</code></td></tr>
@@ -607,7 +607,7 @@
 </tbody>
 </table>
 </div>
-<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />11/12/2026 - 09:45:54<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
+<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />11/13/2026 - 09:39:43<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
 <div class="containerright">
 <div class="containerrightfixed">
 <h1>Methods/Properties</h1>

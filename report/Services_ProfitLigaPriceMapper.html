@@ -71,15 +71,15 @@
 <table>
 <tr>
 <th>Covered branches:</th>
-<td class="limit-width right" title="71">71</td>
+<td class="limit-width right" title="69">69</td>
 </tr>
 <tr>
 <th>Total branches:</th>
-<td class="limit-width right" title="86">86</td>
+<td class="limit-width right" title="84">84</td>
 </tr>
 <tr>
 <th>Branch coverage:</th>
-<td class="limit-width right" title="71 of 86">82.5%</td>
+<td class="limit-width right" title="69 of 84">82.1%</td>
 </tr>
 </table>
 </div>
@@ -109,7 +109,7 @@
 <tbody>
 <tr><td title="MapOriginals(Newtonsoft.Json.Linq.JToken,System.String,System.String,System.Nullable`1&lt;System.Int32&gt;,System.String,Services.ApiServices.ProfitLigaApi.ProfitLigaQuotationDestination)"><a href="#file0_line31" class="navigatetohash">MapOriginals(...)</a></td><td>100%</td><td>12</td><td>12</td><td>100%</td></tr>
 <tr><td title="MapOffer(Newtonsoft.Json.Linq.JObject,System.String,System.String,System.String,System.String,System.Nullable`1&lt;System.Int32&gt;,System.String,Services.ApiServices.ProfitLigaApi.ProfitLigaQuotationDestination)"><a href="#file0_line58" class="navigatetohash">MapOffer(...)</a></td><td>82.35%</td><td>34</td><td>34</td><td>100%</td></tr>
-<tr><td title="ToDeliveryDays(System.Nullable`1&lt;System.Int32&gt;)"><a href="#file0_line122" class="navigatetohash">ToDeliveryDays(...)</a></td><td>100%</td><td>6</td><td>6</td><td>100%</td></tr>
+<tr><td title="ToDeliveryDays(System.Nullable`1&lt;System.Int32&gt;)"><a href="#file0_line122" class="navigatetohash">ToDeliveryDays(...)</a></td><td>100%</td><td>4</td><td>4</td><td>100%</td></tr>
 <tr><td title="BuildDescription(Newtonsoft.Json.Linq.JObject,System.Int32,System.String)"><a href="#file0_line126" class="navigatetohash">BuildDescription(...)</a></td><td>77.27%</td><td>24</td><td>22</td><td>85%</td></tr>
 <tr><td title="FormatDeliveryDate(System.String)"><a href="#file0_line164" class="navigatetohash">FormatDeliveryDate(...)</a></td><td>75%</td><td>4</td><td>4</td><td>100%</td></tr>
 <tr><td title="DecodeHtml(System.String)"><a href="#file0_line174" class="navigatetohash">DecodeHtml(...)</a></td><td>66.66%</td><td>6</td><td>6</td><td>80%</td></tr>
@@ -244,7 +244,7 @@
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line119"></a><code>119</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;summary&gt;API&nbsp;отдаёт&nbsp;срок&nbsp;в&nbsp;часах;&nbsp;общая&nbsp;таблица&nbsp;проценки&nbsp;оперирует&nbsp;днями,</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line120"></a><code>120</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;а&nbsp;часовую&nbsp;надбавку&nbsp;поставщика&nbsp;добавляет&nbsp;SupplierDeliverySurchargeFilter.&lt;/summary&gt;</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line121"></a><code>121</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;static&nbsp;int&nbsp;ToDeliveryDays(int?&nbsp;deliveryHours)&nbsp;=&gt;</code></td></tr>
-<tr class="coverableline" title="Covered (32 visits, 6 of 6 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '32', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">32</td><td class="rightmargin right"><a id="file0_line122"></a><code>122</code></td><td class="percentagebar percentagebar100"><i class="icon-fork"></i></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;deliveryHours&nbsp;is&nbsp;null&nbsp;or&nbsp;&lt;=&nbsp;0&nbsp;?&nbsp;0&nbsp;:&nbsp;(int)Math.Ceiling(deliveryHours.Value&nbsp;/&nbsp;24m);</code></td></tr>
+<tr class="coverableline" title="Covered (32 visits, 4 of 4 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '32', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">32</td><td class="rightmargin right"><a id="file0_line122"></a><code>122</code></td><td class="percentagebar percentagebar100"><i class="icon-fork"></i></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;deliveryHours&nbsp;is&nbsp;null&nbsp;or&nbsp;&lt;=&nbsp;0&nbsp;?&nbsp;0&nbsp;:&nbsp;(int)Math.Ceiling(deliveryHours.Value&nbsp;/&nbsp;24m);</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line123"></a><code>123</code></td><td></td><td class="lightgray"><code></code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line124"></a><code>124</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;static&nbsp;string&nbsp;BuildDescription(JObject&nbsp;offer,&nbsp;int&nbsp;multi,&nbsp;string?&nbsp;warehouseName)</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line125"></a><code>125</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
@@ -313,7 +313,7 @@
 </tbody>
 </table>
 </div>
-<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />11/12/2026 - 09:45:59<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
+<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />11/13/2026 - 09:39:47<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
 <div class="containerright">
 <div class="containerrightfixed">
 <h1>Methods/Properties</h1>
