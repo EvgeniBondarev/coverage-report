@@ -45,19 +45,19 @@
 </tr>
 <tr>
 <th>Uncovered lines:</th>
-<td class="limit-width right" title="79">79</td>
+<td class="limit-width right" title="80">80</td>
 </tr>
 <tr>
 <th>Coverable lines:</th>
-<td class="limit-width right" title="79">79</td>
+<td class="limit-width right" title="80">80</td>
 </tr>
 <tr>
 <th>Total lines:</th>
-<td class="limit-width right" title="164">164</td>
+<td class="limit-width right" title="166">166</td>
 </tr>
 <tr>
 <th>Line coverage:</th>
-<td class="limit-width right" title="0 of 79">0%</td>
+<td class="limit-width right" title="0 of 80">0%</td>
 </tr>
 </table>
 </div>
@@ -75,11 +75,11 @@
 </tr>
 <tr>
 <th>Total branches:</th>
-<td class="limit-width right" title="46">46</td>
+<td class="limit-width right" title="48">48</td>
 </tr>
 <tr>
 <th>Branch coverage:</th>
-<td class="limit-width right" title="0 of 46">0%</td>
+<td class="limit-width right" title="0 of 48">0%</td>
 </tr>
 </table>
 </div>
@@ -112,7 +112,7 @@
 <tr><td title="GetPriceAsync()"><a href="#file0_line52" class="navigatetohash">GetPriceAsync()</a></td><td>0%</td><td>342</td><td>18</td><td>0%</td></tr>
 <tr><td title="ReadRegisterPriceAsync()"><a href="#file0_line88" class="navigatetohash">ReadRegisterPriceAsync()</a></td><td>0%</td><td>20</td><td>4</td><td>0%</td></tr>
 <tr><td title="ReadLastReceiptAsync()"><a href="#file0_line103" class="navigatetohash">ReadLastReceiptAsync()</a></td><td>0%</td><td>156</td><td>12</td><td>0%</td></tr>
-<tr><td title="ReadCurrencyNameAsync()"><a href="#file0_line157" class="navigatetohash">ReadCurrencyNameAsync()</a></td><td>0%</td><td>42</td><td>6</td><td>0%</td></tr>
+<tr><td title="ReadCurrencyNameAsync()"><a href="#file0_line159" class="navigatetohash">ReadCurrencyNameAsync()</a></td><td>0%</td><td>42</td><td>6</td><td>0%</td></tr>
 </tbody>
 </table>
 </div>
@@ -271,25 +271,27 @@
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line147"></a><code>147</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line148"></a><code>148</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line149"></a><code>149</code></td><td></td><td class="lightgray"><code></code></td></tr>
-<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line150"></a><code>150</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;candidates.OrderByDescending(c&nbsp;=&gt;&nbsp;c.Date).Select(c&nbsp;=&gt;&nbsp;c.Line).FirstOrDefault();</code></td></tr>
-<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line151"></a><code>151</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
-<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line152"></a><code>152</code></td><td></td><td class="lightgray"><code></code></td></tr>
-<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line153"></a><code>153</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;readonly&nbsp;Dictionary&lt;Guid,&nbsp;string?&gt;&nbsp;_currencyNames&nbsp;=&nbsp;new();</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line150"></a><code>150</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;Как&nbsp;при&nbsp;накате:&nbsp;приход&nbsp;с&nbsp;нулевой&nbsp;суммой&nbsp;или&nbsp;количеством&nbsp;пропускается,&nbsp;берётся&nbsp;предыдущий&nbsp;с&nbsp;ценой.</code></td></tr>
+<tr class="coverableline" title="Not covered (0 visits, 0 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line151"></a><code>151</code></td><td class="percentagebar percentagebar0"><i class="icon-fork"></i></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;candidates.Where(c&nbsp;=&gt;&nbsp;c.Line.Quantity&nbsp;&gt;&nbsp;0&nbsp;&amp;&amp;&nbsp;c.Line.LineAmount&nbsp;&gt;&nbsp;0)</code></td></tr>
+<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line152"></a><code>152</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.OrderByDescending(c&nbsp;=&gt;&nbsp;c.Date).Select(c&nbsp;=&gt;&nbsp;c.Line).FirstOrDefault();</code></td></tr>
+<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line153"></a><code>153</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line154"></a><code>154</code></td><td></td><td class="lightgray"><code></code></td></tr>
-<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line155"></a><code>155</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;async&nbsp;Task&lt;string?&gt;&nbsp;ReadCurrencyNameAsync(Guid&nbsp;currencyKey,&nbsp;CancellationToken&nbsp;ct)</code></td></tr>
-<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line156"></a><code>156</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
-<tr class="coverableline" title="Not covered (0 visits, 0 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line157"></a><code>157</code></td><td class="percentagebar percentagebar0"><i class="icon-fork"></i></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(currencyKey&nbsp;==&nbsp;Guid.Empty)&nbsp;return&nbsp;null;</code></td></tr>
-<tr class="coverableline" title="Not covered (0 visits, 0 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line158"></a><code>158</code></td><td class="percentagebar percentagebar0"><i class="icon-fork"></i></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(_currencyNames.TryGetValue(currencyKey,&nbsp;out&nbsp;var&nbsp;cached))&nbsp;return&nbsp;cached;</code></td></tr>
-<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line159"></a><code>159</code></td><td></td><td class="lightgray"><code></code></td></tr>
-<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line160"></a><code>160</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;rows&nbsp;=&nbsp;await&nbsp;_client.GetListAsync&lt;CurrencyRow&gt;(&quot;Catalog_Валюты&quot;,</code></td></tr>
-<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line161"></a><code>161</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;string&gt;&nbsp;{&nbsp;[&quot;$filter&quot;]&nbsp;=&nbsp;$&quot;Ref_Key&nbsp;eq&nbsp;guid&#39;{currencyKey}&#39;&quot;,&nbsp;[&quot;$select&quot;]&nbsp;=&nbsp;&quot;Ref_Key,Des</code></td></tr>
-<tr class="coverableline" title="Not covered (0 visits, 0 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line162"></a><code>162</code></td><td class="percentagebar percentagebar0"><i class="icon-fork"></i></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;_currencyNames[currencyKey]&nbsp;=&nbsp;rows.FirstOrDefault()?.Description;</code></td></tr>
-<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line163"></a><code>163</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
-<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line164"></a><code>164</code></td><td></td><td class="lightgray"><code>}</code></td></tr>
+<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line155"></a><code>155</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;readonly&nbsp;Dictionary&lt;Guid,&nbsp;string?&gt;&nbsp;_currencyNames&nbsp;=&nbsp;new();</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line156"></a><code>156</code></td><td></td><td class="lightgray"><code></code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line157"></a><code>157</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;async&nbsp;Task&lt;string?&gt;&nbsp;ReadCurrencyNameAsync(Guid&nbsp;currencyKey,&nbsp;CancellationToken&nbsp;ct)</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line158"></a><code>158</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr class="coverableline" title="Not covered (0 visits, 0 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line159"></a><code>159</code></td><td class="percentagebar percentagebar0"><i class="icon-fork"></i></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(currencyKey&nbsp;==&nbsp;Guid.Empty)&nbsp;return&nbsp;null;</code></td></tr>
+<tr class="coverableline" title="Not covered (0 visits, 0 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line160"></a><code>160</code></td><td class="percentagebar percentagebar0"><i class="icon-fork"></i></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(_currencyNames.TryGetValue(currencyKey,&nbsp;out&nbsp;var&nbsp;cached))&nbsp;return&nbsp;cached;</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line161"></a><code>161</code></td><td></td><td class="lightgray"><code></code></td></tr>
+<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line162"></a><code>162</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;rows&nbsp;=&nbsp;await&nbsp;_client.GetListAsync&lt;CurrencyRow&gt;(&quot;Catalog_Валюты&quot;,</code></td></tr>
+<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line163"></a><code>163</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;new&nbsp;Dictionary&lt;string,&nbsp;string&gt;&nbsp;{&nbsp;[&quot;$filter&quot;]&nbsp;=&nbsp;$&quot;Ref_Key&nbsp;eq&nbsp;guid&#39;{currencyKey}&#39;&quot;,&nbsp;[&quot;$select&quot;]&nbsp;=&nbsp;&quot;Ref_Key,Des</code></td></tr>
+<tr class="coverableline" title="Not covered (0 visits, 0 of 2 branches are covered)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line164"></a><code>164</code></td><td class="percentagebar percentagebar0"><i class="icon-fork"></i></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;_currencyNames[currencyKey]&nbsp;=&nbsp;rows.FirstOrDefault()?.Description;</code></td></tr>
+<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line165"></a><code>165</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line166"></a><code>166</code></td><td></td><td class="lightgray"><code>}</code></td></tr>
 </tbody>
 </table>
 </div>
-<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />11/13/2026 - 09:39:47<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
+<div class="footer">Generated by: ReportGenerator 5.5.11.0<br />11/14/2026 - 09:03:59<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="https://reportgenerator.io">reportgenerator.io</a></div></div>
 <div class="containerright">
 <div class="containerrightfixed">
 <h1>Methods/Properties</h1>
@@ -298,7 +300,7 @@
 <a href="#file0_line52" class="navigatetohash percentagebar percentagebar0" title="Line coverage: 0% - GetPriceAsync()"><i class="icon-cube"></i>GetPriceAsync()</a><br />
 <a href="#file0_line88" class="navigatetohash percentagebar percentagebar0" title="Line coverage: 0% - ReadRegisterPriceAsync()"><i class="icon-cube"></i>ReadRegisterPriceAsync()</a><br />
 <a href="#file0_line103" class="navigatetohash percentagebar percentagebar0" title="Line coverage: 0% - ReadLastReceiptAsync()"><i class="icon-cube"></i>ReadLastReceiptAsync()</a><br />
-<a href="#file0_line157" class="navigatetohash percentagebar percentagebar0" title="Line coverage: 0% - ReadCurrencyNameAsync()"><i class="icon-cube"></i>ReadCurrencyNameAsync()</a><br />
+<a href="#file0_line159" class="navigatetohash percentagebar percentagebar0" title="Line coverage: 0% - ReadCurrencyNameAsync()"><i class="icon-cube"></i>ReadCurrencyNameAsync()</a><br />
 <br/></div>
 </div></div>
 <script type="text/javascript" src="class.js"></script>

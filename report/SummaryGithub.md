@@ -3,30 +3,30 @@
 
 |||
 |:---|:---|
-| Generated on: | 11/13/2026 - 09:39:49 |
-| Coverage date: | 11/13/2026 - 09:32:46 - 11/13/2026 - 09:39:25 |
+| Generated on: | 11/14/2026 - 09:04:01 |
+| Coverage date: | 11/14/2026 - 08:59:00 - 11/14/2026 - 09:03:38 |
 | Parser: | MultiReport (2x Cobertura) |
 | Assemblies: | 5 |
-| Classes: | 3286 |
-| Files: | 2197 |
-| **Line coverage:** | 8.5% (60823 of 714531) |
-| Covered lines: | 60823 |
-| Uncovered lines: | 653708 |
-| Coverable lines: | 714531 |
-| Total lines: | 897886 |
-| **Branch coverage:** | 30.7% (28677 of 93324) |
-| Covered branches: | 28677 |
-| Total branches: | 93324 |
+| Classes: | 3289 |
+| Files: | 2199 |
+| **Line coverage:** | 8.5% (60989 of 714797) |
+| Covered lines: | 60989 |
+| Uncovered lines: | 653808 |
+| Coverable lines: | 714797 |
+| Total lines: | 898434 |
+| **Branch coverage:** | 30.8% (28847 of 93564) |
+| Covered branches: | 28847 |
+| Total branches: | 93564 |
 | **Method coverage:** | [Feature is only available for sponsors](https://reportgenerator.io/pro) |
 
 </details>
 
 ## Coverage
-<details><summary>OzonDomains - 70.7%</summary>
+<details><summary>OzonDomains - 70.8%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**OzonDomains**|**70.7%**|**72.9%**|
+|**OzonDomains**|**70.8%**|**72.9%**|
 |BIblockElementProperty|0%||
 |OzonDomains.DateTimeAbbreviationService|92.8%|100%|
 |OzonDomains.Delivery|100%||
@@ -44,7 +44,7 @@
 |OzonDomains.Models.ArmtekDeliveryAddressMapping|83.3%||
 |OzonDomains.Models.ArmtekEtp.ArmtekEtpSyncRun|100%||
 |OzonDomains.Models.ArmtekEtp.ArmtekInvoice|100%||
-|OzonDomains.Models.ArmtekEtp.ArmtekInvoiceItem|96.4%||
+|OzonDomains.Models.ArmtekEtp.ArmtekInvoiceItem|100%||
 |OzonDomains.Models.ArmtekEtp.ArmtekSettlement|96.2%||
 |OzonDomains.Models.ArmtekOrder|100%||
 |OzonDomains.Models.ArmtekOrderItem|80%||
@@ -280,11 +280,11 @@
 |System.Text.RegularExpressions.Generated.<RegexGenerator_g>FD1EB2003989FAC7<br/>9BE6464720841C72544341B3094C7BE296B61D2524CC4E18A__NumericTag_0|79.6%|70.5%|
 
 </details>
-<details><summary>OzonOrdersWeb - 25.7%</summary>
+<details><summary>OzonOrdersWeb - 25.8%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**OzonOrdersWeb**|**25.7%**|**18.4%**|
+|**OzonOrdersWeb**|**25.8%**|**18.6%**|
 |AspNetCoreGeneratedDocument.Areas_Admin_Views__ViewStart|0%||
 |AspNetCoreGeneratedDocument.Areas_Admin_Views_AuditLog_Details|0%|0%|
 |AspNetCoreGeneratedDocument.Areas_Admin_Views_AuditLog_Index|0%|0%|
@@ -632,7 +632,7 @@
 |ExcelProcessor.Controllers.ExcelController|0%|0%|
 |HangfireQueueController|0%|0%|
 |HtmlHelpers|0%|0%|
-|OrderHistoryController|0%|0%|
+|OrderHistoryController|0.7%|1.6%|
 |OrderHistoryLabelPrintViewModel|100%||
 |OrderHistoryUserProfileViewModel|0%||
 |OrderHistoryViewModel|58.3%||
@@ -657,6 +657,7 @@
 |OzonOrdersWeb.Api.OzonHandoverPartner|75%||
 |OzonOrdersWeb.Api.OzonHandoverPartnersController|100%|100%|
 |OzonOrdersWeb.Api.OzonHandoverPartnersResponse|100%||
+|OzonOrdersWeb.Api.OzonReturnReviewNoticeController|78.5%|71.6%|
 |OzonOrdersWeb.Api.Partner.PartnerAuthController|0%|0%|
 |OzonOrdersWeb.Api.Partner.PartnerCodeVerifyRequest|100%||
 |OzonOrdersWeb.Api.Partner.PartnerEmailRequest|100%||
@@ -670,7 +671,7 @@
 |OzonOrdersWeb.Api.Partner.PartnerReturnDecision|100%||
 |OzonOrdersWeb.Api.Partner.PartnerReturnDecisionOneC|100%||
 |OzonOrdersWeb.Api.Partner.PartnerReturnEvent|100%||
-|OzonOrdersWeb.Api.Partner.PartnerReturnMark|42.8%||
+|OzonOrdersWeb.Api.Partner.PartnerReturnMark|37.5%||
 |OzonOrdersWeb.Api.Partner.PartnerReturnMarkRequest|100%||
 |OzonOrdersWeb.Api.Partner.PartnerReturnOneC|0%||
 |OzonOrdersWeb.Api.Partner.PartnerReturnPair|100%||
@@ -969,7 +970,7 @@
 |OzonOrdersWeb.Areas.Studio2.Controllers.Transactions.TransactionErrorRespon<br/>seHelper|0%|0%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.Transactions.WarehouseChangeTransac<br/>tionController|0%||
 |OzonOrdersWeb.Areas.Studio2.Controllers.Transactions.WarehouseTransferTrans<br/>actionController|0%|0%|
-|OzonOrdersWeb.Areas.Studio2.Controllers.TransactionsGridController|4.8%|7.4%|
+|OzonOrdersWeb.Areas.Studio2.Controllers.TransactionsGridController|4.7%|7.3%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.TransactionTimeTrackingReportContro<br/>ller|0%||
 |OzonOrdersWeb.Areas.Studio2.Controllers.WarehouseStockController|29.2%|23.8%|
 |OzonOrdersWeb.Areas.Studio2.Controllers.ZZapMoscowPriceController|0%|0%|
@@ -1075,7 +1076,7 @@
 |OzonOrdersWeb.Areas.Studio2.ViewModels.OrderHistory.OrderCalculationSnapsho<br/>tHistoryViewModel|0%||
 |OzonOrdersWeb.Areas.Studio2.ViewModels.OrderHistory.OrderHistoryHandoverIte<br/>mViewModel|0%||
 |OzonOrdersWeb.Areas.Studio2.ViewModels.OrderHistory.OrderHistoryHandoverPho<br/>toViewModel|0%||
-|OzonOrdersWeb.Areas.Studio2.ViewModels.OrderHistory.OrderHistoryOneCPosting<br/>ViewModel|19.3%|0%|
+|OzonOrdersWeb.Areas.Studio2.ViewModels.OrderHistory.OrderHistoryOneCPosting<br/>ViewModel|21.8%|0%|
 |OzonOrdersWeb.Areas.Studio2.ViewModels.OrderHistory.ReturnEventMarkup|0%|0%|
 |OzonOrdersWeb.Areas.Studio2.ViewModels.OrderReturns.OrderReturnsIndexViewMo<br/>del|0%||
 |OzonOrdersWeb.Areas.Studio2.ViewModels.OrdersGrid.OrdersGridIndexViewModel|0%||
@@ -1582,7 +1583,7 @@
 |OzonOrdersWeb.WebServices.TransactionJobs.ExecutionResultRow|75%||
 |OzonOrdersWeb.WebServices.TransactionJobs.ExecutionStepRow|100%||
 |OzonOrdersWeb.WebServices.Transactions.ArmtekInvoiceNumberSuggestService|100%|89%|
-|OzonOrdersWeb.WebServices.Transactions.ArmtekReceiptOriginService|94.1%|86.3%|
+|OzonOrdersWeb.WebServices.Transactions.ArmtekReceiptOriginService|92.9%|79.4%|
 |OzonOrdersWeb.WebServices.Transactions.Fixes.TransactionFailureReport|95%|88%|
 |OzonOrdersWeb.WebServices.Transactions.Fixes.TransactionFixContext|100%||
 |OzonOrdersWeb.WebServices.Transactions.Fixes.TransactionFixLinks|73%|65.8%|
@@ -1596,11 +1597,11 @@
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.CachesAndNotifySte<br/>p|0%|0%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.CreateTransactionS<br/>tep|0%|0%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.HistoryStep|0%|0%|
-|OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.OneCDocumentStep|0%|0%|
+|OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.OneCDocumentStep|2.3%|4.5%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.OneCStockCheckStep|0%|0%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.OzonCancelStep|0%|0%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.QuantitySplitCance<br/>llationStep|0%|0%|
-|OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.ReceiptOriginStep|97.5%|97.6%|
+|OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.ReceiptOriginStep|98.3%|97.2%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.ResolveTargetStatu<br/>sStep|0%|0%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.ScopeAndLoadStep|0%|0%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.SupplierCartsPostS<br/>tep|0%|0%|
@@ -1610,7 +1611,7 @@
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.ValidateSourceStat<br/>usStep|0%|0%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.ZasylExpensesSnaps<br/>hotStep|0%|0%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.Steps.ZeroQuantityPolicy<br/>Step|0%|0%|
-|OzonOrdersWeb.WebServices.Transactions.Grid.Commit.TransactionCommitContext|86%|75%|
+|OzonOrdersWeb.WebServices.Transactions.Grid.Commit.TransactionCommitContext|86.2%|75%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.TransactionCommitService|94.1%|71.6%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.TransactionCommitStepKey<br/>s|100%||
 |OzonOrdersWeb.WebServices.Transactions.Grid.Commit.TransactionCommitUser|100%||
@@ -1641,9 +1642,9 @@
 |OzonOrdersWeb.WebServices.Transactions.Grid.Preview.ShipToSellerPreviewBody|0%||
 |OzonOrdersWeb.WebServices.Transactions.Grid.Preview.ShipToSellerPreviewDto|57.1%||
 |OzonOrdersWeb.WebServices.Transactions.Grid.Preview.ShipToSellerPreviewRow|0%||
-|OzonOrdersWeb.WebServices.Transactions.Grid.Preview.ShipToSellerPreviewServ<br/>ice|26.2%|32.1%|
+|OzonOrdersWeb.WebServices.Transactions.Grid.Preview.ShipToSellerPreviewServ<br/>ice|36.4%|45.1%|
 |OzonOrdersWeb.WebServices.Transactions.Grid.Preview.ShipToSellerStockGap|0%||
-|OzonOrdersWeb.WebServices.Transactions.Grid.Preview.ShipToSellerTransitLine|0%||
+|OzonOrdersWeb.WebServices.Transactions.Grid.Preview.ShipToSellerTransitLine|66.6%||
 |OzonOrdersWeb.WebServices.Transactions.Grid.Preview.ShipToSellerUnmappedZas<br/>yl|100%||
 |OzonOrdersWeb.WebServices.Transactions.Grid.Preview.ShipToSellerZasylChip|100%||
 |OzonOrdersWeb.WebServices.Transactions.Grid.Settings.TransactionGridSetting<br/>sMapper|94.1%|92.8%|
@@ -1673,7 +1674,7 @@
 |OzonOrdersWeb.WebServices.Transactions.SviatInvoiceSuggestion|100%||
 |OzonOrdersWeb.WebServices.Transactions.SviatReceiptHints|100%||
 |OzonOrdersWeb.WebServices.Transactions.SviatReceiptHintsService|98.8%|68.3%|
-|OzonOrdersWeb.WebServices.Transactions.SviatReceiptOriginService|100%|77.5%|
+|OzonOrdersWeb.WebServices.Transactions.SviatReceiptOriginService|97.9%|72.7%|
 |OzonOrdersWeb.WebServices.Transactions.TransactionProgressReporter|38.4%|50%|
 |OzonOrdersWeb.WebServices.Transactions.TransactionReportBuilder|93.3%||
 |OzonOrdersWeb.WebServices.Transactions.TransactionReportDto|100%||
@@ -1858,11 +1859,11 @@
 |OzonRepositories.Utils.TransactionHelper|83.6%|75%|
 
 </details>
-<details><summary>Services - 52.3%</summary>
+<details><summary>Services - 52.2%</summary>
 
 |**Name**|**Line**|**Branch**|
 |:---|---:|---:|
-|**Services**|**52.3%**|**45.9%**|
+|**Services**|**52.2%**|**45.9%**|
 |AppRepository.ApiServices.OzonApi.Filters.Chat|0%||
 |AppRepository.ApiServices.OzonApi.Filters.ChatFilter|0%||
 |AppRepository.ApiServices.OzonApi.Filters.ChatHistoryRequest|0%||
@@ -1954,6 +1955,7 @@
 |Services.ApiServices._1CApi.Models.MovementItem|69.2%||
 |Services.ApiServices._1CApi.Models.MovementMapResult|0%||
 |Services.ApiServices._1CApi.Models.OneCDocumentLine|100%||
+|Services.ApiServices._1CApi.Models.OneCPriceNote|100%||
 |Services.ApiServices._1CApi.Models.OneCReserveLine|0%||
 |Services.ApiServices._1CApi.Models.OneCResponse|100%||
 |Services.ApiServices._1CApi.Models.OneCStockLine|75%|0%|
@@ -1981,7 +1983,7 @@
 |Services.ApiServices._1CApi.Nomenclature.ProducerValueResolver|95.3%|81.8%|
 |Services.ApiServices._1CApi.Nomenclature.ProductQuery|100%||
 |Services.ApiServices._1CApi.Nomenclature.ShadowOutcome|100%||
-|Services.ApiServices._1CApi.OData|55.5%|60.3%|
+|Services.ApiServices._1CApi.OData|55.3%|60.2%|
 |Services.ApiServices._1CApi.OData.ExistingReceipt|100%||
 |Services.ApiServices._1CApi.OData.GtdCreateResult|100%||
 |Services.ApiServices._1CApi.OData.IOneCNomenclatureService|100%|75%|
@@ -2057,6 +2059,7 @@
 |Services.ApiServices._1CApi.OData.OneCODataReferenceService|31.9%|21.4%|
 |Services.ApiServices._1CApi.OData.OneCProducerAliasEntry|100%||
 |Services.ApiServices._1CApi.OData.OneCReceiptDuplicateFinder|100%|92.3%|
+|Services.ApiServices._1CApi.OData.OneCReceiptOrderLookup|0%|0%|
 |Services.ApiServices._1CApi.OData.OneCRegisterEndpoint|100%|100%|
 |Services.ApiServices._1CApi.OData.OneCResponseErrors|100%|88.8%|
 |Services.ApiServices._1CApi.OData.OneCTransferShortage|100%|75%|
@@ -2064,7 +2067,7 @@
 |Services.ApiServices._1CApi.OData.ParsedGtd|100%||
 |Services.ApiServices._1CApi.OData.TransferShortageLine|100%||
 |Services.ApiServices._1CApi.OneCExpenseManager|0%|0%|
-|Services.ApiServices._1CApi.OneCReceiptManager|5.3%|10%|
+|Services.ApiServices._1CApi.OneCReceiptManager|7.1%|15.9%|
 |Services.ApiServices._1CApi.OneCReceiptWarehouseHistoryResolver|24.4%|50%|
 |Services.ApiServices._1CApi.OneCReceiptWarehouseSuggestion|80%||
 |Services.ApiServices._1CApi.OneCTransferManager|7.5%|9.6%|
@@ -2681,7 +2684,7 @@
 |Services.BackgroundJobsServices.OzonReportLoaderService|0%|0%|
 |Services.BackgroundJobsServices.ReportDeliveryDateFilter|96.6%|83.3%|
 |Services.BackgroundJobsServices.RussianTimeZoneHelper|33.3%||
-|Services.BackgroundJobsServices.ShippedToCommissionerWarehouseResolver|96.5%|73.6%|
+|Services.BackgroundJobsServices.ShippedToCommissionerWarehouseResolver|95.1%|71.7%|
 |Services.BackgroundJobsServices.TransactionJobRetryPolicy|86.6%|80%|
 |Services.BackgroundJobsServices.TransactionJobRetryScheduler|0%|0%|
 |Services.BackgroundJobsServices.TransitWarehouseResolution|100%||
@@ -2937,7 +2940,7 @@
 |Services.OneCOzonSyncServices.Formulas.OneCOzonPriceFieldResult|81.8%|50%|
 |Services.OneCOzonSyncServices.Formulas.OneCOzonPriceRules|100%||
 |Services.OneCOzonSyncServices.Formulas.OneCOzonPriceScenario|78.5%||
-|Services.OneCOzonSyncServices.OneCOzonBulkPriceProvider|87.3%|63%|
+|Services.OneCOzonSyncServices.OneCOzonBulkPriceProvider|89%|75%|
 |Services.OneCOzonSyncServices.OneCOzonCardInfo|100%||
 |Services.OneCOzonSyncServices.OneCOzonCatalogCache|98.4%|94.1%|
 |Services.OneCOzonSyncServices.OneCOzonCatalogCacheInfo|100%||
@@ -2961,7 +2964,7 @@
 |Services.OneCOzonSyncServices.OneCOzonPriceKind|0%||
 |Services.OneCOzonSyncServices.OneCOzonPriceOwnership|100%|100%|
 |Services.OneCOzonSyncServices.OneCOzonPriceProvider|0%|0%|
-|Services.OneCOzonSyncServices.OneCOzonPriceResolver|96.2%|89.4%|
+|Services.OneCOzonSyncServices.OneCOzonPriceResolver|96.5%|90%|
 |Services.OneCOzonSyncServices.OneCOzonPriceResult|100%||
 |Services.OneCOzonSyncServices.OneCOzonPriceRuleService|96.7%|96.2%|
 |Services.OneCOzonSyncServices.OneCOzonPriceRulesSaveRequest|100%||
@@ -3015,7 +3018,7 @@
 |Services.OneCOzonSyncServices.OneCOzonSyncReportData|100%||
 |Services.OneCOzonSyncServices.OneCOzonSyncReportService|85%|50%|
 |Services.OneCOzonSyncServices.OneCOzonSyncRetention|0%|0%|
-|Services.OneCOzonSyncServices.OneCOzonSyncRunner|89.2%|82.8%|
+|Services.OneCOzonSyncServices.OneCOzonSyncRunner|89.6%|83.1%|
 |Services.OneCOzonSyncServices.OneCOzonSyncRunQuery|65.5%|69.9%|
 |Services.OneCOzonSyncServices.OneCOzonSyncScheduler|6.4%|8.3%|
 |Services.OneCOzonSyncServices.OneCOzonUnpublished|85.7%|76.1%|
